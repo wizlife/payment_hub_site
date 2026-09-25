@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f5">
+  <meta name="description" content="2026년 9월 22일의 조간스크랩과 AI 뉴스를 한곳에서 읽는 Payment Hub 샘플 브리핑.">
+  <title>9월 22일 브리핑 · Payment Hub</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#briefing">기사 목록으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Payment Hub 처음으로"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><span>payment<span class="brand-light">hub</span><span class="brand-dot">.</span></span></a>
+      <nav class="header-nav" aria-label="주 메뉴">
+        <a href="#briefing" data-section="all" class="active">전체 브리핑</a>
+        <a href="#morning" data-section="morning">조간스크랩</a>
+        <a href="#ai" data-section="ai">AI 뉴스</a>
+      </nav>
+      <span class="edition-badge"><span></span> 샘플 에디션</span>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="short-line"></span> YOUR DAILY PERSPECTIVE</p>
+        <h1 id="hero-title">하루의 흐름을,<br><span>한눈에.</span></h1>
+        <p class="hero-description">조간스크랩부터 AI 뉴스까지.<br class="mobile-only"> 흩어진 정보를 한곳에서 읽어보세요.</p>
+        <div class="hero-meta"><time datetime="2026-09-22">2026년 9월 22일 화요일</time><span class="meta-dot">·</span><span>아카이브 브리핑</span></div>
+      </div>
+      <div class="edition-card" aria-label="9월 22일 브리핑 구성">
+        <div class="edition-top"><span>SEPTEMBER 2026</span><span class="calendar-icon" aria-hidden="true">▦</span></div>
+        <div class="edition-date"><span>22</span><div>TUESDAY<br><span>화요일의 브리핑</span></div></div>
+        <div class="edition-counts"><div><strong id="total-count">—</strong><span>전체 기사</span></div><div><strong id="morning-total">—</strong><span>조간스크랩</span></div><div><strong id="ai-total">—</strong><span>AI 뉴스</span></div></div>
+      </div>
+    </section>
+
+    <section class="highlights" aria-labelledby="highlights-title" hidden>
+      <div class="highlights-label"><span class="spark" aria-hidden="true">✳</span><h2 id="highlights-title">이날의 AI 포인트</h2><span>핵심만 먼저</span></div>
+      <div id="highlights-list" class="highlights-grid"></div>
+    </section>
+
+    <div id="briefing" class="briefing-anchor"></div>
+    <section class="reading-controls" aria-label="기사 검색 및 분류">
+      <div class="section-tabs" role="group" aria-label="브리핑 종류">
+        <button type="button" data-section="all" aria-pressed="true">전체 <span data-count="all">—</span></button>
+        <button type="button" data-section="morning" aria-pressed="false">조간스크랩 <span data-count="morning">—</span></button>
+        <button type="button" data-section="ai" aria-pressed="false">AI 뉴스 <span data-count="ai">—</span></button>
+      </div>
+      <div class="search-field">
+        <svg width="19" height="19" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7"/></svg>
+        <label class="sr-only" for="news-search">기사 제목, 언론사, 키워드 검색</label>
+        <input type="search" id="news-search" placeholder="기사 제목, 언론사, 키워드 검색" autocomplete="off">
+        <button id="clear-search" type="button" aria-label="검색어 지우기" hidden>×</button>
+      </div>
+    </section>
+    <div class="results-line"><p id="results-status" role="status" aria-live="polite">브리핑을 불러오고 있습니다.</p><button type="button" id="reset-filters" class="text-button" hidden>필터 초기화 ↺</button></div>
+
+    <div id="load-error" class="empty-state" hidden><span class="empty-symbol" aria-hidden="true">!</span><h2>브리핑을 불러오지 못했어요</h2><p>연결 상태를 확인하고 다시 시도해 주세요.</p><button type="button" id="retry-load" class="primary-button">다시 불러오기</button></div>
+    <div id="empty-results" class="empty-state" hidden><span class="empty-symbol" aria-hidden="true">⌕</span><h2>일치하는 기사가 없습니다</h2><p>다른 검색어를 입력하거나 필터를 초기화해 보세요.</p><button type="button" id="empty-reset" class="primary-button">전체 기사 보기</button></div>
+
+    <section id="morning" class="news-section" aria-labelledby="morning-title" hidden>
+      <div class="section-heading"><div><p class="eyebrow section-eyebrow">01 / MORNING PRESS</p><h2 id="morning-title">조간스크랩 <span id="morning-count" class="count-badge"></span></h2><p class="section-description">금융과 경제의 주요 소식, 기사 원문으로 이어집니다.</p></div><span class="section-side-note">제목을 누르면 원문으로 이동 <span aria-hidden="true">↗</span></span></div>
+      <div id="morning-list" class="morning-grid"></div>
+    </section>
+
+    <section id="ai" class="news-section ai-section" aria-labelledby="ai-title" hidden>
+      <div class="section-heading"><div><p class="eyebrow section-eyebrow">02 / AI DAILY BRIEFING</p><h2 id="ai-title">AI 뉴스 <span id="ai-count" class="count-badge"></span></h2><p class="section-description">산업의 변화부터 금융권의 움직임까지, 수신 브리핑의 뉴스 요약입니다.</p></div><button type="button" class="text-button expand-button" id="expand-all">요약 모두 펼치기 <span aria-hidden="true">＋</span></button></div>
+      <div id="ai-categories" class="category-filters" role="group" aria-label="AI 뉴스 분야"></div>
+      <div id="ai-list" class="ai-grid"></div>
+    </section>
+
+    <noscript><p class="empty-state">기사 목록을 보려면 브라우저에서 JavaScript를 활성화해 주세요.</p></noscript>
+    <div class="archive-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>9월 22일의 기록을 담은 첫 브리핑입니다.</strong> 선택한 날짜의 조간스크랩과 AI 뉴스를 모았습니다. AI 뉴스는 수신한 요약 자료를 바탕으로 하며, 정확한 내용은 각 기사 원문에서 확인해 주세요.</p></div>
+  </main>
+  <footer class="site-footer"><div><a class="footer-brand" href="./">paymenthub.</a><span>매일의 정보를, 하나의 흐름으로.</span></div><a href="#top" id="back-to-top">맨 위로 <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
