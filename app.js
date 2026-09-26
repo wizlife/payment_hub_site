@@ -73,8 +73,12 @@ function setOptions(select, values, selected) {
 }
 function fillFilters() {
   const channels = [['all', '전체 채널'], ...catalog.channels.map(channel => [channel.id, channel.label || labels[channel.id]])];
-  const dates = [['all', '전체 날짜'], ...[...new Set(catalog.editions.map(edition => edition.date))].sort().reverse().map(date => [date, dateLabel(date)])];
-  if (state.date !== 'all' && !dates.some(([value]) => value === state.date)) dates.push([state.date, `${dateLabel(state.date)} · 등록 자료 없음`]);
+  const channelEditions = catalog.editions.filter(edition => state.channel === 'all' || edition.channel === state.channel);
+  const dates = [['all', '전체 날짜'], ...[...new Set(channelEditions.map(edition => edition.date))].sort().reverse().map(date => [date, dateLabel(date)])];
+  if (state.date !== 'all' && !dates.some(([value]) => value === state.date)) {
+    state.date = 'all';
+    history.replaceState(null, '', routeUrl(state, location.hash));
+  }
   for (const prefix of ['archive', 'search']) {
     setOptions($(`#${prefix}-channel`), channels, state.channel);
     setOptions($(`#${prefix}-date`), dates, state.date);
