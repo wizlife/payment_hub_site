@@ -9,7 +9,7 @@ let catalog;
 let routeToken = 0;
 let searchToken = 0;
 let searchTimer;
-let pagefindPromise;
+let searchDataPromise;
 let searchResults = [];
 let shownResults = 0;
 const editions = new Map();
@@ -214,12 +214,16 @@ async function renderRoute() {
     requestAnimationFrame(jumpToHash);
   } catch { if (token === routeToken) { $('#results-status').textContent = '자료를 불러오지 못했습니다.'; $('#error-description').textContent = '선택한 정리본을 불러오지 못했습니다. 연결 상태를 확인하고 다시 시도해 주세요.'; $('#load-error').hidden = false; } }
 }
-async function getPagefind() {
-  if (!pagefindPromise) pagefindPromise = import(new URL('./pagefind/pagefind.js', siteRoot).href).then(async pagefind => { await pagefind.options({ baseUrl: siteRoot.pathname }); return pagefind; }).catch(error => { pagefindPromise = null; throw error; });
-  return pagefindPromise;
+async function getSearchRecords() {
+  if (!searchDataPromise) searchDataPromise = fetch(new URL('./data/search-records.json', siteRoot)).then(async response => {
+    if (!response.ok) throw new Error('Search data unavailable');
+    const data = await response.json();
+    if (data.schemaVersion !== 1 || !Array.isArray(data.records)) throw new Error('Invalid search data');
+    return data.records;
+  }).catch(error => { searchDataPromise = null; throw error; });
+  return searchDataPromise;
 }
-function searchCard(data) {
-  const meta = data.meta || {};
+function searchCard(meta) {
   const card = element('article', 'search-result');
   const topline = element('div', 'search-result-meta');
   const publisher = element('span', 'publisher'); appendHighlighted(publisher, meta.publisher || '출처 미상');
@@ -252,7 +256,7 @@ async function appendSearchResults(token) {
   const start = shownResults;
   $('#load-more').disabled = true;
   try {
-    const data = await Promise.all(searchResults.slice(start, start + 20).map(result => result.data()));
+    const data = searchResults.slice(start, start + 20);
     if (token !== searchToken || state.view !== 'search') return;
     $('#search-results').append(...data.map(searchCard)); shownResults += data.length;
     $('#load-more').hidden = shownResults >= searchResults.length;
@@ -265,15 +269,9 @@ async function runSearch() {
   $('#search-results').replaceChildren(); shownResults = 0;
   $('#results-status').textContent = '전체 자료를 검색하고 있습니다.';
   try {
-    const pagefind = await getPagefind();
-    const filters = {};
-    if (state.channel !== 'all') filters.channel = state.channel;
-    if (state.date !== 'all') filters.date = state.date;
-    const options = { filters };
-    if (state.sort === 'latest' || !state.query.trim()) options.sort = { date: 'desc' };
-    const search = await pagefind.search(state.query.trim() || null, options);
+    const records = await getSearchRecords();
     if (token !== searchToken || state.view !== 'search') return;
-    searchResults = search.results;
+    searchResults = SearchText.find(records, state.query, state);
     const queryTerms = SearchText.terms(state.query);
     $('#results-status').textContent = `${state.query.trim() ? `“${state.query.trim()}” 검색 결과 · ` : ''}${searchResults.length}개 게재 항목 · 같은 기사 반복 게재 포함`;
     if (!searchResults.length) { showEmpty('일치하는 기사가 없습니다', queryTerms.length > 1 ? '입력한 검색어를 모두 포함하는 제목·요약·언론사를 찾지 못했습니다. 검색어를 하나씩 검색하거나 날짜·채널 조건을 바꿔 보세요.' : '다른 검색어를 입력하거나 날짜·채널 조건을 바꿔 보세요.'); return; }

@@ -1,32 +1,15 @@
 {
   "schemaVersion": 1,
-  "engine": "Pagefind",
-  "engineVersion": "1.5.2",
+  "engine": "literal-substring",
+  "engineVersion": "1",
   "language": "ko",
   "recordCount": 743,
   "editionCount": 71,
   "sourceDigest": "1ecb5721351d3015fe21d4c1a5c7c1c81e7db8afac1dd1b80db003dcfb85b993",
   "fields": [
     "title",
-    "publisher",
-    "summary"
+    "summary",
+    "publisher"
   ],
-  "aliases": [
-    [
-      "AI",
-      "인공지능"
-    ],
-    [
-      "한국은행",
-      "한은"
-    ],
-    [
-      "금융위원회",
-      "금융위"
-    ],
-    [
-      "금융감독원",
-      "금감원"
-    ]
-  ]
+  "matching": "all query terms must occur literally within title, summary, or publisher; NFC; case-insensitive; no aliases"
 }

@@ -8,8 +8,8 @@
   <title>최신 브리핑 · Payment Hub</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css?v=20260926-search-fix">
-  <script src="./search-text.js?v=20260926-search-fix" defer></script>
-  <script src="./app.js?v=20260926-channel-dates" defer></script>
+  <script src="./search-text.js?v=20260926-literal-search" defer></script>
+  <script src="./app.js?v=20260926-literal-search" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#briefing">브리핑으로 건너뛰기</a>
@@ -68,10 +68,10 @@
       <div class="filter-panel">
         <div class="filter-field"><label for="search-channel">채널</label><select id="search-channel"><option value="all">전체 채널</option></select></div>
         <div class="filter-field"><label for="search-date">정리본 기준일</label><select id="search-date"><option value="all">전체 날짜</option></select></div>
-        <div class="filter-field"><label for="search-sort">정렬</label><select id="search-sort"><option value="relevance">관련도순</option><option value="latest">최신 정리본순</option></select></div>
+        <div class="filter-field"><label for="search-sort">정렬</label><select id="search-sort"><option value="relevance">제목 일치 우선</option><option value="latest">최신 정리본순</option></select></div>
         <button type="button" id="reset-search" class="text-button">검색 조건 초기화 ↺</button>
       </div>
-      <p class="search-scope">제목·제공된 요약·언론사에서 검색합니다. 공통 분류명과 기사 원문 전체는 검색하지 않습니다.<br>여러 단어를 띄어 쓰면 모두 포함된 항목을 찾습니다. 정확한 구문은 &quot;공급망 보안&quot;처럼 큰따옴표로 감싸세요.</p>
+      <p class="search-scope">제목·제공된 요약·언론사에서 검색합니다. 공통 분류명과 기사 원문 전체는 검색하지 않습니다.<br>입력한 문구가 실제로 포함된 항목만 찾습니다. 영문 대소문자는 구분하지 않으며 동의어·오타를 자동으로 확장하지 않습니다.<br>여러 단어를 띄어 쓰면 모두 포함된 항목을 찾습니다. 정확한 구문은 &quot;공급망 보안&quot;처럼 큰따옴표로 감싸세요.</p>
     </section>
 
     <div class="results-line"><p id="results-status" role="status" aria-live="polite">자료를 불러오고 있습니다.</p></div>

@@ -17,8 +17,5 @@
     "url": "https://github.com/wizlife/payment_hub_site/issues"
   },
   "homepage": "https://github.com/wizlife/payment_hub_site#readme",
-  "devDependencies": {
-    "pagefind": "1.5.2"
-  },
   "private": true
 }
