@@ -7,8 +7,9 @@
   <meta name="description" content="조간스크랩, 석간스크랩, AI 뉴스의 최신 정리본을 한곳에서 확인하고 지난 자료를 검색하는 Payment Hub.">
   <title>최신 브리핑 · Payment Hub</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20260926-archive">
-  <script src="./app.js?v=20260926-archive" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=20260926-search-fix">
+  <script src="./search-text.js?v=20260926-search-fix" defer></script>
+  <script src="./app.js?v=20260926-search-fix" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#briefing">브리핑으로 건너뛰기</a>
@@ -59,6 +60,7 @@
     </section>
 
     <section id="search-controls" class="search-panel" aria-label="전체 자료 검색" hidden>
+      <h1 class="search-heading">뉴스 검색</h1>
       <form id="search-form" role="search">
         <div class="search-field"><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7"/></svg><label class="sr-only" for="news-search">기사 제목, 요약, 언론사 검색</label><input type="search" id="news-search" placeholder="기사 제목, 요약, 언론사로 검색" autocomplete="off"><button id="clear-search" type="button" aria-label="검색어 지우기" hidden>×</button></div>
         <button class="primary-button search-submit" type="submit">검색</button>
@@ -69,7 +71,7 @@
         <div class="filter-field"><label for="search-sort">정렬</label><select id="search-sort"><option value="relevance">관련도순</option><option value="latest">최신 정리본순</option></select></div>
         <button type="button" id="reset-search" class="text-button">검색 조건 초기화 ↺</button>
       </div>
-      <p class="search-scope">공개된 모든 정리본의 제목·제공된 요약·출처를 검색합니다. 기사 원문 전체는 검색 대상에 포함되지 않습니다.<br>단어로 검색하고, 정확한 구문은 &quot;공급망 보안&quot;처럼 큰따옴표로 감싸세요.</p>
+      <p class="search-scope">제목·제공된 요약·언론사에서 검색합니다. 공통 분류명과 기사 원문 전체는 검색하지 않습니다.<br>여러 단어를 띄어 쓰면 모두 포함된 항목을 찾습니다. 정확한 구문은 &quot;공급망 보안&quot;처럼 큰따옴표로 감싸세요.</p>
     </section>
 
     <div class="results-line"><p id="results-status" role="status" aria-live="polite">자료를 불러오고 있습니다.</p></div>

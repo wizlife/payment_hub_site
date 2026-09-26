@@ -180,6 +180,8 @@ function jumpToHash() {
 async function renderRoute() {
   if (!catalog) return;
   const token = ++routeToken; ++searchToken;
+  $('.hero').hidden = state.view === 'search';
+  $('#channel-overview').hidden = state.view === 'search';
   $('#load-error').hidden = true; $('#empty-results').hidden = true; $('#load-more').hidden = true;
   $('#edition-content').replaceChildren(); $('#search-results').replaceChildren();
   $('#archive-controls').hidden = state.view !== 'archive'; $('#search-controls').hidden = state.view !== 'search'; $('#search-results').hidden = state.view !== 'search';
@@ -216,18 +218,31 @@ function searchCard(data) {
   const meta = data.meta || {};
   const card = element('article', 'search-result');
   const topline = element('div', 'search-result-meta');
-  topline.append(element('span', 'topic-label', meta.channelLabel || labels[meta.channel] || '뉴스'), element('span', '', `${dateLabel(meta.date)} 정리본`), element('span', 'publisher', meta.publisher || '출처 미상'));
-  const title = element('h2'); const link = element('a', '', meta.title || '제목 없음');
+  const publisher = element('span', 'publisher'); appendHighlighted(publisher, meta.publisher || '출처 미상');
+  topline.append(element('span', 'topic-label', meta.channelLabel || labels[meta.channel] || '뉴스'), element('span', '', `${dateLabel(meta.date)} 정리본`), publisher);
+  const title = element('h2'); const link = element('a');
+  appendHighlighted(link, meta.title || '제목 없음');
   const targetUrl = routeUrl({ ...state, view: 'archive', edition: meta.editionId, channel: 'all', date: 'all' }, meta.entryId || '');
   link.href = targetUrl;
   link.addEventListener('click', event => { if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); openEdition(meta.editionId, meta.entryId); });
   title.append(link); card.append(topline, title);
+  if (state.query.trim()) {
+    const matches = [['title', '제목'], ['summary', '요약'], ['publisher', '언론사']].filter(([field]) => SearchText.hasMatch(meta[field] || '', state.query));
+    if (matches.length) card.append(element('p', 'match-location', `${matches.map(([, label]) => label).join('·')}에서 일치`));
+  }
   const edition = catalog.editions.find(edition => edition.id === meta.editionId);
   if (edition && editionVariant(edition)) card.append(element('p', 'edition-variant', editionVariant(edition)));
-  if (meta.summary) card.append(element('p', 'search-result-summary', meta.summary.length > 270 ? `${meta.summary.slice(0, 270)}…` : meta.summary));
+  if (meta.summary) {
+    const snippet = element('p', 'search-result-summary');
+    appendHighlighted(snippet, SearchText.excerpt(meta.summary, state.query)); card.append(snippet);
+  }
   else card.append(element('p', 'search-result-summary title-only-note', '제목과 출처를 제공하는 기사입니다. 내용은 원문에서 확인해 주세요.'));
+  if (Number(meta.appearanceCount) > 1) card.append(element('p', 'repeat-note', `이 기사는 전체 자료에서 ${Number(meta.appearanceCount)}회 게재되었습니다. 발행본별로 표시합니다.`));
   const footer = element('div', 'search-result-footer'); footer.append(element('span', '', meta.category || '원래 정리본에서 보기'), externalLink({ title: meta.title, url: meta.url, linkStatus: meta.linkStatus })); card.append(footer);
   return card;
+}
+function appendHighlighted(node, text) {
+  for (const part of SearchText.pieces(text, state.query)) node.append(part.match ? element('mark', '', part.text) : document.createTextNode(part.text));
 }
 async function appendSearchResults(token) {
   const start = shownResults;
@@ -255,8 +270,9 @@ async function runSearch() {
     const search = await pagefind.search(state.query.trim() || null, options);
     if (token !== searchToken || state.view !== 'search') return;
     searchResults = search.results;
-    $('#results-status').textContent = `${state.query.trim() ? `“${state.query.trim()}” · ` : ''}${searchResults.length}개 기사 항목${state.query.trim() ? '' : ' · 검색어 없이 전체 자료를 표시합니다.'}`;
-    if (!searchResults.length) { showEmpty('일치하는 기사가 없습니다', '다른 검색어를 입력하거나 날짜·채널 조건을 바꿔 보세요.'); return; }
+    const queryTerms = SearchText.terms(state.query);
+    $('#results-status').textContent = `${state.query.trim() ? `“${state.query.trim()}” 검색 결과 · ` : ''}${searchResults.length}개 게재 항목 · 같은 기사 반복 게재 포함`;
+    if (!searchResults.length) { showEmpty('일치하는 기사가 없습니다', queryTerms.length > 1 ? '입력한 검색어를 모두 포함하는 제목·요약·언론사를 찾지 못했습니다. 검색어를 하나씩 검색하거나 날짜·채널 조건을 바꿔 보세요.' : '다른 검색어를 입력하거나 날짜·채널 조건을 바꿔 보세요.'); return; }
     await appendSearchResults(token);
   } catch { if (token === searchToken) { $('#results-status').textContent = '검색을 불러오지 못했습니다.'; $('#error-description').textContent = '검색 파일을 불러오지 못했습니다. 다시 시도하거나 지난 자료에서 정리본을 선택해 주세요.'; $('#load-error').hidden = false; } }
 }

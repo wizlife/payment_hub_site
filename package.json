@@ -4,7 +4,8 @@
   "description": "Curated briefing editions with static archive search",
   "scripts": {
     "build": "node scripts/build-search.mjs",
-    "check": "node --check app.js && node --check scripts/build-search.mjs"
+    "check": "node --check app.js && node --check search-text.js && node --check scripts/build-search.mjs",
+    "test": "node --test tests/*.test.cjs"
   },
   "repository": {
     "type": "git",
