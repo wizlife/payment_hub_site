@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-10-9ccc9f9131b8",
+  "channel": "morning",
+  "date": "2026-09-10",
+  "title": "2026-09-10 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-001",
+      "articleId": "article-e7dd7aa1e4cc6609115bd339",
+      "rank": 1,
+      "title": "'현금 대체 어디서 뽑아요?'…ATM 사라진 이유 보니 '깜짝'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005330596",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-002",
+      "articleId": "article-afc48f525f251513a97f603f",
+      "rank": 2,
+      "title": "충청권 '우체국 대출' 이용 빈도 1위",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005330592",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-003",
+      "articleId": "article-6df916a965aa1162a2129950",
+      "rank": 3,
+      "title": "조각투자 장외시장 개막 앞둔 ‘KDX vs 넥스체인지’?“상품 경쟁력이 관건” [증권가 코인 전쟁 ③]",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2623592",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-004",
+      "articleId": "article-ee683722fed9cf932e51dbdd",
+      "rank": 4,
+      "title": "삼성證, 도전 9년 만에 발행어음 사업자 합류",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005732906",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-005",
+      "articleId": "article-bff1ea357361db24ebb667c7",
+      "rank": 5,
+      "title": "P2P로 새 포용모델 찾는 토스… 온투업은 \"제로섬 게임\" 반발",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005411546",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-006",
+      "articleId": "article-82070eae15ea13c71cdc3ba1",
+      "rank": 6,
+      "title": "또 털린 신용카드 정보…결제망 ‘약한 고리’ 노렸다",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006366424",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-007",
+      "articleId": "article-5c024370535d82244f97e762",
+      "rank": 7,
+      "title": "채무조정 실패해도 1조 추가로 빚탕감",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004660217",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-008",
+      "articleId": "article-44e2af71959131da75226dfe",
+      "rank": 8,
+      "title": "8월 가계대출 오름세 '주춤' … 주담대만 나홀로 4조원 급증",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005732887",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-009",
+      "articleId": "article-f8c15218f3988e6547215795",
+      "rank": 9,
+      "title": "\"잠도 안 자고 돈은 돈대로\"…1020 푹 빠지자 부모들 '분통'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005330578",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-010",
+      "articleId": "article-13114604cf08734e6fca9b1b",
+      "rank": 10,
+      "title": "[이슈플러스] 사후 제재서 사전 예방으로…개인정보 보호 판 바뀐다",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003465190",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-10-9ccc9f9131b8-011",
+      "articleId": "article-c6d4359a67871f708e5b0f77",
+      "rank": 11,
+      "title": "수협은행장 2파전 유력…신학기 vs 이형주",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005330595",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

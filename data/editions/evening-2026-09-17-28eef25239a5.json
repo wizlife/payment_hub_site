@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-17-28eef25239a5",
+  "channel": "evening",
+  "date": "2026-09-17",
+  "title": "2026-09-17 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-09-17-28eef25239a5-001",
+      "articleId": "article-3a8ca83c67072f678f9708da",
+      "rank": 1,
+      "title": "갤럭시아머니트리, 효성 계열사 해외 송금에 스테이블코인 적용 검증",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/09/17/5LDSBRWZ55DJXI5R25MFCEV4OQ/",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T14:31:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-17-28eef25239a5-002",
+      "articleId": "article-cc169d4b6e8140c5c267f053",
+      "rank": 2,
+      "title": "비댁스 \"원화 스테이블코인 KRW1, 서클 ‘아크’ 메인넷 연동\"",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2626845",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T15:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-17-28eef25239a5-003",
+      "articleId": "article-e2996c53cdfeaa86f522996d",
+      "rank": 3,
+      "title": "쿠콘, 카카오페이·서울페이 연동... 27만 가맹점서 QR결제",
+      "publisher": "ggilbo.com",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1182290",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-16T22:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-17-28eef25239a5-004",
+      "articleId": "article-477f79f43882ca746568a657",
+      "rank": 4,
+      "title": "교보생명·SBI, 보험업계 최초 한일 스테이블코인 실증",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609171418391579",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T14:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-17-28eef25239a5-005",
+      "articleId": "article-878011775573e63668473f19",
+      "rank": 5,
+      "title": "과도한 과징금 손본다...금융위, 신정법 개선 논의",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026091692391",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-16T17:49:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-17-28eef25239a5-006",
+      "articleId": "article-ab4586823012230850ac79b7",
+      "rank": 6,
+      "title": "美 금리 인상에 환율 1380원대...\"추세적 반등은 아냐\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/economy/2026/09/17/2026091716052429827",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T16:30:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-17-28eef25239a5-007",
+      "articleId": "article-902776a982acaf693376e848",
+      "rank": 7,
+      "title": "금감원 \"금융소비자보호법에 금융사 예방 책무 반영\"",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260917114500002?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T14:00:00+09:00"
+    }
+  ]
+}

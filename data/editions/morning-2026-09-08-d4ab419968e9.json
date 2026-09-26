@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-08-d4ab419968e9",
+  "channel": "morning",
+  "date": "2026-09-08",
+  "title": "2026-09-08 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-001",
+      "articleId": "article-fc3445db3cb3ac947ad79499",
+      "rank": 1,
+      "title": "[단독]수상한 코인 거래 AI로 잡는다…금융위, 내년 200억원 투입",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006365109",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-002",
+      "articleId": "article-4ae55d274972554791798cf5",
+      "rank": 2,
+      "title": "“전세보증금 16억 들고 태국으로 튀었다” 세입자 ‘눈물’…‘문제 집주인’ 미리 확인하는 법",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004659524",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-003",
+      "articleId": "article-59139f7a6c30364b27d0aaad",
+      "rank": 3,
+      "title": "비트코인 연계 블록체인, 4300억원 해킹 당해",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003549737",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-004",
+      "articleId": "article-9eb0cd4fba1bdfc0cd60fe72",
+      "rank": 4,
+      "title": "北, AI 에이전트로 ‘자동 해킹 공격’",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003677707",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-005",
+      "articleId": "article-6df2ed15b12a438041c9c612",
+      "rank": 5,
+      "title": "[단독] 증권사 전화 ‘무한대기’ 끝… 금감원 “5분 안에 받아라”",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003677763",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-006",
+      "articleId": "article-5ebf0954b29131826246cab7",
+      "rank": 6,
+      "title": "JB금융, 印尼 여신전문금융사 인수 최종 승인",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005572286",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-007",
+      "articleId": "article-38abf29927b522aaa16f5aa5",
+      "rank": 7,
+      "title": "\"하루 5000원, 연 10% 준다\"…30만명 '우르르' 몰린 적금",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005329755",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-008",
+      "articleId": "article-71d35b40621ce7e0225b5a68",
+      "rank": 8,
+      "title": "지방이 짜고 중앙이 민다?정부, 5극3특 성장엔진 본격 가동",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2622493",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-009",
+      "articleId": "article-5fa6de3cd2cc12384f601d31",
+      "rank": 9,
+      "title": "[금융뒷담] 최대 실적에도 4대 은행 신입 행원 18.5%↓",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001871496",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-08-d4ab419968e9-010",
+      "articleId": "article-b9dca2057bf943eb0ea06772",
+      "rank": 10,
+      "title": "'서울 로보택시' 카카오T 독점 깨졌다",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005410594",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

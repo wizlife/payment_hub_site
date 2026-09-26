@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-18-b8f745023c81",
+  "channel": "evening",
+  "date": "2026-09-18",
+  "title": "2026-09-18 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-09-18-b8f745023c81-001",
+      "articleId": "article-09c876c8b3924af33b4438a4",
+      "rank": 1,
+      "title": "실증 넘은 AI 결제...카드사 '표준' 경쟁 점화",
+      "publisher": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=866076",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T09:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-b8f745023c81-002",
+      "articleId": "article-b3f8f642b37e8ce939b411ac",
+      "rank": 2,
+      "title": "하나금융, 한화자산운용·ADGM과 스테이블코인 협력",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609181011422061",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T10:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-b8f745023c81-003",
+      "articleId": "article-c978d40b33880f8ccfe7d082",
+      "rank": 3,
+      "title": "파라메타·신한EZ손보, 예금토큰으로 보험 프로세스 처리",
+      "publisher": "newsworks.co.kr",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=854114",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T17:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-b8f745023c81-004",
+      "articleId": "article-4b5156c9b95d59d1a4a52606",
+      "rank": 4,
+      "title": "간편결제·송금 하루 2.4조원...간편송금액 20% 급증",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/economy/2026/09/18/2026091811045394297",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T12:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-b8f745023c81-005",
+      "articleId": "article-b36b8b7bcb6c51a52d302f1b",
+      "rank": 5,
+      "title": "금융권 노린 AI 에이전트 공격 현실화...\"API 보안 강화\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/18/2026091809425388824",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T10:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-b8f745023c81-006",
+      "articleId": "article-90a6da889f967864e06ff1c3",
+      "rank": 6,
+      "title": "하나은행, '예금토큰' 준비 홀로 앞섰다...정작 프로젝트 전체는 9월→4분...",
+      "publisher": "greened.kr",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=350414",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T14:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-b8f745023c81-007",
+      "articleId": "article-cd1b715519b6b784eef441fd",
+      "rank": 7,
+      "title": "메리츠증권, 발행어음 인가 눈앞...23일 금융위 최종 결정",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2626958",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T18:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-b8f745023c81-008",
+      "articleId": "article-cacff7468a0ff237bafe4e6e",
+      "rank": 8,
+      "title": "美도 인플레와 전쟁...기준금리 4% 시대[美 3년만에 금리 인상]",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609171839093791",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T18:41:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-b8f745023c81-009",
+      "articleId": "article-1aa5197f717df1df914ac8e6",
+      "rank": 9,
+      "title": "금감원, 금융소비자보호 성과 보고...\"금융권 단기 실적 관행 여전해\"",
+      "publisher": "news.tvchosun.com",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/18/2026091890160.html",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T13:57:00+09:00"
+    }
+  ]
+}

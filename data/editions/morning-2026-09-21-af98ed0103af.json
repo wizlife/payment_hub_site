@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-21-af98ed0103af",
+  "channel": "morning",
+  "date": "2026-09-21",
+  "title": "2026-09-21 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-21-af98ed0103af-001",
+      "articleId": "article-acd093c534a9d8e987904415",
+      "rank": 1,
+      "title": "'추석 택배·직거래 환전' 노린 보이스피싱 기승…금융당국 \"URL 클릭 주의\"",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005578437",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-002",
+      "articleId": "article-7412e99f5075a1e7e8488be6",
+      "rank": 2,
+      "title": "[단독] 기초연금 1인 84만원 내야…13년새 부담액 4배 '급증'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005334332",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-003",
+      "articleId": "article-073c9f8965a98aa192958798",
+      "rank": 3,
+      "title": "“적정환율 1300원대 초반…당분간 원화 강세가 유리”",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004663792",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-004",
+      "articleId": "article-11717d232598fb7297cb2d41",
+      "rank": 4,
+      "title": "비씨 없는 우리카드, 페이북과 결별…독자카드 매출 절반 넘어",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003468451",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-005",
+      "articleId": "article-4d86812d615f17cf617d8ab2",
+      "rank": 5,
+      "title": "당장 수익보다 향후 가치 투자…데이터센터 PF에 몰리는 돈",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006373254",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-006",
+      "articleId": "article-dc93ef156fa849befacc1b20",
+      "rank": 6,
+      "title": "‘딥러닝 노벨상’ 힌턴 “AI 통제 남은시간 1년”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003749371",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-007",
+      "articleId": "article-2298dc742f251d41ca5af6d7",
+      "rank": 7,
+      "title": "[단독] 헬스장·필라테스 '선불 먹튀' 4만 건 육박…공정위 제재는 5년간 '0건'",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000954937",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-008",
+      "articleId": "article-e14f5c35d83886a3769608c2",
+      "rank": 8,
+      "title": "소비쿠폰·건보 지출 늘자…공공부문 적자 83조 '역대 최대",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000954859",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-009",
+      "articleId": "article-963011bc6a2a6a883c2eeb36",
+      "rank": 9,
+      "title": "신학기 vs 이형주 '2파전'?…오늘 수협은행장 최종면접",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006373305",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-21-af98ed0103af-010",
+      "articleId": "article-1a8a0a8db794109c5187a83e",
+      "rank": 10,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435810",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

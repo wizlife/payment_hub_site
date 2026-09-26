@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-07-cd31d8572edf",
+  "channel": "evening",
+  "date": "2026-09-07",
+  "title": "2026-09-07 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-001",
+      "articleId": "article-b63a087a2c35c1eaf0fb3ae5",
+      "rank": 1,
+      "title": "엔키화이트햇, KB국민은행 'AI 사이버 위협 대응 체계' 구축",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20260907_0003778570",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T09:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-002",
+      "articleId": "article-78cf3ca17614b295446adb12",
+      "rank": 2,
+      "title": "가족 간편결제 이젠 신용카드도 가능",
+      "publisher": "내일신문",
+      "url": "https://www.naeil.com/news/read/601411?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T13:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-003",
+      "articleId": "article-ff7806e994e9b00f8ba629f6",
+      "rank": 3,
+      "title": "\"금융보안 인재 키운다\" 우리은행, 9월18일까지 금보원과 '모의해킹 경진...",
+      "publisher": "catchnews.kr",
+      "url": "https://www.catchnews.kr/news/articleView.html?idxno=128227",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T16:19:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-004",
+      "articleId": "article-77662cb213d272478fcc23c6",
+      "rank": 4,
+      "title": "0.38%p 낮아진 스테이블코인 프리미엄, 환율 연계 커졌다",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/economy/403095",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-06T04:04:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-005",
+      "articleId": "article-fb7f39c7023d6d1ef6ad986d",
+      "rank": 5,
+      "title": "코인베이스, AI 에이전트 결제 1억7600만 건인데 거래액은 7300만 달러 그...",
+      "publisher": "wikitree.co.kr",
+      "url": "https://www.wikitree.co.kr/articles/1157661",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T03:16:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-006",
+      "articleId": "article-58eef866ad0f54f6a1d7fc68",
+      "rank": 6,
+      "title": "[정책포커스] 금융위, 제 2차 망분리 규제 긴급 완화...중소 금융회사·...",
+      "publisher": "sisacast.kr",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=99658",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T10:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-007",
+      "articleId": "article-14af6bc3f9e22bf7ebcb1165",
+      "rank": 7,
+      "title": "\"갑자기 '대출 중단', 앞으론 못한다\"..금감원, 사전 안내 강화",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609061218212758",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-06T13:15:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-008",
+      "articleId": "article-78d1a717ab083d55fa6984f2",
+      "rank": 8,
+      "title": "주담대 제한 못 푸는 은행권...가계대출 잔액 6개월 만에 감소",
+      "publisher": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25459466",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-06T17:50:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-009",
+      "articleId": "article-dc3bfeed8c1789bed27578f9",
+      "rank": 9,
+      "title": "“과도한 통화정책, K-양극화 우려” [글로벌 금리인상 러시]",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10864804?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T11:21:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-07-cd31d8572edf-010",
+      "articleId": "article-72c98aebf9d1eab3def5163f",
+      "rank": 10,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433634",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T07:02:00+09:00"
+    }
+  ]
+}

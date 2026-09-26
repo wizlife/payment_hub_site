@@ -1,0 +1,23 @@
+{
+  "name": "payment-hub-site",
+  "version": "1.0.0",
+  "description": "Curated briefing editions with static archive search",
+  "scripts": {
+    "build": "node scripts/build-search.mjs",
+    "check": "node --check app.js && node --check scripts/build-search.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizlife/payment_hub_site.git"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wizlife/payment_hub_site/issues"
+  },
+  "homepage": "https://github.com/wizlife/payment_hub_site#readme",
+  "devDependencies": {
+    "pagefind": "1.5.2"
+  },
+  "private": true
+}

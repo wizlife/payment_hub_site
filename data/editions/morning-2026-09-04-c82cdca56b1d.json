@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-04-c82cdca56b1d",
+  "channel": "morning",
+  "date": "2026-09-04",
+  "title": "2026-09-04 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-001",
+      "articleId": "article-3e7cf3525b9dcabdfc3a95cd",
+      "rank": 1,
+      "title": "외교·통일·금융위 추후 이전 가능성…뒤숭숭한 공직사회",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005730157",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-002",
+      "articleId": "article-f5bb04d43b121cf5a7c2698a",
+      "rank": 2,
+      "title": "새 잠재성장률·중립금리 나온다…韓경제 ‘뉴노멀’ 진입 주목",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004658374",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-003",
+      "articleId": "article-5e5bb33eda11f97afd8f6be0",
+      "rank": 3,
+      "title": "\"국책銀도 안전지대 아니다\"…10년간 2000억원 금융사고",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005730080",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-004",
+      "articleId": "article-8ea515621cb2b823d2d29c01",
+      "rank": 4,
+      "title": "좁아진 안방시장…M&A·합병·증자로 새판",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004658383",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-005",
+      "articleId": "article-61274e4af20ed92be625b33f",
+      "rank": 5,
+      "title": "\"美 AI 인프라에 1조弗 투자\"… 데이터센터 확대 힘실은 젠슨 황",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004658361",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-006",
+      "articleId": "article-2228c4b61e59a5ed76726224",
+      "rank": 6,
+      "title": "보이스피싱 의심정보 포착 즉시 계열사로…신한금융, 34억 지켰다",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005409142",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-007",
+      "articleId": "article-ea3b3782aa7878ea42bc93d0",
+      "rank": 7,
+      "title": "티빙 이용자 활성화 계정 2206만 개 유출... \"접속키 관리 부실이 원인\"",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000951896",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-008",
+      "articleId": "article-1c1acaec44e5e1a6e2aa042e",
+      "rank": 8,
+      "title": "금융위, 2차 망분리 규제 완화…중소 금융·전금업자 75곳 대상 확대",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003463305",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-04-c82cdca56b1d-009",
+      "articleId": "article-5536ca780e42b8e374251f55",
+      "rank": 9,
+      "title": "보안특화 'K미토스' 네이버가 만든다",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005328441",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

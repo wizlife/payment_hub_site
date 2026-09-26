@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-15-a87daccb637a",
+  "channel": "morning",
+  "date": "2026-09-15",
+  "title": "2026-09-15 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-15-a87daccb637a-001",
+      "articleId": "article-8b58bc86b737b93a5fa08e0a",
+      "rank": 1,
+      "title": "'10년 고정금리' 주담대 카드 꺼내든 금융위…실효성엔 ‘물음표’",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006369374",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-15-a87daccb637a-002",
+      "articleId": "article-43a2620841434c7f07bdb475",
+      "rank": 2,
+      "title": "대형은행 예금금리 인상에도 잠잠한 인뱅…수신 여유에 엇갈린 셈법",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005413490",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-15-a87daccb637a-003",
+      "articleId": "article-85e5cedc88414b5436665188",
+      "rank": 3,
+      "title": "이재근 \"1등 안주 않고, 과감한 변화 이끌 것\"",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005332180",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-15-a87daccb637a-004",
+      "articleId": "article-ac99aa5c7fdb7a2c91d0a50e",
+      "rank": 4,
+      "title": "회장·사외이사도 ‘성적표’ 받는다… 금융사 ‘연임 동맹’ 제동",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003680225",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-15-a87daccb637a-005",
+      "articleId": "article-ff6862469c837e8faef1311e",
+      "rank": 5,
+      "title": "정규직 줄이고 기간제 늘리고…은행 인력구조가 바뀐다",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20260914134351135",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-15-a87daccb637a-006",
+      "articleId": "article-6c417919b2c68b6631243640",
+      "rank": 6,
+      "title": "직무 역량까지 정교하게 검증한다… 은행권 'AI채용' 진화",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005575600",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-15-a87daccb637a-007",
+      "articleId": "article-ad2b4cac55f49cb43eede8e4",
+      "rank": 7,
+      "title": "투자 상담에 매매까지…월가 긴장시키는 AI",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003551334",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-15-a87daccb637a-008",
+      "articleId": "article-56a067099f268efa88cda151",
+      "rank": 8,
+      "title": "韓-우즈베크, 광물-AI전환-철도 협력 등 MOU 13건 체결",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003748079",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-15-a87daccb637a-009",
+      "articleId": "article-477acc04ed82cdfdb48e86c6",
+      "rank": 9,
+      "title": "먹통 뒤에야 수시접수 민간대행 재검토",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003748150",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

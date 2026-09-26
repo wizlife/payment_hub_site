@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-08-a9fba254bbe5",
+  "channel": "evening",
+  "date": "2026-09-08",
+  "title": "2026-09-08 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-001",
+      "articleId": "article-6cc0b2846574291ab3422210",
+      "rank": 1,
+      "title": "증권가, 차세대 '양자내성암호' 도입...\"고객정보 철통 방어 나선다\"",
+      "publisher": "insightkorea.co.kr",
+      "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=254146",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T16:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-002",
+      "articleId": "article-e2f73085a9fdb2fd998d5c71",
+      "rank": 2,
+      "title": "UBS 등 9곳, 스위스프랑 스테이블코인 시험 시작",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/404227",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T16:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-003",
+      "articleId": "article-cfb78577e9cd3b4103daee06",
+      "rank": 3,
+      "title": "최대 5조1500억원 절감...원화 스테이블코인 준비자산 규제 제언",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/policy/404218",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T16:04:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-004",
+      "articleId": "article-55ba9ce033b4785b8e3fcc21",
+      "rank": 4,
+      "title": "레이어제로, 원화 스테이블코인에 자체 토큰 표준 적용",
+      "publisher": "zdnet.co.kr",
+      "url": "https://zdnet.co.kr/view/?no=20260908142348",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T15:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-005",
+      "articleId": "article-b21c902ddcbec8cd48411ca7",
+      "rank": 5,
+      "title": "우리은행, 금융보안원과 대학생 모의해킹 경진대회 열어",
+      "publisher": "thepublic.kr",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=317821",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T17:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-006",
+      "articleId": "article-3bf44c032cbaecd6469307ba",
+      "rank": 6,
+      "title": "여수시, 외국인 관광객 결제 문턱 낮춘다",
+      "publisher": "newskr.kr",
+      "url": "http://www.newskr.kr/news/articleView.html?idxno=106181",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T10:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-007",
+      "articleId": "article-ce1c9643994f5475c360ff31",
+      "rank": 7,
+      "title": "사람 대신 AI가 대리결제...에스와이폴라리스 구현 성공",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260908000197",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T13:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-008",
+      "articleId": "article-914bee4ebc1f0a09604fbf7d",
+      "rank": 8,
+      "title": "은행 주담대 연체액 2조2천억...3년6개월 새 2.2배 급증",
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1276734.html",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T10:50:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-009",
+      "articleId": "article-ec21169f7c0ee65c6de3084c",
+      "rank": 9,
+      "title": "‘환율 1330원대’ 1년11개월만에 최저",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609071807216602",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T18:09:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-a9fba254bbe5-010",
+      "articleId": "article-e07f9955d07165673b5ae748",
+      "rank": 10,
+      "title": "시중은행 대출 문턱 높이자 '풍선효과'... 저축은행·카드로",
+      "publisher": "straightnews.co.kr",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=310689",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T16:30:00+09:00"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-15-c6de1e74d839",
+  "channel": "evening",
+  "date": "2026-09-15",
+  "title": "2026-09-15 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-001",
+      "articleId": "article-6cb0394259ded1110ccfc2c6",
+      "rank": 1,
+      "title": "장동혁 “CBDC 거래추적·지출제한 우려”...한은은 은행 9곳·지갑 50만개...",
+      "publisher": "wikitree.co.kr",
+      "url": "https://www.wikitree.co.kr/articles/1159469",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-14T23:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-002",
+      "articleId": "article-922abe79bcf14643918e164e",
+      "rank": 2,
+      "title": "농산물 경매대금도 카드로...NHN KCP, B2B 결제 확대",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260915000045",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T09:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-003",
+      "articleId": "article-80de41dc48db7f419d93d70b",
+      "rank": 3,
+      "title": "SKT, AI 에이전트 결제·예약에 RCS 활용...글로벌 표준화 논의",
+      "publisher": "ekoreanews.co.kr",
+      "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=88145",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T16:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-004",
+      "articleId": "article-ca506d08848ce2916ae88a7d",
+      "rank": 4,
+      "title": "아이오로라, Alipay+와 연동...'NAMANE PAY' 해외 결제 기능 확대",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202609143218O",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T09:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-005",
+      "articleId": "article-56f9692eea60f18b0d8e0b29",
+      "rank": 5,
+      "title": "피니버스, 인도네시아서 원화 스테이블코인 무역결제 실증 추진",
+      "publisher": "srtimes.kr",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=212469",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T14:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-006",
+      "articleId": "article-2b8bde10ca3506febfea6e4f",
+      "rank": 6,
+      "title": "카드사 AI, 챗봇 넘어 결제 인프라로",
+      "publisher": "lcnews.co.kr",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=208238",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T13:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-007",
+      "articleId": "article-141cb67bd6f5eec3052ddc40",
+      "rank": 7,
+      "title": "쿠콘, 카카오페이와 서울페이 잇는다...국내 결제사 최초 연동",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609150935266896",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T09:39:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-008",
+      "articleId": "article-5fdeb535c2121e1244ef64e3",
+      "rank": 8,
+      "title": "교통카드·환전 없이 버스 탄다...부산, 외국인용 QR 결제 도입",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20090913?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T08:41:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-009",
+      "articleId": "article-81ea3e573a7edb65feccb277",
+      "rank": 9,
+      "title": "금감원 때리고, 금융위 깎고 '되풀이'... 신물나는 '신정법'",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/15/2026091420022564344",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T03:27:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-010",
+      "articleId": "article-f23d4b5bffed022eabf43a09",
+      "rank": 10,
+      "title": "지역경제 한파, 은행 덮쳐... 지방은행 부실채권 2조 육박",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/economy/economy_general/2026/09/15/R765457VAJDTZMMQJTIWOCRZPI/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T00:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-c6de1e74d839-011",
+      "articleId": "article-dbcfcf43f8f279eecf46f6a9",
+      "rank": 11,
+      "title": "슬금슬금... 환율 1340원대, 한은 '속도조절론'에도 변수",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/15/2026091420121311212",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T03:31:00+09:00"
+    }
+  ]
+}

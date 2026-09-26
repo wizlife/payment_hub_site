@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-23-ac79f13afb49",
+  "channel": "evening",
+  "date": "2026-09-23",
+  "title": "2026-09-23 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-23-ac79f13afb49-001",
+      "articleId": "article-bae301c61dcb845c5ce2552a",
+      "rank": 1,
+      "title": "SoFi, 마스터카드와 6개월 만에 연 250억달러 카드결제 스테이블코인 정...",
+      "publisher": "wikitree.co.kr",
+      "url": "https://www.wikitree.co.kr/articles/1161475",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-23T00:30:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-23-ac79f13afb49-002",
+      "articleId": "article-60ecc42956022666902f5210",
+      "rank": 2,
+      "title": "카카오그룹, 그랩·교보생명 등과 손잡고 원화 스테이블코인 생태계 확...",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/23/2026092313131265500",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-23T13:43:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-23-ac79f13afb49-003",
+      "articleId": "article-d5f17d649ac4622e59b807e7",
+      "rank": 3,
+      "title": "금융보안원, 추석 연휴 기간 사이버 위협 대응체계 강화",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609231025281152",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-23T13:23:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-23-ac79f13afb49-004",
+      "articleId": "article-269d34cf8b9c764c4c22bcca",
+      "rank": 4,
+      "title": "농협 예·적금 금리 최대 0.25%p↑...시중은행 인상 확산",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609230940459689",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-23T09:57:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-23-ac79f13afb49-005",
+      "articleId": "article-e70bb8777b3de3b812467d10",
+      "rank": 5,
+      "title": "금융위 '온투업 활성화' 발표...P2P 신용대출 공급자금 확대",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026092217501",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-22T17:51:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-23-ac79f13afb49-006",
+      "articleId": "article-f1bb036ecc30f090cd54bc96",
+      "rank": 6,
+      "title": "\"기준금리 0.25%p 인상하면... 가계·기업 이자부담 7조 늘어\"",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609221918373476",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-22T19:20:00+09:00"
+    }
+  ]
+}

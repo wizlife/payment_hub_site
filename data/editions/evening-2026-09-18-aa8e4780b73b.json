@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-18-aa8e4780b73b",
+  "channel": "evening",
+  "date": "2026-09-18",
+  "title": "2026-09-18 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-001",
+      "articleId": "article-b3f8f642b37e8ce939b411ac",
+      "rank": 1,
+      "title": "하나금융, 한화자산운용·ADGM과 스테이블코인 협력",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609181011422061",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T10:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-002",
+      "articleId": "article-b36b8b7bcb6c51a52d302f1b",
+      "rank": 2,
+      "title": "금융권 노린 AI 에이전트 공격 현실화...\"API 보안 강화\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/18/2026091809425388824",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T10:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-003",
+      "articleId": "article-d3f08a10e65d37753eaae791",
+      "rank": 3,
+      "title": "마스터카드, AI 에이전트 결제 이번주 출시...알케미와 협력",
+      "publisher": "digitaltoday.co.kr",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=701498",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T06:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-004",
+      "articleId": "article-09c876c8b3924af33b4438a4",
+      "rank": 4,
+      "title": "실증 넘은 AI 결제...카드사 '표준' 경쟁 점화",
+      "publisher": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=866076",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T09:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-005",
+      "articleId": "article-c978d40b33880f8ccfe7d082",
+      "rank": 5,
+      "title": "파라메타·신한EZ손보, 예금토큰으로 보험 프로세스 처리",
+      "publisher": "newsworks.co.kr",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=854114",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T17:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-006",
+      "articleId": "article-4b5156c9b95d59d1a4a52606",
+      "rank": 6,
+      "title": "간편결제·송금 하루 2.4조원...간편송금액 20% 급증",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/economy/2026/09/18/2026091811045394297",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T12:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-007",
+      "articleId": "article-90a6da889f967864e06ff1c3",
+      "rank": 7,
+      "title": "하나은행, '예금토큰' 준비 홀로 앞섰다...정작 프로젝트 전체는 9월→4분...",
+      "publisher": "greened.kr",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=350414",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T14:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-008",
+      "articleId": "article-40ed4618405d2c33831cebf3",
+      "rank": 8,
+      "title": "리플, XRP 개발자 키트에 스트라이프·템포 MPP 얹어 AI 에이전트 결제 ...",
+      "publisher": "wikitree.co.kr",
+      "url": "https://www.wikitree.co.kr/articles/1160337",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T00:14:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-009",
+      "articleId": "article-d3ad51f828dd13492c446acb",
+      "rank": 9,
+      "title": "아라코어, 팍소스 주도 글로벌 달러 네트워크 합류...스테이블코인 사업...",
+      "publisher": "techm.kr",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=155389",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T14:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-010",
+      "articleId": "article-600fa658bcbf06047b2e87d4",
+      "rank": 10,
+      "title": "일본은행, 기준금리 1.25%로 인상...31년 만에 최고",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12156575",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T16:07:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-011",
+      "articleId": "article-21ea92170a3cf94892ecdef2",
+      "rank": 11,
+      "title": "[환율마감] 원·달러 7일째 상승 1380원대 굳히기, BOJ 인상 이긴 달러 강...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2627375",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-18T16:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-18-aa8e4780b73b-012",
+      "articleId": "article-cd1b715519b6b784eef441fd",
+      "rank": 12,
+      "title": "메리츠증권, 발행어음 인가 눈앞...23일 금융위 최종 결정",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2626958",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-17T18:10:00+09:00"
+    }
+  ]
+}

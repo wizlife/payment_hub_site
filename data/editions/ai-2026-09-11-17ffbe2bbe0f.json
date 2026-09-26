@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-2026-09-11-17ffbe2bbe0f",
+  "channel": "ai",
+  "date": "2026-09-11",
+  "title": "2026-09-11 AI 뉴스",
+  "items": [
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-001",
+      "articleId": "article-775fadb5c4af255d66a4fc63",
+      "rank": 1,
+      "title": "오픈AI, 금융권 전용 챗GPT 출시…투자은행·리서치 겨냥",
+      "publisher": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20260911000028",
+      "category": "국내 및 국외 AI 산업 동향",
+      "categoryBasis": "source",
+      "summary": "오픈AI가 10일(현지시간) 금융업계를 겨냥한 '금융 서비스용 챗GPT(ChatGPT for Financial Services)'를 공개했다. 최신 GPT-6 아스트라 모델에 LSEG·피치북·크런치베이스 등이 제공하는 금융 데이터를 결합해 투자은행가와 주식 리서치 애널리스트의 업무를 대상으로 삼았다. 모건스탠리와 에버코어가 설계 파트너로 참여했으며, 오픈AI는 향후 적용 범위를 금융 서비스 전반으로 넓힐 계획이라고 밝혔다.",
+      "publishedAt": "2026-09-11T04:14:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-002",
+      "articleId": "article-f98d4c40b3362beb968933fb",
+      "rank": 2,
+      "title": "한은 “글로벌 AI 투자 올해 정점으로 완만 하락…빅테크 수익성은 리스크”",
+      "publisher": "세계일보",
+      "url": "https://www.segye.com/newsView/20260910517810",
+      "category": "국내 및 국외 AI 산업 동향",
+      "categoryBasis": "source",
+      "summary": "한국은행이 10일 통화신용정책보고서를 통해 글로벌 AI 투자가 올해를 정점으로 증가 속도가 완만해질 것으로 전망했다. 가트너 자료를 인용해 올해 61% 증가에서 내년 39%, 2028년 19%로 둔화될 것으로 분석했다. 빅테크의 회사채 발행 확대와 판매자 금융·프로젝트 파이낸싱 등 외부 자금 의존이 위험 요인으로 지목됐다.",
+      "publishedAt": "2026-09-10T18:35:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-003",
+      "articleId": "article-9c0c657d0523f4a254367c72",
+      "rank": 3,
+      "title": "엔비디아-팔란티어 '맞손'…AI 다음 전장은 공급망",
+      "publisher": "SBS Biz",
+      "url": "https://biz.sbs.co.kr/article_hub/20000334005?division=NAVER",
+      "category": "국내 및 국외 AI 산업 동향",
+      "categoryBasis": "source",
+      "summary": "엔비디아와 팔란티어가 핵심 공급망에 주권형 인공지능(소버린 AI)을 도입하기 위해 협력하기로 했다고 파이낸셜타임스가 10일(현지시간) 보도했다. 양사는 엔비디아의 오픈 AI 모델 '네모트론'과 팔란티어의 데이터 플랫폼 '파운드리' 및 인공지능 플랫폼(AIP)을 결합한 통합 AI 시스템을 구축한다. AI 경쟁의 무대가 모델 성능에서 공급망 최적화 같은 실제 운영 영역으로 옮겨가는 흐름으로 읽힌다.",
+      "publishedAt": "2026-09-11T04:20:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-004",
+      "articleId": "article-8eb9715cedc94d722a9d5976",
+      "rank": 4,
+      "title": "“AI가 90년 난제를?” 충격받은 수학계… “본질 이해는 다른 문제” 시선도",
+      "publisher": "한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026091016170002030",
+      "category": "AI 신기술 및 연구 동향",
+      "categoryBasis": "source",
+      "summary": "오픈AI의 인공지능이 약 90년간 풀리지 않은 나비에-스토크스 문제의 해법을 88시간 만에 제시했다는 발표 이후 국내 수학계가 술렁이고 있다. 수학자들은 “문제를 푸는 것과 본질을 이해하는 것은 차원이 다르다”며 결과의 의미를 제한적으로 평가하는 시각도 함께 내놨다. KAIST의 'AI수학대학원' 개설 등 대학들이 AI를 연구 파트너로 활용하는 체계를 구축 중인 상황도 소개됐다.",
+      "publishedAt": "2026-09-11T04:30:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-005",
+      "articleId": "article-ddbad72c8eb75ed2e57f61c1",
+      "rank": 5,
+      "title": "中 딥시크, V4.1 플래시 정식 출시",
+      "publisher": "SBS Biz",
+      "url": "https://biz.sbs.co.kr/article_hub/20000334009?division=NAVER",
+      "category": "AI 신기술 및 연구 동향",
+      "categoryBasis": "source",
+      "summary": "중국 AI 스타트업 딥시크가 새 경량 AI 모델 'V4.1 Flash'를 정식 출시했다고 로이터가 10일 보도했다. 새로운 모델 아키텍처 가운데 가장 작은 제품으로, 저비용·고성능 경쟁에 속도를 내는 성격으로 소개됐다. 경량 모델 확산은 AI 서비스 가격에 하방 압력으로 작용할 수 있다는 관측과 맞물려 있다.",
+      "publishedAt": "2026-09-11T04:29:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-006",
+      "articleId": "article-8356b02ee98fcc7c3896bef6",
+      "rank": 6,
+      "title": "오픈AI, 코덱스 기반 에이전트 API 공개 베타",
+      "publisher": "토큰포스트",
+      "url": "https://www.tokenpost.kr/news/breaking/406034",
+      "category": "AI 신기술 및 연구 동향",
+      "categoryBasis": "source",
+      "summary": "오픈AI가 코덱스(Codex) 에이전트의 핵심 기능을 개발자용 Agents API로 공개 베타 전환했다. 이 API는 세션 관리와 오케스트레이션, 컨텍스트 압축, 작업 복구를 지원한다. 개발자는 자체 도구와 실행 환경을 연결해 샌드박스에서 코드 실행·파일 편집·MCP 서버 연결·아티팩트 생성 등을 수행할 수 있다.",
+      "publishedAt": "2026-09-11T05:15:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-007",
+      "articleId": "article-972ea44ddd3493e8cc6b39c8",
+      "rank": 7,
+      "title": "MS \"AI 악용 100만 건 이상 송장 사기 메일 전송 발견\"",
+      "publisher": "지디넷코리아",
+      "url": "https://zdnet.co.kr/view/?no=20260910195946",
+      "category": "AI 관련 보안",
+      "categoryBasis": "source",
+      "summary": "마이크로소프트가 AI를 악용한 대규모 경영진 사칭 및 송장 사기 캠페인을 발견했다고 밝혔다. 3일간 100만 건 이상의 금융 사기 이메일이 발송됐고 수신자의 87.7%는 미국 사용자였다. 경영진 사칭, 공급업체 위장, 조작된 송장, 가짜 이메일 대화를 복합적으로 활용했으며, HTML 코드의 상세한 주석과 일관된 형식 등에서 생성형 AI가 템플릿 제작에 악용된 정황이 확인됐다.",
+      "publishedAt": "2026-09-11T01:00:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-008",
+      "articleId": "article-9934be7650abaeda62cd7eac",
+      "rank": 8,
+      "title": "네이버-LG, 18일 보안 특화 AI 개발 착수…“세계 1위 도전”",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260910000303",
+      "category": "AI 관련 보안",
+      "categoryBasis": "source",
+      "summary": "네이버클라우드와 LG가 공격·방어에 특화된 AI 보안 모델 공동 개발에 9월 18일 착수한다. 33개 기관이 5개 팀으로 나뉘어 참여하며, 네이버클라우드는 '하이퍼클로바X' 기반 방어 역량을, LG는 '엑사원'을 활용한 공격 역량을 맡는다. 최종 목표는 매개변수 7000억개급 전문가혼합(MoE) 모델이며, 내년 7월 사업 완료 후 오픈소스와 API·SDK 형태로 공개할 계획이다.",
+      "publishedAt": "2026-09-11T06:00:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-009",
+      "articleId": "article-ace09e604ec52218c848e4e5",
+      "rank": 9,
+      "title": "AI 악용 해킹에… 쇼핑몰서 학원까지 정보유출 상반기 432건",
+      "publisher": "동아일보",
+      "url": "https://www.donga.com/news/Society/article/all/20260911/134646924/1",
+      "category": "AI 관련 보안",
+      "categoryBasis": "source",
+      "summary": "올해 상반기 국내 개인정보 유출 신고가 432건으로 집계돼 쇼핑몰부터 학원까지 업종을 가리지 않고 사고가 이어진 것으로 나타났다. 보안업계에서는 개인정보 유출 사고가 급증한 배경 중 하나로 해커들의 AI 활용을 꼽는다. 한국인터넷진흥원(KISA)은 '2025년 사이버 위협 동향 및 2026년 전망' 보고서에서 AI 기반 사이버 위협을 올해 주요 위협으로 제시했다.",
+      "publishedAt": "2026-09-11T04:35:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-010",
+      "articleId": "article-68483497be89298676765db1",
+      "rank": 10,
+      "title": "내 예금이 토큰으로…연말 결제판 바뀐다",
+      "publisher": "SBS Biz",
+      "url": "https://biz.sbs.co.kr/article_hub/20000333934?division=NAVER",
+      "category": "국내 금융권 AI 동향 (금융결제원 중심)",
+      "categoryBasis": "source",
+      "summary": "은행에 맡겨둔 예금을 토큰 형태로 바꿔 물건을 살 때 바로 결제할 수 있는 '예금토큰'이 실제 상용화를 앞두고 있다. 이용자가 편의점 등 일반 가맹점에서 예금토큰으로 물건을 사면 금융결제원의 예금토큰 결제 중계 시스템을 통해 은행에 이체 요청이 전달되는 구조다. 은행과 민간 결제 인프라를 연결해 실제 결제가 이뤄지도록 하는 중계 기능이 핵심으로 제시됐다.",
+      "publishedAt": "2026-09-10T15:42:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-011",
+      "articleId": "article-bebe6d613de3c572813aa1a7",
+      "rank": 11,
+      "title": "신한·하나카드, AI결제 인프라 개발…SKT ‘모두의 AI’ 컨소시엄 참여",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10869568",
+      "category": "국내 금융권 AI 동향 (금융결제원 중심)",
+      "categoryBasis": "source",
+      "summary": "신한카드와 하나카드가 과학기술정보통신부가 추진하는 '모두의 AI' 사업에 SK텔레콤 컨소시엄의 금융 파트너로 참여해 '에이전트 페이(Agent Pay)' 개발을 맡는다. 이용자가 자연어로 원하는 상품이나 서비스를 요청하면 AI가 적합한 선택지를 탐색·추천하고 등록된 결제수단으로 결제까지 처리하는 구조다. 신한카드는 AI 오작동이나 챗봇 해킹으로 인한 부정 결제 시도를 실시간 이상거래탐지시스템(FDS)으로 감지하고, 오구매·시스템 오류에 대한 보상과 분쟁 해결 체계도 마련한다고 밝혔다.",
+      "publishedAt": "2026-09-10T17:13:00+09:00"
+    },
+    {
+      "id": "ai-2026-09-11-17ffbe2bbe0f-012",
+      "articleId": "article-5567779b475909b6208e1c88",
+      "rank": 12,
+      "title": "유수영號 신정원 출범…마이데이터·기후금융 잇고 금융산업 AX 가속 [금융공기업 이슈]",
+      "publisher": "한국금융신문",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026091012020815091b5a221379_18",
+      "category": "국내 금융권 AI 동향 (금융결제원 중심)",
+      "categoryBasis": "source",
+      "summary": "유수영 전 재정경제부 대변인이 한국신용정보원 제4대 원장으로 취임하면서, 신정원이 기존의 데이터 공급 기능을 넘어 서로 다른 데이터를 연결해 금융산업의 인공지능 전환(AX)을 가속하는 역할로 확대된다. 신정원과 신용회복위원회, 금융결제원은 채무조정 신청자가 전송요구권을 행사하면 예금·보험·주식·펀드 등 금융자산 정보를 한 번에 확인할 수 있는 서비스를 마련했다. 금융 마이데이터를 채무조정 업무에 연계해 증빙 서류를 직접 발급·제출하던 절차를 간소화하는 방식이다.",
+      "publishedAt": "2026-09-10T14:00:00+09:00"
+    }
+  ]
+}

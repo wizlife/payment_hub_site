@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-15-01a37bcdbad7",
+  "channel": "evening",
+  "date": "2026-09-15",
+  "title": "2026-09-15 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-001",
+      "articleId": "article-6cb0394259ded1110ccfc2c6",
+      "rank": 1,
+      "title": "장동혁 “CBDC 거래추적·지출제한 우려”...한은은 은행 9곳·지갑 50만개...",
+      "publisher": "wikitree.co.kr",
+      "url": "https://www.wikitree.co.kr/articles/1159469",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-14T23:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-002",
+      "articleId": "article-922abe79bcf14643918e164e",
+      "rank": 2,
+      "title": "농산물 경매대금도 카드로...NHN KCP, B2B 결제 확대",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260915000045",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T09:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-003",
+      "articleId": "article-28840c76caff6e5a910b8382",
+      "rank": 3,
+      "title": "2억5850만건 AI 에이전트 결제...헤이즈, FLOP 구상 제시",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/ai/407544",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-14T18:24:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-004",
+      "articleId": "article-ca506d08848ce2916ae88a7d",
+      "rank": 4,
+      "title": "아이오로라, Alipay+와 연동...'NAMANE PAY' 해외 결제 기능 확대",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202609143218O",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T09:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-005",
+      "articleId": "article-efbb807ee42f8619fdac937c",
+      "rank": 5,
+      "title": "인도, 6200억달러 회사채 토큰화...디지털 루피 결제",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/407592",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-14T20:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-006",
+      "articleId": "article-141cb67bd6f5eec3052ddc40",
+      "rank": 6,
+      "title": "쿠콘, 카카오페이와 서울페이 잇는다...국내 결제사 최초 연동",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609150935266896",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T09:39:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-007",
+      "articleId": "article-5fdeb535c2121e1244ef64e3",
+      "rank": 7,
+      "title": "교통카드·환전 없이 버스 탄다...부산, 외국인용 QR 결제 도입",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20090913?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T08:41:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-008",
+      "articleId": "article-2b8bde10ca3506febfea6e4f",
+      "rank": 8,
+      "title": "카드사 AI, 챗봇 넘어 결제 인프라로",
+      "publisher": "lcnews.co.kr",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=208238",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T13:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-009",
+      "articleId": "article-f23d4b5bffed022eabf43a09",
+      "rank": 9,
+      "title": "지역경제 한파, 은행 덮쳐... 지방은행 부실채권 2조 육박",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/economy/economy_general/2026/09/15/R765457VAJDTZMMQJTIWOCRZPI/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T00:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-010",
+      "articleId": "article-48c91fa89a77e1e326e7fc02",
+      "rank": 10,
+      "title": "PF 돈맥경화 풀릴까...금감원, 사업 단계별 금융지원 설명회",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609151402275775",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T14:49:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-15-01a37bcdbad7-011",
+      "articleId": "article-dbcfcf43f8f279eecf46f6a9",
+      "rank": 11,
+      "title": "슬금슬금... 환율 1340원대, 한은 '속도조절론'에도 변수",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/15/2026091420121311212",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-15T03:31:00+09:00"
+    }
+  ]
+}

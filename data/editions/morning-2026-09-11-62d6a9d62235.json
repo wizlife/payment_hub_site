@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-11-62d6a9d62235",
+  "channel": "morning",
+  "date": "2026-09-11",
+  "title": "2026-09-11 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-001",
+      "articleId": "article-ebc9197a31c2b8ba1da66598",
+      "rank": 1,
+      "title": "내 예금이 토큰으로…연말 결제판 바뀐다",
+      "publisher": "SBS Biz",
+      "url": "https://n.news.naver.com/article/374/0000532265",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-002",
+      "articleId": "article-5567779b475909b6208e1c88",
+      "rank": 2,
+      "title": "유수영號 신정원 출범…마이데이터·기후금융 잇고 금융산업 AX 가속 [금융공기업 이슈]",
+      "publisher": "한국금융",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026091012020815091b5a221379_18",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-003",
+      "articleId": "article-26264a52170a73d0aded4c60",
+      "rank": 3,
+      "title": "美·日 금리상승, 한국으로 전이…가계·기업 이자부담 더 커질 듯",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006367209",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-004",
+      "articleId": "article-5179c9b9134a664cb77b0f1a",
+      "rank": 4,
+      "title": "\"대내외 여건 급변이 최대 변수\"…한은, 추가 긴축 '저울질' [통화신용보고서]",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2623828",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-005",
+      "articleId": "article-9e478eca1c80e28e36490c0d",
+      "rank": 5,
+      "title": "노동자도 자본가도 아니다…AI가 만든 '제3의 계급'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005331032",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-006",
+      "articleId": "article-468570b87d303f30243952b7",
+      "rank": 6,
+      "title": "시중은행, 정기예금 금리 줄인상…역머니무브 빨라진다",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006367118",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-007",
+      "articleId": "article-665889e3d7927290c4b0fd9e",
+      "rank": 7,
+      "title": "코로나 피해 소상공인 '1억 미만 빚' 탕감",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005733510",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-008",
+      "articleId": "article-5f79850325eea4f77be92b9e",
+      "rank": 8,
+      "title": "이소영 “코스닥 개편에 할 말 하는 중기부 장관 되겠다”…'속도조절' 강조",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003465612",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-009",
+      "articleId": "article-979856139239b6be661d7250",
+      "rank": 9,
+      "title": "한은·금감원, 외환 공동검사 ‘빈손’",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004660605",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-010",
+      "articleId": "article-55120d1aa350f6f6860bf408",
+      "rank": 10,
+      "title": "삼전닉스 급등락 반복에…韓증시 변동성 주요국 1위",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005331060",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-11-62d6a9d62235-011",
+      "articleId": "article-94c02c23f51f86a9c7bddd57",
+      "rank": 11,
+      "title": "[단독] 상업지역 빈 땅에 주택 들어서나… 100년 묵은 ‘용도지역제’ 개편 시동",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001872209",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-17-c0ad764dd7ea",
+  "channel": "morning",
+  "date": "2026-09-17",
+  "title": "2026-09-17 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-001",
+      "articleId": "article-e050fc5dd594d2826a07d5eb",
+      "rank": 1,
+      "title": "카뱅, 비대면 잔금대출 시작…토뱅은 전세대출 간소화",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005333086",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-002",
+      "articleId": "article-2b92b6e6e01f979fa50606dc",
+      "rank": 2,
+      "title": "저축은행에 P2P까지…핀테크의 '무한도전'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005333090",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-003",
+      "articleId": "article-010ec5a8581a1d8fd2a896e3",
+      "rank": 3,
+      "title": "금융당국, ‘과잉제재 지적’ 과징금 산정 방식 손본다",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003470921",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-004",
+      "articleId": "article-df78bce0e92666e79290b917",
+      "rank": 4,
+      "title": "역외 원화결제 길 열린다…외국 금융기관에 '원화 라이선스' 도입",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003467325",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-005",
+      "articleId": "article-310ed7cce28fb4f497a704a5",
+      "rank": 5,
+      "title": "반쪽짜리 중수청…행안부 전산망 빌려쓴다",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005333133",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-006",
+      "articleId": "article-b77cc8e24bf3d7e76b2ba7b4",
+      "rank": 6,
+      "title": "月 최대 50만원 넣는 ‘청년미래적금’ 내달 7~16일 2차 접수",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0003998854",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-007",
+      "articleId": "article-db354fcf9bd0e8a67f7d5259",
+      "rank": 7,
+      "title": "주식 늘리는 국민연금… 국내채권 투자 1년반 새 56조 감소",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005576942",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-008",
+      "articleId": "article-90129c4b293533759653c128",
+      "rank": 8,
+      "title": "한국은행 앞 48년 지킨 분수대 이전…‘시민광장’ 변신",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003470937",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-009",
+      "articleId": "article-9dc39a71041de39242a8e76a",
+      "rank": 9,
+      "title": "베선트 \"국채금리 급등은 재정적자탓\"",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005736262",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-17-c0ad764dd7ea-010",
+      "articleId": "article-e6df891a06eafec8c6497abd",
+      "rank": 10,
+      "title": "“경쟁률 보고 수시원서 냈으면 ‘접수 취소’ 검토”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003748830",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

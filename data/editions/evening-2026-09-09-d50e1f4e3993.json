@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-09-d50e1f4e3993",
+  "channel": "evening",
+  "date": "2026-09-09",
+  "title": "2026-09-09 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-09-09-d50e1f4e3993-001",
+      "articleId": "article-f1f8169fa52b6f2eeba9e178",
+      "rank": 1,
+      "title": "카카오페이, 디지털자산 지갑 기술 실증 완료...스테이블코인 유통 인프...",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609091030418418",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-09T10:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-09-d50e1f4e3993-002",
+      "articleId": "article-785f2461546987ccb2156abc",
+      "rank": 2,
+      "title": "법안 10건인데 발행주체 못 정해...원화 스테이블코인 '5대 난제'",
+      "publisher": "아시아투데이",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260908010002759",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T18:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-09-d50e1f4e3993-003",
+      "articleId": "article-41792cf2145fc6f2afb60a53",
+      "rank": 3,
+      "title": "토스·코엠페이 신용카드 정보 유출 의심⋯금감원, 검사 전환",
+      "publisher": "inews24.com",
+      "url": "http://www.inews24.com/view/2003751",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-09T15:54:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-09-d50e1f4e3993-004",
+      "articleId": "article-7cc7f46618875c4df227d5d8",
+      "rank": 4,
+      "title": "한·EU 스테이블코인 프로젝트 실무 협의 본격화",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/09/2026090815163094016",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-09T08:43:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-09-d50e1f4e3993-005",
+      "articleId": "article-8d52d886bf802eaf5dd49884",
+      "rank": 5,
+      "title": "점점 사라지는 ATM...상반기만 636개 감소",
+      "publisher": "SBS",
+      "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008744378&plink=ORI",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-09T10:27:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-09-d50e1f4e3993-006",
+      "articleId": "article-ef1c3ffaffb3e790620eeaaf",
+      "rank": 6,
+      "title": "[마감 시황] 코스피, 외국인·기관 '쌍끌이' 매수에 7,000선 탈환... 환율...",
+      "publisher": "businesskorea.co.kr",
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=276554",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-09T16:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-09-d50e1f4e3993-007",
+      "articleId": "article-41a82e9e30f47e5af9e95a3f",
+      "rank": 7,
+      "title": "8월 은행 주담대 4조원 증가...전세자금 대출은 ‘-7천억원’",
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1276954.html",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-09T12:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-09-d50e1f4e3993-008",
+      "articleId": "article-d9507d92f3691112220b01a1",
+      "rank": 8,
+      "title": "弱달러+수출기업 달러 매도...환율 23개월 만에 1330원대(상보)",
+      "publisher": "아시아경제",
+      "url": "https://view.asiae.co.kr/article/2026090916550356513",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-09T16:55:00+09:00"
+    }
+  ]
+}

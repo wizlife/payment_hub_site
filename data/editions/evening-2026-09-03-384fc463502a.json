@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-03-384fc463502a",
+  "channel": "evening",
+  "date": "2026-09-03",
+  "title": "2026-09-03 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-09-03-384fc463502a-001",
+      "articleId": "article-0ae9470650f68d7ed8d7c461",
+      "rank": 1,
+      "title": "발행부터 압류까지...금결원, 스테이블코인 실전 테스트 돌입",
+      "publisher": "SBS",
+      "url": "https://biz.sbs.co.kr/article_hub/20000332376?division=NAVER",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T18:11:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-03-384fc463502a-002",
+      "articleId": "article-f7013e15d48f33c6ac352d01",
+      "rank": 2,
+      "title": "예금토큰 2단계 실증 앞두고...CBDC 반대청원 누적 42만명",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260903000264",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-03T14:12:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-03-384fc463502a-003",
+      "articleId": "article-b578e1fcc2013676d01a65a1",
+      "rank": 3,
+      "title": "제2금융권·전자금융업자도 ‘AI 보안점검’ 가능...규제 2차 완화",
+      "publisher": "KBS",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8653890&ref=A",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-03T15:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-03-384fc463502a-004",
+      "articleId": "article-0c1458d3727e5384e58402e8",
+      "rank": 4,
+      "title": "한은 “스테이블코인 거래 확대되면 외환시장 연계 강화”",
+      "publisher": "KBS",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8653787&ref=A",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-03T12:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-03-384fc463502a-005",
+      "articleId": "article-eae0707d927089562d8f563b",
+      "rank": 5,
+      "title": "코스콤, 현대차증권과 토큰증권 맞손...공동플랫폼 구축 협력",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20086551?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T23:37:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-03-384fc463502a-006",
+      "articleId": "article-b0ba6acede38ba050bcda5a2",
+      "rank": 6,
+      "title": "잡히지 않는 물가...기준금리 3.5%까지 올려야하나",
+      "publisher": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25458623",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-03T00:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-03-384fc463502a-007",
+      "articleId": "article-40e3536c3b52fbbcd14650cb",
+      "rank": 7,
+      "title": "수도권 18만호 'PF 병목' 해소 기대감...금감원, 325개 밀착관리 돌입",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609031428038741",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-03T15:37:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-03-384fc463502a-008",
+      "articleId": "article-247d79e06f46be97cbcfd01c",
+      "rank": 8,
+      "title": "레버리지 ETF 후폭풍...與 “금융위 조직개편 재논의”",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20086467?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T18:06:00+09:00"
+    }
+  ]
+}

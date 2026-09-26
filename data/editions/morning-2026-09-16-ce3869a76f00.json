@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-16-ce3869a76f00",
+  "channel": "morning",
+  "date": "2026-09-16",
+  "title": "2026-09-16 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-001",
+      "articleId": "article-e29c2367f3e0af5a38d464af",
+      "rank": 1,
+      "title": "이형일 \"통화 긴축에 공감…경제팀, 원팀으로 이끌 것\"",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005332642",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-002",
+      "articleId": "article-3e1e556041455806ab7aab2b",
+      "rank": 2,
+      "title": "AI 속도조절론에 증시 흔들…증권가 “빅테크 전략일 뿐, 반도체 이상 無”",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2625803",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-003",
+      "articleId": "article-f97be9af4afe90311817a98d",
+      "rank": 3,
+      "title": "‘AI 수도권 독점’… 지방과 고용 격차 더 벌어졌다",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0003998533",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-004",
+      "articleId": "article-88fb4e6c9e0c0e93df32d422",
+      "rank": 4,
+      "title": "주문은 AI가, 결제는 사람이 문자메시지로",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005735618",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-005",
+      "articleId": "article-1047d33efbd5047774be22f7",
+      "rank": 5,
+      "title": "공조는 같이, 배상은 왜 금융사만?...보이스피싱 '무과실 책임제' 논란",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005414315",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-006",
+      "articleId": "article-0446c76d3201d788a2fecb3a",
+      "rank": 6,
+      "title": "카카오, 첫 독립 AI 앱 '카나나' 종료…카톡 기반 AI에 집중",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006369723",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-007",
+      "articleId": "article-b436af3fa4eee69c2fd60ed9",
+      "rank": 7,
+      "title": "차기 은행연합회장에 윤종규·윤종원 부상",
+      "publisher": "파이낸셜뉴스",
+      "url": "http://n.news.naver.com/article/014/0005576271",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-008",
+      "articleId": "article-3d239749d517067e61d7f6f2",
+      "rank": 8,
+      "title": "韓 최대 자본시장 IR행사 출범…올해 첫 '코리아 프리미엄 위크'",
+      "publisher": "연합뉴스",
+      "url": "https://n.news.naver.com/article/001/0016311364",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-009",
+      "articleId": "article-e457849f4632e3ba1e9e8e31",
+      "rank": 9,
+      "title": "美 10년물 국채금리 5% 뚫었다…고유가ㆍ인플레 우려 직격",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2625862",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-16-ce3869a76f00-010",
+      "articleId": "article-39c4a098259f207be35f64a7",
+      "rank": 10,
+      "title": "원·달러 환율 두달새 200원 급락…기업들 사업계획 다시 짠다",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005332666",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

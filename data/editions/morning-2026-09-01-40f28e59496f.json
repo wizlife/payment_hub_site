@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-01-40f28e59496f",
+  "channel": "morning",
+  "date": "2026-09-01",
+  "title": "2026-09-01 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-01-40f28e59496f-001",
+      "articleId": "article-63ce879a9fb08803dbd11192",
+      "rank": 1,
+      "title": "\"대출이자 144만원 아꼈어요\" AI 덕분에…",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006361088",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-01-40f28e59496f-002",
+      "articleId": "article-f64b6e38c3e7a7f2ea33711e",
+      "rank": 2,
+      "title": "희비 엇갈린 인터넷은행…토스·카뱅은 사상 최대실적, 케이뱅크는 뒷걸음",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006361116",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-01-40f28e59496f-003",
+      "articleId": "article-533ca12197590c46bb20a975",
+      "rank": 3,
+      "title": "“말뿐인 금융개혁”… 유임된 금융당국 수장들 앞에 쌓인 ‘숙제’",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003675300",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-01-40f28e59496f-004",
+      "articleId": "article-c9b56fd318d099556db9906f",
+      "rank": 4,
+      "title": "생산적금융 앞세운 은행권… 자영업대출은 '제자리걸음'",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005568862",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-01-40f28e59496f-005",
+      "articleId": "article-c553fd37287b509132b71695",
+      "rank": 5,
+      "title": "고금리 못 버틴 서민 10만명 육박",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005568867",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-01-40f28e59496f-006",
+      "articleId": "article-16ad393328ce3e8943f3322b",
+      "rank": 6,
+      "title": "은행주, 고금리 타고 날았다… 기관들 순매수 돌아서",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001870071",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-01-40f28e59496f-007",
+      "articleId": "article-6f6d642fa309a139a58ddc3a",
+      "rank": 7,
+      "title": "지방공항 기피하는 은행들… 인천 입점엔 '수백억 베팅'",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005568870",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-01-40f28e59496f-008",
+      "articleId": "article-bd0ec676281eb2080103aef9",
+      "rank": 8,
+      "title": "원화 강세에…외화 환전·예금 급증",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005326797",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-01-40f28e59496f-009",
+      "articleId": "article-c278eeca9209be222133ba1c",
+      "rank": 9,
+      "title": "애플페이 교통카드, 네이버페이로 충전...안드로이드도 확대",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003461951",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

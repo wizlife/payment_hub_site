@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-08-ad895d901564",
+  "channel": "evening",
+  "date": "2026-09-08",
+  "title": "2026-09-08 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-09-08-ad895d901564-001",
+      "articleId": "article-6cc0b2846574291ab3422210",
+      "rank": 1,
+      "title": "증권가, 차세대 '양자내성암호' 도입...\"고객정보 철통 방어 나선다\"",
+      "publisher": "insightkorea.co.kr",
+      "url": "https://www.insightkorea.co.kr/news/articleView.html?idxno=254146",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T16:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-ad895d901564-002",
+      "articleId": "article-cfb78577e9cd3b4103daee06",
+      "rank": 2,
+      "title": "최대 5조1500억원 절감...원화 스테이블코인 준비자산 규제 제언",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/policy/404218",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T16:04:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-ad895d901564-003",
+      "articleId": "article-55ba9ce033b4785b8e3fcc21",
+      "rank": 3,
+      "title": "레이어제로, 원화 스테이블코인에 자체 토큰 표준 적용",
+      "publisher": "zdnet.co.kr",
+      "url": "https://zdnet.co.kr/view/?no=20260908142348",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T15:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-ad895d901564-004",
+      "articleId": "article-b21c902ddcbec8cd48411ca7",
+      "rank": 4,
+      "title": "우리은행, 금융보안원과 대학생 모의해킹 경진대회 열어",
+      "publisher": "thepublic.kr",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=317821",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-07T17:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-ad895d901564-005",
+      "articleId": "article-3bf44c032cbaecd6469307ba",
+      "rank": 5,
+      "title": "여수시, 외국인 관광객 결제 문턱 낮춘다",
+      "publisher": "newskr.kr",
+      "url": "http://www.newskr.kr/news/articleView.html?idxno=106181",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T10:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-ad895d901564-006",
+      "articleId": "article-ce1c9643994f5475c360ff31",
+      "rank": 6,
+      "title": "사람 대신 AI가 대리결제...에스와이폴라리스 구현 성공",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260908000197",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T13:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-ad895d901564-007",
+      "articleId": "article-914bee4ebc1f0a09604fbf7d",
+      "rank": 7,
+      "title": "은행 주담대 연체액 2조2천억...3년6개월 새 2.2배 급증",
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1276734.html",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T10:50:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-ad895d901564-008",
+      "articleId": "article-4ff5e594b1d08594db60f597",
+      "rank": 8,
+      "title": "美 국채 금리 발작에 韓 환율·증시·국고채 '경고등'",
+      "publisher": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1723453",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T15:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-08-ad895d901564-009",
+      "articleId": "article-705e6fa3efcc9bc5051ffec5",
+      "rank": 9,
+      "title": "장중 1330원대 찍은 환율... 1인당 GNI 첫 4만 달러 눈앞",
+      "publisher": "국민일보",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000010005&cp=nv",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-08T02:07:00+09:00"
+    }
+  ]
+}

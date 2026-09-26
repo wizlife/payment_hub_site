@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-02-dd34a18c0da6",
+  "channel": "evening",
+  "date": "2026-09-02",
+  "title": "2026-09-02 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-02-dd34a18c0da6-001",
+      "articleId": "article-b9f68bf62709877974b3b4b1",
+      "rank": 1,
+      "title": "다날, VASP 인엑스와 스테이블코인 결제·정산망 구축나서",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/09/02/2026090209582978374",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T10:12:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-dd34a18c0da6-002",
+      "articleId": "article-7c9457e8ecde05ac8d33bf11",
+      "rank": 2,
+      "title": "사토시홀딩스, 비자·구글 참여 '차세대 결제' 재단 합류...\"AI 에이전트...",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/09/02/2026090209112477580",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T09:14:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-dd34a18c0da6-003",
+      "articleId": "article-a2e84b2d9fb13c7bbaca0847",
+      "rank": 3,
+      "title": "美 은행 컨소시엄, 내년에 달러 연동 스테이블코인 발행",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202609027928i",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T01:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-dd34a18c0da6-004",
+      "articleId": "article-8212b4cdf79615b429e5d160",
+      "rank": 4,
+      "title": "700만명 모은 토스 ‘페이스페이’...\"보안 난이도, 금융권 수준 강화\"",
+      "publisher": "zdnet.co.kr",
+      "url": "https://zdnet.co.kr/view/?no=20260902101653",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T10:53:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-dd34a18c0da6-005",
+      "articleId": "article-fcc0d440349c31abe09e9edc",
+      "rank": 5,
+      "title": "[현장] 스테이블코인, 중소기업 무역결제 바꿀까...“기술보다 제도·검...",
+      "publisher": "thevaluenews.co.kr",
+      "url": "http://www.thevaluenews.co.kr/news/view.php?idx=201242",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T14:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-dd34a18c0da6-006",
+      "articleId": "article-12d0e1efb7e0805d72daf677",
+      "rank": 6,
+      "title": "성장·민생·청년에 방점... 금융위, 9조원대 슈퍼 예산 편성",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202609011802485869",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-01T18:05:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-dd34a18c0da6-007",
+      "articleId": "article-6889178819d65d246dde131e",
+      "rank": 7,
+      "title": "늙어버린 韓, 균형 실질금리 1.4%p 낮췄다⋯한은 \"은행 건전성도 위협\"",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2620966",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T11:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-dd34a18c0da6-008",
+      "articleId": "article-144c3558d1fe7b06301e6f08",
+      "rank": 8,
+      "title": "6월 은행 부실채권비율 0.63%...전분기比 0.03% 상승",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20260901_0003771931",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T06:00:00+09:00"
+    }
+  ]
+}

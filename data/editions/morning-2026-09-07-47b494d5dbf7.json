@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-07-47b494d5dbf7",
+  "channel": "morning",
+  "date": "2026-09-07",
+  "title": "2026-09-07 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-001",
+      "articleId": "article-aecda86ef164289b27be1a0e",
+      "rank": 1,
+      "title": "주식·채권·펀드도 토큰화 … 내년 2월부터 단계적 허용",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005730650",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-002",
+      "articleId": "article-021d392302e1d5abdf1baac2",
+      "rank": 2,
+      "title": "사망신고 다음날 금융거래 즉시 차단",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005731093",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-003",
+      "articleId": "article-cf342de230b7ea0298b124f4",
+      "rank": 3,
+      "title": "나라사랑카드 혜택 쩐쟁, 요동치는 군심",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005410059",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-004",
+      "articleId": "article-4cf0e921423a65477a2b398f",
+      "rank": 4,
+      "title": "[단독] 은행 막히자 보험권 '풍선효과' … 보험 가계대출 석달새 2.7조 쑥",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005731092",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-005",
+      "articleId": "article-43c0a2f66026238fc8aa43d9",
+      "rank": 5,
+      "title": "고용·산재기금 수익률 하락 … 건전성 '빨간불'",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005731096",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-006",
+      "articleId": "article-72ca20f437411fc46f129672",
+      "rank": 6,
+      "title": "SPRi “AI 정책, GPU·모델 확보만으론 부족…'파일럿의 벽' 해소해야”",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003463802",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-007",
+      "articleId": "article-0ac7277f5652f9ec011b363b",
+      "rank": 7,
+      "title": "정책금융권, 'IT 복원력' 강화…장애·해킹에도 금융서비스 잇는다",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003463906",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-008",
+      "articleId": "article-0ad777faf3979416cb7af847",
+      "rank": 8,
+      "title": "SKT 생활서비스·카카오 메신저·KT 콘텐츠…다담은 '모두의 AI' 연내 출격",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005328822",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-009",
+      "articleId": "article-6fe327bad3502644858ab03a",
+      "rank": 9,
+      "title": "지배구조 새판짜기…키워드는 인적분할",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005329211",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-07-47b494d5dbf7-010",
+      "articleId": "article-72c98aebf9d1eab3def5163f",
+      "rank": 10,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433634",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

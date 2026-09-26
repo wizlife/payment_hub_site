@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-02-fd698608b797",
+  "channel": "evening",
+  "date": "2026-09-02",
+  "title": "2026-09-02 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-09-02-fd698608b797-001",
+      "articleId": "article-b9f68bf62709877974b3b4b1",
+      "rank": 1,
+      "title": "다날, VASP 인엑스와 스테이블코인 결제·정산망 구축나서",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/09/02/2026090209582978374",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T10:12:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-fd698608b797-002",
+      "articleId": "article-b9b876185dc45bb259be084c",
+      "rank": 2,
+      "title": "야타브, 제1금융권과 생성형 AI 정보유출 방지 체계 구축",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260902000296",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T13:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-fd698608b797-003",
+      "articleId": "article-7c9457e8ecde05ac8d33bf11",
+      "rank": 3,
+      "title": "사토시홀딩스, 비자·구글 참여 '차세대 결제' 재단 합류...\"AI 에이전트...",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/09/02/2026090209112477580",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T09:14:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-fd698608b797-004",
+      "articleId": "article-2a703acc7c9314025713e023",
+      "rank": 4,
+      "title": "외국환거래법 개정, 그 이후는?...'스테이블코인이 바꾸는 무역결제의 미...",
+      "publisher": "mbnmoney.mbn.co.kr",
+      "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005913878",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T16:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-fd698608b797-005",
+      "articleId": "article-8212b4cdf79615b429e5d160",
+      "rank": 5,
+      "title": "700만명 모은 토스 ‘페이스페이’...\"보안 난이도, 금융권 수준 강화\"",
+      "publisher": "zdnet.co.kr",
+      "url": "https://zdnet.co.kr/view/?no=20260902101653",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T10:53:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-fd698608b797-006",
+      "articleId": "article-a8939445162a701897a7a677",
+      "rank": 6,
+      "title": "\"계좌 풀어줘\"...간 큰 보이스피싱범, 변호사 끼고 금감원 민원",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/02/2026090214365247275",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T16:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-fd698608b797-007",
+      "articleId": "article-7473c89ef22efd62060c6bbe",
+      "rank": 7,
+      "title": "1300원대로 떨어진 환율...달러·엔 환테크족 바빠졌다",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026090286121",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T16:21:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-02-fd698608b797-008",
+      "articleId": "article-c86f472317f19fdd6a34d85b",
+      "rank": 8,
+      "title": "‘부실채권 19조원’ 코앞인데 충당금 ‘부족’ ...경고등 들어온 지방은...",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12142441",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-02T16:17:00+09:00"
+    }
+  ]
+}

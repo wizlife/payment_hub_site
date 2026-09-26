@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-18-8d623422d024",
+  "channel": "morning",
+  "date": "2026-09-18",
+  "title": "2026-09-18 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-18-8d623422d024-001",
+      "articleId": "article-d694f37ecff1904b91481d4e",
+      "rank": 1,
+      "title": "[단독]'편의점 ATM'에서도 휴대폰만으로 입출금 가능해진다",
+      "publisher": "뉴스웨이",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026091709515734863",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-18-8d623422d024-002",
+      "articleId": "article-5afa3132fab64983e32c3ae3",
+      "rank": 2,
+      "title": "네이버페이, 대출 비교 라인업 확대…인뱅 3사 신용대출 한눈에",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003748877",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-18-8d623422d024-003",
+      "articleId": "article-c21d69e717e653a41a40a434",
+      "rank": 3,
+      "title": "\"카카오 '모두의 AI' 3년 뒤 챗GPT 넘어설 것\"",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005333549",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-18-8d623422d024-004",
+      "articleId": "article-0c8e014ec4079625426ce6d4",
+      "rank": 4,
+      "title": "이찬진 금감원장 \"소비자 보호, 갈 길 멀다\"",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005577590",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-18-8d623422d024-005",
+      "articleId": "article-b5e5e3b761881eb0fcdfb9f3",
+      "rank": 5,
+      "title": "트럼프가 뽑은 워시, 인플레 파이터로 …\"본격 긴축 멀었다\"",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005736847",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-18-8d623422d024-006",
+      "articleId": "article-3515c3e67a8078a48182817d",
+      "rank": 6,
+      "title": "한미 금리차 1%P로 벌어지며 … 韓銀, 11월 금리인상 무게",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005736848",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-18-8d623422d024-007",
+      "articleId": "article-a3522558b786d22cb1e28afd",
+      "rank": 7,
+      "title": "가계빚 2020조에 다시 금리 충격…취약차주부터 흔들린다",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2626810",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-18-8d623422d024-008",
+      "articleId": "article-fa8bc0516a23d71399ab3eae",
+      "rank": 8,
+      "title": "신정법 과징금 손보는 금융위…신한·라이나 제재도 낮아지나",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20260917135319079",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-18-8d623422d024-009",
+      "articleId": "article-55793825374094255e66a9a2",
+      "rank": 9,
+      "title": "공정위에 묶인 M&A…네이버·두나무도 표류",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004662981",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

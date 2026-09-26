@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-04-750793aeb8dc",
+  "channel": "evening",
+  "date": "2026-09-04",
+  "title": "2026-09-04 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-04-750793aeb8dc-001",
+      "articleId": "article-7345ce60da7caba1fa2727d0",
+      "rank": 1,
+      "title": "내달부터 전국 우체국·ATM서 부산은행 서비스",
+      "publisher": "kookje.co.kr",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260904.22012000908",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-03T19:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-04-750793aeb8dc-002",
+      "articleId": "article-30e03f52fe41e63e22aa70af",
+      "rank": 2,
+      "title": "韓銀 “스테이블코인 규제, 외환 시장 안정화엔 도움”",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/economy/economy_general/2026/09/04/YKO2FFR7RBHCBH7T52RY2SFHOI/",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-04T00:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-04-750793aeb8dc-003",
+      "articleId": "article-b56c277da77bd122d4ed98b6",
+      "rank": 3,
+      "title": "비토즈, 다날과 손잡고 스테이블코인 결제·정산 생태계 구축 나선다",
+      "publisher": "동아일보",
+      "url": "https://www.donga.com/news/Economy/article/all/20260904/134604461/1",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-04T09:51:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-04-750793aeb8dc-004",
+      "articleId": "article-205e8093e0a66e3c45994c2c",
+      "rank": 4,
+      "title": "스테이블코인 실증 전 제도 공백 ‘혼란’",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10862742?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-04T11:13:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-04-750793aeb8dc-005",
+      "articleId": "article-f5ad8878ed820dab40024250",
+      "rank": 5,
+      "title": "금융위, STO 정책 방향 공개...주식·채권 토큰화 3단계 로드맵 제시",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20260904_0003776027",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-04T10:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-04-750793aeb8dc-006",
+      "articleId": "article-078ad380e209d908d511ef76",
+      "rank": 6,
+      "title": "'결혼 자금으로 쓸게요' 이젠 안 돼...은행권, 대출 용도 더 깐깐히 따진...",
+      "publisher": "SBS",
+      "url": "https://biz.sbs.co.kr/article_hub/20000332789?division=NAVER",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-04T11:47:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-04-750793aeb8dc-007",
+      "articleId": "article-dabc01256400ec9df5d639d4",
+      "rank": 7,
+      "title": "금중대-기준금리 격차 약 4년만에 확대...역대 최대폭",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04821606645576512",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-03T18:01:00+09:00"
+    }
+  ]
+}
