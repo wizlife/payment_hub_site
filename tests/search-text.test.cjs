@@ -71,3 +71,30 @@ test('generated records preserve sources and only expose explicitly selected pub
     for(const field of search.fields) assert.equal(record[field],byId.get(record.entryId)[field]||'');
   }
 });
+
+
+test('grouping preserves ranked matches and lets every matching appearance be selected', () => {
+  const newest=record({articleId:'same',title:'CBDC',date:'2026-10-02',entryId:'new'});
+  const oldest=record({articleId:'same',title:'CBDC',date:'2026-09-01',entryId:'old'});
+  const other=record({articleId:'other',title:'CBDC',entryId:'other'});
+  const result=search.group(search.find([oldest,other,newest],'cbdc'));
+  assert.deepEqual(result.map(group=>group.articleId),['same','other']);
+  assert.deepEqual(result[0].appearances,[newest,oldest]);
+  assert.equal(result.reduce((sum,group)=>sum+group.appearances.length,0),3);
+  assert.deepEqual(search.group(search.find([oldest,other,newest],'cbdc',{date:'2026-09-01'})),[{articleId:'same',appearances:[oldest]}]);
+});
+test('grouping never combines terms across appearances or includes a nonmatching version', () => {
+  const first=record({articleId:'same',title:'CBDC',entryId:'first'});
+  const second=record({articleId:'same',title:'금융결제원',entryId:'second'});
+  assert.deepEqual(search.group(search.find([first,second],'CBDC 금융결제원')),[]);
+  assert.deepEqual(search.group(search.find([first,second],'CBDC')),[{articleId:'same',appearances:[first]}]);
+  assert.equal(search.group([record({entryId:'one'}),record({entryId:'two'})]).length,2);
+});
+test('all grouped results preserve exactly the matching source appearances', () => {
+  for (const query of ['cBdC','현금화','레드팀','"APEX 2026"','고객정보 유출','금융결제원 인증','금융결제원'.normalize('NFD'),'존재하지않는검색어123']) {
+    const expected=records.filter(item=>search.terms(query).every(term=>['title','summary','publisher'].some(field=>(item[field]||'').normalize('NFC').toLowerCase().includes(term))));
+    const groups=search.group(search.find(records,query));
+    assert.equal(groups.length,new Set(expected.map(item=>item.articleId)).size);
+    assert.deepEqual(new Set(groups.flatMap(group=>group.appearances.map(item=>item.entryId))),new Set(expected.map(item=>item.entryId)));
+  }
+});

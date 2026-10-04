@@ -44,6 +44,12 @@ for (const ref of catalog.editions) {
 for (const channel of catalog.channels) {
   const refs = catalog.editions.filter(ref => ref.channel === channel.id).sort((a,b) => b.date.localeCompare(a.date));
   assert(refs.length ? refs.some(ref => ref.id === channel.latestEditionId && ref.date === refs[0].date) : channel.latestEditionId === null, 'Latest edition pointer mismatch');
+  const defaults = catalog.defaultEditionIds?.[channel.id];
+  assert(defaults && typeof defaults === 'object', 'Missing default edition pointers');
+  const dates = new Set(refs.map(ref => ref.date));
+  assert(Object.keys(defaults).length === dates.size, 'Default edition date count mismatch');
+  for (const date of dates) assert(refs.some(ref => ref.date === date && ref.id === defaults[date]), 'Default edition pointer mismatch');
+  if (refs.length) assert(defaults[refs[0].date] === channel.latestEditionId, 'Default and latest editions disagree');
 }
 const appearances = new Map();
 for (const { item } of entries) appearances.set(item.articleId, (appearances.get(item.articleId) || 0) + 1);

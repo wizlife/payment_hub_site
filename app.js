@@ -25,12 +25,13 @@ function readRoute() {
   const params = new URLSearchParams(location.search);
   const edition = params.get('edition') || '';
   const view = edition ? 'archive' : (['latest', 'archive', 'search'].includes(params.get('view')) ? params.get('view') : params.has('q') ? 'search' : 'latest');
-  return { view, edition, query: params.get('q') || '', channel: ['morning', 'evening', 'ai'].includes(params.get('channel')) ? params.get('channel') : 'all', date: /^\d{4}-\d{2}-\d{2}$/.test(params.get('date') || '') ? params.get('date') : 'all', sort: params.get('sort') === 'latest' ? 'latest' : 'relevance' };
+  return { view, edition, query: params.get('q') || '', highlight: params.get('highlight') || '', channel: ['morning', 'evening', 'ai'].includes(params.get('channel')) ? params.get('channel') : 'all', date: /^\d{4}-\d{2}-\d{2}$/.test(params.get('date') || '') ? params.get('date') : 'all', sort: params.get('sort') === 'latest' ? 'latest' : 'relevance' };
 }
 function routeUrl(next, hash = '') {
   const url = new URL(siteRoot);
   if (next.edition && next.view === 'archive') url.searchParams.set('edition', next.edition);
   else if (next.view !== 'latest') url.searchParams.set('view', next.view);
+  if (next.view === 'archive' && next.highlight) url.searchParams.set('highlight', next.highlight);
   if (next.view === 'search' && next.query) url.searchParams.set('q', next.query);
   if (next.view !== 'latest' && next.channel !== 'all') url.searchParams.set('channel', next.channel);
   if (next.view !== 'latest' && next.date !== 'all') url.searchParams.set('date', next.date);
@@ -45,7 +46,7 @@ function navigate(changes, { replace = false, hash = '', scroll = false } = {}) 
   renderRoute();
   if (scroll) $('#briefing').scrollIntoView({ block: 'start' });
 }
-function openEdition(id, hash = '') { navigate({ view: 'archive', edition: id, channel: 'all', date: 'all' }, { hash, scroll: !hash }); }
+function openEdition(id, hash = '', highlight = '') { navigate({ view: 'archive', edition: id, channel: 'all', date: 'all', highlight }, { hash, scroll: !hash }); }
 function linkUrl(value) {
   try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) && !url.username && !url.password ? url.href : null; } catch { return null; }
 }
@@ -89,15 +90,28 @@ function fillFilters() {
 }
 function editionVariant(edition) {
   const plainTitle = `${edition.date} ${labels[edition.channel] || edition.channel}`;
-  return edition.title && edition.title !== plainTitle ? edition.title : '';
+  if (!edition.title || edition.title === plainTitle) return '';
+  return edition.title.startsWith(plainTitle + ' · ') ? edition.title.slice(plainTitle.length + 3) : edition.title;
+}
+function isDefaultEdition(edition) {
+  const selected = catalog.defaultEditionIds?.[edition.channel]?.[edition.date] || catalog.channels.find(channel => channel.id === edition.channel)?.latestEditionId;
+  return selected === edition.id;
+}
+function sortedEditions() {
+  return [...catalog.editions].sort((a, b) => b.date.localeCompare(a.date) || a.channel.localeCompare(b.channel) || Number(isDefaultEdition(b)) - Number(isDefaultEdition(a)));
 }
 function editionChoice(edition) {
-  return `${dateLabel(edition.date)} · ${labels[edition.channel] || edition.channel}${editionVariant(edition) ? ` · ${editionVariant(edition)}` : ''} (${edition.itemCount}건)`;
+  return `${dateLabel(edition.date)} · ${labels[edition.channel] || edition.channel}${editionVariant(edition) ? ` · ${editionVariant(edition)}` : ''} (${edition.itemCount}건)${editionVariant(edition) && isDefaultEdition(edition) ? ' · 기본판' : ''}`;
 }
 function renderOverview() {
   const latest = catalog.editions.map(edition => edition.date).sort().at(-1);
   const oldest = catalog.editions.map(edition => edition.date).sort()[0];
   $('#latest-date').textContent = latest ? latest.replaceAll('-', '.') : '자료 준비 중';
+  const updated = new Date(catalog.updatedAt);
+  if (!Number.isNaN(updated.getTime())) {
+    $('#data-updated-at').dateTime = catalog.updatedAt;
+    $('#data-updated-at').textContent = new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(updated) + ' (한국시간)';
+  } else $('#data-updated-at').textContent = '시각 미제공';
   $('#edition-total').textContent = catalog.editions.length;
   $('#item-total').textContent = catalog.editions.reduce((sum, edition) => sum + edition.itemCount, 0);
   $('#channel-total').textContent = catalog.channels.filter(channel => channel.status === 'available' && channel.latestEditionId).length;
@@ -132,16 +146,21 @@ async function fetchEdition(record) {
 }
 function articleCard(item, edition, index) {
   const card = element('article', item.summary ? 'ai-card' : 'ai-card title-card'); card.id = item.id; card.tabIndex = -1;
+  const highlight = state.view === 'archive' && location.hash === '#' + encodeURIComponent(item.id) ? state.highlight : '';
   const top = element('div', 'ai-card-top');
-  top.append(element('span', 'article-number', String(item.rank || index + 1).padStart(2, '0')), element('span', 'publisher', item.publisher || '출처 미상'));
+  const publisher = element('span', 'publisher'); appendHighlighted(publisher, item.publisher || '출처 미상', highlight);
+  top.append(element('span', 'article-number', String(item.rank || index + 1).padStart(2, '0')), publisher);
   if (item.category) top.prepend(element('span', 'topic-label', item.category));
-  card.append(top, element('h3', '', item.title));
+  const title = element('h3'); appendHighlighted(title, item.title, highlight);
+  card.append(top, title);
   if (item.summary) {
-    const teaser = element('p', 'ai-teaser', item.summary);
+    const teaser = element('p', 'ai-teaser'); appendHighlighted(teaser, item.summary, highlight);
     const details = element('details', 'article-details');
     const summary = element('summary', '', '요약 전체 보기');
     summary.setAttribute('aria-label', `${item.title} 요약 펼치기 또는 접기`);
-    details.append(summary, element('p', 'full-summary', item.summary));
+    const fullSummary = element('p', 'full-summary'); appendHighlighted(fullSummary, item.summary, highlight);
+    details.append(summary, fullSummary);
+    if (highlight && SearchText.hasMatch(item.summary, highlight)) { details.open = true; card.classList.add('expanded'); summary.textContent = '요약 접기'; }
     details.addEventListener('toggle', () => { card.classList.toggle('expanded', details.open); summary.textContent = details.open ? '요약 접기' : '요약 전체 보기'; });
     card.append(teaser, details);
   }
@@ -150,13 +169,14 @@ function articleCard(item, edition, index) {
   else footer.append(element('span', 'published-time', '기사 발행 시각 미제공'));
   footer.append(externalLink(item)); card.append(footer);
   if (item.linkStatus === 'unavailable') card.append(element('p', 'link-note', item.linkNote || '보관된 원문 링크가 현재 열리지 않습니다.'));
-  const permalink = element('a', 'entry-permalink', '이 항목 링크'); permalink.href = routeUrl({ ...state, view: 'archive', edition: edition.id, channel: 'all', date: 'all' }, item.id); permalink.setAttribute('aria-label', `${item.title} — 이 항목 링크`);
-  permalink.addEventListener('click', event => { if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); openEdition(edition.id, item.id); });
+  const permalink = element('a', 'entry-permalink', '이 항목 링크'); permalink.href = routeUrl({ ...state, view: 'archive', edition: edition.id, channel: 'all', date: 'all', highlight }, item.id); permalink.setAttribute('aria-label', `${item.title} — 이 항목 링크`);
+  permalink.addEventListener('click', event => { if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); openEdition(edition.id, item.id, highlight); });
   card.append(permalink);
   return card;
 }
 function renderEdition(edition) {
-  const section = element('section', 'news-section'); section.dataset.edition = edition.id;
+  const titleOnly = !edition.items.some(item => item.summary);
+  const section = element('section', `news-section${titleOnly ? ' headline-section' : ''}`); section.dataset.edition = edition.id;
   const heading = element('div', 'section-heading');
   const titleBlock = element('div');
   titleBlock.append(element('p', 'eyebrow section-eyebrow', subtitles[edition.channel] || edition.channel));
@@ -170,7 +190,7 @@ function renderEdition(edition) {
     section.addEventListener('toggle', () => { const details = [...section.querySelectorAll('details')]; toggle.textContent = details.every(item => item.open) ? '요약 모두 접기 −' : '요약 모두 펼치기 ＋'; }, true);
     heading.append(toggle);
   }
-  const grid = element('div', 'ai-grid'); grid.append(...edition.items.map((item, index) => articleCard(item, edition, index)));
+  const grid = element('div', `ai-grid${titleOnly ? ' title-list' : ''}`); grid.append(...edition.items.map((item, index) => articleCard(item, edition, index)));
   section.append(heading, grid); return section;
 }
 function showEmpty(title, description) { $('#empty-title').textContent = title; $('#empty-description').textContent = description; $('#empty-results').hidden = false; }
@@ -184,18 +204,17 @@ function jumpToHash() {
 async function renderRoute() {
   if (!catalog) return;
   const token = ++routeToken; ++searchToken;
-  $('.hero').hidden = state.view === 'search';
-  $('#channel-overview').hidden = state.view === 'search';
+  $('.hero').hidden = state.view !== 'latest';
+  $('#channel-overview').hidden = state.view !== 'latest';
   $('#load-error').hidden = true; $('#empty-results').hidden = true; $('#load-more').hidden = true;
   $('#edition-content').replaceChildren(); $('#search-results').replaceChildren();
   $('#archive-controls').hidden = state.view !== 'archive'; $('#search-controls').hidden = state.view !== 'search'; $('#search-results').hidden = state.view !== 'search';
   document.querySelectorAll('[data-view]').forEach(node => { if (node.tagName === 'BUTTON') node.setAttribute('aria-pressed', String(node.dataset.view === state.view)); else { node.classList.toggle('active', node.dataset.view === state.view); if (node.dataset.view === state.view) node.setAttribute('aria-current', 'page'); else node.removeAttribute('aria-current'); } });
   const viewLabels = { latest: '최신 브리핑', archive: '지난 자료', search: '전체 검색' };
   document.title = `${viewLabels[state.view]} · Payment Hub`;
-  $('#view-hint').textContent = { latest: '채널마다 가장 최근에 등록된 정리본입니다.', archive: '채널의 선정 순서대로 지난 자료를 읽습니다.', search: '공개 아카이브 전체에서 필요한 소식을 찾습니다.' }[state.view];
   fillFilters();
   if (state.view === 'search') { runSearch(); return; }
-  const sorted = [...catalog.editions].sort((a, b) => b.date.localeCompare(a.date) || a.channel.localeCompare(b.channel));
+  const sorted = sortedEditions();
   let records;
   if (state.view === 'archive') {
     const filtered = sorted.filter(edition => (state.channel === 'all' || edition.channel === state.channel) && (state.date === 'all' || edition.date === state.date));
@@ -223,16 +242,22 @@ async function getSearchRecords() {
   }).catch(error => { searchDataPromise = null; throw error; });
   return searchDataPromise;
 }
-function searchCard(meta) {
-  const card = element('article', 'search-result');
+function editionLink(meta, label, className = 'edition-link') {
+  const query = state.query;
+  const link = element('a', className, label);
+  link.href = routeUrl({ ...state, view: 'archive', edition: meta.editionId, channel: 'all', date: 'all', highlight: query }, meta.entryId || '');
+  link.addEventListener('click', event => { if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); openEdition(meta.editionId, meta.entryId, query); });
+  return link;
+}
+function searchCard(group) {
+  // The first appearance follows the selected search order and matches all terms itself.
+  const meta = group.appearances[0];
+  const card = element('article', 'search-result'); card.dataset.articleId = group.articleId;
   const topline = element('div', 'search-result-meta');
   const publisher = element('span', 'publisher'); appendHighlighted(publisher, meta.publisher || '출처 미상');
   topline.append(element('span', 'topic-label', meta.channelLabel || labels[meta.channel] || '뉴스'), element('span', '', `${dateLabel(meta.date)} 정리본`), publisher);
-  const title = element('h2'); const link = element('a');
+  const title = element('h2'); const link = editionLink(meta, '', 'search-title-link');
   appendHighlighted(link, meta.title || '제목 없음');
-  const targetUrl = routeUrl({ ...state, view: 'archive', edition: meta.editionId, channel: 'all', date: 'all' }, meta.entryId || '');
-  link.href = targetUrl;
-  link.addEventListener('click', event => { if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); openEdition(meta.editionId, meta.entryId); });
   title.append(link); card.append(topline, title);
   if (state.query.trim()) {
     const matches = [['title', '제목'], ['summary', '요약'], ['publisher', '언론사']].filter(([field]) => SearchText.hasMatch(meta[field] || '', state.query));
@@ -243,14 +268,27 @@ function searchCard(meta) {
   if (meta.summary) {
     const snippet = element('p', 'search-result-summary');
     appendHighlighted(snippet, SearchText.excerpt(meta.summary, state.query)); card.append(snippet);
+  } else card.append(element('p', 'search-result-summary title-only-note', '제목과 출처를 제공하는 기사입니다. 내용은 원문에서 확인해 주세요.'));
+  if (group.appearances.length > 1) {
+    const choices = element('details', 'appearance-choices');
+    choices.append(element('summary', 'appearance-count', `일치하는 게재 ${group.appearances.length}건 · 정리본 선택`));
+    const list = element('ul', 'appearance-list');
+    for (const appearance of group.appearances) {
+      const record = catalog.editions.find(edition => edition.id === appearance.editionId);
+      const variant = record && editionVariant(record);
+      const row = element('li');
+      row.append(editionLink(appearance, `${dateLabel(appearance.date)} · ${labels[appearance.channel]}${variant ? ' · ' + variant : ''} · ${appearance.rank}번 기사 →`, 'appearance-link'));
+      if (appearance.title !== meta.title) { const caption = element('p', 'appearance-title'); appendHighlighted(caption, appearance.title); row.append(caption); }
+      list.append(row);
+    }
+    choices.append(list); card.append(choices);
   }
-  else card.append(element('p', 'search-result-summary title-only-note', '제목과 출처를 제공하는 기사입니다. 내용은 원문에서 확인해 주세요.'));
-  if (Number(meta.appearanceCount) > 1) card.append(element('p', 'repeat-note', `이 기사는 전체 자료에서 ${Number(meta.appearanceCount)}회 게재되었습니다. 발행본별로 표시합니다.`));
-  const footer = element('div', 'search-result-footer'); footer.append(element('span', '', meta.category || '원래 정리본에서 보기'), externalLink({ title: meta.title, url: meta.url, linkStatus: meta.linkStatus })); card.append(footer);
+  const footer = element('div', 'search-result-footer');
+  footer.append(editionLink(meta, '정리본에서 보기 →'), externalLink({ title: meta.title, url: meta.url, linkStatus: meta.linkStatus })); card.append(footer);
   return card;
 }
-function appendHighlighted(node, text) {
-  for (const part of SearchText.pieces(text, state.query)) node.append(part.match ? element('mark', '', part.text) : document.createTextNode(part.text));
+function appendHighlighted(node, text, query = state.query) {
+  for (const part of SearchText.pieces(text, query)) node.append(part.match ? element('mark', '', part.text) : document.createTextNode(part.text));
 }
 async function appendSearchResults(token) {
   const start = shownResults;
@@ -271,9 +309,10 @@ async function runSearch() {
   try {
     const records = await getSearchRecords();
     if (token !== searchToken || state.view !== 'search') return;
-    searchResults = SearchText.find(records, state.query, state);
+    const matches = SearchText.find(records, state.query, state);
+    searchResults = SearchText.group(matches);
     const queryTerms = SearchText.terms(state.query);
-    $('#results-status').textContent = `${state.query.trim() ? `“${state.query.trim()}” 검색 결과 · ` : ''}${searchResults.length}개 게재 항목 · 같은 기사 반복 게재 포함`;
+    $('#results-status').textContent = `${state.query.trim() ? `“${state.query.trim()}” 검색 결과 · ` : ''}기사 ${searchResults.length}개 · 게재 ${matches.length}건`;
     if (!searchResults.length) { showEmpty('일치하는 기사가 없습니다', queryTerms.length > 1 ? '입력한 검색어를 모두 포함하는 제목·요약·언론사를 찾지 못했습니다. 검색어를 하나씩 검색하거나 날짜·채널 조건을 바꿔 보세요.' : '다른 검색어를 입력하거나 날짜·채널 조건을 바꿔 보세요.'); return; }
     await appendSearchResults(token);
   } catch { if (token === searchToken) { $('#results-status').textContent = '검색을 불러오지 못했습니다.'; $('#error-description').textContent = '검색 파일을 불러오지 못했습니다. 다시 시도하거나 지난 자료에서 정리본을 선택해 주세요.'; $('#load-error').hidden = false; } }
@@ -288,7 +327,7 @@ async function load() {
     catalog = data;
     const legacyEdition = /^(morning|evening|ai)-(\d{4}-\d{2}-\d{2})$/.exec(state.edition);
     if (legacyEdition && !catalog.editions.some(edition => edition.id === state.edition)) {
-      const record = catalog.editions.find(edition => edition.channel === legacyEdition[1] && edition.date === legacyEdition[2]);
+      const record = sortedEditions().find(edition => edition.channel === legacyEdition[1] && edition.date === legacyEdition[2]);
       if (record) { state = { ...state, edition: record.id }; history.replaceState(null, '', routeUrl(state, location.hash)); }
     }
     const legacy = /^#(morning|ai)-(\d+)$/.exec(location.hash);
@@ -300,9 +339,10 @@ async function load() {
   } catch { $('#results-status').textContent = '자료를 불러오지 못했습니다.'; $('#error-description').textContent = '공개 자료 목록을 불러오지 못했습니다. 연결 상태를 확인하고 다시 시도해 주세요.'; $('#load-error').hidden = false; }
 }
 
-for (const node of document.querySelectorAll('[data-view]')) node.addEventListener('click', event => { event.preventDefault(); navigate({ view: node.dataset.view, edition: '', channel: 'all', date: 'all', query: '', sort: 'relevance' }, { scroll: node.tagName === 'A' }); });
-for (const field of ['channel', 'date']) $('#archive-' + field).addEventListener('change', event => navigate({ [field]: event.target.value, edition: '' }));
-$('#archive-edition').addEventListener('change', event => navigate({ edition: event.target.value }));
+for (const node of document.querySelectorAll('[data-view]')) node.addEventListener('click', event => { event.preventDefault(); navigate({ view: node.dataset.view, edition: '', channel: 'all', date: 'all', query: '', highlight: '', sort: 'relevance' }, { scroll: node.tagName === 'A' }); });
+for (const field of ['channel', 'date']) $('#archive-' + field).addEventListener('change', event => navigate({ [field]: event.target.value, edition: '', highlight: '' }));
+$('#archive-edition').addEventListener('change', event => navigate({ edition: event.target.value, highlight: '' }));
+$('#home-search-form').addEventListener('submit', event => { event.preventDefault(); navigate({ view: 'search', edition: '', query: $('#home-search').value, highlight: '', channel: 'all', date: 'all', sort: 'relevance' }, { scroll: true }); $('#news-search').focus({ preventScroll: true }); });
 $('#search-form').addEventListener('submit', event => { event.preventDefault(); navigate({ query: $('#news-search').value }, { replace: true }); });
 $('#news-search').addEventListener('input', event => { const query = event.target.value; $('#clear-search').hidden = !query; clearTimeout(searchTimer); ++searchToken; $('#load-more').hidden = true; searchTimer = setTimeout(() => navigate({ query }, { replace: true }), 280); });
 for (const field of ['channel', 'date', 'sort']) $('#search-' + field).addEventListener('change', event => navigate({ [field]: event.target.value, query: $('#news-search').value }, { replace: true }));

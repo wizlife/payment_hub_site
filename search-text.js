@@ -20,6 +20,16 @@
       .sort((a, b) => (sort === 'latest' ? 0 : b.titleHits - a.titleHits) || b.item.date.localeCompare(a.item.date) || a.item.editionId.localeCompare(b.item.editionId) || a.item.rank - b.item.rank || a.item.entryId.localeCompare(b.item.entryId))
       .map(result => result.item);
   }
+  // Group only after matching/filtering: terms must never be combined across editions.
+  function group(records) {
+    const groups = new Map();
+    for (const record of records) {
+      const key = record.articleId || record.entryId;
+      if (!groups.has(key)) groups.set(key, { articleId: key, appearances: [] });
+      groups.get(key).appearances.push(record);
+    }
+    return [...groups.values()];
+  }
   function pieces(text, query) {
     text = normalize(text);
     const words = terms(query);
@@ -44,7 +54,7 @@
     const start = Math.max(0, first - 70);
     return `${start ? '…' : ''}${text.slice(start, start + limit)}${start + limit < text.length ? '…' : ''}`;
   }
-  const api = { fields, content, terms, find, pieces, hasMatch, excerpt };
+  const api = { fields, content, terms, find, group, pieces, hasMatch, excerpt };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else globalThis.SearchText = api;
 })();
