@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-28-79d27e543837",
+  "channel": "morning",
+  "date": "2026-09-28",
+  "title": "2026-09-28 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-28-79d27e543837-001",
+      "articleId": "article-96eff6bd67a7f177dd355ce4",
+      "rank": 1,
+      "title": "개인사업자 신용대출 갈아타기 시간, 오후 10시까지 연장",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003469982",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-002",
+      "articleId": "article-b71c2a3cfedfb5c572bca3b7",
+      "rank": 2,
+      "title": "은행 대출, 신규보다 갈아타기 평균금리 높아…최대 2.33%p 차이",
+      "publisher": "한겨레",
+      "url": "https://n.news.naver.com/article/028/0002824773",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-003",
+      "articleId": "article-235107d96f92d74b9319982e",
+      "rank": 3,
+      "title": "카드 직접 만들고… 보험 직접 팔고… 수수료 챙기는 ‘셀프 금융’이 뜬다",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003750852",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-004",
+      "articleId": "article-4feb09db4ac801a8cee3347f",
+      "rank": 4,
+      "title": "신한 ‘S급 부장’ 업무 노하우 AI에 담는다",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004665601",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-005",
+      "articleId": "article-f3575abc1e7d88d3919c0276",
+      "rank": 5,
+      "title": "뉴노멀 된 ‘美 국채금리 5%’…“30년물 연내 6% 넘어설 것”",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004665684",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-006",
+      "articleId": "article-d2b8a35e7d6121ded8f75799",
+      "rank": 6,
+      "title": "삼성전자, DS 특별성과급 기준 이번주 공개",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004665696",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-007",
+      "articleId": "article-bb0ce8797eb30999d1d5f50d",
+      "rank": 7,
+      "title": "펀드 위험등급 ‘늑장 반영’…산은 등 은행 9곳 무더기 제재",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2629168",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-008",
+      "articleId": "article-02c1a4cf564614b48c55d110",
+      "rank": 8,
+      "title": "반도체 호황에 … 법인카드 사용액 역대 최대",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005740365",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-009",
+      "articleId": "article-afd9563d496683eb09e30a8c",
+      "rank": 9,
+      "title": "추석 뒤 금융권 '인사 빅뱅'… 5대 은행장·은행연합회장 누가 될까",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000956162",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-010",
+      "articleId": "article-32696b6990828a1de3c79a9e",
+      "rank": 10,
+      "title": "외환시장 24시간 개방에도…오전 2~9시 거래는 1%뿐",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005336365",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837-011",
+      "articleId": "article-5c82031973eab3025caecdd8",
+      "rank": 11,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436589",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

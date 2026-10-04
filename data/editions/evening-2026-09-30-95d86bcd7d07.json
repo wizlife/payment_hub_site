@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-30-95d86bcd7d07",
+  "channel": "evening",
+  "date": "2026-09-30",
+  "title": "2026-09-30 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-001",
+      "articleId": "article-0f811e93321c445de55449b1",
+      "rank": 1,
+      "title": "KB국민·신한·하나·우리은행, 연체자 생계비 예금 250만원 보호 절차 ...",
+      "publisher": "sateconomy.co.kr",
+      "url": "https://sateconomy.co.kr/news/view/1065576183685471",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T10:50:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-002",
+      "articleId": "article-ffa9ac6ca12ba9a3f29e8c7a",
+      "rank": 2,
+      "title": "은행권 최저생계비 조회용 계좌통합조회서비스 개시",
+      "publisher": "mediapen.com",
+      "url": "https://www.mediapen.com/news/view/1126691",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-29T17:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-003",
+      "articleId": "article-18c7d37f39318389005c8272",
+      "rank": 3,
+      "title": "[KBW 2026] 한국은행 \"CBDC 직접 쓰는 구조 아냐...예금토큰 중심 통화인...",
+      "publisher": "newswhoplus.com",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=70735",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T15:54:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-004",
+      "articleId": "article-e534c02655790aa36ae64c0d",
+      "rank": 4,
+      "title": "더즌, 솔라나재단과 스테이블코인 결제·정산 기술 검증 결과 공개",
+      "publisher": "한국경제",
+      "url": "https://magazine.hankyung.com/money/article/202609305259c",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T16:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-005",
+      "articleId": "article-0cae89a430be256f76beac0d",
+      "rank": 5,
+      "title": "케이에스넷, '솔라나 서밋'서 AI 결제 인프라 실증 공개",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260930000426",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T16:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-006",
+      "articleId": "article-b997bf738a9d13b6f6b2a999",
+      "rank": 6,
+      "title": "토큰증권부터 결제주기 단축까지⋯금융위, 글로벌 거래소와 협력 논의",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2630595",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-29T20:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-007",
+      "articleId": "article-76d4e91debf76359912010e6",
+      "rank": 7,
+      "title": "씨티, 하나은행의 첫 디지털 채권 발행 지원",
+      "publisher": "daily.hankooki.com",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1410889",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T14:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-008",
+      "articleId": "article-a090db791b68afa2e44a93c3",
+      "rank": 8,
+      "title": "카드사, 간편결제 점유율 되찾아...하지만 싸움터는 이미 옮겨갔다",
+      "publisher": "greened.kr",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=351077",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T15:41:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-009",
+      "articleId": "article-73083a8ed109cfc1fbefb513",
+      "rank": 9,
+      "title": "통신업계 \"보이스피싱 무과실 배상책임 부적절\"",
+      "publisher": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1726258",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T16:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-010",
+      "articleId": "article-75c18922633d016feac6cabd",
+      "rank": 10,
+      "title": "국민카드, AI 에이전트 결제 기술 공동 검증 추진...쇼핑·인증·거래 연...",
+      "publisher": "asiaa.co.kr",
+      "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=264520",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-29T17:16:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-011",
+      "articleId": "article-ac8726139ccb02624cbc91ad",
+      "rank": 11,
+      "title": "1000만원 분쟁조정안, 무조건 따라라?..금감원 분조위 '독립성' 관건",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/09/30/2026093015413863895",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T16:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-012",
+      "articleId": "article-48e38cc28ac7fa0dab6abf18",
+      "rank": 12,
+      "title": "은행권 '금융사고' 7개월 만에 1700억 넘어... 외부인 사기·해외점포까지...",
+      "publisher": "ilyoseoul.co.kr",
+      "url": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=523182",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T15:46:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07-013",
+      "articleId": "article-24070b4b6ae0eaac11c3b61a",
+      "rank": 13,
+      "title": "먼저 올린 호주, 긴축 끝 보이나...韓 기준금리 고점 가늠자",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437070",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T10:06:00+09:00"
+    }
+  ]
+}

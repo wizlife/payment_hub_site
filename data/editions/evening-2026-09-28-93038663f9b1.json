@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-28-93038663f9b1",
+  "channel": "evening",
+  "date": "2026-09-28",
+  "title": "2026-09-28 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-09-28-93038663f9b1-001",
+      "articleId": "article-b18aaa75a875c259d9782f97",
+      "rank": 1,
+      "title": "금융·통신 영장, 온라인으로 집행...'전송형 전자영장 집행시스템' 개통",
+      "publisher": "뉴스1",
+      "url": "https://www.news1.kr/society/general-society/6302809",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T09:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-002",
+      "articleId": "article-96befe63b1f05704e1450b2d",
+      "rank": 2,
+      "title": "수사기관 영장 집행, 종이 대신 전자문서로 가능해진다",
+      "publisher": "동아일보",
+      "url": "https://www.donga.com/news/Society/article/all/20260928/134743757/1",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T16:19:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-003",
+      "articleId": "article-1bef1b8a8373caa8c23e0c44",
+      "rank": 3,
+      "title": "계좌·통신영장, 이제 종이 아닌 온라인으로...수사기관 전자영장 집행...",
+      "publisher": "한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026092811340001723?did=NA",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T14:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-004",
+      "articleId": "article-a67b4b3dc9511088b9b66bfa",
+      "rank": 4,
+      "title": "온라인 예금 비교·추천 서비스 제도화...이해상충 방지 기준 마련",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02689606645584712",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T11:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-005",
+      "articleId": "article-992b72a14e1f30a6e2149add",
+      "rank": 5,
+      "title": "금융·통신 영장, 앞으로는 온라인으로 집행한다",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02355046645584712",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T10:04:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-006",
+      "articleId": "article-0a369b37a47dc66a3b7279b5",
+      "rank": 6,
+      "title": "온라인서 여러 은행 예금 한눈에 ... 비교·추천 서비스 제도화",
+      "publisher": "biz.newdaily.co.kr",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/09/28/2026092800158.html",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T16:04:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-007",
+      "articleId": "article-ddefc586d230e2a4d72396fa",
+      "rank": 7,
+      "title": "온라인 예금중개 서비스 제도화...소비자 보호 장치 강화",
+      "publisher": "newsprime.co.kr",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=749113",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T16:04:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-008",
+      "articleId": "article-b10221ba54065f8bb19e9e29",
+      "rank": 8,
+      "title": "예금 비교·추천 제도권으로...플랫폼 독주엔 ‘1% 족쇄’",
+      "publisher": "조세일보",
+      "url": "http://www.joseilbo.com/news/news_read.php?class=18&grp=&uid=576404",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T10:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-009",
+      "articleId": "article-7b32fb19671de388e43bd5d5",
+      "rank": 9,
+      "title": "예금 비교 플랫폼, 정식 등록 길 열린다...43일간 의견수렴",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/policy/414895",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T10:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-010",
+      "articleId": "article-961242e6c178979771e44306",
+      "rank": 10,
+      "title": "금융·통신영장, 이제 온라인으로 집행하고 자료 확보",
+      "publisher": "lawissue.co.kr",
+      "url": "http://www.lawissue.co.kr/view.php?ud=2026092809465641999a8c8bf58f_12",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T09:50:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-011",
+      "articleId": "article-a6e0edd8295c42333cf22677",
+      "rank": 11,
+      "title": "국정원, 국가·공공기관 사이버보안 평가 강화",
+      "publisher": "zdnet.co.kr",
+      "url": "https://zdnet.co.kr/view/?no=20260926160403",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-26T16:04:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-012",
+      "articleId": "article-6c8878293e9c893e6c53c89f",
+      "rank": 12,
+      "title": "대출·계좌개설·오픈뱅킹 안심차단 범위 달라",
+      "publisher": "vegannews.co.kr",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=387786",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-26T04:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-013",
+      "articleId": "article-b7055876a4360eadf85e3dcf",
+      "rank": 13,
+      "title": "美국채금리 19년래 최고·외인 매도세에...환율 다시 1360원대",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/economy/2026/09/28/2026092816125077530",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T16:27:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-014",
+      "articleId": "article-4679f86bbc441f09fc31aaaa",
+      "rank": 14,
+      "title": "\"점포 폐쇄 어려워진 게 맞나\" 금감원, 반년 만에 은행 점검 나선다",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436559",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-27T08:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1-015",
+      "articleId": "article-5c82031973eab3025caecdd8",
+      "rank": 15,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436589",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-28T07:02:00+09:00"
+    }
+  ]
+}

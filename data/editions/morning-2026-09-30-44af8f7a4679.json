@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-30-44af8f7a4679",
+  "channel": "morning",
+  "date": "2026-09-30",
+  "title": "2026-09-30 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-001",
+      "articleId": "article-d3b3b6f31e14428a07f68646",
+      "rank": 1,
+      "title": "법원 판결문 없이도 상계 금지 '최저생계비' 입증한다",
+      "publisher": "연합뉴스",
+      "url": "https://n.news.naver.com/article/001/0016343202",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-002",
+      "articleId": "article-9397e98b12b7c82b2342ea18",
+      "rank": 2,
+      "title": "위축돼 가는 ‘대면 금융’",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003554615",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-003",
+      "articleId": "article-b7bde03676a8164201e69c09",
+      "rank": 3,
+      "title": "[단독] \"가입은 클릭 한 번, 해지는 미로\"… OTT 민원 66% 유튜브·넷플릭스",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000956606",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-004",
+      "articleId": "article-698856a62a769a4996f1f71b",
+      "rank": 4,
+      "title": "개인정보유출·탈세 혐의… IT업계 총수 국감 줄소환",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005582487",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-005",
+      "articleId": "article-870e61b681535e8f53e1da0d",
+      "rank": 5,
+      "title": "오픈AI 이어 메타도... AI 에이전트 결국 '수수료 장사'로?",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000956577",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-006",
+      "articleId": "article-9787ecdfb7403c21208e7a3c",
+      "rank": 6,
+      "title": "[단독] 日최대 IB 다이와증권도 ‘백기’…15년 만에 韓채권시장 철수 [시그널]",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004666531",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-007",
+      "articleId": "article-d834fb2ad1079908d93b629b",
+      "rank": 7,
+      "title": "서울대 동아리 출신 ‘정보 카르텔’ 적발… 미공개 M&A 정보로 200억 부당 이득",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004001137",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-008",
+      "articleId": "article-170d8d680a4348ee1a9595df",
+      "rank": 8,
+      "title": "금감원 수석부원장에 내부 승진설…금융위 출신 관행 바뀌나",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20260929143901753",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-009",
+      "articleId": "article-513957b9d28107943bc4f9e6",
+      "rank": 9,
+      "title": "당정 '베어허그' 연내 입법… 스튜어드십 코드 활성화",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005582535",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679-010",
+      "articleId": "article-aa06f9367d87e7e24ef2dcf6",
+      "rank": 10,
+      "title": "보이스피싱 피해액 56% 뚝 … 전화번호 긴급차단 통했다",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005741571",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

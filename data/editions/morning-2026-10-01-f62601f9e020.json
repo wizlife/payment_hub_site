@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-01-f62601f9e020",
+  "channel": "morning",
+  "date": "2026-10-01",
+  "title": "2026-10-01 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-01-f62601f9e020-001",
+      "articleId": "article-5586a0798685425a45392543",
+      "rank": 1,
+      "title": "케이뱅크, 개인사업자 대출에 '소상공인 특화 신용평가' 도입",
+      "publisher": "한국경제TV",
+      "url": "https://n.news.naver.com/article/215/0001267658",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-002",
+      "articleId": "article-b276903ff0965ecc55e084f7",
+      "rank": 2,
+      "title": "7일부터 네이버-토스서도 실손보험 청구",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003751882",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-003",
+      "articleId": "article-67e39ded26e6c7743d0dfa30",
+      "rank": 3,
+      "title": "한화투자증권, 9000억 확충…종투사 진입 시동",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005337843",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-004",
+      "articleId": "article-770e9aa587c7189c8d58c8e8",
+      "rank": 4,
+      "title": "청라시대 막을 연 하나금융…은행·증권·카드 업권 벽 허문다",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005420401",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-005",
+      "articleId": "article-d4127fec49eacb6d336dcb2c",
+      "rank": 5,
+      "title": "6개은행 CEO 연임 노리는데...도전장 내민 인물은?",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006377962",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-006",
+      "articleId": "article-d3875e89a54bb18aa942a72c",
+      "rank": 6,
+      "title": "예약부터 업무까지 대신한다…오픈AI ‘닷츠’ 참전, 불붙은 AI 비서 전쟁",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006377925",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-007",
+      "articleId": "article-2c66def490d55a9f837a717c",
+      "rank": 7,
+      "title": "정부, AI 에이전트 개인정보 기준 만든다",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005583182",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-008",
+      "articleId": "article-78fe253d6c0e1a7123cadf4a",
+      "rank": 8,
+      "title": "보이스피싱-증권범죄 등 검경 합수부도 문닫아",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003751907",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-009",
+      "articleId": "article-2df0466510e3f27fb91645bc",
+      "rank": 9,
+      "title": "금융당국 퇴직자 '로펌행' 가속…8개월 만에 작년 기록 넘었다",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005420434",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-010",
+      "articleId": "article-193a6ebfca4fbdd1513409f9",
+      "rank": 10,
+      "title": "반도체 덕에 세수 껑충…올해 63조원 더 걷힌다",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003554948",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020-011",
+      "articleId": "article-fe333d9a5ff234a721d5116c",
+      "rank": 11,
+      "title": "치솟는 주담대 금리 … 3년9개월來 최고",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005742220",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

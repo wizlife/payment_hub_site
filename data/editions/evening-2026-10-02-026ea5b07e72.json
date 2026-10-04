@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-02-026ea5b07e72",
+  "channel": "evening",
+  "date": "2026-10-02",
+  "title": "2026-10-02 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-10-02-026ea5b07e72-001",
+      "articleId": "article-b42073dac70e821d9120d93e",
+      "rank": 1,
+      "title": "은행권 덮친 해킹 공포...AI 사이버 공격 현실화 우려",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/02/2026100216055965103",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-02T16:55:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-02-026ea5b07e72-002",
+      "articleId": "article-e9227f81522d2959c30ebc9c",
+      "rank": 2,
+      "title": "금융당국, 은행발 고객정보 유출에 증권사에도 '주의·점검' 당부",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/10/02/2026100210531031174",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-02T14:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-02-026ea5b07e72-003",
+      "articleId": "article-204ab7bd5ce2f27f0bb7a15a",
+      "rank": 3,
+      "title": "[속보]금감원, 국민은행 개인정보 유출 현장조사",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610021144240770",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-02T11:49:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-02-026ea5b07e72-004",
+      "articleId": "article-efb7efcaedd63be9fddba031",
+      "rank": 4,
+      "title": "온라인쇼핑몰 불법 카드 현금화 적발액 111억→240억...간편결제도 두 배",
+      "publisher": "greened.kr",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=351283",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-02T09:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-02-026ea5b07e72-005",
+      "articleId": "article-101de9ef3b3b9b60c90e2eef",
+      "rank": 5,
+      "title": "원·달러 환율, 7.8원 내린 1350.6원",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/02/K5MWREUOT5C5ZKFSCJX7JJJZWY/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-02T15:35:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-02-026ea5b07e72-006",
+      "articleId": "article-07c74fbc71c9e22e47469b9a",
+      "rank": 6,
+      "title": "씨티 \"근원물가 여전히 끈끈⋯한은 11월·내년 2월 기준금리 인상할 것...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2632095",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-02T15:34:00+09:00"
+    }
+  ]
+}

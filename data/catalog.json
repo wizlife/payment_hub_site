@@ -1,27 +1,203 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T10:32:35.462855+00:00",
+  "updatedAt": "2026-10-04T14:47:21.470269+00:00",
   "channels": [
     {
       "id": "morning",
       "label": "조간스크랩",
-      "latestEditionId": "morning-2026-09-22-6eb54f100d6c",
+      "latestEditionId": "morning-2026-10-02-ff47dd0d1885",
       "status": "available"
     },
     {
       "id": "evening",
       "label": "석간스크랩",
-      "latestEditionId": "evening-2026-09-23-ac79f13afb49",
+      "latestEditionId": "evening-2026-10-02-026ea5b07e72",
       "status": "available"
     },
     {
       "id": "ai",
       "label": "AI 뉴스",
-      "latestEditionId": "ai-2026-09-25-5197982c9ea8",
+      "latestEditionId": "ai-2026-10-04-f988497365b7",
       "status": "available"
     }
   ],
   "editions": [
+    {
+      "id": "ai-2026-10-04-f988497365b7",
+      "channel": "ai",
+      "date": "2026-10-04",
+      "title": "2026-10-04 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-04-f988497365b7.json"
+    },
+    {
+      "id": "ai-2026-10-03-cfce02776a43",
+      "channel": "ai",
+      "date": "2026-10-03",
+      "title": "2026-10-03 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-03-cfce02776a43.json"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885",
+      "channel": "morning",
+      "date": "2026-10-02",
+      "title": "2026-10-02 조간스크랩",
+      "itemCount": 10,
+      "path": "data/editions/morning-2026-10-02-ff47dd0d1885.json"
+    },
+    {
+      "id": "evening-2026-10-02-6482ab95aae2",
+      "channel": "evening",
+      "date": "2026-10-02",
+      "title": "2026-10-02 석간스크랩 · LLM-A2",
+      "itemCount": 9,
+      "path": "data/editions/evening-2026-10-02-6482ab95aae2.json"
+    },
+    {
+      "id": "evening-2026-10-02-026ea5b07e72",
+      "channel": "evening",
+      "date": "2026-10-02",
+      "title": "2026-10-02 석간스크랩 · LLM-A3",
+      "itemCount": 6,
+      "path": "data/editions/evening-2026-10-02-026ea5b07e72.json"
+    },
+    {
+      "id": "ai-2026-10-02-ea7c30173f95",
+      "channel": "ai",
+      "date": "2026-10-02",
+      "title": "2026-10-02 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-02-ea7c30173f95.json"
+    },
+    {
+      "id": "morning-2026-10-01-f62601f9e020",
+      "channel": "morning",
+      "date": "2026-10-01",
+      "title": "2026-10-01 조간스크랩",
+      "itemCount": 11,
+      "path": "data/editions/morning-2026-10-01-f62601f9e020.json"
+    },
+    {
+      "id": "evening-2026-10-01-8f2757dfb780",
+      "channel": "evening",
+      "date": "2026-10-01",
+      "title": "2026-10-01 석간스크랩 · LLM-A2",
+      "itemCount": 8,
+      "path": "data/editions/evening-2026-10-01-8f2757dfb780.json"
+    },
+    {
+      "id": "evening-2026-10-01-652dab31d082",
+      "channel": "evening",
+      "date": "2026-10-01",
+      "title": "2026-10-01 석간스크랩 · LLM-A3",
+      "itemCount": 9,
+      "path": "data/editions/evening-2026-10-01-652dab31d082.json"
+    },
+    {
+      "id": "ai-2026-10-01-4afef2c263d8",
+      "channel": "ai",
+      "date": "2026-10-01",
+      "title": "2026-10-01 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-01-4afef2c263d8.json"
+    },
+    {
+      "id": "morning-2026-09-30-44af8f7a4679",
+      "channel": "morning",
+      "date": "2026-09-30",
+      "title": "2026-09-30 조간스크랩",
+      "itemCount": 10,
+      "path": "data/editions/morning-2026-09-30-44af8f7a4679.json"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09",
+      "channel": "evening",
+      "date": "2026-09-30",
+      "title": "2026-09-30 석간스크랩 · LLM-A2",
+      "itemCount": 12,
+      "path": "data/editions/evening-2026-09-30-dc34fcd49a09.json"
+    },
+    {
+      "id": "evening-2026-09-30-95d86bcd7d07",
+      "channel": "evening",
+      "date": "2026-09-30",
+      "title": "2026-09-30 석간스크랩 · LLM-A3",
+      "itemCount": 13,
+      "path": "data/editions/evening-2026-09-30-95d86bcd7d07.json"
+    },
+    {
+      "id": "ai-2026-09-30-d1cf455b7a26",
+      "channel": "ai",
+      "date": "2026-09-30",
+      "title": "2026-09-30 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-09-30-d1cf455b7a26.json"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90",
+      "channel": "morning",
+      "date": "2026-09-29",
+      "title": "2026-09-29 조간스크랩",
+      "itemCount": 10,
+      "path": "data/editions/morning-2026-09-29-51eacd6a4d90.json"
+    },
+    {
+      "id": "evening-2026-09-29-cd3655330258",
+      "channel": "evening",
+      "date": "2026-09-29",
+      "title": "2026-09-29 석간스크랩 · LLM-A3",
+      "itemCount": 15,
+      "path": "data/editions/evening-2026-09-29-cd3655330258.json"
+    },
+    {
+      "id": "evening-2026-09-29-c6866f45c0d3",
+      "channel": "evening",
+      "date": "2026-09-29",
+      "title": "2026-09-29 석간스크랩 · LLM-A2",
+      "itemCount": 15,
+      "path": "data/editions/evening-2026-09-29-c6866f45c0d3.json"
+    },
+    {
+      "id": "ai-2026-09-29-4e2a9b1f3da7",
+      "channel": "ai",
+      "date": "2026-09-29",
+      "title": "2026-09-29 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-09-29-4e2a9b1f3da7.json"
+    },
+    {
+      "id": "morning-2026-09-28-79d27e543837",
+      "channel": "morning",
+      "date": "2026-09-28",
+      "title": "2026-09-28 조간스크랩",
+      "itemCount": 11,
+      "path": "data/editions/morning-2026-09-28-79d27e543837.json"
+    },
+    {
+      "id": "evening-2026-09-28-93038663f9b1",
+      "channel": "evening",
+      "date": "2026-09-28",
+      "title": "2026-09-28 석간스크랩 · LLM-A3",
+      "itemCount": 15,
+      "path": "data/editions/evening-2026-09-28-93038663f9b1.json"
+    },
+    {
+      "id": "evening-2026-09-28-0170e0db7fbc",
+      "channel": "evening",
+      "date": "2026-09-28",
+      "title": "2026-09-28 석간스크랩 · LLM-A2",
+      "itemCount": 15,
+      "path": "data/editions/evening-2026-09-28-0170e0db7fbc.json"
+    },
+    {
+      "id": "ai-2026-09-28-737404d2614a",
+      "channel": "ai",
+      "date": "2026-09-28",
+      "title": "2026-09-28 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-09-28-737404d2614a.json"
+    },
     {
       "id": "ai-2026-09-25-5197982c9ea8",
       "channel": "ai",

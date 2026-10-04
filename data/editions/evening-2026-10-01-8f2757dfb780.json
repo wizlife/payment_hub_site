@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-01-8f2757dfb780",
+  "channel": "evening",
+  "date": "2026-10-01",
+  "title": "2026-10-01 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-10-01-8f2757dfb780-001",
+      "articleId": "article-1a09d730b3d7064c45f9d7d8",
+      "rank": 1,
+      "title": "지갑 잃어버렸을 때 당황 금지! '경찰민원24'로 분실 신고",
+      "publisher": "korea.kr",
+      "url": "https://www.korea.kr/news/reporterView.do?call_from=naver_news&newsId=148969439",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-01T11:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-01-8f2757dfb780-002",
+      "articleId": "article-5a188a9897fe5883e24d0992",
+      "rank": 2,
+      "title": "\"빌린 적 없어 못 빌리는 역설\"...카카오뱅크가 '신용 빈칸' 읽는 법",
+      "publisher": "sidae.com",
+      "url": "https://www.sidae.com/article/2026082210272147718",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-01T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-01-8f2757dfb780-003",
+      "articleId": "article-e50fc4c0d0a69f6b999a1ad5",
+      "rank": 3,
+      "title": "[현장]기업 스테이블코인, 글로벌 금융망 잇는다",
+      "publisher": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=869161",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T21:30:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-01-8f2757dfb780-004",
+      "articleId": "article-bdf1edce4a839a8598866ef3",
+      "rank": 4,
+      "title": "日 이용자 국내서 QR결제...스테이블코인 정산 실증",
+      "publisher": "데일리안",
+      "url": "https://www.dailian.co.kr/news/view/1696576/?sc=Naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-01T09:19:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-01-8f2757dfb780-005",
+      "articleId": "article-7225994ef27b47b56aae78e4",
+      "rank": 5,
+      "title": "신한은행, 고객정보 유출에 비상대응...피해 전액 보상·재발 방지 총력",
+      "publisher": "press9.kr",
+      "url": "http://www.press9.kr/news/articleView.html?idxno=83566",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-01T12:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-01-8f2757dfb780-006",
+      "articleId": "article-0898505bab6261d2b5380685",
+      "rank": 6,
+      "title": "금융위, 금리 인상기 리스크 점검... 채권시장 안정 대책 마련",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/10/01/TE3ODVU63RBJ5HLILRANY7EUXY/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-01T10:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-01-8f2757dfb780-007",
+      "articleId": "article-f00c76385dc4fe5e208dcb0d",
+      "rank": 7,
+      "title": "원·달러 환율, 5.8원 오른 1358.6원",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/01/NDVSTGVAHVHK3GT3HB3HYGPBAU/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-01T09:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-01-8f2757dfb780-008",
+      "articleId": "article-b98662ba045e399e74f5c579",
+      "rank": 8,
+      "title": "이찬진 금감원장 \"고금리에 대출 어려워져...취약계층 불법사금융 내몰...",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610011033140072",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-01T14:30:00+09:00"
+    }
+  ]
+}

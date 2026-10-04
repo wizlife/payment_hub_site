@@ -3,9 +3,9 @@
   "engine": "literal-substring",
   "engineVersion": "1",
   "language": "ko",
-  "recordCount": 743,
-  "editionCount": 71,
-  "sourceDigest": "1ecb5721351d3015fe21d4c1a5c7c1c81e7db8afac1dd1b80db003dcfb85b993",
+  "recordCount": 996,
+  "editionCount": 93,
+  "sourceDigest": "80b100ed7e64778c870cb693c9c5945f1a8124cbbaa2ab5ef9faf34b2751c657",
   "fields": [
     "title",
     "summary",

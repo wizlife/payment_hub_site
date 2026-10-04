@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-09-30-dc34fcd49a09",
+  "channel": "evening",
+  "date": "2026-09-30",
+  "title": "2026-09-30 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-001",
+      "articleId": "article-0f811e93321c445de55449b1",
+      "rank": 1,
+      "title": "KB국민·신한·하나·우리은행, 연체자 생계비 예금 250만원 보호 절차 ...",
+      "publisher": "sateconomy.co.kr",
+      "url": "https://sateconomy.co.kr/news/view/1065576183685471",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T10:50:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-002",
+      "articleId": "article-ffa9ac6ca12ba9a3f29e8c7a",
+      "rank": 2,
+      "title": "은행권 최저생계비 조회용 계좌통합조회서비스 개시",
+      "publisher": "mediapen.com",
+      "url": "https://www.mediapen.com/news/view/1126691",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-29T17:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-003",
+      "articleId": "article-a090db791b68afa2e44a93c3",
+      "rank": 3,
+      "title": "카드사, 간편결제 점유율 되찾아...하지만 싸움터는 이미 옮겨갔다",
+      "publisher": "greened.kr",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=351077",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T15:41:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-004",
+      "articleId": "article-0cae89a430be256f76beac0d",
+      "rank": 4,
+      "title": "케이에스넷, '솔라나 서밋'서 AI 결제 인프라 실증 공개",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260930000426",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T16:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-005",
+      "articleId": "article-18c7d37f39318389005c8272",
+      "rank": 5,
+      "title": "[KBW 2026] 한국은행 \"CBDC 직접 쓰는 구조 아냐...예금토큰 중심 통화인...",
+      "publisher": "newswhoplus.com",
+      "url": "https://www.newswhoplus.com/news/articleView.html?idxno=70735",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T15:54:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-006",
+      "articleId": "article-364c2a7f3102a34e86b10d6d",
+      "rank": 6,
+      "title": "통신업계 \"보이스피싱 배상책임?⋯통신사가 불법 감청하란 얘기\"",
+      "publisher": "inews24.com",
+      "url": "http://www.inews24.com/view/2010596",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T16:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-007",
+      "articleId": "article-76d4e91debf76359912010e6",
+      "rank": 7,
+      "title": "씨티, 하나은행의 첫 디지털 채권 발행 지원",
+      "publisher": "daily.hankooki.com",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1410889",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T14:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-008",
+      "articleId": "article-53605eed17366475c16dedb2",
+      "rank": 8,
+      "title": "금융위, 토큰증권·T+1 해법 美·홍콩서 찾는다",
+      "publisher": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20260929001183",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-29T22:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-009",
+      "articleId": "article-3d065dff6b32a744f3ff37a8",
+      "rank": 9,
+      "title": "카드망 없이 편의점 결제...스테이블코인 실증 나선 카드사",
+      "publisher": "straightnews.co.kr",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=312114",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-29T17:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-010",
+      "articleId": "article-e5b09f5a4dc428b9a76ca4b9",
+      "rank": 10,
+      "title": "금융위, 인터넷은행 대면업무 허용범위 확대...부동산PF 신용공여 20% 제...",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260930000427",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T16:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-011",
+      "articleId": "article-b9892162bb690a6b1761802c",
+      "rank": 11,
+      "title": "\"시장금리 더 뛸라\"...부랴부랴 보도자료 고친 정부 [김익환의 부처 핸즈...",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202609304272i",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T11:33:00+09:00"
+    },
+    {
+      "id": "evening-2026-09-30-dc34fcd49a09-012",
+      "articleId": "article-0ac007a83127067c95c219f3",
+      "rank": 12,
+      "title": "금감원, 고3 금융교육 직업계까지 확대...주식·불법도박 예방 강화",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20260930000050",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-09-30T12:02:00+09:00"
+    }
+  ]
+}

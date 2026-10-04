@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-02-ff47dd0d1885",
+  "channel": "morning",
+  "date": "2026-10-02",
+  "title": "2026-10-02 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-001",
+      "articleId": "article-739e1af5fc65d6054823db0d",
+      "rank": 1,
+      "title": "“연말연초 증시 강세 가능성… ‘전력’ 등 주도주 미리 챙겨야”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003752255",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-002",
+      "articleId": "article-996e6e6cdf2b91050b0662f5",
+      "rank": 2,
+      "title": "'금융·경제통' 권대영 재경부 1차관에 '교통 전문가' 정의경 국토 2차관 승진",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005742876",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-003",
+      "articleId": "article-1c2e5b5c87a4e4f0b08fe1e7",
+      "rank": 3,
+      "title": "금융위 2인자 누가 꿰차나 내부승진땐 1급 인사태풍",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005421343",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-004",
+      "articleId": "article-9c22b3f51fd6813724d53876",
+      "rank": 4,
+      "title": "신한銀 2만5000명 고객정보 유출… “AI 악용 해킹 가능성”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003752272",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-005",
+      "articleId": "article-155db61baf8a11276760786c",
+      "rank": 5,
+      "title": "가계대출 6개월만에 감소... 5대은행, 1.3조 줄었다",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006378818",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-006",
+      "articleId": "article-897faa7bdbd537fe7410c988",
+      "rank": 6,
+      "title": "[AI챗봇 과몰입, 법으로 규제] 캐릭터와 서사 입은 AI, 항상 나에게 공감...\"가스라이팅 위험 높아\"",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261001144545635",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-007",
+      "articleId": "article-d9a7a5084f9aa3ce74465c0b",
+      "rank": 7,
+      "title": "구글, 열달 만에 최상위 AI 모델 신작 “지금까지 개발한 모델 중 최고 성능”",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004001652",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-008",
+      "articleId": "article-7b35844d5ed8a6fdc6f4609b",
+      "rank": 8,
+      "title": "젠슨 황·저커버그 vs 아모데이…백악관서 ‘AI 규제’ 두고 설전",
+      "publisher": "한겨레",
+      "url": "https://n.news.naver.com/article/028/0002825557",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-009",
+      "articleId": "article-73bcb26842fa1d5efa2dddd5",
+      "rank": 9,
+      "title": "내년 2월부터 주식·채권도 토큰증권으로…하위법규 예고",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005338156",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-02-ff47dd0d1885-010",
+      "articleId": "article-f79e20a525bb6037189e7e5f",
+      "rank": 10,
+      "title": "카카오도 ‘멤버십 전쟁’ 참전…네이버·쿠팡 락인 시장에 도전장",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006378648",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

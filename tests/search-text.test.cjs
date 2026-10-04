@@ -32,7 +32,8 @@ test('reported keywords and every returned record agree with original public tex
   assert.equal(records.length, items.length);
   for(const [query,count] of [['금융결제원',19],['cbdc',5],['한강',0],['cbdc 금융결제원',0]]) {
     const actual=search.find(records,query);
-    assert.equal(actual.length,count);
+    // Freeze the original regression corpus while allowing new weekly data.
+    assert.equal(search.find(records.filter(item=>item.date <= '2026-09-25'),query).length,count);
     const expected=items.filter(item=>query.split(' ').every(term=>['title','summary','publisher'].some(field=>(item[field]||'').toLowerCase().includes(term))));
     assert.deepEqual(new Set(actual.map(item=>item.entryId)),new Set(expected.map(item=>item.id)));
     for(const item of actual) assert.ok(search.fields.some(field=>search.hasMatch(item[field],query)));

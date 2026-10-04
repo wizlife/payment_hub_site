@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-09-29-51eacd6a4d90",
+  "channel": "morning",
+  "date": "2026-09-29",
+  "title": "2026-09-29 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-001",
+      "articleId": "article-07ff659ff326f8bee4ff9651",
+      "rank": 1,
+      "title": "금융-통신 압수수색 종이영장 사라진다",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003751259",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-002",
+      "articleId": "article-38b86607ea77a3bf935756be",
+      "rank": 2,
+      "title": "온라인 플랫폼 예금 비교·추천 '제도화'…소비자보호 강화",
+      "publisher": "연합뉴스",
+      "url": "https://n.news.naver.com/article/001/0016340079",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-003",
+      "articleId": "article-609ab596559299e507f25e50",
+      "rank": 3,
+      "title": "'코스닥 승강제' 속도조절…내년 하반기 도입 추진",
+      "publisher": "SBS Biz",
+      "url": "https://n.news.naver.com/article/374/0000535149",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-004",
+      "articleId": "article-4d91d7b1791e12e0cbce2b7a",
+      "rank": 4,
+      "title": "매년 1조5000억원 쌓이는 ‘잠자는 돈’…금융사별 환급실적 공개 등 관리 개선",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003472932",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-005",
+      "articleId": "article-b5f8cc3f2d797e3fe7708478",
+      "rank": 5,
+      "title": "월급은 올리고 국민 편의는 낮추고… 은행 내년 4월부터 9시30분 문 연다",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001875498",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-006",
+      "articleId": "article-47d0293759c924904b9f5b6d",
+      "rank": 6,
+      "title": "금융사 지배구조 개선, 장기 표류 조짐",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005581834",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-007",
+      "articleId": "article-54679f5100d91815116c943f",
+      "rank": 7,
+      "title": "\"AI 비용 반년 새 10배\"…美기업들, 값싼 中 '오픈웨이트' AI로 갈아탄다",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006376333",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-008",
+      "articleId": "article-abcac0182467f2955c05aad7",
+      "rank": 8,
+      "title": "8년 끈 쉰들러 ISDS 종결…韓정부 3250억 배상책임 벗어",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005740780",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-009",
+      "articleId": "article-fe370b8ec4582a62982ddf10",
+      "rank": 9,
+      "title": "이형일·신현송 첫 회동…재정·통화 ‘엇박자’ 속 정책 공조 시험대",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004666092",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-09-29-51eacd6a4d90-010",
+      "articleId": "article-01f37eabef790f902c74c3ec",
+      "rank": 10,
+      "title": "장민영 행장의 AI 경영…기업은행 '1부 1에이전트'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005336758",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
