@@ -183,6 +183,7 @@ p, h1, h2, h3 { margin: 0; }
 .site-footer > div { display: flex; align-items: center; gap: 20px; }
 .footer-brand { font-size: 17px; font-weight: 750; letter-spacing: -.8px; }
 .site-footer span, .site-footer > a { font-size: 12px; color: var(--muted); }
+.footer-notice { display: block; margin-top: 6px; font-size: 12px; line-height: 1.7; word-break: keep-all; }
 .site-footer > a:hover { color: var(--green); }
 @media (min-width: 1100px) {
   .ai-card { min-height: 300px; display: flex; flex-direction: column; }
