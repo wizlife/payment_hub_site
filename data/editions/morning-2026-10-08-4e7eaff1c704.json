@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-08-4e7eaff1c704",
+  "channel": "morning",
+  "date": "2026-10-08",
+  "title": "2026-10-08 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-001",
+      "articleId": "article-c82d29d18ff7950b4cd72bed",
+      "rank": 1,
+      "title": "'레버리지 사태' 두고 불거지는 금융위 책임론",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005586405",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-002",
+      "articleId": "article-1275f3cbd4f239a08cc74943",
+      "rank": 2,
+      "title": "해킹 피해 전액 보상한다는데…보이스피싱 송금 땐 불분명",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003556456",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-003",
+      "articleId": "article-9618924f1a524cd2e5b3835a",
+      "rank": 3,
+      "title": "경찰? 중수청?…'금융권 해킹' 수사 관할 골머리",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005340227",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-004",
+      "articleId": "article-2fc4b6341d705f98aaf49c78",
+      "rank": 4,
+      "title": "금융권 공격한 '아르텍스', 中 AI '딥시크' 연동 기능 갖췄다",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005586364",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-005",
+      "articleId": "article-a9a821756d4d4f378c19998d",
+      "rank": 5,
+      "title": "1년새 금융 엘리트 이탈 34%↑…전례없는 '인재 유출'",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261007150903129",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-006",
+      "articleId": "article-98d5fe2ed065676eb63b1163",
+      "rank": 6,
+      "title": "한은 국제 담당 부총재보에 최영주…경제연구원장에 윤경수",
+      "publisher": "연합뉴스",
+      "url": "https://n.news.naver.com/article/001/0016362382",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-007",
+      "articleId": "article-26c570de85530f338f6d89fe",
+      "rank": 7,
+      "title": "토스뱅크 송금 오류…보유 잔액 모두 이체한 후에도 '또' 송금 가능",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003473251",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-008",
+      "articleId": "article-51269d16c3ce5c0fea6eb5f4",
+      "rank": 8,
+      "title": "저축은행 수신 5조원 늘때 대출 제자리걸음…여수신 '엇박자'에 골머리",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261007140421731",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-009",
+      "articleId": "article-a13a5d84fb2541cdb2eb1bfa",
+      "rank": 9,
+      "title": "'국정 PM' 자처한 韓 총리…“국정 현안, AI·데이터 연계로 뚫겠다”",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003473221",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-010",
+      "articleId": "article-e69a6cacc91e28d7ee63f0a2",
+      "rank": 10,
+      "title": "농협금융, 전남 광주에 '서남권 NH금융허브' 신설",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005586403",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704-011",
+      "articleId": "article-4112471aeda69fa2ed466c5e",
+      "rank": 11,
+      "title": "“청년 월세 지원 나도 될까?”…공고문 뒤져 답 찾아주는 KT ‘모두의 AI’",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006382943",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

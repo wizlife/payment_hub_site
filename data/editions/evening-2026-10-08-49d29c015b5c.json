@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-08-49d29c015b5c",
+  "channel": "evening",
+  "date": "2026-10-08",
+  "title": "2026-10-08 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-001",
+      "articleId": "article-c135c6d02a6ce719500cd102",
+      "rank": 1,
+      "title": "은행 해킹에 증권가도 비상⋯의심 IP 차단·보안점검 강화",
+      "publisher": "inews24.com",
+      "url": "http://www.inews24.com/view/2012550",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-002",
+      "articleId": "article-a76465579b2f79d4fff9a11d",
+      "rank": 2,
+      "title": "이억원 금융위원장 \"서민금융 금리 인하...보안 전제 망분리 규제 해제\"",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261008_0003818353",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T10:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-003",
+      "articleId": "article-bb54fbef6538d1ec3019d362",
+      "rank": 3,
+      "title": "이억원 “디지털자산기본법ᆞ스테이블코인 준비 마쳐⋯막바지 협의 중...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2633893",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T13:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-004",
+      "articleId": "article-eef6f9d41c81a6239fecc41f",
+      "rank": 4,
+      "title": "[2026 국정감사] 금융권 긴급 보안점검 '허점'...3개월만 살펴도 '이상 없...",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261008150407719",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-005",
+      "articleId": "article-8017f70f0604c114d8cfae78",
+      "rank": 5,
+      "title": "핀산협, 금융권 침해사고 대응사례 공유...\"선제적 점검 강화\"",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261008_0003819247",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T14:53:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-006",
+      "articleId": "article-85ea6509a5df80776ea432ca",
+      "rank": 6,
+      "title": "토스, 광주은행과 스테이블코인 QR결제 기술검증 완료",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202610081300i",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:25:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-007",
+      "articleId": "article-d1ca4f5ec2d497f04877feb0",
+      "rank": 7,
+      "title": "이억원 \"AI 막으려면 AI 쓸 수밖에\"...금융권 망분리 규제 단계적 개선",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/08/2026100811333915902",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T12:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-008",
+      "articleId": "article-0440b377d8b8f95cf3364a41",
+      "rank": 8,
+      "title": "AI 에이전트 '실행 단계'까지 점검.. 금융보안원, 보안 평가기준 대폭 확...",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610071821048238",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T18:23:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-009",
+      "articleId": "article-0122dc7fa2b501bee951fa6e",
+      "rank": 9,
+      "title": "원·달러 환율, 1.9원 내린 1338.5원",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/08/NE47DHF64JANRITLOGW7D7P3H4/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:35:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-010",
+      "articleId": "article-5ae411354193eebc990fab42",
+      "rank": 10,
+      "title": "시중銀 옥죄자...지방은행 대출 오픈런",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026100791821",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T17:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c-011",
+      "articleId": "article-752862aeecf76d1d9d1d020c",
+      "rank": 11,
+      "title": "165조 주담대 4분기 '금리 리셋'... 月 1434억 원리금 커지나",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/08/2026100719543654685",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T04:10:00+09:00"
+    }
+  ]
+}

@@ -1,28 +1,31 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T14:47:21.470269+00:00",
+  "updatedAt": "2026-10-11T00:40:21.742878+00:00",
   "channels": [
     {
       "id": "morning",
       "label": "조간스크랩",
-      "latestEditionId": "morning-2026-10-02-ff47dd0d1885",
+      "latestEditionId": "morning-2026-10-08-4e7eaff1c704",
       "status": "available"
     },
     {
       "id": "evening",
       "label": "석간스크랩",
-      "latestEditionId": "evening-2026-10-02-026ea5b07e72",
+      "latestEditionId": "evening-2026-10-08-6bde456a6557",
       "status": "available"
     },
     {
       "id": "ai",
       "label": "AI 뉴스",
-      "latestEditionId": "ai-2026-10-04-f988497365b7",
+      "latestEditionId": "ai-2026-10-11-51faa309e90a",
       "status": "available"
     }
   ],
   "defaultEditionIds": {
     "morning": {
+      "2026-10-08": "morning-2026-10-08-4e7eaff1c704",
+      "2026-10-07": "morning-2026-10-07-06cac9fb81e3",
+      "2026-10-06": "morning-2026-10-06-4f1139195d93",
       "2026-10-02": "morning-2026-10-02-ff47dd0d1885",
       "2026-10-01": "morning-2026-10-01-f62601f9e020",
       "2026-09-30": "morning-2026-09-30-44af8f7a4679",
@@ -44,6 +47,9 @@
       "2026-09-01": "morning-2026-09-01-40f28e59496f"
     },
     "evening": {
+      "2026-10-08": "evening-2026-10-08-6bde456a6557",
+      "2026-10-07": "evening-2026-10-07-f4be1be39119",
+      "2026-10-06": "evening-2026-10-06-e265b0c4a8d4",
       "2026-10-02": "evening-2026-10-02-026ea5b07e72",
       "2026-10-01": "evening-2026-10-01-652dab31d082",
       "2026-09-30": "evening-2026-09-30-95d86bcd7d07",
@@ -67,6 +73,13 @@
       "2026-09-01": "evening-2026-09-01-c10ede7d9180"
     },
     "ai": {
+      "2026-10-11": "ai-2026-10-11-51faa309e90a",
+      "2026-10-10": "ai-2026-10-10-c5ad904624fb",
+      "2026-10-09": "ai-2026-10-09-0d1b64d50183",
+      "2026-10-08": "ai-2026-10-08-ad075c99deeb",
+      "2026-10-07": "ai-2026-10-07-aa69af6fb518",
+      "2026-10-06": "ai-2026-10-06-b59266165e6d",
+      "2026-10-05": "ai-2026-10-05-2a03f975266d",
       "2026-10-04": "ai-2026-10-04-f988497365b7",
       "2026-10-03": "ai-2026-10-03-cfce02776a43",
       "2026-10-02": "ai-2026-10-02-ea7c30173f95",
@@ -102,6 +115,150 @@
     }
   },
   "editions": [
+    {
+      "id": "ai-2026-10-11-51faa309e90a",
+      "channel": "ai",
+      "date": "2026-10-11",
+      "title": "2026-10-11 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-11-51faa309e90a.json"
+    },
+    {
+      "id": "ai-2026-10-10-c5ad904624fb",
+      "channel": "ai",
+      "date": "2026-10-10",
+      "title": "2026-10-10 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-10-c5ad904624fb.json"
+    },
+    {
+      "id": "ai-2026-10-09-0d1b64d50183",
+      "channel": "ai",
+      "date": "2026-10-09",
+      "title": "2026-10-09 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-09-0d1b64d50183.json"
+    },
+    {
+      "id": "morning-2026-10-08-4e7eaff1c704",
+      "channel": "morning",
+      "date": "2026-10-08",
+      "title": "2026-10-08 조간스크랩",
+      "itemCount": 11,
+      "path": "data/editions/morning-2026-10-08-4e7eaff1c704.json"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f",
+      "channel": "evening",
+      "date": "2026-10-08",
+      "title": "2026-10-08 석간스크랩 · LLM-A2 · 재작성본",
+      "itemCount": 13,
+      "path": "data/editions/evening-2026-10-08-fa2945e02a0f.json"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf",
+      "channel": "evening",
+      "date": "2026-10-08",
+      "title": "2026-10-08 석간스크랩 · LLM-A2",
+      "itemCount": 9,
+      "path": "data/editions/evening-2026-10-08-95bf2036dccf.json"
+    },
+    {
+      "id": "evening-2026-10-08-6bde456a6557",
+      "channel": "evening",
+      "date": "2026-10-08",
+      "title": "2026-10-08 석간스크랩 · LLM-A3 · 재작성본",
+      "itemCount": 12,
+      "path": "data/editions/evening-2026-10-08-6bde456a6557.json"
+    },
+    {
+      "id": "evening-2026-10-08-49d29c015b5c",
+      "channel": "evening",
+      "date": "2026-10-08",
+      "title": "2026-10-08 석간스크랩 · LLM-A3",
+      "itemCount": 11,
+      "path": "data/editions/evening-2026-10-08-49d29c015b5c.json"
+    },
+    {
+      "id": "ai-2026-10-08-ad075c99deeb",
+      "channel": "ai",
+      "date": "2026-10-08",
+      "title": "2026-10-08 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-08-ad075c99deeb.json"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3",
+      "channel": "morning",
+      "date": "2026-10-07",
+      "title": "2026-10-07 조간스크랩",
+      "itemCount": 10,
+      "path": "data/editions/morning-2026-10-07-06cac9fb81e3.json"
+    },
+    {
+      "id": "evening-2026-10-07-f4be1be39119",
+      "channel": "evening",
+      "date": "2026-10-07",
+      "title": "2026-10-07 석간스크랩 · LLM-A2",
+      "itemCount": 12,
+      "path": "data/editions/evening-2026-10-07-f4be1be39119.json"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e",
+      "channel": "evening",
+      "date": "2026-10-07",
+      "title": "2026-10-07 석간스크랩 · LLM-A3",
+      "itemCount": 10,
+      "path": "data/editions/evening-2026-10-07-e1aabbbe441e.json"
+    },
+    {
+      "id": "ai-2026-10-07-aa69af6fb518",
+      "channel": "ai",
+      "date": "2026-10-07",
+      "title": "2026-10-07 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-07-aa69af6fb518.json"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93",
+      "channel": "morning",
+      "date": "2026-10-06",
+      "title": "2026-10-06 조간스크랩",
+      "itemCount": 9,
+      "path": "data/editions/morning-2026-10-06-4f1139195d93.json"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864",
+      "channel": "evening",
+      "date": "2026-10-06",
+      "title": "2026-10-06 석간스크랩 · LLM-A2",
+      "itemCount": 10,
+      "path": "data/editions/evening-2026-10-06-e8c17457e864.json"
+    },
+    {
+      "id": "evening-2026-10-06-e265b0c4a8d4",
+      "channel": "evening",
+      "date": "2026-10-06",
+      "title": "2026-10-06 석간스크랩 · LLM-A3",
+      "itemCount": 12,
+      "path": "data/editions/evening-2026-10-06-e265b0c4a8d4.json"
+    },
+    {
+      "id": "ai-2026-10-06-b59266165e6d",
+      "channel": "ai",
+      "date": "2026-10-06",
+      "title": "2026-10-06 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-06-b59266165e6d.json"
+    },
+    {
+      "id": "ai-2026-10-05-2a03f975266d",
+      "channel": "ai",
+      "date": "2026-10-05",
+      "title": "2026-10-05 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-10-05-2a03f975266d.json"
+    },
     {
       "id": "ai-2026-10-04-f988497365b7",
       "channel": "ai",

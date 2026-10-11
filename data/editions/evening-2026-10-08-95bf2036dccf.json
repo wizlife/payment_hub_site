@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-08-95bf2036dccf",
+  "channel": "evening",
+  "date": "2026-10-08",
+  "title": "2026-10-08 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-001",
+      "articleId": "article-9a916a671dd10757b31157ff",
+      "rank": 1,
+      "title": "금감원 \"AI 해킹, IP 차단만으론 한계\"...금융권에 탐지 강화 주문",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261008_0003818345",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T09:19:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-002",
+      "articleId": "article-bb54fbef6538d1ec3019d362",
+      "rank": 2,
+      "title": "이억원 “디지털자산기본법ᆞ스테이블코인 준비 마쳐⋯막바지 협의 중...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2633893",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T13:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-003",
+      "articleId": "article-85ea6509a5df80776ea432ca",
+      "rank": 3,
+      "title": "토스, 광주은행과 스테이블코인 QR결제 기술검증 완료",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202610081300i",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:25:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-004",
+      "articleId": "article-d1ca4f5ec2d497f04877feb0",
+      "rank": 4,
+      "title": "이억원 \"AI 막으려면 AI 쓸 수밖에\"...금융권 망분리 규제 단계적 개선",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/08/2026100811333915902",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T12:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-005",
+      "articleId": "article-c3c7bb7e2a12d723f67e5121",
+      "rank": 5,
+      "title": "금융권, 개인정보 유출 2차 피해 주의보...선입금·앱 설치 요구하면 모...",
+      "publisher": "dailypop.kr",
+      "url": "http://www.dailypop.kr/news/articleView.html?idxno=103192",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T16:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-006",
+      "articleId": "article-eef6f9d41c81a6239fecc41f",
+      "rank": 6,
+      "title": "[2026 국정감사] 금융권 긴급 보안점검 '허점'...3개월만 살펴도 '이상 없...",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261008150407719",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-007",
+      "articleId": "article-f1e63d2681ff762a71e5a8d3",
+      "rank": 7,
+      "title": "40대 직장인, 5억 빌리러 지방은행 갔다가...'진짜요?' 깜짝",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026100791941",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T17:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-008",
+      "articleId": "article-0122dc7fa2b501bee951fa6e",
+      "rank": 8,
+      "title": "원·달러 환율, 1.9원 내린 1338.5원",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/08/NE47DHF64JANRITLOGW7D7P3H4/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:35:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-95bf2036dccf-009",
+      "articleId": "article-19e9037422c33581dfa88bec",
+      "rank": 9,
+      "title": "국책연구원 “단일종목 레버리지 상품, 환율안정 단정 어렵다”...금융...",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/08/TMNOCFGAF5BVDED5Q25YFOAP4A/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T09:01:00+09:00"
+    }
+  ]
+}

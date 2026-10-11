@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-06-4f1139195d93",
+  "channel": "morning",
+  "date": "2026-10-06",
+  "title": "2026-10-06 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-06-4f1139195d93-001",
+      "articleId": "article-12383dbe9055d15fb38c290b",
+      "rank": 1,
+      "title": "집에서 2.8㎞ 걸어야 ATM 있다…‘현금 사막’ 빠르게 확산",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003555870",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93-002",
+      "articleId": "article-771a221f8b15f73b0b677c93",
+      "rank": 2,
+      "title": "은행 사칭해 대출상담 ‘피싱’ 2차피해 우려",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003752707",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93-003",
+      "articleId": "article-5b68aab0673a229d3406d1b4",
+      "rank": 3,
+      "title": "은행권 ‘모바일현금카드’ 부진에 활성화 고심…“현실과 괴리” 지적도",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2630521",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93-004",
+      "articleId": "article-a85f2fe4219a77d6fd8e1743",
+      "rank": 4,
+      "title": "해킹 68시간 뒤 알아, ‘보안 국제인증’ 무색",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003752923",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93-005",
+      "articleId": "article-f34eca31c9d9fab550e94f51",
+      "rank": 5,
+      "title": "'2만5000명 대 0명' 해킹 피해 왜 달랐나… 은행별 보안 격차 주목",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000957667",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93-006",
+      "articleId": "article-8930be5a1ed7707d00e72805",
+      "rank": 6,
+      "title": "하나은행 변경설에도…케이뱅크·업비트 제휴 1년 연장",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261005142159663",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93-007",
+      "articleId": "article-f2ed514dfffd9ac3fbf6b778",
+      "rank": 7,
+      "title": "조희대로 시작하는 국감, ‘성남라인 인사개입 의혹’으로 끝날듯",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003752927",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93-008",
+      "articleId": "article-c57a38c2909033b74c495cad",
+      "rank": 8,
+      "title": "토스뱅크 엔화 환전 사고, '오류냐 아니냐'…금융당국 법리 검토",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005421911",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-06-4f1139195d93-009",
+      "articleId": "article-05b64ba742d1e3f0b9061f81",
+      "rank": 9,
+      "title": "1250원 vs 1400원…엇갈리는 원달러 환율 전망",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006381618",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-07-06cac9fb81e3",
+  "channel": "morning",
+  "date": "2026-10-07",
+  "title": "2026-10-07 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-001",
+      "articleId": "article-e831c8e20f20ae077a2812bc",
+      "rank": 1,
+      "title": "“15조 원이나 있다고요?”…잊고 있던 내 돈 찾는 법은? [잇슈 머니]",
+      "publisher": "KBS",
+      "url": "https://n.news.naver.com/article/056/0012269021",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-002",
+      "articleId": "article-99fd4aeb7f0cfbdcc484947e",
+      "rank": 2,
+      "title": "보이스피싱 피해 역대 최대…“사전 예방체계 구축해야”",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004668725",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-003",
+      "articleId": "article-ea796d6145d060f4d19d250e",
+      "rank": 3,
+      "title": "경찰, 금융권 동시다발 해킹 수사에 28명 투입 전담팀 꾸려",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003753017",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-004",
+      "articleId": "article-1c38c26b0227d2f878a88dd0",
+      "rank": 4,
+      "title": "AI는 AI로 맞선다더니… 무더기 해킹사고에 망분리 속도조절",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005585736",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-005",
+      "articleId": "article-6cd6e99559c3ea7d67b5de38",
+      "rank": 5,
+      "title": "1월부터 문 두드린 AI 해커… 금융사 ‘공동 보안 경보’ 가동 안됐다",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004002478",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-006",
+      "articleId": "article-0959f9922fa7e41ad1c5ad84",
+      "rank": 6,
+      "title": "“친구 대신 내 얼굴 인식, 돈 빠져나가”… 번지는 ‘안면 결제’ 괴담",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004002474",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-007",
+      "articleId": "article-a498007731d6bf5d5862b5f8",
+      "rank": 7,
+      "title": "손커진 외국인 관광객, 서울서 한달 1조 썼다",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005744736",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-008",
+      "articleId": "article-73237262117da2f1bb0bcf25",
+      "rank": 8,
+      "title": "2차 행추위 결과도 같았다… 수협은행장 선임 또 불발",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005422900",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-009",
+      "articleId": "article-39f85d5d889037d3f2de1477",
+      "rank": 9,
+      "title": "이형일 \"레버리지 ETF 도입, 정치적 개입 없었다\"",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006382296",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-07-06cac9fb81e3-010",
+      "articleId": "article-401eaa32c9de3cc970a0a86d",
+      "rank": 10,
+      "title": "LG CNS, 디지털자산 인프라 시장 진출",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005339665",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

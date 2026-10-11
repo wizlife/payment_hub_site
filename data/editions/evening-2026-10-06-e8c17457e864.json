@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-06-e8c17457e864",
+  "channel": "evening",
+  "date": "2026-10-06",
+  "title": "2026-10-06 석간스크랩 · LLM-A2",
+  "items": [
+    {
+      "id": "evening-2026-10-06-e8c17457e864-001",
+      "articleId": "article-1c5cd4083f91aa454bc63dd7",
+      "rank": 1,
+      "title": "국내 예금토큰 상용화, 美 사례 보니 기존 결제망 연결이 성패 좌우",
+      "publisher": "raonnews.com",
+      "url": "https://www.raonnews.com/news/article.html?no=61633",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-05T10:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-002",
+      "articleId": "article-15be54cc4637c46aa3323376",
+      "rank": 2,
+      "title": "본인계좌 일괄지급정지, 30초면 모든 통장 잠근다...해제는 창구만",
+      "publisher": "imaeil.com",
+      "url": "https://www.imaeil.com/page/view/2026100512500765547",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-05T12:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-003",
+      "articleId": "article-5b68aab0673a229d3406d1b4",
+      "rank": 3,
+      "title": "은행권 ‘모바일현금카드’ 부진에 활성화 고심⋯“현실과 괴리” 지적...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2630521",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-06T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-004",
+      "articleId": "article-452afa982d32a86e36e6c9ca",
+      "rank": 4,
+      "title": "정부, ‘금융권 해킹’에 비상대응체계 가동···기업 2만8천곳 보안점...",
+      "publisher": "경향신문",
+      "url": "https://www.khan.co.kr/article/202610041848001",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-04T18:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-005",
+      "articleId": "article-f79a4167d0b677372eae01af",
+      "rank": 5,
+      "title": "[단독] 판매대금 정산·월급 지급...기업, 스테이블코인 결제 확 늘었다",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026100537761",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-05T17:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-006",
+      "articleId": "article-3a7ec7e804eb731c991ae93d",
+      "rank": 6,
+      "title": "금감원, 금융권 무더기 해킹 'IP 19개·12개국' 특정...李, 보안 대응 '속...",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610061126488393",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-06T11:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-007",
+      "articleId": "article-12b0ebf55dae6b8dd70d31f8",
+      "rank": 7,
+      "title": "SBI·NICE·DSRV, 한일 스테이블코인 QR결제 12월 말까지 검증...출시 약속...",
+      "publisher": "wikitree.co.kr",
+      "url": "https://www.wikitree.co.kr/articles/1163790",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-03T23:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-008",
+      "articleId": "article-39f4703d26347c267b301bec",
+      "rank": 8,
+      "title": "카카오페이, 국민연금 간편결제 합류한다",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261006000298",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-06T14:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-009",
+      "articleId": "article-c0bfb28814cd10af604f6c4e",
+      "rank": 9,
+      "title": "수조원 버는 5대 시중은행, 정보보호 투자는 2% 안팎",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261006000267",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-06T16:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-06-e8c17457e864-010",
+      "articleId": "article-232100fddae03134d5132041",
+      "rank": 10,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437787",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-06T07:02:00+09:00"
+    }
+  ]
+}

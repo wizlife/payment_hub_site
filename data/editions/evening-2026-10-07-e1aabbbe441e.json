@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-07-e1aabbbe441e",
+  "channel": "evening",
+  "date": "2026-10-07",
+  "title": "2026-10-07 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-001",
+      "articleId": "article-fd9eaac426dacc000e5312df",
+      "rank": 1,
+      "title": "금감원, '해킹 사각지대' 대형 GA 73개사 점검...금보원 가입 34%뿐",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202610078382i",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T15:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-002",
+      "articleId": "article-e870b9c889c8ada4568d4888",
+      "rank": 2,
+      "title": "금융권 개인정보 유출에 보이스피싱 우려...당국, 한달간 특별대응",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2633049",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-06T20:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-003",
+      "articleId": "article-b71acb8cc940075e66cb79da",
+      "rank": 3,
+      "title": "저축은행중앙회, 1천억대 차세대시스템에 'AI 해킹' 보안 강화",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438045",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T09:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-004",
+      "articleId": "article-4a162e43acaf37a04b9448bb",
+      "rank": 4,
+      "title": "큐뱅, 스마트폰 앱으로 국내외 QR결제 처리 'ROAD M-POS' 출시",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/industry/2026/10/07/2026100613372649088",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T07:24:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-005",
+      "articleId": "article-18bf7b4a4bbcf089779202d0",
+      "rank": 5,
+      "title": "금융권 해킹 확산에 증권사도 긴급 점검...IP 차단 넘어 전산망 살핀다",
+      "publisher": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20261007001127",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T16:05:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-006",
+      "articleId": "article-9b80d828ee0e0bb4cfffa680",
+      "rank": 6,
+      "title": "증권가 토큰증권 인프라 구축 경쟁..메리츠도 리플과 협력",
+      "publisher": "4th.kr",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2119305",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T10:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-007",
+      "articleId": "article-242677a87193e9e7d5a0bae7",
+      "rank": 7,
+      "title": "\"韓금융사 7곳 턴 해킹에 中개발 AI 보안도구 ‘ARTEX’ 사용\"",
+      "publisher": "데일리안",
+      "url": "https://www.dailian.co.kr/news/view/1698566/?sc=Naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T08:21:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-008",
+      "articleId": "article-156d4fa121278150d46b6038",
+      "rank": 8,
+      "title": "[금융 AI해킹 위협]'전자금융기반시설' 뭐기에...경찰·은행 '촉각'",
+      "publisher": "news.bizwatch.co.kr",
+      "url": "https://news.bizwatch.co.kr/article/finance/2026/10/06/0046",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T08:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-009",
+      "articleId": "article-36548f6029bb3abd8442b64b",
+      "rank": 9,
+      "title": "중고거래도 신용카드로 결제... 금융위, 혁신금융서비스 24건 신규 지정",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/10/07/D5E6FCS5ENDU7HYEW2ATHCSBCU/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T16:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-07-e1aabbbe441e-010",
+      "articleId": "article-446eb7fe08220c820f9d9f52",
+      "rank": 10,
+      "title": "[환율마감] 강세 관성...원·달러 한달만 최저, 장중 1340원 하회",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2633491",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T16:00:00+09:00"
+    }
+  ]
+}

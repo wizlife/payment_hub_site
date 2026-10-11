@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-08-fa2945e02a0f",
+  "channel": "evening",
+  "date": "2026-10-08",
+  "title": "2026-10-08 석간스크랩 · LLM-A2 · 재작성본",
+  "items": [
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-001",
+      "articleId": "article-2a9f239b75b0078e619717c1",
+      "rank": 1,
+      "title": "금융권 해킹에 보이스피싱 우려 커지는데...'무과실 배상책임제' 도입은...",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261007_0003817799",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-002",
+      "articleId": "article-07cf825c9e04f3696d9539d5",
+      "rank": 2,
+      "title": "토스뱅크 송금 오류...보유 잔액 모두 이체한 후에도 '또' 송금 가능",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261007000457",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T17:30:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-003",
+      "articleId": "article-85ea6509a5df80776ea432ca",
+      "rank": 3,
+      "title": "토스, 광주은행과 스테이블코인 QR결제 기술검증 완료",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202610081300i",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:25:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-004",
+      "articleId": "article-bb54fbef6538d1ec3019d362",
+      "rank": 4,
+      "title": "이억원 “디지털자산기본법ᆞ스테이블코인 준비 마쳐⋯막바지 협의 중...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2633893",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T13:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-005",
+      "articleId": "article-eef6f9d41c81a6239fecc41f",
+      "rank": 5,
+      "title": "[2026 국정감사] 금융권 긴급 보안점검 '허점'...3개월만 살펴도 '이상 없...",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261008150407719",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-006",
+      "articleId": "article-4b3145005dabacfa0a8cfa1d",
+      "rank": 6,
+      "title": "[2026 국정감사] 이억원 \"보안 전제로 망분리 규제 해제 추진\"...금융권...",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261008091004640",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T10:16:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-007",
+      "articleId": "article-0b7fd3c7c77910f2af1a328f",
+      "rank": 7,
+      "title": "금융권 해킹에 쓰인 AI 도구, 전 세계 서버 수백대서 운영",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261008116200017?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T14:17:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-008",
+      "articleId": "article-9a916a671dd10757b31157ff",
+      "rank": 8,
+      "title": "금감원 \"AI 해킹, IP 차단만으론 한계\"...금융권에 탐지 강화 주문",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261008_0003818345",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T09:19:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-009",
+      "articleId": "article-5ae411354193eebc990fab42",
+      "rank": 9,
+      "title": "시중銀 옥죄자...지방은행 대출 오픈런",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026100791821",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-07T17:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-010",
+      "articleId": "article-0122dc7fa2b501bee951fa6e",
+      "rank": 10,
+      "title": "원·달러 환율, 1.9원 내린 1338.5원",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/08/NE47DHF64JANRITLOGW7D7P3H4/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T15:35:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-011",
+      "articleId": "article-19e9037422c33581dfa88bec",
+      "rank": 11,
+      "title": "국책연구원 “단일종목 레버리지 상품, 환율안정 단정 어렵다”...금융...",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/08/TMNOCFGAF5BVDED5Q25YFOAP4A/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T09:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-012",
+      "articleId": "article-53aa0ec4c37be585f42c78c7",
+      "rank": 12,
+      "title": "한국은행 부총재보에 최영주",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12170622",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "evening-2026-10-08-fa2945e02a0f-013",
+      "articleId": "article-fd2b93aaf63c524d04a308df",
+      "rank": 13,
+      "title": "한국은행, 이대건 금융시장국장·김신영 국제국장 임명",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438173",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    }
+  ]
+}
