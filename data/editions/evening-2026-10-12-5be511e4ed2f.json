@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-12-5be511e4ed2f",
+  "channel": "evening",
+  "date": "2026-10-12",
+  "title": "2026-10-12 석간스크랩 · LLM-A3",
+  "items": [
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-001",
+      "articleId": "article-6775c2f2c3c0a24bf2156616",
+      "rank": 1,
+      "title": "카카오뱅크, '외국인 종합 금융서비스' 출시...내년 오픈뱅킹까지 확대",
+      "publisher": "sisaon.co.kr",
+      "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=205036",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-12T11:30:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-002",
+      "articleId": "article-f07f2b7add7903be390d70dd",
+      "rank": 2,
+      "title": "인터넷지로, 11일 씨티은행 계좌 납부 오후 5시까지 중단 안내",
+      "publisher": "vegannews.co.kr",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=391981",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-11T01:14:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-003",
+      "articleId": "article-69b28951a680b43aae43740a",
+      "rank": 3,
+      "title": "연쇄 해킹 2주 전 'AI 공격' 경고 받은 금융권...부실 대응 도마 위",
+      "publisher": "뉴스1",
+      "url": "https://www.news1.kr/finance/general-finance/6315886",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-11T12:09:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-004",
+      "articleId": "article-fcbb85c12181561e37577a9e",
+      "rank": 4,
+      "title": "AI 해킹 비상 은행권, 보안 예산 고작 0.9%",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/12/2026101119473034667",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-12T04:25:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-005",
+      "articleId": "article-9de95974b955ed821d786937",
+      "rank": 5,
+      "title": "[2026 국정감사] 신현송 총재 \"범용 CBDC 검토 안 해...개인정보는 은행이...",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261012110921168",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-12T11:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-006",
+      "articleId": "article-3e47c94b563bf5100cccfa5e",
+      "rank": 6,
+      "title": "한국 금융권 노린 中 AI 해킹툴 개발 전면 중단...원천 차단은 역부족",
+      "publisher": "세계일보",
+      "url": "https://www.segye.com/newsView/20261010504472?OutUrl=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-10T14:31:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-007",
+      "articleId": "article-356e40c0c352410a2deb07b6",
+      "rank": 7,
+      "title": "토스, 광주은행과 스테이블코인 QR결제 검증",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026100817611",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-08T17:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-008",
+      "articleId": "article-1abf04d1e2ee76be61efba7c",
+      "rank": 8,
+      "title": "HSBC, 토큰화 예금으로 AI 에이전트 소액결제 시험",
+      "publisher": "digitaltoday.co.kr",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=706205",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-10T07:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-009",
+      "articleId": "article-de3b9c8a657961f3d4ebba33",
+      "rank": 9,
+      "title": "한은 \"토큰화 국채 결제에 스테이블코인 고려 안 해\"",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02423926645612264",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-12T09:53:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-010",
+      "articleId": "article-bfbade200b2d19d2243f4050",
+      "rank": 10,
+      "title": "XRP 원장 AI 에이전트 결제 1,300만 건 넘었다...3개월 만에 13배 폭증",
+      "publisher": "wikitree.co.kr",
+      "url": "https://www.wikitree.co.kr/articles/1165343",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-11T21:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-011",
+      "articleId": "article-9f4ad5c86075e10e9a3d5b9b",
+      "rank": 11,
+      "title": "코인베이스, 중남미 은행 뚫는다···달러 코인 결제 확대",
+      "publisher": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=871491",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-10T10:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-012",
+      "articleId": "article-707124eaae89ed2092924570",
+      "rank": 12,
+      "title": "신현송 \"통화정책, 효과 내고 있어...금리 인상 행위보다 정책 기조가 중...",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261012_0003822301",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-12T14:45:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-013",
+      "articleId": "article-fcc81b57d13f524fff1b1d43",
+      "rank": 13,
+      "title": "주담대 상단 年 7% 눈앞... 고정금리 갈아타기 신중해야",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610111813441192",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-11T18:15:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-014",
+      "articleId": "article-2e55f639dde2635cb4f7a39e",
+      "rank": 14,
+      "title": "“드러누워 막았어야”...레버리지 ETF 의혹, 금감원 국감으로",
+      "publisher": "세계일보",
+      "url": "https://www.segye.com/newsView/20261009507208?OutUrl=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-11T09:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-015",
+      "articleId": "article-2c5e2b295f721f2c8548a613",
+      "rank": 15,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438585",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-12T07:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-12-5be511e4ed2f-016",
+      "articleId": "article-64c19f77de206d25387edbc4",
+      "rank": 16,
+      "title": "[인사] 한국은행",
+      "publisher": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25468301",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    }
+  ]
+}

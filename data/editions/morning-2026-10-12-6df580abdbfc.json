@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-12-6df580abdbfc",
+  "channel": "morning",
+  "date": "2026-10-12",
+  "title": "2026-10-12 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-001",
+      "articleId": "article-4115d4a727a6ce90c5eeeb78",
+      "rank": 1,
+      "title": "‘아르텍스 AI’ 개발 중단에도 보안 위협은 여전",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001878010",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-002",
+      "articleId": "article-9468cb45cdd64d3d5e34c01c",
+      "rank": 2,
+      "title": "기업들 외면하는 사이버보험…종합보장 상품 가입률 6%",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004670032",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-003",
+      "articleId": "article-26e1371ca65bcac3a27dc3c0",
+      "rank": 3,
+      "title": "한달새 세계 3억2000만명 개인정보 털렸다",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004003048",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-004",
+      "articleId": "article-b0bbcaacac64bee85a2ea976",
+      "rank": 4,
+      "title": "금융권, ‘AI 해킹 공격’ 손 놓고 당했다 …2주 전 보안 세미나서 ‘피해 사례’ 공유",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003475622",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-005",
+      "articleId": "article-e45162a4e02e700ad8b2bd5c",
+      "rank": 5,
+      "title": "인뱅 마통 평균 금리, 결국 7% 뚫었다…2년3개월 만에 최고",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261011140041563",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-006",
+      "articleId": "article-8bff8f83541e50c0621bc358",
+      "rank": 6,
+      "title": "'끼리끼리' 묶은 카카오 멤버십, 내년 상반기 정식 출시 예정…외연 확장 시험대",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2633910",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-007",
+      "articleId": "article-cd2a7d3b6af0a4e799e04993",
+      "rank": 7,
+      "title": "[단독] 손님 대신 직원 얼굴 인식…토스 오결제 배상 10차례",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005341263",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-008",
+      "articleId": "article-051c04f98a9418fc215cc9a5",
+      "rank": 8,
+      "title": "2시간 먹통 된 쿠팡 \"피해 보상\"",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005340859",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-009",
+      "articleId": "article-fef2a72465e9b008d75181e3",
+      "rank": 9,
+      "title": "한국은행·국책은행 해킹시도 '역대 최대'…올 들어 102만건 돌파",
+      "publisher": "뉴시스",
+      "url": "https://n.news.naver.com/article/003/0014244769",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-010",
+      "articleId": "article-012d29f0e8628e8891635825",
+      "rank": 10,
+      "title": "해킹에 놀라 \"보안 예산 늘린다\"는 은행들… 작년엔 67%만 썼다",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000958772",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-011",
+      "articleId": "article-579ac890a5b7859843907e9d",
+      "rank": 11,
+      "title": "[단독]\"1000만원 뜯겼는데\" 못 돌려받는다?...'신종 피싱' 법 사각지대",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005424392",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-12-6df580abdbfc-012",
+      "articleId": "article-2c5e2b295f721f2c8548a613",
+      "rank": 12,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438585",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
