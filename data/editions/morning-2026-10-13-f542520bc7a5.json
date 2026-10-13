@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-13-f542520bc7a5",
+  "channel": "morning",
+  "date": "2026-10-13",
+  "title": "2026-10-13 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-001",
+      "articleId": "article-5c3040d3518ec241c0a004bc",
+      "rank": 1,
+      "title": "한은, ‘금리 인상 기조’ 유지 시사",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003475829",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-002",
+      "articleId": "article-90334149543911c4e70457e6",
+      "rank": 2,
+      "title": "[단독] 야간 파생거래 1100억弗…원화 국제화 첫걸음 뗐다",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004670260",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-003",
+      "articleId": "article-71ef6212d14a0e4a1facb9a5",
+      "rank": 3,
+      "title": "정부, 해외서 거둔 온실가스 감축 성과 거래할 탄소시장 만든다",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000958858",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-004",
+      "articleId": "article-ad2c4a95fca124e1baf682d1",
+      "rank": 4,
+      "title": "카뱅, 220만 외국인 고객 정조준... 외국인 종합금융 서비스 공개",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005587991",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-005",
+      "articleId": "article-1d260fe69cd209795e7877a6",
+      "rank": 5,
+      "title": "'AI는 AI로 막는다'…우리은행, 차세대 FDS·AI 모니터링 추진",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005424877",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-006",
+      "articleId": "article-b2868c822ef2d994c74642db",
+      "rank": 6,
+      "title": "금융권 AI해킹에 국내 보안 스타트업 뜬다… 해킹 무력화 AI·데이터 암호화 기술 개발",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004003409",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-007",
+      "articleId": "article-fd7a2ea088786ae374607988",
+      "rank": 7,
+      "title": "중국계 해킹조직에 당한 금융권...2차 피해 우려에 '배상 의무제' 부상",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006386726",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-008",
+      "articleId": "article-5d825682eb61fd8175d11558",
+      "rank": 8,
+      "title": "[단독]망분리 완화 금융사 10곳, 보안계획만 세우고 이행 안해···내부망 해킹 노출될 뻔",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003475887",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-009",
+      "articleId": "article-274f194dbc22ad31e956f3c1",
+      "rank": 9,
+      "title": "비대면중심 시스템 갖춘 인뱅, 금융권 겨냥한 해킹 비켜갔다",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005588030",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-010",
+      "articleId": "article-3c370e69ebe16ba46168bfc1",
+      "rank": 10,
+      "title": "구글 1540억 법인세 취소 … 빅테크 과세 난항",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005747390",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-011",
+      "articleId": "article-db0e22f7840dcc0ba80e340d",
+      "rank": 11,
+      "title": "2030년까지 후보지 100곳 선정… 노후 저층 주거민 ‘새 보금자리’",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004166120",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-13-f542520bc7a5-012",
+      "articleId": "article-9a38922b8811ad585735e86f",
+      "rank": 12,
+      "title": "[2026 국감] 통신사 부가서비스 '해지 7단계'? 방미통위 \"심기일전해 살필 것\"",
+      "publisher": "아이뉴스24",
+      "url": "https://n.news.naver.com/article/031/0001065085",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
