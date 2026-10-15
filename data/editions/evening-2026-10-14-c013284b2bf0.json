@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-14-c013284b2bf0",
+  "channel": "evening",
+  "date": "2026-10-14",
+  "title": "2026-10-14 석간스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-001",
+      "articleId": "article-d8a8cec1920f230f2e8b65aa",
+      "rank": 1,
+      "title": "금융권 해킹사고 16곳·10만건 유출⋯금융위, 보안체계 전면 재점검",
+      "publisher": "inews24.com",
+      "url": "http://www.inews24.com/view/2015035",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T16:25:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-002",
+      "articleId": "article-7aa059def4ef5f79eeaa1ef6",
+      "rank": 2,
+      "title": "스테이블코인 확산에 예금토큰 대응...상용화가 관건",
+      "publisher": "cstimes.com",
+      "url": "https://www.cstimes.com/news/articleView.html?idxno=723789",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T07:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-003",
+      "articleId": "article-557d5107c065e4a0ae551a2b",
+      "rank": 3,
+      "title": "의료뷰티 외국인 관광객 비자 패스트트랙 추진...외국인 간편결제 표준 ...",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610131856298187",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T07:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-004",
+      "articleId": "article-1200160607015af0a4722636",
+      "rank": 4,
+      "title": "BC 의존 낮춘 우리카드...독자 결제망 확대, 수익구조도 바꿀까",
+      "publisher": "ezyeconomy.com",
+      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=240737",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-13T17:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-005",
+      "articleId": "article-9a9dda283e661bf14ba9f525",
+      "rank": 5,
+      "title": "JP모건, 외부 AI 에이전트의 송금·결제 등 차단",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261014064500009?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T10:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-006",
+      "articleId": "article-7a60fbe0cd7d740fca9f3bca",
+      "rank": 6,
+      "title": "동네 빵집도 안면인식 결제...네이버·소공연 ‘디지털 전환’ 맞손",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10901616?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T06:46:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-007",
+      "articleId": "article-791b835e9b4b82d3e1a1735d",
+      "rank": 7,
+      "title": "[단독] 카카오, 웹툰·음원·카카오T에 스테이블코인 결제 연동...소설 ...",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261013000383",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T06:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-008",
+      "articleId": "article-82ed8abb249e6acf8070af4e",
+      "rank": 8,
+      "title": "환율, 6.8원 내린 1,338.3원...달러 약세에 하락 전환",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261014143800002?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T16:07:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-009",
+      "articleId": "article-a5d57bcb66f4fe9b95965766",
+      "rank": 9,
+      "title": "금감원 \"바젤위, 한국 은행 자본규제 평가에 '최고등급' 부여\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/14/2026101410032076223",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T10:25:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-14-c013284b2bf0-010",
+      "articleId": "article-c676b92b440dd528d4950584",
+      "rank": 10,
+      "title": "영업점서 계좌 만들면 수수료 10배?...금감원, 차등 관행 손질",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10902693?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-14T16:50:00+09:00"
+    }
+  ]
+}

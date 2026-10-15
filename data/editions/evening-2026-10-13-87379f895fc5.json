@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-13-87379f895fc5",
+  "channel": "evening",
+  "date": "2026-10-13",
+  "title": "2026-10-13 석간스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-13-87379f895fc5-001",
+      "articleId": "article-75dc956aa25a56c98d34520c",
+      "rank": 1,
+      "title": "금융결제원, 창립 40주년 세미나...'디지털금융의 다음 여정' 논의",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261013000054",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-13T09:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-13-87379f895fc5-002",
+      "articleId": "article-8f98885eafe389c9133a1825",
+      "rank": 2,
+      "title": "젝토, 지갑 추가 설치 없는 스테이블코인 결제 실증",
+      "publisher": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=872041",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-12T21:12:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-13-87379f895fc5-003",
+      "articleId": "article-2d6ed41e7f5cb0c93d0d5aca",
+      "rank": 3,
+      "title": "[단독]망분리 완화 금융사 10곳, 보안계획만 세우고 이행 안해···내부...",
+      "publisher": "경향신문",
+      "url": "https://www.khan.co.kr/article/202610130600181",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-13T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-13-87379f895fc5-004",
+      "articleId": "article-66edb8cf7b3475c70d4670a6",
+      "rank": 4,
+      "title": "\"해킹 유출 사고\"...금융감독원, 예가람저축은행 현장점검",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610130903554918",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-13T09:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-13-87379f895fc5-005",
+      "articleId": "article-27cff4d21e584a22fddf0b5e",
+      "rank": 5,
+      "title": "국감서 디지털화폐 필요성 논란...한은 예금토큰 '입지 시험대'",
+      "publisher": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20261013000863",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-13T14:51:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-13-87379f895fc5-006",
+      "articleId": "article-40dd38dec8ab0573c17f58dc",
+      "rank": 6,
+      "title": "주총 안건 한눈에...금감원, 내년 오픈 다트 개편",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610131026075034",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-13T12:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-13-87379f895fc5-007",
+      "articleId": "article-2b1997fdf5dbcc668ae99897",
+      "rank": 7,
+      "title": "코스피 폭락하니 시중 자금 채권으로...반도체 이익·통화정책이 변수",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/10/13/2026101313561723534",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-13T14:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-13-87379f895fc5-008",
+      "articleId": "article-a84db1781f4b7bf813d41f0f",
+      "rank": 8,
+      "title": "주택담보대출 금리 석 달 연속 상승... 한 달 새 0.28%p 껑충",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/10/13/IE6VRV4ODNG3TDOGSSLBDLF3DQ/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-13T10:49:00+09:00"
+    }
+  ]
+}

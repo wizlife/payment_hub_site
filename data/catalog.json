@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T00:11:05.913042+00:00",
+  "updatedAt": "2026-10-15T10:44:09.453051+00:00",
   "channels": [
     {
       "id": "morning",
@@ -11,7 +11,7 @@
     {
       "id": "evening",
       "label": "석간스크랩",
-      "latestEditionId": "evening-2026-10-12-5be511e4ed2f",
+      "latestEditionId": "evening-2026-10-15-2123d6f1bbb7",
       "status": "available"
     },
     {
@@ -51,6 +51,9 @@
       "2026-09-01": "morning-2026-09-01-40f28e59496f"
     },
     "evening": {
+      "2026-10-15": "evening-2026-10-15-2123d6f1bbb7",
+      "2026-10-14": "evening-2026-10-14-c013284b2bf0",
+      "2026-10-13": "evening-2026-10-13-87379f895fc5",
       "2026-10-12": "evening-2026-10-12-5be511e4ed2f",
       "2026-10-08": "evening-2026-10-08-6bde456a6557",
       "2026-10-07": "evening-2026-10-07-f4be1be39119",
@@ -133,6 +136,14 @@
       "path": "data/editions/morning-2026-10-15-535f100951dc.json"
     },
     {
+      "id": "evening-2026-10-15-2123d6f1bbb7",
+      "channel": "evening",
+      "date": "2026-10-15",
+      "title": "2026-10-15 석간스크랩",
+      "itemCount": 11,
+      "path": "data/editions/evening-2026-10-15-2123d6f1bbb7.json"
+    },
+    {
       "id": "ai-2026-10-15-00a1863d1673",
       "channel": "ai",
       "date": "2026-10-15",
@@ -149,6 +160,14 @@
       "path": "data/editions/morning-2026-10-14-521767853c2f.json"
     },
     {
+      "id": "evening-2026-10-14-c013284b2bf0",
+      "channel": "evening",
+      "date": "2026-10-14",
+      "title": "2026-10-14 석간스크랩",
+      "itemCount": 10,
+      "path": "data/editions/evening-2026-10-14-c013284b2bf0.json"
+    },
+    {
       "id": "ai-2026-10-14-dacc676a2e1b",
       "channel": "ai",
       "date": "2026-10-14",
@@ -163,6 +182,14 @@
       "title": "2026-10-13 조간스크랩",
       "itemCount": 12,
       "path": "data/editions/morning-2026-10-13-f542520bc7a5.json"
+    },
+    {
+      "id": "evening-2026-10-13-87379f895fc5",
+      "channel": "evening",
+      "date": "2026-10-13",
+      "title": "2026-10-13 석간스크랩",
+      "itemCount": 8,
+      "path": "data/editions/evening-2026-10-13-87379f895fc5.json"
     },
     {
       "id": "ai-2026-10-13-9abac8fdda5a",
