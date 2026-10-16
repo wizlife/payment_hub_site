@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-16-df9e86fdd359",
+  "channel": "evening",
+  "date": "2026-10-16",
+  "title": "2026-10-16 석간스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-001",
+      "articleId": "article-0f69e0b3473aad5507bfd11f",
+      "rank": 1,
+      "title": "우리카드, BC카드 결제망 독립 3년... 독자카드 매출 비중 50% 돌파",
+      "publisher": "pressman.kr",
+      "url": "https://www.pressman.kr/news/articleView.html?idxno=104044",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T15:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-002",
+      "articleId": "article-1d3e5cd5908e0be166c9a5f2",
+      "rank": 2,
+      "title": "금융권 연쇄 해킹에 CEO 보안책임 강화 추진...국회 입법 논의 주목",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261016_0003828888",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T11:55:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-003",
+      "articleId": "article-6f2daa1ef15788471d314066",
+      "rank": 3,
+      "title": "해킹 피해 16곳 중 6곳 금융보안원 미가입...중소 금융권 '보안 공백'",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261016_0003829409",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T16:23:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-004",
+      "articleId": "article-609137702a3cbffc76e8ef23",
+      "rank": 4,
+      "title": "예가람저축은행, 4만3246명 개인정보 유출...\"해킹 14일 만에 인지\"",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610161545070073",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T16:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-005",
+      "articleId": "article-42de2eff20664e85448ed687",
+      "rank": 5,
+      "title": "해킹당한 신한은행, 보안 예산 10% 줄였다... 5대 은행 중 최저",
+      "publisher": "한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026101612100002496?did=NA",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T14:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-006",
+      "articleId": "article-16a4deb724c8364d0abd7997",
+      "rank": 6,
+      "title": "비자 다이렉트, 스테이블코인 선불충전 상업 운영 시작",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/423222",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T12:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-007",
+      "articleId": "article-ccf6c9cb535ac9ae6b58194b",
+      "rank": 7,
+      "title": "마스터카드 '글로벌 머니 플랫폼' 출시...스테이블코인 결제 인프라 확대",
+      "publisher": "digitaltoday.co.kr",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=707668",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T10:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-008",
+      "articleId": "article-51ab3ed1a52047f7035339a3",
+      "rank": 8,
+      "title": "네이버페이, 국민행복카드 바우처 간편결제 지원...6개 카드사 모두 연동",
+      "publisher": "pinpointnews.co.kr",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495832",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T09:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-009",
+      "articleId": "article-7cad96e9836b61159f79a6fe",
+      "rank": 9,
+      "title": "정부 “증시 불안, 채권·외환시장 확산 점검...시장교란 엄정 대응”",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10904646?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T10:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-010",
+      "articleId": "article-d7177c3fe0444ca6d647fc71",
+      "rank": 10,
+      "title": "금융위, 정비사업 금융·보증 지원 강화...주택공급 뒷받침",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2636769",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T16:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-011",
+      "articleId": "article-edf7886b0429dd483d0c872b",
+      "rank": 11,
+      "title": "일본, 10월에 기준금리 또 올리나...\"지나치게 신중할 필요 없어\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/world/2026/10/16/2026101614242680128",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T14:50:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-012",
+      "articleId": "article-94e5d7c68f5c1b76b2ca1770",
+      "rank": 12,
+      "title": "李대통령, 산업차관에 박동일·금융위 부위원장에 신진창 임명",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261016095100001?input=1195m",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "evening-2026-10-16-df9e86fdd359-013",
+      "articleId": "article-9daf090cd56076f0cb8fc02a",
+      "rank": 13,
+      "title": "[인사] 금융위원회",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261016133900002?input=1195m",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    }
+  ]
+}
