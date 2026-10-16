@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-16-1cf8ff6e4dd5",
+  "channel": "morning",
+  "date": "2026-10-16",
+  "title": "2026-10-16 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-001",
+      "articleId": "article-f7802b79f746a83065a4e0e0",
+      "rank": 1,
+      "title": "네이버 등 페이 3사, 1~2년 안 쓴 선불 잔액 알려준다",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004004113",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-002",
+      "articleId": "article-0507f74427e6142a902aeca7",
+      "rank": 2,
+      "title": "5500선 밀리자 당국 또 긴급회의… 원인 분석했지만 대응 뾰족수 없어",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001878944",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-003",
+      "articleId": "article-28519ca434529f14a631b05b",
+      "rank": 3,
+      "title": "조각투자는 넣고 레버리지 ETF는 뺀 핵심 증인?금융위·금감원 반쪽 종감되나",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2636161",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-004",
+      "articleId": "article-3a6b56c68f7ba9fcdd98ff33",
+      "rank": 4,
+      "title": "BC카드 '콘다' 외국인 선불카드 시장 공략 속도",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005589979",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-005",
+      "articleId": "article-cec33966057cad029c0401c4",
+      "rank": 5,
+      "title": "900만명 쓰는 이유 있었다…쿠팡 쫓는 '다크호스' 어디길래",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005342984",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-006",
+      "articleId": "article-139a1e81d30195f643ab34c8",
+      "rank": 6,
+      "title": "“일하고 돈 못 받을까 걱정 줄인다”…서울시 프리랜서 안심결제 1000건 눈앞",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004671866",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-007",
+      "articleId": "article-3e040c3cb8e90e85db4a51d6",
+      "rank": 7,
+      "title": "[단독]KB-하나 “콜센터 감정노동 유급휴가 신설” 원-하청 첫 자율합의",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003755389",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-008",
+      "articleId": "article-9bf4e58bc02b8f03eacde509",
+      "rank": 8,
+      "title": "\"오늘부터는 튀르키예인\"…한국인 '국적 세탁' 나선 이유",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005343094",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-009",
+      "articleId": "article-4ad9bef2caa011f6aa23f130",
+      "rank": 9,
+      "title": "어린이집-유치원 입소 신청 서류 온라인 제출 가능해져",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003755407",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-010",
+      "articleId": "article-a7dcc244e7b14171b232358a",
+      "rank": 10,
+      "title": "가계대출 9개월 만에 꺾여…지난달 2조2000억원 '뚝'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005342996",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-16-1cf8ff6e4dd5-011",
+      "articleId": "article-c393ce9b8b51f809777b178e",
+      "rank": 11,
+      "title": "“금융망 취약점, AI는 1시간 만에 찾아 대처”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003755046",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
