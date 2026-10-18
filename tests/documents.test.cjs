@@ -11,7 +11,7 @@ test('every published document is searchable by its exact public title without l
   for(const d of docs.items){
     const r=search.find(records,d.title,{kind:'document'}).find(r=>r.entryId===d.id);assert.ok(r,d.title);
     for(const key of Object.keys(d))assert.deepEqual(r[key],d[key]);
-    assert.equal(r.summary,''); assert.ok(d.date>=docs.window.from&&d.date<=docs.window.to);
+    assert.equal(r.summary,d.summary); assert.ok(d.date>=docs.window.from&&d.date<=docs.window.to);
   }
 });
 test('institution, publication type, date and news/document filters never leak other records',()=>{
@@ -32,4 +32,19 @@ test('mixed search applies literal AND and phrases per source record, including 
 test('search manifest counts both independent catalogs',()=>{
   const m=read('data/search-manifest.json');assert.equal(m.recordCount,records.length);assert.equal(m.documentCount,docs.items.length);assert.equal(m.newsRecordCount,records.length-docs.items.length);
   assert.equal(search.find(records,'private provenance',{kind:'document'}).length,0);
+});
+
+test('homepage focus excludes related-only reports without deleting their library/search entries',()=>{
+  const featured=docs.items.filter(d=>d.focus==='payment').slice(0,4);
+  assert.ok(featured.length); assert.ok(featured.every(d=>d.focus==='payment'));
+  for(const d of docs.items.filter(d=>d.focus==='related')) assert.ok(records.some(r=>r.entryId===d.id));
+});
+test('Korean summaries are searchable and unavailable full text has no invented summary',()=>{
+  for(const d of docs.items){
+    if(d.summaryStatus==='ready'){
+      assert.equal(d.language,'en'); assert.match(d.summary,/[가-힣]/);
+      const line=d.summary.split('\n').find(s=>s.trim());
+      assert.ok(search.find(records,line,{kind:'document'}).some(r=>r.entryId===d.id));
+    } else assert.equal(d.summary,'');
+  }
 });

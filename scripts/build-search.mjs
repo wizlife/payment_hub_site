@@ -62,7 +62,7 @@ const records = entries.map(({ item, edition, channel }) => ({
 }));
 const documents = await read('data/documents.json');
 assert(documents.schemaVersion === 1 && Array.isArray(documents.items), 'Invalid document catalog');
-const docFields = new Set(['id','title','publisher','institution','date','type','series','issue','issueUrl','url','summary']);
+const docFields = new Set(['id','title','publisher','institution','date','type','series','issue','issueUrl','url','summary','focus','language','summaryStatus','summaryBasis','summarySourceUrl']);
 const institutions = {bok:['한국은행','bok.or.kr'],kif:['한국금융연구원','kif.re.kr'],kcmi:['자본시장연구원','kcmi.re.kr'],bis:['BIS','bis.org'],fsc:['금융위원회','fsc.go.kr']};
 assert(!forbidden.test(JSON.stringify(documents)), 'Nonpublic document data');
 for (const doc of documents.items) {
@@ -73,8 +73,18 @@ for (const doc of documents.items) {
   assert(['report','periodical','policy'].includes(doc.type), 'Invalid document type');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(doc.date) && !Number.isNaN(Date.parse(doc.date)) && doc.date >= documents.window.from && doc.date <= documents.window.to, 'Document date outside collection window');
   assert(typeof doc.title === 'string' && doc.title.trim() && typeof doc.series === 'string', 'Missing document title or series');
-  // Trial is bibliographic links only; summaries require a separate reuse review.
-  assert(doc.summary === '', 'Trial document summaries must be empty');
+  assert(['payment','related'].includes(doc.focus), 'Missing reviewed homepage focus');
+  assert(['ko','en'].includes(doc.language), 'Missing document language');
+  assert(['ready','pending','not-needed'].includes(doc.summaryStatus), 'Invalid summary status');
+  if (doc.summaryStatus === 'ready') {
+    assert(doc.language === 'en' && ['full-text','official-abstract'].includes(doc.summaryBasis), 'Invalid summary basis');
+    assert(typeof doc.summary === 'string' && doc.summary.length >= 100 && doc.summary.length <= 2400 && /[가-힣]/.test(doc.summary), 'Invalid Korean summary');
+    const source = new URL(doc.summarySourceUrl);
+    assert(source.protocol === 'https:' && !source.username && !source.password && (source.hostname === institution[1] || source.hostname.endsWith('.' + institution[1])), 'Invalid summary source');
+  } else {
+    assert(doc.summary === '' && doc.summaryBasis === '' && doc.summarySourceUrl === '', 'Unverified summary text');
+    assert(doc.summaryStatus === (doc.language === 'en' ? 'pending' : 'not-needed'), 'Summary language mismatch');
+  }
   for (const field of ['url','issueUrl']) {
     if (!doc[field] && field === 'issueUrl') continue;
     const u = new URL(doc[field]);

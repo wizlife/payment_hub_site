@@ -320,3 +320,8 @@ a.article-title-link:hover, a.article-title-link:focus-visible { color: var(--gr
   #document-preview { padding: 16px; }
   .header-nav { flex-wrap: wrap; gap: 14px; }
 }
+
+.document-summary { margin-top: 1rem; border-top: 1px solid var(--border, #dce4e8); padding-top: .8rem; }
+.document-summary summary { cursor: pointer; font-weight: 700; color: var(--accent, #16665b); }
+.document-summary-body { white-space: pre-line; line-height: 1.85; overflow-wrap: anywhere; margin-top: .8rem; }
+.document-summary .document-access-note { margin-top: .7rem; }

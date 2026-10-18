@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T01:43:34.722928+09:00",
+  "updatedAt": "2026-10-19T02:41:17.071597+09:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-10-19"
   },
-  "scope": "지급결제 관련 제목을 중심으로 선별한 공식 기관자료의 서지 목록. 원문 링크 제공, PDF 본문·요약 미수록. 전체 기관자료의 완전 수집은 아님.",
+  "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료. 첫 화면은 지급결제 중심이며 자료실에서 전체 목록과 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 기관자료의 완전 수집은 아님.",
   "coverage": [
     {
       "institution": "bok",
@@ -50,7 +50,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.fsc.go.kr/no010101/87938",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "payment"
     },
     {
       "id": "doc-bis-0382b90ab202c0f7",
@@ -63,7 +68,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.bis.org/publications/final-report-fmis-management-general-business-risks-and-general-business-losses-further-guidance-pfmi",
-      "summary": ""
+      "summary": "금융시장인프라의 일반사업위험과 손실 관리\n\n핵심 내용\n• CPMI·IOSCO가 PFMI 원칙 15의 적용을 구체화한 최종 지침이다. 참가자의 채무불이행 외에 인프라 운영 과정에서 생기는 사업 손실을 다룬다.\n• 법률·운영·보관 및 투자 위험을 함께 식별하고, 위험을 줄이거나 이전한 뒤에도 남는 손실의 규모와 발생 시점을 평가하도록 설명한다.\n• 핵심 서비스의 회복 또는 질서 있는 종료를 뒷받침할 유동순자산을 자기자본으로 확보해야 한다. 최소 필요액은 관련 계획 실행비용과 현재 운영비용 6개월분 중 큰 금액을 기준으로 검토한다.\n• 기존 PFMI를 넘는 새로운 기준을 만드는 문서가 아니라, 이사회 책임·위험관리·투명성을 포함한 보충 지침이다.\n\n지급결제 관점 — 편집자 해석\n결제·청산 인프라가 운영상 손실을 겪어도 핵심 서비스를 유지할 재무적 여력을 점검할 때 참고할 수 있다. 국내 특정 기관에 곧바로 적용되는 법적 의무로 해석하지 않는다.\n\n확인 범위: 원문 PDF의 Executive summary, 인쇄 1–2쪽(PDF 5–6쪽)을 중심으로 정리.",
+      "language": "en",
+      "summaryStatus": "ready",
+      "summarySourceUrl": "https://www.bis.org/publications/final-report-fmis-management-general-business-risks-and-general-business-losses-further-guidance-pfmi.pdf",
+      "summaryBasis": "full-text",
+      "focus": "related"
     },
     {
       "id": "doc-kif-4b36ddc029dfa349",
@@ -76,7 +86,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=884&ControlNo=368264&ParentNodeID=882&PageNo=1&SearchText=&VolumeID=7805&SearchIndex=-1",
-      "summary": ""
+      "summary": "",
+      "language": "en",
+      "summaryStatus": "pending",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-fsc-3e03e26e1b6daf01",
@@ -89,7 +104,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.fsc.go.kr/no010101/87893",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "payment"
     },
     {
       "id": "doc-kcmi-13082e72cadb1ad6",
@@ -102,7 +122,12 @@
       "issue": "[26-14]",
       "issueUrl": "",
       "url": "https://www.kcmi.re.kr/report/report_view?report_no=2336",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-fsc-d0376cf939c92fd3",
@@ -115,7 +140,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.fsc.go.kr/no010101/87838",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-bok-79dd7ec873bc12b3",
@@ -128,7 +158,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11065076&menuNo=201265",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "payment"
     },
     {
       "id": "doc-bok-99140f97fa0e0697",
@@ -141,7 +176,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064930&menuNo=201265",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "payment"
     },
     {
       "id": "doc-bis-3e2c620c1ead2f97",
@@ -154,7 +194,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.bis.org/publications/cpmi-iosco-fmis-reliance-third-party-service-providers-challenges-and-risks",
-      "summary": ""
+      "summary": "금융시장인프라의 외부 서비스 제공자 의존 위험\n\n핵심 내용\n• 결제시스템·중앙거래상대방 등 금융시장인프라가 클라우드와 IT 서비스를 외부에 맡기면서 커지는 운영 위험을 다룬 토론 문서다.\n• 주요 쟁점은 생태계의 상호연결성, 소수 업체에 대한 의존, 불투명한 공급망, 공급자 교체·계약 종료의 어려움, 협상력 불균형, 국가별 감독 기대의 차이다.\n• 한 공급자의 장애가 여러 인프라에 동시에 영향을 줄 수 있고, 높은 전환비용은 비상시 대체 서비스를 사용하는 데 제약이 될 수 있다고 설명한다.\n• 산업계 의견을 모으기 위한 문서이며 새로운 의무나 추가 지침을 확정한 것은 아니다.\n\n지급결제 관점 — 편집자 해석\n결제망의 외부 IT·통신·클라우드 의존도를 점검할 때 계약 상대방뿐 아니라 재위탁 관계와 실제 대체 가능성도 살펴볼 근거가 된다.\n\n확인 범위: 원문 PDF의 Executive Summary, 인쇄 1–2쪽(PDF 5–6쪽)을 중심으로 정리.",
+      "language": "en",
+      "summaryStatus": "ready",
+      "summarySourceUrl": "https://www.bis.org/publications/cpmi-iosco-fmis-reliance-third-party-service-providers-challenges-and-risks.pdf",
+      "summaryBasis": "full-text",
+      "focus": "related"
     },
     {
       "id": "doc-bis-394dfed74f69101a",
@@ -167,7 +212,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.bis.org/publications/cpmi-iosco-cyber-resilience-toolkit-practical-considerations-fmis",
-      "summary": ""
+      "summary": "금융시장인프라를 위한 사이버 복원력 실무 도구\n\n핵심 내용\n• CPMI·IOSCO가 PFMI와 기존 사이버 복원력 지침의 이행을 돕기 위해 제시한 실무 도구 모음이다. 협의 단계의 자료이며 자발적·비구속적 도구라는 점을 명시한다.\n• 네 축은 사이버 위험 거버넌스, 극단적이지만 가능한 사고 시나리오 설계, 대응·서비스 재개·복구 계획, 테스트와 훈련이다.\n• 핵심 업무와 정보자산을 식별하고 안전한 서비스 재개 조건, 연결된 기관의 접속 차단·재연결, 시스템 변경 전후 시험 등을 검토하도록 구성했다.\n• 기술 중립적인 참고 도구이며 법규 준수 여부나 법적 책임을 판정하는 검사표로 사용하기 위한 문서는 아니다.\n\n지급결제 관점 — 편집자 해석\n결제망 사고 대응은 개별 시스템 복구를 넘어 연결 기관과의 안전한 거래 재개까지 고려해야 한다. 합동 복구훈련과 재개 조건을 점검할 때 참고할 수 있다.\n\n확인 범위: 원문 PDF의 목차·Introduction·Toolkit, 인쇄 i·1–2쪽(PDF 3·5–6쪽)을 중심으로 정리.",
+      "language": "en",
+      "summaryStatus": "ready",
+      "summarySourceUrl": "https://www.bis.org/publications/cpmi-iosco-cyber-resilience-toolkit-practical-considerations-fmis.pdf",
+      "summaryBasis": "full-text",
+      "focus": "related"
     },
     {
       "id": "doc-kcmi-4cbbdedfd0fd540e",
@@ -180,7 +230,12 @@
       "issue": "2026-18호",
       "issueUrl": "https://www.kcmi.re.kr/publications/publications_list?syear=2026&zcd=002001016&zno=1934",
       "url": "https://www.kcmi.re.kr/publications/pub_detail_view?syear=2026&zcd=002001016&zno=1934&cno=6836",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "payment"
     },
     {
       "id": "doc-kif-4d5e28cac964060c",
@@ -193,7 +248,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=884&ControlNo=367016&ParentNodeID=882&PageNo=1&SearchText=&VolumeID=7784&SearchIndex=-1",
-      "summary": ""
+      "summary": "",
+      "language": "en",
+      "summaryStatus": "pending",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-kif-3991bfc103d7f926",
@@ -206,7 +266,12 @@
       "issue": "35권 18호",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=76&ControlNo=366974&ParentNodeID=58&PageNo=1&SearchText=&VolumeID=7783&SearchIndex=-1",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-fsc-37cb8abd90dec7de",
@@ -219,7 +284,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.fsc.go.kr/no010101/87650",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-bok-7adc1e826c49562c",
@@ -232,7 +302,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=11064416&menuNo=200433",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "payment"
     },
     {
       "id": "doc-fsc-5de2ebab83c063fe",
@@ -245,7 +320,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.fsc.go.kr/no010101/87585",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-kif-50f4aa0d99eefa53",
@@ -258,7 +338,12 @@
       "issue": "35권 16호",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=76&ControlNo=366049&ParentNodeID=58&PageNo=1&SearchText=&VolumeID=7756&SearchIndex=-1",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-fsc-5f43c66087592843",
@@ -271,7 +356,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.fsc.go.kr/no010101/87453",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     },
     {
       "id": "doc-fsc-40d6ebe568e5cc1c",
@@ -284,7 +374,12 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.fsc.go.kr/no010101/87458",
-      "summary": ""
+      "summary": "",
+      "language": "ko",
+      "summaryStatus": "not-needed",
+      "summarySourceUrl": "",
+      "summaryBasis": "",
+      "focus": "related"
     }
   ]
 }

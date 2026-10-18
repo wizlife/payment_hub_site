@@ -161,7 +161,7 @@ function renderOverview() {
 function documentCoverage() {
   if (documentsError) return '기관자료 목록을 불러오지 못했습니다. 새로고침해 다시 시도해 주세요.';
   const w = documents.window;
-  return `${w?.from || ''} ~ ${w?.to || ''} 발행 자료 중 선별한 ${documents.items.length}건 · 자료실 반영 ${documents.updatedAt?.slice(0,10) || ''}. 제목·발행기관을 검색하고 전문은 원문 링크에서 확인합니다. 기관별 전체 자료를 빠짐없이 수록한 목록은 아닙니다.`;
+  return `${w?.from || ''} ~ ${w?.to || ''} 발행 자료 중 선별한 ${documents.items.length}건 · 자료실 반영 ${documents.updatedAt?.slice(0,10) || ''}. 제목·발행기관·제공된 국문 요약을 검색하고 전문은 원문 링크에서 확인합니다. 기관별 전체 자료를 빠짐없이 수록한 목록은 아닙니다.`;
 }
 function documentCard(meta, heading = 'h2') {
   const card = element('article','search-result document-card'); card.dataset.articleId = meta.id; card.id = heading === 'h3' ? `preview-${meta.id}` : meta.id; card.tabIndex = -1;
@@ -173,15 +173,25 @@ function documentCard(meta, heading = 'h2') {
   const footer = element('div','search-result-footer'); footer.append(externalLink(meta,'발행기관 자료정보 ↗'));
   if (meta.issueUrl) { const issueLink=externalLink({...meta,url:meta.issueUrl},'간행물 해당 호 ↗'); footer.append(issueLink); }
   card.append(footer);
+  if (meta.summaryStatus === 'ready') {
+    const details = element('details','document-summary');
+    details.append(element('summary','','국문 요약보고서 보기'));
+    const body = element('div','document-summary-body'); appendHighlighted(body,meta.summary); details.append(body);
+    details.append(element('p','document-access-note',`${meta.summaryBasis === 'full-text' ? '원문 본문' : '공식 초록'}을 바탕으로 작성한 AI 국문 요약입니다. 공식 번역이 아닙니다.`));
+    if (meta.institution === 'bis') details.append(element('p','document-access-note','출처: BIS 및 원문에 표시된 발행기관. BIS는 이 비공식 국문 요약의 정확성·완전성을 보증하지 않습니다.'));
+    details.append(externalLink({...meta,url:meta.summarySourceUrl},'요약에 사용한 원문 ↗'));
+    if (state.query && SearchText.pieces(meta.summary,state.query).some(p=>p.match)) details.open=true;
+    card.append(details);
+  } else if (meta.language === 'en') card.append(element('p','document-access-note','국문 요약 준비 중 · 원문 확인 후 제공합니다.'));
   if (meta.institution === 'kif') card.append(element('p','document-access-note','서지 정보 페이지로 연결합니다. 전문은 기관 사이트에서 추가 조회가 필요할 수 있습니다.'));
   return card;
 }
 function renderDocumentPreview() {
   const section=$('#document-preview'); section.replaceChildren();
-  const head=element('div','section-heading');head.append(element('h2','','최근 기관자료'));
+  const head=element('div','section-heading');head.append(element('h2','','지급결제 주요 자료'));
   const more=element('a','text-button','자료실 전체 보기 →');more.href='?view=library';more.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey)return;e.preventDefault();navigate({view:'library',kind:'document',institution:'all',type:'all',channel:'all',date:'all',edition:'',query:'',sort:'latest'},{scroll:true});});head.append(more);
-  section.append(head,element('p','section-description',documentCoverage()));
-  const grid=element('div','document-grid'); grid.append(...documents.items.slice(0,4).map(d=>documentCard(d,'h3')));section.append(grid);
+  section.append(head,element('p','section-description','결제·송금·청산결제·디지털화폐와 직접 관련된 최근 자료입니다. 그 밖의 금융자료는 자료실과 검색에서 볼 수 있습니다.'));
+  const grid=element('div','document-grid'); grid.append(...documents.items.filter(d=>d.focus === 'payment').slice(0,4).map(d=>documentCard(d,'h3')));section.append(grid);
 }
 async function fetchEdition(record) {
   if (!editions.has(record.id)) {
