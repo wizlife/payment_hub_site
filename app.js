@@ -190,7 +190,7 @@ async function fetchEdition(record) {
   }
   return editions.get(record.id);
 }
-function articleCard(item, edition, index) {
+function articleCard(item, index) {
   const card = element('article', item.summary ? 'ai-card' : 'ai-card title-card'); card.id = item.id; card.tabIndex = -1;
   const highlight = state.view === 'archive' && location.hash === '#' + encodeURIComponent(item.id) ? state.highlight : '';
   const top = element('div', 'ai-card-top');
@@ -215,9 +215,6 @@ function articleCard(item, edition, index) {
   else footer.append(element('span', 'published-time', '기사 발행 시각 미제공'));
   footer.append(externalLink(item)); card.append(footer);
   if (item.linkStatus === 'unavailable') card.append(element('p', 'link-note', item.linkNote || '보관된 원문 링크가 현재 열리지 않습니다.'));
-  const permalink = element('a', 'entry-permalink', '이 항목 링크'); permalink.href = routeUrl({ ...state, view: 'archive', edition: edition.id, channel: 'all', date: 'all', highlight }, item.id); permalink.setAttribute('aria-label', `${item.title} — 이 항목 링크`);
-  permalink.addEventListener('click', event => { if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); openEdition(edition.id, item.id, highlight); });
-  card.append(permalink);
   return card;
 }
 function renderEdition(edition) {
@@ -236,7 +233,7 @@ function renderEdition(edition) {
     section.addEventListener('toggle', () => { const details = [...section.querySelectorAll('details')]; toggle.textContent = details.every(item => item.open) ? '요약 모두 접기 −' : '요약 모두 펼치기 ＋'; }, true);
     heading.append(toggle);
   }
-  const grid = element('div', `ai-grid${titleOnly ? ' title-list' : ''}`); grid.append(...edition.items.map((item, index) => articleCard(item, edition, index)));
+  const grid = element('div', `ai-grid${titleOnly ? ' title-list' : ''}`); grid.append(...edition.items.map((item, index) => articleCard(item, index)));
   section.append(heading, grid); return section;
 }
 function showEmpty(title, description) { $('#empty-title').textContent = title; $('#empty-description').textContent = description; $('#empty-results').hidden = false; }
