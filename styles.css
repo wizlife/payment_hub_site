@@ -114,6 +114,7 @@ p, h1, h2, h3 { margin: 0; }
 .publisher { font-weight: 650; color: #486152; }
 .ai-card-top .publisher { font-size: 12px; }
 .ai-card h3 { font-size: 17px; line-height: 1.55; letter-spacing: -.45px; font-weight: 700; word-break: keep-all; overflow-wrap: anywhere; }
+a.article-title-link:hover, a.article-title-link:focus-visible { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
 .ai-teaser { font-size: 13px; line-height: 1.85; color: var(--muted); margin-top: 12px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .ai-card.expanded .ai-teaser { display: none; }
 .article-details { margin-top: 13px; }

@@ -63,6 +63,13 @@ function externalLink(item, label = '원문 보기 ↗') {
   link.setAttribute('aria-label', `${item.title} — 원문 보기 (새 탭)`);
   return link;
 }
+function titleLink(item, className, query = state.query) {
+  const link = externalLink(item, '');
+  link.replaceChildren();
+  link.className = className;
+  appendHighlighted(link, item.title || '제목 없음', query);
+  return link;
+}
 function dateLabel(value, weekday = false) {
   const date = new Date(`${value}T12:00:00+09:00`);
   if (Number.isNaN(date.getTime())) return value || '날짜 미상';
@@ -161,7 +168,7 @@ function documentCard(meta, heading = 'h2') {
   const top = element('div','search-result-meta');
   const publisher = element('span','publisher'); appendHighlighted(publisher,meta.publisher);
   top.append(element('span','topic-label',documentTypes[meta.type]), element('time','',`${dateLabel(meta.date)} 발행`),publisher);
-  const title = element(heading); const link = externalLink(meta,''); link.className = 'search-title-link'; appendHighlighted(link,meta.title); title.append(link);
+  const title = element(heading); title.append(titleLink(meta, 'search-title-link'));
   card.append(top,title,element('p','document-series',[meta.series,meta.issue].filter(Boolean).join(' · ')));
   const footer = element('div','search-result-footer'); footer.append(externalLink(meta,'발행기관 자료정보 ↗'));
   if (meta.issueUrl) { const issueLink=externalLink({...meta,url:meta.issueUrl},'간행물 해당 호 ↗'); footer.append(issueLink); }
@@ -197,7 +204,7 @@ function articleCard(item, index) {
   const publisher = element('span', 'publisher'); appendHighlighted(publisher, item.publisher || '출처 미상', highlight);
   top.append(element('span', 'article-number', String(item.rank || index + 1).padStart(2, '0')), publisher);
   if (item.category) top.prepend(element('span', 'topic-label', item.category));
-  const title = element('h3'); appendHighlighted(title, item.title, highlight);
+  const title = element('h3'); title.append(titleLink(item, 'article-title-link', highlight));
   card.append(top, title);
   if (item.summary) {
     const teaser = element('p', 'ai-teaser'); appendHighlighted(teaser, item.summary, highlight);
@@ -301,9 +308,8 @@ function searchCard(group) {
   const topline = element('div', 'search-result-meta');
   const publisher = element('span', 'publisher'); appendHighlighted(publisher, meta.publisher || '출처 미상');
   topline.append(element('span', 'topic-label', meta.channelLabel || labels[meta.channel] || '뉴스'), element('span', '', `${dateLabel(meta.date)} 정리본`), publisher);
-  const title = element('h2'); const link = editionLink(meta, '', 'search-title-link');
-  appendHighlighted(link, meta.title || '제목 없음');
-  title.append(link); card.append(topline, title);
+  const title = element('h2'); title.append(titleLink(meta, 'search-title-link'));
+  card.append(topline, title);
   if (state.query.trim()) {
     const matches = [['title', '제목'], ['summary', '요약'], ['publisher', '언론사']].filter(([field]) => SearchText.hasMatch(meta[field] || '', state.query));
     if (matches.length) card.append(element('p', 'match-location', `${matches.map(([, label]) => label).join('·')}에서 일치`));
