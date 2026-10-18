@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-19T01:43:34.722928+09:00",
+  "window": {
+    "from": "2026-07-22",
+    "to": "2026-10-19"
+  },
+  "scope": "지급결제 관련 제목을 중심으로 선별한 공식 기관자료의 서지 목록. 원문 링크 제공, PDF 본문·요약 미수록. 전체 기관자료의 완전 수집은 아님.",
+  "coverage": [
+    {
+      "institution": "bok",
+      "label": "한국은행",
+      "status": "partial",
+      "note": "BOK 이슈노트·보도자료·지급결제 조사연구/보고서/통계 RSS 확인. 일부 전문 게시판은 RSS 최신성이 제한됨."
+    },
+    {
+      "institution": "kif",
+      "label": "한국금융연구원",
+      "status": "partial",
+      "note": "일부 목록 연결 제한으로 기존 공식 보고서·정기간행물 목록을 사용."
+    },
+    {
+      "institution": "kcmi",
+      "label": "자본시장연구원",
+      "status": "partial",
+      "note": "연구보고서 목록과 자본시장포커스 해당 호 확인."
+    },
+    {
+      "institution": "bis",
+      "label": "BIS",
+      "status": "partial",
+      "note": "CPMI와 Quarterly Review 확인. BIS 전체 발간물은 대상 아님."
+    },
+    {
+      "institution": "fsc",
+      "label": "금융위원회",
+      "status": "partial",
+      "note": "보도자료 게시판에서 지급결제 정책 관련 제목 선별."
+    }
+  ],
+  "items": [
+    {
+      "id": "doc-fsc-40fd35e76e588ee5",
+      "title": "잠든 선불충전금, 잊지 말고 사용하세요. - 빅테크 3개사, 장기간 미사용 선불의 이용자 통지 및 환급 촉진",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-10-15",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/87938",
+      "summary": ""
+    },
+    {
+      "id": "doc-bis-0382b90ab202c0f7",
+      "title": "FMIs’ management of general business risks and general business losses: further guidance to the PFMI – final report",
+      "publisher": "BIS",
+      "institution": "bis",
+      "date": "2026-10-14",
+      "type": "report",
+      "series": "CPMI",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bis.org/publications/final-report-fmis-management-general-business-risks-and-general-business-losses-further-guidance-pfmi",
+      "summary": ""
+    },
+    {
+      "id": "doc-kif-4b36ddc029dfa349",
+      "title": "Overseas Regulatory Approaches to Earned Wage Access (EWA) Services and Implications for Korea",
+      "publisher": "한국금융연구원",
+      "institution": "kif",
+      "date": "2026-10-10",
+      "type": "periodical",
+      "series": "Financial Research Brief",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=884&ControlNo=368264&ParentNodeID=882&PageNo=1&SearchText=&VolumeID=7805&SearchIndex=-1",
+      "summary": ""
+    },
+    {
+      "id": "doc-fsc-3e03e26e1b6daf01",
+      "title": "“개인간 중고거래 신용카드 안전결제 서비스” 등  혁신금융서비스 24건 신규 지정 의결",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-10-07",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/87893",
+      "summary": ""
+    },
+    {
+      "id": "doc-kcmi-13082e72cadb1ad6",
+      "title": "K-자본시장 정책시리즈 2: 자본시장 토큰화의 확산: 해외 주요 사례와 국내 도입 과제",
+      "publisher": "자본시장연구원",
+      "institution": "kcmi",
+      "date": "2026-10-06",
+      "type": "report",
+      "series": "이슈보고서",
+      "issue": "[26-14]",
+      "issueUrl": "",
+      "url": "https://www.kcmi.re.kr/report/report_view?report_no=2336",
+      "summary": ""
+    },
+    {
+      "id": "doc-fsc-d0376cf939c92fd3",
+      "title": "토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-10-01",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/87838",
+      "summary": ""
+    },
+    {
+      "id": "doc-bok-79dd7ec873bc12b3",
+      "title": "[보도자료] 2026년 상반기중 국내 지급결제동향",
+      "publisher": "한국은행",
+      "institution": "bok",
+      "date": "2026-09-29",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11065076&menuNo=201265",
+      "summary": ""
+    },
+    {
+      "id": "doc-bok-99140f97fa0e0697",
+      "title": "「한국은행원화국제결제망」 시범운영 개시",
+      "publisher": "한국은행",
+      "institution": "bok",
+      "date": "2026-09-21",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11064930&menuNo=201265",
+      "summary": ""
+    },
+    {
+      "id": "doc-bis-3e2c620c1ead2f97",
+      "title": "FMIs’ reliance on third-party service providers: challenges and risks – discussion paper",
+      "publisher": "BIS",
+      "institution": "bis",
+      "date": "2026-09-08",
+      "type": "report",
+      "series": "CPMI",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bis.org/publications/cpmi-iosco-fmis-reliance-third-party-service-providers-challenges-and-risks",
+      "summary": ""
+    },
+    {
+      "id": "doc-bis-394dfed74f69101a",
+      "title": "Cyber resilience toolkit: practical considerations for FMIs – consultative report",
+      "publisher": "BIS",
+      "institution": "bis",
+      "date": "2026-09-08",
+      "type": "report",
+      "series": "CPMI",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bis.org/publications/cpmi-iosco-cyber-resilience-toolkit-practical-considerations-fmis",
+      "summary": ""
+    },
+    {
+      "id": "doc-kcmi-4cbbdedfd0fd540e",
+      "title": "주요국 토큰증권 인프라 구축 동향과 국내 시사점: 기존 예탁결제체계와 DLT 원장의 단계적 결합을 중심으로",
+      "publisher": "자본시장연구원",
+      "institution": "kcmi",
+      "date": "2026-09-07",
+      "type": "periodical",
+      "series": "자본시장포커스",
+      "issue": "2026-18호",
+      "issueUrl": "https://www.kcmi.re.kr/publications/publications_list?syear=2026&zcd=002001016&zno=1934",
+      "url": "https://www.kcmi.re.kr/publications/pub_detail_view?syear=2026&zcd=002001016&zno=1934&cno=6836",
+      "summary": ""
+    },
+    {
+      "id": "doc-kif-4d5e28cac964060c",
+      "title": "Financial Consumer Protection in the Age of AI Shopping Agents",
+      "publisher": "한국금융연구원",
+      "institution": "kif",
+      "date": "2026-09-05",
+      "type": "periodical",
+      "series": "Financial Research Brief",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=884&ControlNo=367016&ParentNodeID=882&PageNo=1&SearchText=&VolumeID=7784&SearchIndex=-1",
+      "summary": ""
+    },
+    {
+      "id": "doc-kif-3991bfc103d7f926",
+      "title": "급여선지급(EWA) 서비스의 해외 규제 동향과 시사점",
+      "publisher": "한국금융연구원",
+      "institution": "kif",
+      "date": "2026-09-05",
+      "type": "periodical",
+      "series": "금융브리프",
+      "issue": "35권 18호",
+      "issueUrl": "",
+      "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=76&ControlNo=366974&ParentNodeID=58&PageNo=1&SearchText=&VolumeID=7783&SearchIndex=-1",
+      "summary": ""
+    },
+    {
+      "id": "doc-fsc-37cb8abd90dec7de",
+      "title": "토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-09-04",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/87650",
+      "summary": ""
+    },
+    {
+      "id": "doc-bok-7adc1e826c49562c",
+      "title": "[제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로",
+      "publisher": "한국은행",
+      "institution": "bok",
+      "date": "2026-09-03",
+      "type": "report",
+      "series": "BOK 이슈노트",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=11064416&menuNo=200433",
+      "summary": ""
+    },
+    {
+      "id": "doc-fsc-5de2ebab83c063fe",
+      "title": "“AI 시대 국민의 일상과 생업을 잇는 마이데이터 발전방안을 추진합니다.“",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-08-25",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/87585",
+      "summary": ""
+    },
+    {
+      "id": "doc-kif-50f4aa0d99eefa53",
+      "title": "AI 쇼핑 에이전트와 금융소비자 보호",
+      "publisher": "한국금융연구원",
+      "institution": "kif",
+      "date": "2026-08-08",
+      "type": "periodical",
+      "series": "금융브리프",
+      "issue": "35권 16호",
+      "issueUrl": "",
+      "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=76&ControlNo=366049&ParentNodeID=58&PageNo=1&SearchText=&VolumeID=7756&SearchIndex=-1",
+      "summary": ""
+    },
+    {
+      "id": "doc-fsc-5f43c66087592843",
+      "title": "모든 전자금융업자를 금융복합기업집단 내부통제‧위험관리 대상에 포함하겠습니다.  - ｢금융복합기업집단 감독규정｣ 개정안 금융위 의결",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-07-31",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/87453",
+      "summary": ""
+    },
+    {
+      "id": "doc-fsc-40d6ebe568e5cc1c",
+      "title": "㈜더페이 등 10개 전자금융업자에 대한  조치 요구",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-07-31",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/87458",
+      "summary": ""
+    }
+  ]
+}

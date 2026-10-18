@@ -6,6 +6,10 @@ const labels = { morning: '조간스크랩', evening: '석간스크랩', ai: 'AI
 const subtitles = { morning: 'MORNING PRESS', evening: 'EVENING PRESS', ai: 'AI NEWS' };
 const descriptions = { morning: '조간스크랩에서 선정한 기사를 원래 순서대로 확인합니다.', evening: '별도 기준으로 정리한 석간스크랩입니다.', ai: '수신한 AI 뉴스의 분류와 요약을 그대로 이어서 읽습니다.' };
 let catalog;
+let documents = {items:[], coverage:[]};
+let documentsError = false;
+const documentTypes = {report: "연구보고서", periodical: "정기간행물", policy: "정책자료"};
+const institutionLabels = {bok:"한국은행", kif:"한국금융연구원", kcmi:"자본시장연구원", bis:"BIS", fsc:"금융위원회"};
 let routeToken = 0;
 let searchToken = 0;
 let searchTimer;
@@ -24,18 +28,19 @@ function element(tag, className, text) {
 function readRoute() {
   const params = new URLSearchParams(location.search);
   const edition = params.get('edition') || '';
-  const view = edition ? 'archive' : (['latest', 'archive', 'search'].includes(params.get('view')) ? params.get('view') : params.has('q') ? 'search' : 'latest');
-  return { view, edition, query: params.get('q') || '', highlight: params.get('highlight') || '', channel: ['morning', 'evening', 'ai'].includes(params.get('channel')) ? params.get('channel') : 'all', date: /^\d{4}-\d{2}-\d{2}$/.test(params.get('date') || '') ? params.get('date') : 'all', sort: params.get('sort') === 'latest' ? 'latest' : 'relevance' };
+  const view = edition ? 'archive' : (['latest', 'archive', 'search', 'library'].includes(params.get('view')) ? params.get('view') : params.has('q') ? 'search' : 'latest');
+  return { view, edition, kind: view === 'library' ? 'document' : (['news','document'].includes(params.get('kind')) ? params.get('kind') : 'all'), institution: Object.hasOwn(institutionLabels, params.get('institution')) ? params.get('institution') : 'all', type: Object.hasOwn(documentTypes, params.get('type')) ? params.get('type') : 'all', query: params.get('q') || '', highlight: params.get('highlight') || '', channel: ['morning', 'evening', 'ai'].includes(params.get('channel')) ? params.get('channel') : 'all', date: /^\d{4}-\d{2}-\d{2}$/.test(params.get('date') || '') ? params.get('date') : 'all', sort: params.get('sort') === 'latest' ? 'latest' : 'relevance' };
 }
 function routeUrl(next, hash = '') {
   const url = new URL(siteRoot);
   if (next.edition && next.view === 'archive') url.searchParams.set('edition', next.edition);
   else if (next.view !== 'latest') url.searchParams.set('view', next.view);
   if (next.view === 'archive' && next.highlight) url.searchParams.set('highlight', next.highlight);
-  if (next.view === 'search' && next.query) url.searchParams.set('q', next.query);
+  if (['search','library'].includes(next.view) && next.query) url.searchParams.set('q', next.query);
   if (next.view !== 'latest' && next.channel !== 'all') url.searchParams.set('channel', next.channel);
   if (next.view !== 'latest' && next.date !== 'all') url.searchParams.set('date', next.date);
-  if (next.view === 'search' && next.sort === 'latest') url.searchParams.set('sort', 'latest');
+  if (['search','library'].includes(next.view) && next.sort === 'latest') url.searchParams.set('sort', 'latest');
+  if (['search','library'].includes(next.view)) for (const field of ['kind','institution','type']) if (next[field] && next[field] !== 'all') url.searchParams.set(field, next[field]);
   url.hash = hash;
   return url;
 }
@@ -75,15 +80,31 @@ function setOptions(select, values, selected) {
 function fillFilters() {
   const channels = [['all', '전체 채널'], ...catalog.channels.map(channel => [channel.id, channel.label || labels[channel.id]])];
   const channelEditions = catalog.editions.filter(edition => state.channel === 'all' || edition.channel === state.channel);
-  const dates = [['all', '전체 날짜'], ...[...new Set(channelEditions.map(edition => edition.date))].sort().reverse().map(date => [date, dateLabel(date)])];
-  if (state.date !== 'all' && !dates.some(([value]) => value === state.date)) {
-    state.date = 'all';
-    history.replaceState(null, '', routeUrl(state, location.hash));
-  }
+  const archiveDates = [...new Set(channelEditions.map(e => e.date))].sort().reverse();
+  const searchableNews = state.kind !== 'document' && state.institution === 'all' && state.type === 'all' ? channelEditions.map(e => e.date) : [];
+  const searchableDocs = state.kind !== 'news' && state.channel === 'all' ? documents.items.filter(d => (state.institution === 'all' || d.institution === state.institution) && (state.type === 'all' || d.type === state.type)).map(d => d.date) : [];
+  const searchDates = [...new Set([...searchableNews, ...searchableDocs])].sort().reverse();
   for (const prefix of ['archive', 'search']) {
+    const values = prefix === 'archive' ? archiveDates : searchDates;
+    const dates = [['all','전체 날짜'], ...values.map(day => [day,dateLabel(day)])];
+    if ((state.view === 'archive') === (prefix === 'archive') && state.date !== 'all' && !values.includes(state.date)) {
+      state.date = 'all'; history.replaceState(null,'',routeUrl(state,location.hash));
+    }
     setOptions($(`#${prefix}-channel`), channels, state.channel);
     setOptions($(`#${prefix}-date`), dates, state.date);
   }
+  setOptions($('#search-institution'), [['all','전체 기관'], ...Object.entries(institutionLabels)], state.institution);
+  setOptions($('#search-type'), [['all','전체 종류'], ...Object.entries(documentTypes)], state.type);
+  $('#search-kind').value = state.kind;
+  $('#search-kind').disabled = state.view === 'library';
+  $('#search-channel').disabled = state.kind === 'document';
+  $('#search-institution').disabled = state.kind === 'news';
+  $('#search-type').disabled = state.kind === 'news';
+  $('.search-heading').textContent = state.view === 'library' ? '지급결제 자료실' : '전체 검색';
+  $('#library-note').hidden = state.view !== 'library';
+  $('#library-note').textContent = documentCoverage();
+  $('#library-coverage').hidden = state.view !== 'library';
+  $('#coverage-list').replaceChildren(...documents.coverage.map(source => element('li','',`${source.label}: ${documents.items.filter(d=>d.institution===source.institution).length}건 · ${source.note}`)));
   $('#news-search').value = state.query;
   $('#clear-search').hidden = !state.query;
   $('#search-sort').value = state.sort;
@@ -129,6 +150,31 @@ function renderOverview() {
     } else card.append(element('p', 'channel-empty', '자료 연결 준비 중'), element('p', 'channel-caption', '별도로 정리된 석간 자료가 연결되면 표시됩니다.'));
     return card;
   }));
+}
+function documentCoverage() {
+  if (documentsError) return '기관자료 목록을 불러오지 못했습니다. 새로고침해 다시 시도해 주세요.';
+  const w = documents.window;
+  return `${w?.from || ''} ~ ${w?.to || ''} 발행 자료 중 선별한 ${documents.items.length}건 · 자료실 반영 ${documents.updatedAt?.slice(0,10) || ''}. 제목·발행기관을 검색하고 전문은 원문 링크에서 확인합니다. 기관별 전체 자료를 빠짐없이 수록한 목록은 아닙니다.`;
+}
+function documentCard(meta, heading = 'h2') {
+  const card = element('article','search-result document-card'); card.dataset.articleId = meta.id; card.id = heading === 'h3' ? `preview-${meta.id}` : meta.id; card.tabIndex = -1;
+  const top = element('div','search-result-meta');
+  const publisher = element('span','publisher'); appendHighlighted(publisher,meta.publisher);
+  top.append(element('span','topic-label',documentTypes[meta.type]), element('time','',`${dateLabel(meta.date)} 발행`),publisher);
+  const title = element(heading); const link = externalLink(meta,''); link.className = 'search-title-link'; appendHighlighted(link,meta.title); title.append(link);
+  card.append(top,title,element('p','document-series',[meta.series,meta.issue].filter(Boolean).join(' · ')));
+  const footer = element('div','search-result-footer'); footer.append(externalLink(meta,'발행기관 자료정보 ↗'));
+  if (meta.issueUrl) { const issueLink=externalLink({...meta,url:meta.issueUrl},'간행물 해당 호 ↗'); footer.append(issueLink); }
+  card.append(footer);
+  if (meta.institution === 'kif') card.append(element('p','document-access-note','서지 정보 페이지로 연결합니다. 전문은 기관 사이트에서 추가 조회가 필요할 수 있습니다.'));
+  return card;
+}
+function renderDocumentPreview() {
+  const section=$('#document-preview'); section.replaceChildren();
+  const head=element('div','section-heading');head.append(element('h2','','최근 기관자료'));
+  const more=element('a','text-button','자료실 전체 보기 →');more.href='?view=library';more.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey)return;e.preventDefault();navigate({view:'library',kind:'document',institution:'all',type:'all',channel:'all',date:'all',edition:'',query:'',sort:'latest'},{scroll:true});});head.append(more);
+  section.append(head,element('p','section-description',documentCoverage()));
+  const grid=element('div','document-grid'); grid.append(...documents.items.slice(0,4).map(d=>documentCard(d,'h3')));section.append(grid);
 }
 async function fetchEdition(record) {
   if (!editions.has(record.id)) {
@@ -206,14 +252,15 @@ async function renderRoute() {
   const token = ++routeToken; ++searchToken;
   $('.hero').hidden = state.view !== 'latest';
   $('#channel-overview').hidden = state.view !== 'latest';
+  $('#document-preview').hidden = state.view !== 'latest';
   $('#load-error').hidden = true; $('#empty-results').hidden = true; $('#load-more').hidden = true;
   $('#edition-content').replaceChildren(); $('#search-results').replaceChildren();
-  $('#archive-controls').hidden = state.view !== 'archive'; $('#search-controls').hidden = state.view !== 'search'; $('#search-results').hidden = state.view !== 'search';
+  $('#archive-controls').hidden = state.view !== 'archive'; $('#search-controls').hidden = !['search','library'].includes(state.view); $('#search-results').hidden = !['search','library'].includes(state.view);
   document.querySelectorAll('[data-view]').forEach(node => { if (node.tagName === 'BUTTON') node.setAttribute('aria-pressed', String(node.dataset.view === state.view)); else { node.classList.toggle('active', node.dataset.view === state.view); if (node.dataset.view === state.view) node.setAttribute('aria-current', 'page'); else node.removeAttribute('aria-current'); } });
-  const viewLabels = { latest: '최신 브리핑', archive: '지난 자료', search: '전체 검색' };
+  const viewLabels = { latest: '최신 브리핑', archive: '지난 자료', search: '전체 검색', library:'지급결제 자료실' };
   document.title = `${viewLabels[state.view]} · Payment Hub`;
   fillFilters();
-  if (state.view === 'search') { runSearch(); return; }
+  if (['search','library'].includes(state.view)) { runSearch(); return; }
   const sorted = sortedEditions();
   let records;
   if (state.view === 'archive') {
@@ -252,6 +299,7 @@ function editionLink(meta, label, className = 'edition-link') {
 function searchCard(group) {
   // The first appearance follows the selected search order and matches all terms itself.
   const meta = group.appearances[0];
+  if (meta.kind === 'document') return documentCard(meta);
   const card = element('article', 'search-result'); card.dataset.articleId = group.articleId;
   const topline = element('div', 'search-result-meta');
   const publisher = element('span', 'publisher'); appendHighlighted(publisher, meta.publisher || '출처 미상');
@@ -295,7 +343,7 @@ async function appendSearchResults(token) {
   $('#load-more').disabled = true;
   try {
     const data = searchResults.slice(start, start + 20);
-    if (token !== searchToken || state.view !== 'search') return;
+    if (token !== searchToken || !['search','library'].includes(state.view)) return;
     $('#search-results').append(...data.map(searchCard)); shownResults += data.length;
     $('#load-more').hidden = shownResults >= searchResults.length;
     $('#load-more').textContent = `결과 더 보기 (${shownResults}/${searchResults.length})`;
@@ -308,12 +356,13 @@ async function runSearch() {
   $('#results-status').textContent = '전체 자료를 검색하고 있습니다.';
   try {
     const records = await getSearchRecords();
-    if (token !== searchToken || state.view !== 'search') return;
+    if (token !== searchToken || !['search','library'].includes(state.view)) return;
     const matches = SearchText.find(records, state.query, state);
     searchResults = SearchText.group(matches);
     const queryTerms = SearchText.terms(state.query);
-    $('#results-status').textContent = `${state.query.trim() ? `“${state.query.trim()}” 검색 결과 · ` : ''}기사 ${searchResults.length}개 · 게재 ${matches.length}건`;
-    if (!searchResults.length) { showEmpty('일치하는 기사가 없습니다', queryTerms.length > 1 ? '입력한 검색어를 모두 포함하는 제목·요약·언론사를 찾지 못했습니다. 검색어를 하나씩 검색하거나 날짜·채널 조건을 바꿔 보세요.' : '다른 검색어를 입력하거나 날짜·채널 조건을 바꿔 보세요.'); return; }
+    const newsMatches=matches.filter(r=>r.kind !== 'document');
+    $('#results-status').textContent = `${state.query.trim() ? `“${state.query.trim()}” 검색 결과 · ` : ''}기사 ${SearchText.group(newsMatches).length}개 · 게재 ${newsMatches.length}건 · 기관자료 ${matches.length-newsMatches.length}건`;
+    if (!searchResults.length) { showEmpty('일치하는 자료가 없습니다', queryTerms.length > 1 ? '입력한 검색어를 모두 포함하는 제목·요약·언론사를 찾지 못했습니다. 검색어를 하나씩 검색하거나 날짜·채널 조건을 바꿔 보세요.' : '다른 검색어를 입력하거나 날짜·채널 조건을 바꿔 보세요.'); return; }
     await appendSearchResults(token);
   } catch { if (token === searchToken) { $('#results-status').textContent = '검색을 불러오지 못했습니다.'; $('#error-description').textContent = '검색 파일을 불러오지 못했습니다. 다시 시도하거나 지난 자료에서 정리본을 선택해 주세요.'; $('#load-error').hidden = false; } }
 }
@@ -335,19 +384,26 @@ async function load() {
       const record = catalog.editions.find(edition => edition.channel === legacy[1] && edition.date === '2026-09-22' && (!state.edition || edition.id === state.edition));
       if (record) { const edition = await fetchEdition(record); const entry = edition.items[Number(legacy[2]) - 1]; if (entry) { state = { ...state, view: 'archive', edition: record.id, channel: 'all', date: 'all' }; history.replaceState(null, '', routeUrl(state, entry.id)); } }
     }
-    renderOverview(); await renderRoute();
+    try { const r=await fetch(new URL('./data/documents.json',siteRoot));if(!r.ok)throw new Error('Documents unavailable');const d=await r.json();if(!Array.isArray(d.items))throw new Error('Invalid documents');documents=d;documentsError=false;} catch {documentsError=true;}
+    renderOverview(); renderDocumentPreview(); await renderRoute();
   } catch { $('#results-status').textContent = '자료를 불러오지 못했습니다.'; $('#error-description').textContent = '공개 자료 목록을 불러오지 못했습니다. 연결 상태를 확인하고 다시 시도해 주세요.'; $('#load-error').hidden = false; }
 }
 
-for (const node of document.querySelectorAll('[data-view]')) node.addEventListener('click', event => { event.preventDefault(); navigate({ view: node.dataset.view, edition: '', channel: 'all', date: 'all', query: '', highlight: '', sort: 'relevance' }, { scroll: node.tagName === 'A' }); });
+for (const node of document.querySelectorAll('[data-view]')) node.addEventListener('click', event => { event.preventDefault(); navigate({ view: node.dataset.view, kind:node.dataset.view === 'library' ? 'document' : 'all', institution:'all', type:'all', edition: '', channel: 'all', date: 'all', query: '', highlight: '', sort: 'relevance' }, { scroll: node.tagName === 'A' }); });
 for (const field of ['channel', 'date']) $('#archive-' + field).addEventListener('change', event => navigate({ [field]: event.target.value, edition: '', highlight: '' }));
 $('#archive-edition').addEventListener('change', event => navigate({ edition: event.target.value, highlight: '' }));
-$('#home-search-form').addEventListener('submit', event => { event.preventDefault(); navigate({ view: 'search', edition: '', query: $('#home-search').value, highlight: '', channel: 'all', date: 'all', sort: 'relevance' }, { scroll: true }); $('#news-search').focus({ preventScroll: true }); });
+$('#home-search-form').addEventListener('submit', event => { event.preventDefault(); navigate({ view: 'search', kind:'all', institution:'all', type:'all', edition: '', query: $('#home-search').value, highlight: '', channel: 'all', date: 'all', sort: 'relevance' }, { scroll: true }); $('#news-search').focus({ preventScroll: true }); });
 $('#search-form').addEventListener('submit', event => { event.preventDefault(); navigate({ query: $('#news-search').value }, { replace: true }); });
 $('#news-search').addEventListener('input', event => { const query = event.target.value; $('#clear-search').hidden = !query; clearTimeout(searchTimer); ++searchToken; $('#load-more').hidden = true; searchTimer = setTimeout(() => navigate({ query }, { replace: true }), 280); });
-for (const field of ['channel', 'date', 'sort']) $('#search-' + field).addEventListener('change', event => navigate({ [field]: event.target.value, query: $('#news-search').value }, { replace: true }));
+for (const field of ['channel','date','sort','kind','institution','type']) $('#search-'+field).addEventListener('change', event => {
+  const changes={ [field]:event.target.value,query:$('#news-search').value };
+  if(field==='kind')Object.assign(changes,{channel:'all',institution:'all',type:'all',date:'all'});
+  if(['institution','type'].includes(field))Object.assign(changes,{kind:'document',channel:'all',date:'all'});
+  if(field==='channel')Object.assign(changes,{kind:event.target.value==='all'?'all':'news',institution:'all',type:'all',date:'all'});
+  navigate(changes,{replace:true});
+});
 $('#clear-search').addEventListener('click', () => { navigate({ query: '' }, { replace: true }); $('#news-search').focus(); });
-$('#reset-search').addEventListener('click', () => navigate({ query: '', channel: 'all', date: 'all', sort: 'relevance' }, { replace: true }));
+$('#reset-search').addEventListener('click', () => navigate({ query: '', kind:state.view==='library'?'document':'all',institution:'all',type:'all',channel: 'all', date: 'all', sort: 'relevance' }, { replace: true }));
 $('#retry-load').addEventListener('click', () => catalog ? renderRoute() : load());
 $('#load-more').addEventListener('click', () => {
   const token = searchToken;

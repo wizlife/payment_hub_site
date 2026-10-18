@@ -9,9 +9,11 @@
     const requested = [...normalize(query).matchAll(/"([^"]+)"|([^\s"]+)/gu)].map(match => (match[1] || match[2]).trim().toLowerCase()).filter(Boolean);
     return [...new Set(requested)].sort((a, b) => b.length - a.length);
   }
-  function find(records, query, { channel = 'all', date = 'all', sort = 'relevance' } = {}) {
+  function find(records, query, { channel = 'all', date = 'all', sort = 'relevance', kind = 'all', institution = 'all', type = 'all' } = {}) {
     const words = terms(query);
-    return records.filter(item => (channel === 'all' || item.channel === channel) && (date === 'all' || item.date === date))
+    return records.filter(item => (channel === 'all' || item.channel === channel) && (date === 'all' || item.date === date)
+      && (kind === 'all' || (item.kind || 'news') === kind)
+      && (institution === 'all' || item.institution === institution) && (type === 'all' || item.type === type))
       .map(item => {
         const texts = fields.map(field => normalize(item[field]).toLowerCase());
         return { item, matches: words.every(word => texts.some(text => text.includes(word))), titleHits: words.filter(word => texts[0].includes(word)).length };

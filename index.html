@@ -7,9 +7,9 @@
   <meta name="description" content="조간스크랩, 석간스크랩, AI 뉴스의 최신 정리본을 한곳에서 확인하고 지난 자료를 검색하는 Payment Hub.">
   <title>최신 브리핑 · Payment Hub</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20261008-notice">
-  <script src="./search-text.js?v=20261005-reading" defer></script>
-  <script src="./app.js?v=20261005-reading" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=20261019-documents">
+  <script src="./search-text.js?v=20261019-documents" defer></script>
+  <script src="./app.js?v=20261019-documents" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#briefing">브리핑으로 건너뛰기</a>
@@ -19,6 +19,7 @@
       <nav class="header-nav" aria-label="주 메뉴">
         <a href="./" data-view="latest" class="active">최신 브리핑</a>
         <a href="?view=archive" data-view="archive">지난 자료</a>
+        <a href="?view=library" data-view="library">자료실</a>
         <a href="?view=search" data-view="search">전체 검색</a>
       </nav>
       <span class="edition-badge"><span></span> 아카이브 테스트</span>
@@ -29,12 +30,12 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <h1 id="hero-title">정리된 소식을, <span>한곳에서.</span></h1>
-        <p class="hero-description">조간·석간스크랩과 AI 뉴스의 최신 정리본을 확인하세요.</p>
-        <form id="home-search-form" class="home-search" role="search" aria-label="보관 뉴스 검색">
-          <div class="search-field"><label class="sr-only" for="home-search">기사 제목, 요약, 언론사 검색</label><input type="search" id="home-search" placeholder="기사 제목, 요약, 언론사로 검색" autocomplete="off"></div>
+        <p class="hero-description">조간·석간스크랩, AI 뉴스와 지급결제 기관자료를 함께 확인하세요.</p>
+        <form id="home-search-form" class="home-search" role="search" aria-label="뉴스와 기관자료 검색">
+          <div class="search-field"><label class="sr-only" for="home-search">제목, 제공된 요약, 언론사·발행기관 검색</label><input type="search" id="home-search" placeholder="제목, 제공된 요약, 언론사·발행기관로 검색" autocomplete="off"></div>
           <button class="primary-button search-submit" type="submit">검색</button>
         </form>
-        <p class="data-update"><span>자료 반영</span> <time id="data-updated-at">—</time></p>
+        <p class="data-update"><span>뉴스 반영</span> <time id="data-updated-at">—</time></p>
       </div>
       <div class="edition-card" aria-label="현재 공개 자료 범위">
         <p class="edition-caption">최신 정리본 기준일 <strong class="archive-date" id="latest-date">—</strong></p>
@@ -44,6 +45,8 @@
     </section>
 
     <section class="channel-overview" id="channel-overview" aria-label="채널별 최신 정리본"></section>
+
+    <section id="document-preview" aria-label="최근 기관자료"></section>
 
     <div id="briefing" class="briefing-anchor"></div>
 
@@ -56,18 +59,23 @@
     </section>
 
     <section id="search-controls" class="search-panel" aria-label="전체 자료 검색" hidden>
-      <h1 class="search-heading">뉴스 검색</h1>
+      <h1 class="search-heading">전체 검색</h1>
+      <p id="library-note" class="section-description" hidden></p>
+      <details id="library-coverage" class="search-help" hidden><summary>기관별 수집 범위</summary><ul id="coverage-list"></ul></details>
       <form id="search-form" role="search">
-        <div class="search-field"><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7"/></svg><label class="sr-only" for="news-search">기사 제목, 요약, 언론사 검색</label><input type="search" id="news-search" placeholder="기사 제목, 요약, 언론사로 검색" autocomplete="off"><button id="clear-search" type="button" aria-label="검색어 지우기" hidden>×</button></div>
+        <div class="search-field"><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7"/></svg><label class="sr-only" for="news-search">제목, 제공된 요약, 언론사·발행기관 검색</label><input type="search" id="news-search" placeholder="제목, 제공된 요약, 언론사·발행기관로 검색" autocomplete="off"><button id="clear-search" type="button" aria-label="검색어 지우기" hidden>×</button></div>
         <button class="primary-button search-submit" type="submit">검색</button>
       </form>
       <div class="filter-panel">
+        <div class="filter-field"><label for="search-kind">검색 대상</label><select id="search-kind"><option value="all">뉴스 + 기관자료</option><option value="news">뉴스</option><option value="document">기관자료</option></select></div>
+        <div class="filter-field"><label for="search-institution">발행기관</label><select id="search-institution"><option value="all">전체 기관</option></select></div>
+        <div class="filter-field"><label for="search-type">자료 종류</label><select id="search-type"><option value="all">전체 종류</option></select></div>
         <div class="filter-field"><label for="search-channel">채널</label><select id="search-channel"><option value="all">전체 채널</option></select></div>
-        <div class="filter-field"><label for="search-date">정리본 기준일</label><select id="search-date"><option value="all">전체 날짜</option></select></div>
-        <div class="filter-field"><label for="search-sort">정렬</label><select id="search-sort"><option value="relevance">제목 일치 우선</option><option value="latest">최신 정리본순</option></select></div>
+        <div class="filter-field"><label for="search-date">뉴스 기준일 / 자료 발행일</label><select id="search-date"><option value="all">전체 날짜</option></select></div>
+        <div class="filter-field"><label for="search-sort">정렬</label><select id="search-sort"><option value="relevance">제목 일치 우선</option><option value="latest">최신 날짜순</option></select></div>
         <button type="button" id="reset-search" class="text-button">검색 조건 초기화 ↺</button>
       </div>
-      <p class="search-scope">제목·제공된 요약·언론사에 입력 문구가 포함된 기사를 찾습니다. 띄어 쓴 단어는 모두 포함해야 하며, 정확한 구문은 &quot;공급망 보안&quot;처럼 입력하세요.</p>
+      <p class="search-scope">제목·제공된 요약·언론사 또는 발행기관에 입력 문구가 포함된 자료를 찾습니다. 기관자료는 제목·발행기관만 검색하며 PDF 본문은 포함하지 않습니다. 띄어 쓴 단어는 모두 포함해야 하며, 정확한 구문은 &quot;공급망 보안&quot;처럼 입력하세요.</p>
       <details class="search-help"><summary>검색 범위 자세히 보기</summary><p>영문 대소문자는 구분하지 않습니다. 공통 분류명과 기사 원문 전체는 검색 대상에 포함하지 않으며 동의어·오타를 자동으로 확장하지 않습니다. 같은 기사는 한 결과로 묶고, 검색 조건에 맞는 정리본을 각각 선택할 수 있습니다.</p></details>
     </section>
 
@@ -78,7 +86,7 @@
     <section id="search-results" class="search-results" aria-label="검색 결과" hidden></section>
     <div class="load-more-wrap"><button type="button" id="load-more" class="secondary-button" hidden>결과 더 보기</button></div>
     <noscript><p class="empty-state">브리핑과 검색을 이용하려면 브라우저에서 JavaScript를 활성화해 주세요.</p></noscript>
-    <div class="archive-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>선별한 보관 자료로 구성한 공개 테스트입니다.</strong> 각 채널의 선정 순서와 제공된 요약을 유지합니다. 표시된 날짜는 정리본의 기준일이며, 기사 발행일과 다를 수 있습니다. 자동 갱신은 아직 연결되지 않았습니다.</p></div>
+    <div class="archive-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>선별한 보관 자료로 구성한 공개 테스트입니다.</strong> 각 채널의 선정 순서와 제공된 요약을 유지합니다. 표시된 날짜는 정리본의 기준일이며, 기사 발행일과 다를 수 있습니다. 기관자료는 별도 시험 수집 목록이며, 표시 날짜는 발행일입니다. 전문은 발행기관 원문에서 확인하세요.</p></div>
   </main>
   <footer class="site-footer">
     <div><a class="footer-brand" href="./">paymenthub.</a><span>매일의 정보를, 하나의 흐름으로.<small class="footer-notice">이 저장소와 홈페이지는 개인이 비상업적 목적으로 운영합니다.</small></span></div>

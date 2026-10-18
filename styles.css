@@ -308,3 +308,18 @@ p, h1, h2, h3 { margin: 0; }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* Institutional documents share search but retain their publication identity. */
+#document-preview { margin: 32px 0 48px; padding: 24px; border: 1px solid var(--line, #dfe5de); border-radius: 16px; background: #f1f5ef; }
+#document-preview .section-heading { margin-bottom: 10px; }
+.document-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; margin-top: 20px; }
+.document-card { background: #fff; overflow-wrap: anywhere; }
+.document-card h3 { font-size: 17px; line-height: 1.55; }
+.document-series, .document-access-note { color: #59665b; font-size: 13px; margin: 10px 0; }
+#library-note { line-height: 1.7; margin-bottom: 20px; }
+#search-controls .filter-panel { flex-wrap: wrap; }
+@media (max-width: 600px) {
+  .document-grid { grid-template-columns: 1fr; }
+  #document-preview { padding: 16px; }
+  .header-nav { flex-wrap: wrap; gap: 14px; }
+}

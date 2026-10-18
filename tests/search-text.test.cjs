@@ -6,7 +6,7 @@ const search = require('../search-text.js');
 const root = path.join(__dirname, '..');
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'data/catalog.json')));
 const items = catalog.editions.flatMap(edition => JSON.parse(fs.readFileSync(path.join(root, edition.path))).items);
-const records = JSON.parse(fs.readFileSync(path.join(root, 'data/search-records.json'))).records;
+const records = JSON.parse(fs.readFileSync(path.join(root, 'data/search-records.json'))).records.filter(r => r.kind !== 'document');
 const record = (overrides = {}) => ({title:'',summary:'',publisher:'',channel:'ai',date:'2026-09-22',editionId:'ai-22',entryId:'ai-22-001',rank:1,...overrides});
 
 test('Korean substrings match intact across particles and punctuation, not isolated syllables', () => {

@@ -60,9 +60,32 @@ const records = entries.map(({ item, edition, channel }) => ({
   url: item.url, appearanceCount: appearances.get(item.articleId),
   linkStatus: item.linkStatus || '', linkNote: item.linkNote || '',
 }));
+const documents = await read('data/documents.json');
+assert(documents.schemaVersion === 1 && Array.isArray(documents.items), 'Invalid document catalog');
+const docFields = new Set(['id','title','publisher','institution','date','type','series','issue','issueUrl','url','summary']);
+const institutions = {bok:['한국은행','bok.or.kr'],kif:['한국금융연구원','kif.re.kr'],kcmi:['자본시장연구원','kcmi.re.kr'],bis:['BIS','bis.org'],fsc:['금융위원회','fsc.go.kr']};
+assert(!forbidden.test(JSON.stringify(documents)), 'Nonpublic document data');
+for (const doc of documents.items) {
+  assert(Object.keys(doc).every(key => docFields.has(key)), 'Unexpected document field');
+  assert(/^doc-[a-z]+-[a-f0-9]{16}$/.test(doc.id) && !ids.has(doc.id), 'Invalid or duplicate document ID'); ids.add(doc.id);
+  const institution = institutions[doc.institution];
+  assert(institution && doc.publisher === institution[0], 'Unknown document institution');
+  assert(['report','periodical','policy'].includes(doc.type), 'Invalid document type');
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(doc.date) && !Number.isNaN(Date.parse(doc.date)) && doc.date >= documents.window.from && doc.date <= documents.window.to, 'Document date outside collection window');
+  assert(typeof doc.title === 'string' && doc.title.trim() && typeof doc.series === 'string', 'Missing document title or series');
+  // Trial is bibliographic links only; summaries require a separate reuse review.
+  assert(doc.summary === '', 'Trial document summaries must be empty');
+  for (const field of ['url','issueUrl']) {
+    if (!doc[field] && field === 'issueUrl') continue;
+    const u = new URL(doc[field]);
+    assert(u.protocol === 'https:' && !u.username && !u.password && (u.hostname === institution[1] || u.hostname.endsWith('.' + institution[1])), 'Document must link to its official institution');
+  }
+  records.push({...doc, kind:'document', articleId:doc.id, entryId:doc.id, editionId:doc.id, rank:1, channel:'document', channelLabel:'기관자료', appearanceCount:1});
+}
+hash.update(JSON.stringify(documents));
 const manifest = {
   schemaVersion: 1, engine: 'literal-substring', engineVersion: '1', language: 'ko',
-  recordCount: entries.length, editionCount: catalog.editions.length,
+  recordCount: records.length, newsRecordCount: entries.length, documentCount: documents.items.length, editionCount: catalog.editions.length,
   sourceDigest: hash.digest('hex'), fields: searchText.fields,
   matching: 'all query terms must occur literally within title, summary, or publisher; NFC; case-insensitive; no aliases',
 };
