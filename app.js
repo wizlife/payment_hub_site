@@ -186,7 +186,7 @@ function documentCard(meta, heading = 'h2') {
     details.append(externalLink({...meta,url:meta.summarySourceUrl},'요약에 사용한 원문 ↗'));
     if (state.query && SearchText.pieces(meta.summary,state.query).some(p=>p.match)) details.open=true;
     card.append(details);
-  } else if (meta.language === 'en') card.append(element('p','document-access-note','국문 요약 준비 중 · 원문 및 이용조건 확인 후 제공합니다.'));
+  } else if (meta.language === 'en') card.append(element('p','document-access-note','국문 요약 없이 발행기관의 원문 링크로 제공합니다.'));
   if (meta.institution === 'kif') card.append(element('p','document-access-note','서지 정보 페이지로 연결합니다. 전문은 기관 사이트에서 추가 조회가 필요할 수 있습니다.'));
   return card;
 }
