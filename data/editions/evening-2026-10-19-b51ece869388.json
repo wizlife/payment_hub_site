@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-19-b51ece869388",
+  "channel": "evening",
+  "date": "2026-10-19",
+  "title": "2026-10-19 석간스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-19-b51ece869388-001",
+      "articleId": "article-3da2f7d75aa9312df8a5cd02",
+      "rank": 1,
+      "title": "[2026 국감이슈] 전자금융업자 금융보안원 가입률 고작 6.8%... 은행·보험...",
+      "publisher": "newslock.co.kr",
+      "url": "http://www.newslock.co.kr/news/articleView.html?idxno=138230",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-19T16:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-19-b51ece869388-002",
+      "articleId": "article-88cdfe13291193c3482e223f",
+      "rank": 2,
+      "title": "케이에스넷, 스테이블코인 간편결제 '크립토닷컴 페이' 실증 완료",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261016000315",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T17:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-19-b51ece869388-003",
+      "articleId": "article-b63eb2d9646e4442f4b7c772",
+      "rank": 3,
+      "title": "5대 은행장 불러낸 ‘해킹 국감’...이찬진 “보안 예산·인력 확대 유도...",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10907049?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-19T11:23:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-19-b51ece869388-004",
+      "articleId": "article-2c1343a6e2748da0f00f5ba9",
+      "rank": 4,
+      "title": "OK저축은행, 긴급대응 사흘 만에 또 해킹...고객 268명 정보 유출",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610161701269481",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-16T17:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-19-b51ece869388-005",
+      "articleId": "article-8ae587020589e914e7c12281",
+      "rank": 5,
+      "title": "스트라이프, 유럽 27개국에 스테이블코인 카드 발급",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261019000246",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-19T14:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-19-b51ece869388-006",
+      "articleId": "article-a13ccb3eab7dc1e76490f14d",
+      "rank": 6,
+      "title": "이형일 \"환율, 펀더멘털 찾는 중...한미스와프, 의미있고 필요\"",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261017048400002?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-19T10:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-19-b51ece869388-007",
+      "articleId": "article-b6851a9b5aff62684c94c3dd",
+      "rank": 7,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439800",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-19T07:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-19-b51ece869388-008",
+      "articleId": "article-61bc617792bd81535130409c",
+      "rank": 8,
+      "title": "금융위 2인자에 신진창 임명...후속 인사 속도 붙는다",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/19/2026101614402189519",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "evening-2026-10-19-b51ece869388-009",
+      "articleId": "article-1ec3343e13f5f56f27693f4d",
+      "rank": 9,
+      "title": "李, 산업통상부 차관에 박동일... 금융위 부위원장 신진창 임명",
+      "publisher": "세계일보",
+      "url": "https://www.segye.com/newsView/20261018513321?OutUrl=naver",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    }
+  ]
+}
