@@ -1,0 +1,17 @@
+{
+  "bok": {"label": "한국은행", "domain": "bok.or.kr", "region": "domestic"},
+  "kif": {"label": "한국금융연구원", "domain": "kif.re.kr", "region": "domestic"},
+  "kcmi": {"label": "자본시장연구원", "domain": "kcmi.re.kr", "region": "domestic"},
+  "fsc": {"label": "금융위원회", "domain": "fsc.go.kr", "region": "domestic"},
+  "bis": {"label": "BIS", "domain": "bis.org", "region": "international"},
+  "ecb": {"label": "유럽중앙은행(ECB)", "domain": "ecb.europa.eu", "region": "international"},
+  "imf": {"label": "국제통화기금(IMF)", "domain": "imf.org", "region": "international"},
+  "fsb": {"label": "금융안정위원회(FSB)", "domain": "fsb.org", "region": "international"},
+  "cleveland": {"label": "클리블랜드 연방준비은행", "domain": "clevelandfed.org", "region": "international"},
+  "esma": {"label": "유럽증권시장감독청(ESMA)", "domain": "esma.europa.eu", "region": "international"},
+  "hkma": {"label": "홍콩금융관리국(HKMA)", "domain": "hkma.gov.hk", "region": "international"},
+  "bruegel": {"label": "Bruegel", "domain": "bruegel.org", "region": "international"},
+  "boe": {"label": "영란은행", "domain": "bankofengland.co.uk", "region": "international"},
+  "esm": {"label": "유럽안정화기구(ESM)", "domain": "esm.europa.eu", "region": "international"},
+  "fed": {"label": "미 연방준비제도(Fed)", "domain": "federalreserve.gov", "region": "international"}
+}

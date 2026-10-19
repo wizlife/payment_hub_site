@@ -62,14 +62,16 @@ const records = entries.map(({ item, edition, channel }) => ({
 }));
 const documents = await read('data/documents.json');
 assert(documents.schemaVersion === 1 && Array.isArray(documents.items), 'Invalid document catalog');
-const docFields = new Set(['id','title','publisher','institution','date','type','series','issue','issueUrl','url','summary','focus','language','summaryStatus','summaryBasis','summarySourceUrl']);
-const institutions = {bok:['한국은행','bok.or.kr'],kif:['한국금융연구원','kif.re.kr'],kcmi:['자본시장연구원','kcmi.re.kr'],bis:['BIS','bis.org'],fsc:['금융위원회','fsc.go.kr']};
+const docFields = new Set(['id','title','publisher','institution','date','type','series','issue','issueUrl','url','summary','focus','language','summaryStatus','summaryBasis','summarySourceUrl','region']);
+const registry = await read('report-institutions.json');
+const institutions = Object.fromEntries(Object.entries(registry).map(([id,v])=>[id,[v.label,v.domain]]));
 assert(!forbidden.test(JSON.stringify(documents)), 'Nonpublic document data');
 for (const doc of documents.items) {
   assert(Object.keys(doc).every(key => docFields.has(key)), 'Unexpected document field');
   assert(/^doc-[a-z]+-[a-f0-9]{16}$/.test(doc.id) && !ids.has(doc.id), 'Invalid or duplicate document ID'); ids.add(doc.id);
   const institution = institutions[doc.institution];
   assert(institution && doc.publisher === institution[0], 'Unknown document institution');
+  assert(doc.region === registry[doc.institution].region, 'Document region mismatch');
   assert(['report','periodical','policy'].includes(doc.type), 'Invalid document type');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(doc.date) && !Number.isNaN(Date.parse(doc.date)) && doc.date >= documents.window.from && doc.date <= documents.window.to, 'Document date outside collection window');
   assert(typeof doc.title === 'string' && doc.title.trim() && typeof doc.series === 'string', 'Missing document title or series');

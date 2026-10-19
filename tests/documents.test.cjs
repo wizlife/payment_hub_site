@@ -35,7 +35,7 @@ test('search manifest counts both independent catalogs',()=>{
 });
 
 test('homepage focus excludes related-only reports without deleting their library/search entries',()=>{
-  const featured=docs.items.filter(d=>d.focus==='payment').slice(0,4);
+  const featured=['domestic','international'].flatMap(region=>docs.items.filter(d=>d.focus==='payment'&&d.region===region).slice(0,3));
   assert.ok(featured.length); assert.ok(featured.every(d=>d.focus==='payment'));
   for(const d of docs.items.filter(d=>d.focus==='related')) assert.ok(records.some(r=>r.entryId===d.id));
 });
@@ -46,5 +46,16 @@ test('Korean summaries are searchable and unavailable full text has no invented 
       const line=d.summary.split('\n').find(s=>s.trim());
       assert.ok(search.find(records,line,{kind:'document'}).some(r=>r.entryId===d.id));
     } else assert.equal(d.summary,'');
+  }
+});
+
+test('regional search excludes news and survives combined filters',()=>{
+  const registry=read('report-institutions.json');
+  for(const region of ['domestic','international']){
+    const hits=search.find(records,'',{region});
+    assert.deepEqual(new Set(hits.map(r=>r.id)),new Set(docs.items.filter(d=>d.region===region).map(d=>d.id)));
+    assert.ok(hits.every(r=>r.kind==='document'&&registry[r.institution].region===region));
+    assert.equal(search.find(records,'',{kind:'news',region}).length,0);
+    for(const d of docs.items.filter(d=>d.region===region)) assert.ok(search.find(records,d.title,{region,institution:d.institution,date:d.date}).some(r=>r.id===d.id));
   }
 });

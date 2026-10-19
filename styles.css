@@ -309,7 +309,7 @@ a.article-title-link:hover, a.article-title-link:focus-visible { color: var(--gr
 /* Institutional documents share search but retain their publication identity. */
 #document-preview { margin: 32px 0 48px; padding: 24px; border: 1px solid var(--line, #dfe5de); border-radius: 16px; background: #f1f5ef; }
 #document-preview .section-heading { margin-bottom: 10px; }
-.document-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; margin-top: 20px; }
+.document-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; margin-top: 20px; }
 .document-card { background: #fff; overflow-wrap: anywhere; }
 .document-card h3 { font-size: 17px; line-height: 1.55; }
 .document-series, .document-access-note { color: #59665b; font-size: 13px; margin: 10px 0; }
@@ -325,3 +325,8 @@ a.article-title-link:hover, a.article-title-link:focus-visible { color: var(--gr
 .document-summary summary { cursor: pointer; font-weight: 700; color: var(--accent, #16665b); }
 .document-summary-body { white-space: pre-line; line-height: 1.85; overflow-wrap: anywhere; margin-top: .8rem; }
 .document-summary .document-access-note { margin-top: .7rem; }
+
+.document-region { margin-top: 1.8rem; }
+.document-region .section-heading h3 { font-size: 1.1rem; }
+.document-card h4 { margin: .75rem 0; font-size: 1.08rem; line-height: 1.55; }
+.region-label { color: var(--muted); font-size: .75rem; }
