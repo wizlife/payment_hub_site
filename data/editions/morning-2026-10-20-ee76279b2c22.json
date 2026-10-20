@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-20-ee76279b2c22",
+  "channel": "morning",
+  "date": "2026-10-20",
+  "title": "2026-10-20 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-001",
+      "articleId": "article-c1e5dd7a1fe517e80e38a3e2",
+      "rank": 1,
+      "title": "채병득號 금결원, 인니 QR결제 상용화…연내 베트남·인도 시범 추진 '박차' [K-금융 인프라 해외 적용]",
+      "publisher": "한국금융신문",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026101616573651041b5a221379_18",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-002",
+      "articleId": "article-91b9407e734170f65fb54d5e",
+      "rank": 2,
+      "title": "5대은행장 '해킹 국감' 출석 …\"추가피해땐 전액보상\"",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005750807",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-003",
+      "articleId": "article-e492bc5c7a297b36a650b532",
+      "rank": 3,
+      "title": "AI 금융해킹, AI로 막는다더니 …",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005750805",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-004",
+      "articleId": "article-38d3c65178204b61a367586e",
+      "rank": 4,
+      "title": "AI 에이전트 막는 플랫폼… ‘디지털 출입증’ 놓고 힘겨루기",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004168041",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-005",
+      "articleId": "article-8a1a369d00c5b08076484684",
+      "rank": 5,
+      "title": "정부, 가상자산 거래소 대표 부른다…과세 앞두고 업계 의견 청취",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2637260",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-006",
+      "articleId": "article-d3164d6d163b9369c093d674",
+      "rank": 6,
+      "title": "'대출규제 완화' 일축한 李 \"금리 오르면 이자 2.5배 낼판\"",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005750894",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-007",
+      "articleId": "article-a1e815a4df9d198c0f1c54c0",
+      "rank": 7,
+      "title": "이찬진 “레버리지 ETF, 상장 일정 맞추려 심사 빨리 진행”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003756162",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-008",
+      "articleId": "article-8110dc02108e4ed68d7fd3d8",
+      "rank": 8,
+      "title": "이찬진 “솔리다임 미 상장, 중복상장 규제 저촉 판단”",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003477302",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-20-ee76279b2c22-009",
+      "articleId": "article-3b2a208172c5442023bf1ea8",
+      "rank": 9,
+      "title": "한미 통화스와프 띄운 이형일…\"환율, 펀더멘털 찾아가는 중\"",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005591372",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
