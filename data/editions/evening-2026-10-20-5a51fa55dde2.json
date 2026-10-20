@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-20-5a51fa55dde2",
+  "channel": "evening",
+  "date": "2026-10-20",
+  "title": "2026-10-20 석간스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-20-5a51fa55dde2-001",
+      "articleId": "article-296055d8ec1aa61c1d5a765e",
+      "rank": 1,
+      "title": "한은·영란은행, 지급결제 혁신 맞손...토큰화 프로젝트 협력 강화",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261020102804821",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-20T12:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-20-5a51fa55dde2-002",
+      "articleId": "article-b1d177ea34e830c97957cbfe",
+      "rank": 2,
+      "title": "마스터카드, 정산 전 스테이블코인 의심 거래 탐지 서비스 출시",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/424515",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-20T04:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-20-5a51fa55dde2-003",
+      "articleId": "article-36e7402f91702b3b25646d6f",
+      "rank": 3,
+      "title": "[게시판] Sh수협은행, 스테이블코인 기반 금융서비스 개념검증",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261020112400002?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-20T14:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-20-5a51fa55dde2-004",
+      "articleId": "article-4b19e69653d764e27648b46c",
+      "rank": 4,
+      "title": "[인터뷰] 고려대 김형중 특임교수 \"예금토큰 수수료, 숨은 비용 따져야...",
+      "publisher": "straightnews.co.kr",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=313539",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-20T14:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-20-5a51fa55dde2-005",
+      "articleId": "article-042b3ec226dfed160b2f2068",
+      "rank": 5,
+      "title": "신한은행, 사내 메일 개인정보 자동 검출 추진...보안 취약점 대응체계 ...",
+      "publisher": "e-science.co.kr",
+      "url": "https://www.e-science.co.kr/news/articleView.html?idxno=137694",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-20T10:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-20-5a51fa55dde2-006",
+      "articleId": "article-7df9da9a4f5817acba61342d",
+      "rank": 6,
+      "title": "채권시장 종사자 93% \"10월 한은 금통위, 기준금리 동결할 것\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/10/20/2026102013505140105",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-20T14:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-20-5a51fa55dde2-007",
+      "articleId": "article-1712a9242309e375554d2695",
+      "rank": 7,
+      "title": "‘병장 월급 150만원’ 도박·코인 빠져 빚쟁이...금감원장“병사 대부업...",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10907979?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-20T08:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-20-5a51fa55dde2-008",
+      "articleId": "article-f2780da3b2b7447374606d63",
+      "rank": 8,
+      "title": "금융위, 6기 옴부즈만 출범...위원장에 문미란",
+      "publisher": "아시아경제",
+      "url": "https://view.asiae.co.kr/article/2026102014503584416",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    }
+  ]
+}
