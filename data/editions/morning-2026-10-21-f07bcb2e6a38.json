@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-21-f07bcb2e6a38",
+  "channel": "morning",
+  "date": "2026-10-21",
+  "title": "2026-10-21 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-001",
+      "articleId": "article-75e1f023342e2acb5b76a3b1",
+      "rank": 1,
+      "title": "잠자는 은행·보험 계좌에 14조원 방치",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005751402",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-002",
+      "articleId": "article-ccf144e05d017cec4e541a9e",
+      "rank": 2,
+      "title": "경찰 '금융기관 해킹' 중수청에 통보",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005751490",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-003",
+      "articleId": "article-95259c6c317bf81f45c2a487",
+      "rank": 3,
+      "title": "해킹 보상해준다던 신한·하나銀, 고객 붙들기용 혜택만 가득",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001879893",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-004",
+      "articleId": "article-97ed40d8fd0164348294ae97",
+      "rank": 4,
+      "title": "뒤바뀐 해킹판…은행 대신 2금융권 집중포화",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005344559",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-005",
+      "articleId": "article-3febf74f0bc1f720a9c5d138",
+      "rank": 5,
+      "title": "몸집 커진 만큼 개인정보 한가득… 보안 사각 놓인 보험대리점",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005591971",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-006",
+      "articleId": "article-6da7938a991518212b8393ca",
+      "rank": 6,
+      "title": "금융자산 41조 토스는 그룹감독 받는데…86조 카카오는 제외",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006392438",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-007",
+      "articleId": "article-e6129ad0f1a2f7c24d383dc5",
+      "rank": 7,
+      "title": "현금·페이머니 쓰면 10% 할인?… 간편결제, 최대 수혜자 되나",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005429085",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-008",
+      "articleId": "article-f6913e60ed2952deae7714b0",
+      "rank": 8,
+      "title": "정부, 코인 과세 앞두고 의견수렴…\"과세원칙·시장변화 고려\"",
+      "publisher": "연합뉴스",
+      "url": "https://n.news.naver.com/article/001/0016388831",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-009",
+      "articleId": "article-07414a6647129ad0847665f9",
+      "rank": 9,
+      "title": "내년 금리 오를 위험 주담대 563조… 영끌 대출자들 “잠이 안와요”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003756397",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-010",
+      "articleId": "article-92b8f1f56743ba456a864067",
+      "rank": 10,
+      "title": "새벽부터 바쁜 자금팀…비대면 외환거래 48% 늘었다",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003559324",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-21-f07bcb2e6a38-011",
+      "articleId": "article-6b065916cde26572ce2c3119",
+      "rank": 11,
+      "title": "佛 청년시위, ‘재정불량’ 유럽 국가로 확산… 伊 “병력 500명 투입”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003756466",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

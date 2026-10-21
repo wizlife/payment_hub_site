@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T09:14:38.399678+09:00",
+  "updatedAt": "2026-10-21T09:15:55.504508+09:00",
   "window": {
     "from": "2026-07-22",
-    "to": "2026-10-19"
+    "to": "2026-10-20"
   },
   "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료의 서지 목록. 첫 화면은 지급결제 중심. 원문 링크와 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 자료의 완전 수집은 아님.",
   "coverage": [
@@ -75,6 +75,25 @@
     }
   ],
   "items": [
+    {
+      "id": "doc-bok-d054096754116a46",
+      "title": "[보도참고자료] 한국은행, 영란은행과 토큰화 프로젝트 관련 협력 강화",
+      "publisher": "한국은행",
+      "institution": "bok",
+      "date": "2026-10-20",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?nttId=11065759&menuNo=201265",
+      "summary": "",
+      "region": "domestic",
+      "language": "ko",
+      "summaryBasis": "",
+      "summaryStatus": "not-needed",
+      "focus": "payment",
+      "summarySourceUrl": ""
+    },
     {
       "id": "doc-fsc-40fd35e76e588ee5",
       "title": "잠든 선불충전금, 잊지 말고 사용하세요. - 빅테크 3개사, 장기간 미사용 선불의 이용자 통지 및 환급 촉진",
