@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-22-119598d6659c",
+  "channel": "morning",
+  "date": "2026-10-22",
+  "title": "2026-10-22 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-22-119598d6659c-001",
+      "articleId": "article-38bd2400d8642e68d1962cbd",
+      "rank": 1,
+      "title": "개인사업자 신용대출 갈아타기, 밤 10시까지로 확대",
+      "publisher": "한국경제TV",
+      "url": "https://n.news.naver.com/article/215/0001269965",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-002",
+      "articleId": "article-2b59e26c39610f7dc2bdf4fb",
+      "rank": 2,
+      "title": "'핀다뱅크' 공식 출범…핀테크, 저축은행 판 흔든다",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003477379",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-003",
+      "articleId": "article-1e306c9a5a9c754ea647adeb",
+      "rank": 3,
+      "title": "금감원 \"군장병 대부업 대출 금지 검토\"... 금융권 \"악마화 해선 문제 안풀려\" 반발",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005592625",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-004",
+      "articleId": "article-ff2805d5beed4057c1cd5c3d",
+      "rank": 4,
+      "title": "금융위, 의결도 없이 조각투자 사업자 2곳으로 제한",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004005272",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-005",
+      "articleId": "article-19ddb62446d1bcd26ebcd038",
+      "rank": 5,
+      "title": "특사경 봉합했더니… 금융위-금감원, 레버리지 2차전 조짐",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001880117",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-006",
+      "articleId": "article-6c0e61b6e5d407dcc19b262b",
+      "rank": 6,
+      "title": "韓금융권 뚫은 中아르텍스… 한국어 패치 등 변종 속출",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005592692",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-007",
+      "articleId": "article-7e129070ea645b7395536161",
+      "rank": 7,
+      "title": "우리금융, 올해 생산적·포용금융 35조 지원…서민·中企 지원 집중",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006393105",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-008",
+      "articleId": "article-dd2f97103b1421129eb278dc",
+      "rank": 8,
+      "title": "'주식 결제주기 단축' 1년 밀린다... 외국계 반발 속 로드맵 확정 불발",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005592643",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-009",
+      "articleId": "article-e40fcb36a3f431e7afde7d7e",
+      "rank": 9,
+      "title": "달러값 급락에…기업은 사고 외국인은 팔았다",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006393268",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-22-119598d6659c-010",
+      "articleId": "article-9dd7a1836ec648b20c8c0525",
+      "rank": 10,
+      "title": "조정장에 은행으로 돈 몰려…예금에 넣어 두고 인출 안해",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005751961",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
