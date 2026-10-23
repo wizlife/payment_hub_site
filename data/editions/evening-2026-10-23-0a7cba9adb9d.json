@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-23-0a7cba9adb9d",
+  "channel": "evening",
+  "date": "2026-10-23",
+  "title": "2026-10-23 석간스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-001",
+      "articleId": "article-263f9aa926a1262ce51a02e0",
+      "rank": 1,
+      "title": "지방세 환급금, 12월부터 은행·카드앱서 신청",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026102293941",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-22T18:21:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-002",
+      "articleId": "article-989442aae43eb1ddb5de45c7",
+      "rank": 2,
+      "title": "하나금융, 두나무와 스테이블코인 실시간 결제·정산 실험",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2639386",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-23T13:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-003",
+      "articleId": "article-aae29a5349a356c009d727c7",
+      "rank": 3,
+      "title": "금융위원장 \"스테이블코인 송금·결제, 디지털자산 입법 단계서 고민\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/10/22/2026102219445669018",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-22T20:11:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-004",
+      "articleId": "article-ae613ca1bf2f47e49f2964f2",
+      "rank": 4,
+      "title": "SWIFT 원장서 DBS·HSBC 등 토큰화 예금 24시간 결제 시험",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/blockchain/426031",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-23T06:16:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-005",
+      "articleId": "article-4458a41fc80f8573a0ae6c62",
+      "rank": 5,
+      "title": "토스뱅크, 이체오류 사고액 325억···\"80% 회수\"",
+      "publisher": "koreastocknews.com",
+      "url": "http://www.koreastocknews.com/news/articleView.html?idxno=121889",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-23T09:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-006",
+      "articleId": "article-b903c40485b85fc9382d6738",
+      "rank": 6,
+      "title": "\"美은행들, 고객계좌서 '미승인 AI 에이전트' 활동 포착\"",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261023068300009?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-23T10:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-007",
+      "articleId": "article-21e76b195a635593ed48cb7a",
+      "rank": 7,
+      "title": "8월 은행 연체율 0.69%로 상승...중소기업 1%·중소법인 1.1%",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/23/2026102308192711061",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-23T08:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-008",
+      "articleId": "article-15ccdcf068e9cf12a444f4a1",
+      "rank": 8,
+      "title": "\"성장·물가 강해 긴축 지속\"... 11월·내년초 추가 인상 전망[기준금리...",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610221837490376",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-22T18:39:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-009",
+      "articleId": "article-f15e5c350280ad17e26b14ea",
+      "rank": 9,
+      "title": "금융위원장 \"솔리다임 상장땐 SK하이닉스 이사회 '5대의무' 이행해야\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/10/22/2026102216271778889",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-22T17:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-23-0a7cba9adb9d-010",
+      "articleId": "article-f4d6d3afd686ebfda3905979",
+      "rank": 10,
+      "title": "한은 “프로젝트 아고라 2028년 가동...원장에 국채 얹어 원화 국제화“",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05405446645615872",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    }
+  ]
+}
