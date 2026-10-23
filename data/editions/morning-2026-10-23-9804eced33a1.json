@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-23-9804eced33a1",
+  "channel": "morning",
+  "date": "2026-10-23",
+  "title": "2026-10-23 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-23-9804eced33a1-001",
+      "articleId": "article-8d0831ca1eb869cb69f6c70d",
+      "rank": 1,
+      "title": "지방세 환급금, 12월부터 카카오·은행 앱으로 조회 신청한다",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006393976",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-23-9804eced33a1-002",
+      "articleId": "article-4a81c3d0708482a41b1154da",
+      "rank": 2,
+      "title": "AI가 잠자는 돈 깨워…금융권 낙전수익 비상",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005752626",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-23-9804eced33a1-003",
+      "articleId": "article-448b993f1694661886750312",
+      "rank": 3,
+      "title": "\"한국은 아직 옛날 버전 쓰는데\"…해킹 공포에 '초비상'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005345486",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-23-9804eced33a1-004",
+      "articleId": "article-1ee247b34b7764d0b52334f7",
+      "rank": 4,
+      "title": "저축은행 ‘시중銀 돈’ 빌려 중·저신용자 대출해 준다",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003691741",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-23-9804eced33a1-005",
+      "articleId": "article-5c735cdc796b654d480d42c6",
+      "rank": 5,
+      "title": "증시 하락세에 4대금융 실적 주춤… 年순익은 20조 돌파 예상",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003757015",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-23-9804eced33a1-006",
+      "articleId": "article-f4d3fc4e6fd7c7a89d2de4e3",
+      "rank": 6,
+      "title": "금감원장 이어 금융위원장도 “솔리다임, 중복상장 규제 대상”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003757050",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-23-9804eced33a1-007",
+      "articleId": "article-177b0c3d103a3c236ae9e966",
+      "rank": 7,
+      "title": "산은 부산 이전부터 레버리지 ETF까지…금융당국 정책·감독 책임 도마",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2639115",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-23-9804eced33a1-008",
+      "articleId": "article-e9dff20d9f0adeeb2fa27ff1",
+      "rank": 8,
+      "title": "금통위, 기준금리 年3%로 동결",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004005447",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-23-9804eced33a1-009",
+      "articleId": "article-afcdfec3013041e7e2226612",
+      "rank": 9,
+      "title": "금융권 다음 '맏형'은 누구…은행연합회 차기회장 선임 3대 관전포인트",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006394291",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
