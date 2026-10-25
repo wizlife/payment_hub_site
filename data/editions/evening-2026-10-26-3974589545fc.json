@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-26-3974589545fc",
+  "channel": "evening",
+  "date": "2026-10-26",
+  "title": "2026-10-26 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-26-3974589545fc-001",
+      "articleId": "article-3a828c65dfe0d28aa03b59f7",
+      "rank": 1,
+      "title": "[게시판] 주조지아대사관, 오픈뱅킹 경제협력포럼",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261025047200108?input=1195m",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-25T19:49:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-002",
+      "articleId": "article-05562740a8ac2c78255b313c",
+      "rank": 2,
+      "title": "\"스테이블코인 은행 업무 검증\"...아톤, 수협은행과 여·수신 PoC 완료",
+      "publisher": "joongangenews.com",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=557715",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-23T11:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-003",
+      "articleId": "article-6f936310c4338a00bab9433b",
+      "rank": 3,
+      "title": "스테이블코인 이자 지급 규제 마련한 미국...디지털자산법 발의도 못한 ...",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10913729?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-25T10:31:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-004",
+      "articleId": "article-257e6c24aec7b5de889b730f",
+      "rank": 4,
+      "title": "KB국민은행, 중국서 QR 간편결제 서비스 확대",
+      "publisher": "job-post.co.kr",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=234271",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-24T09:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-005",
+      "articleId": "article-3e68c683780780bf512b0632",
+      "rank": 5,
+      "title": "\"송금 실패 거래가 입금 처리\"...토스뱅크, 이체 시스템 오류 '325억 공시...",
+      "publisher": "thepublic.kr",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=323508",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-23T14:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-006",
+      "articleId": "article-558941a0617e40e4239ffd44",
+      "rank": 6,
+      "title": "시중은행, 정보보호 예산 1000억원 편성... PHP 취약점도 점검",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/10/25/AP4WKOF7WFBRPKLEH3TSXUK7DY/",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-25T13:21:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-007",
+      "articleId": "article-9398e4986028267612a1f022",
+      "rank": 7,
+      "title": "홍콩ELS식 '제재엇박' 막는다...금융위·금감원, 사전조율 공식화",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261024045800002?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-25T05:57:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-008",
+      "articleId": "article-2a00b0f66ae592956c5e3153",
+      "rank": 8,
+      "title": "보호예금 24% 느는데 예보료율은 63% 인상?...은행권 \"인상폭 과도\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/10/25/2026102115445296212",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-25T09:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-009",
+      "articleId": "article-95c8cbd2a2f89fe29430c2ee",
+      "rank": 9,
+      "title": "신현송 총재 “선제 금리인상으로 통화정책 운신 폭 얻어”",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10912926?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-23T14:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-26-3974589545fc-010",
+      "articleId": "article-17d09fa97d8adef99279541d",
+      "rank": 10,
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440944",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-24T08:02:00+09:00"
+    }
+  ]
+}
