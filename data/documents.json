@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T09:17:18.285324+09:00",
+  "updatedAt": "2026-10-26T08:54:11.231881+09:00",
   "window": {
     "from": "2026-07-22",
-    "to": "2026-10-21"
+    "to": "2026-10-24"
   },
   "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료의 서지 목록. 첫 화면은 지급결제 중심. 원문 링크와 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 자료의 완전 수집은 아님.",
   "coverage": [
@@ -72,9 +72,72 @@
       "label": "미 연방준비제도(Fed)",
       "status": "partial",
       "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
+    },
+    {
+      "institution": "kansascity",
+      "label": "캔자스시티 연방준비은행",
+      "status": "partial",
+      "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
     }
   ],
   "items": [
+    {
+      "id": "doc-kif-65b5a138c1a7aa0f",
+      "title": "효과적인 금융사기 대응을 위한 정보공유 강화 조치와 향후 과제",
+      "publisher": "한국금융연구원",
+      "institution": "kif",
+      "date": "2026-10-24",
+      "type": "periodical",
+      "series": "금융브리프",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?ControlNo=368780&NodeID=76&ParentNodeID=58&VolumeID=7821",
+      "summary": "",
+      "region": "domestic",
+      "summaryStatus": "not-needed",
+      "language": "ko",
+      "focus": "related",
+      "summarySourceUrl": "",
+      "summaryBasis": ""
+    },
+    {
+      "id": "doc-kif-5aa119bef2aba72c",
+      "title": "Developing an AI Training and Certification Framework for the Korean Financial Sector",
+      "publisher": "한국금융연구원",
+      "institution": "kif",
+      "date": "2026-10-24",
+      "type": "periodical",
+      "series": "Financial Research Brief",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?ControlNo=368805&NodeID=884&ParentNodeID=882&VolumeID=7823",
+      "summary": "",
+      "region": "domestic",
+      "summaryStatus": "pending",
+      "language": "en",
+      "focus": "related",
+      "summarySourceUrl": "",
+      "summaryBasis": ""
+    },
+    {
+      "id": "doc-kif-5424ae46bf82fbfe",
+      "title": "Addressing Size-Related Gaps in AI Transformation: Policy Implications for the Korean Financial Sector",
+      "publisher": "한국금융연구원",
+      "institution": "kif",
+      "date": "2026-10-24",
+      "type": "periodical",
+      "series": "Financial Research Brief",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?ControlNo=368806&NodeID=884&ParentNodeID=882&VolumeID=7823",
+      "summary": "",
+      "region": "domestic",
+      "summaryStatus": "pending",
+      "language": "en",
+      "focus": "related",
+      "summarySourceUrl": "",
+      "summaryBasis": ""
+    },
     {
       "id": "doc-fsc-befdc40657d61188",
       "title": "신용정보법 과징금 부과의 예측 가능성을 한층 높였습니다.  - ｢신용정보업감독규정｣ 개정안 제18차 정례 금융위원회 의결",
@@ -112,6 +175,25 @@
       "summaryStatus": "not-needed",
       "focus": "payment",
       "summarySourceUrl": ""
+    },
+    {
+      "id": "doc-kansascity-610851005511b14c",
+      "title": "A Brief History of Deposit Tokens and Tokenized Deposits",
+      "publisher": "캔자스시티 연방준비은행",
+      "institution": "kansascity",
+      "date": "2026-10-16",
+      "type": "periodical",
+      "series": "Payments System Research Briefing",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.kansascityfed.org/research/payments-system-research-briefings/a-brief-history-of-deposit-tokens-and-tokenized-deposits/",
+      "summary": "",
+      "region": "international",
+      "summaryBasis": "",
+      "language": "en",
+      "focus": "payment",
+      "summarySourceUrl": "",
+      "summaryStatus": "pending"
     },
     {
       "id": "doc-fsc-40fd35e76e588ee5",
