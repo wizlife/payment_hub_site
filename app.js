@@ -2,9 +2,9 @@
 
 const $ = selector => document.querySelector(selector);
 const siteRoot = new URL('./', document.baseURI);
-const labels = { morning: '조간스크랩', evening: '석간스크랩', ai: 'AI 뉴스' };
-const subtitles = { morning: 'MORNING PRESS', evening: 'EVENING PRESS', ai: 'AI NEWS' };
-const descriptions = { morning: '조간스크랩에서 선정한 기사를 원래 순서대로 확인합니다.', evening: '별도 기준으로 정리한 석간스크랩입니다.', ai: '수신한 AI 뉴스의 분류와 요약을 그대로 이어서 읽습니다.' };
+const labels = { morning: '조간스크랩', evening: '지급결제 스크랩', ai: 'AI 뉴스' };
+const subtitles = { morning: 'MORNING PRESS', evening: 'PAYMENT BRIEF', ai: 'AI NEWS' };
+const descriptions = { morning: '조간스크랩에서 선정한 기사를 원래 순서대로 확인합니다.', evening: '지급결제 관련 뉴스를 별도 기준으로 정리합니다. 아침 발행본과 이전 석간 자료를 함께 보관합니다.', ai: '수신한 AI 뉴스의 분류와 요약을 그대로 이어서 읽습니다.' };
 let catalog;
 let documents = {items:[], coverage:[]};
 let documentsError = false;
@@ -86,7 +86,7 @@ function setOptions(select, values, selected) {
   select.value = values.some(([value]) => value === selected) ? selected : values[0]?.[0] || '';
 }
 function fillFilters() {
-  const channels = [['all', '전체 채널'], ...catalog.channels.map(channel => [channel.id, channel.label || labels[channel.id]])];
+  const channels = [['all', '전체 채널'], ...catalog.channels.map(channel => [channel.id, labels[channel.id] || channel.label])];
   const channelEditions = catalog.editions.filter(edition => state.channel === 'all' || edition.channel === state.channel);
   const archiveDates = [...new Set(channelEditions.map(e => e.date))].sort().reverse();
   const searchableNews = state.kind !== 'document' && state.region === 'all' && state.institution === 'all' && state.type === 'all' ? channelEditions.map(e => e.date) : [];
@@ -120,7 +120,10 @@ function fillFilters() {
   $('#search-sort').value = state.sort;
 }
 function editionVariant(edition) {
-  const plainTitle = `${edition.date} ${labels[edition.channel] || edition.channel}`;
+  const prefixes = [labels[edition.channel] || edition.channel];
+  if (edition.channel === 'evening') prefixes.push('석간스크랩', '지급결제 아침 스크랩');
+  const plainTitle = prefixes.map(label => `${edition.date} ${label}`).find(title =>
+    edition.title === title || edition.title?.startsWith(title + ' · ')) || `${edition.date} ${prefixes[0]}`;
   if (!edition.title || edition.title === plainTitle) return '';
   return edition.title.startsWith(plainTitle + ' · ') ? edition.title.slice(plainTitle.length + 3) : edition.title;
 }
@@ -151,13 +154,13 @@ function renderOverview() {
     const edition = catalog.editions.find(edition => edition.id === channel.latestEditionId);
     const card = element('article', `channel-card${edition ? '' : ' channel-pending'}`);
     const top = element('div', 'channel-card-top'); top.append(element('span', 'eyebrow', subtitles[channel.id] || channel.id), element('span', 'channel-status', edition ? '최신 등록본' : '연결 준비'));
-    card.append(top, element('h2', '', channel.label || labels[channel.id]));
+    card.append(top, element('h2', '', labels[channel.id] || channel.label));
     if (edition) {
       const button = element('button', 'channel-open', `${dateLabel(edition.date)} · ${edition.itemCount}건`);
       button.type = 'button'; button.append(element('span', '', '→')); button.addEventListener('click', () => openEdition(edition.id));
       card.append(button);
       if (editionVariant(edition)) card.append(element('p', 'channel-caption', editionVariant(edition)));
-    } else card.append(element('p', 'channel-empty', '자료 연결 준비 중'), element('p', 'channel-caption', '별도로 정리된 석간 자료가 연결되면 표시됩니다.'));
+    } else card.append(element('p', 'channel-empty', '자료 연결 준비 중'), element('p', 'channel-caption', '별도로 정리된 지급결제 자료가 연결되면 표시됩니다.'));
     return card;
   }));
 }
@@ -328,7 +331,7 @@ function searchCard(group) {
   const card = element('article', 'search-result'); card.dataset.articleId = group.articleId;
   const topline = element('div', 'search-result-meta');
   const publisher = element('span', 'publisher'); appendHighlighted(publisher, meta.publisher || '출처 미상');
-  topline.append(element('span', 'topic-label', meta.channelLabel || labels[meta.channel] || '뉴스'), element('span', '', `${dateLabel(meta.date)} 정리본`), publisher);
+  topline.append(element('span', 'topic-label', labels[meta.channel] || meta.channelLabel || '뉴스'), element('span', '', `${dateLabel(meta.date)} 정리본`), publisher);
   const title = element('h2'); title.append(titleLink(meta, 'search-title-link'));
   card.append(topline, title);
   if (state.query.trim()) {
