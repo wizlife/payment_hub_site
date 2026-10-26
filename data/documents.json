@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T08:54:11.231881+09:00",
+  "updatedAt": "2026-10-27T05:24:17.099948+09:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-10-24"
@@ -78,6 +78,12 @@
       "label": "캔자스시티 연방준비은행",
       "status": "partial",
       "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
+    },
+    {
+      "institution": "financecanada",
+      "label": "캐나다 재무부",
+      "status": "partial",
+      "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
     }
   ],
   "items": [
@@ -139,6 +145,25 @@
       "summaryBasis": ""
     },
     {
+      "id": "doc-financecanada-e53fe0ba891eee0c",
+      "title": "Canada Gazette, Part I, Volume 160, Number 43: Stablecoin Regulations",
+      "publisher": "캐나다 재무부",
+      "institution": "financecanada",
+      "date": "2026-10-24",
+      "type": "policy",
+      "series": "Canada Gazette, Part I",
+      "issue": "Volume 160, Number 43",
+      "issueUrl": "",
+      "url": "https://gazette.gc.ca/rp-pr/p1/2026/2026-10-24/html/reg1-eng.html",
+      "summary": "캐나다 스테이블코인 규정안: 발행자와 지급서비스 감독\n2026년 10월 24일 사전공표된 협의안으로, 확정·시행 중인 규정이 아니다.\n• 발행자 등록, 준비자산 관리, 상환, 위험관리 및 공시 요건을 구체화하는 안이다.\n• 준비자산은 기준통화로 표시하고 일말 기준 발행잔액 이상을 유지하며, 적격 유동자산과 보관기관 요건을 적용하도록 제안한다.\n• 스테이블코인을 사용하는 지급서비스 제공자를 소매지급 감독체계에 포함하는 관련 개정도 담았다.\n• 보유에 연계한 이자·수익 제공과 법정통화·예금·공적 보증으로 오인시키는 표시를 제한하는 내용을 설명한다.\n편집자 해석: 지급결제 관점에서는 토큰의 발행·상환 안전장치와 이를 취급하는 지급서비스의 감독범위를 함께 볼 자료다.\n확인 범위: 공식 규제영향분석서의 쟁점·목표·주요 규정 설명. 조문 전체 번역이 아니다. 캐나다 재무부의 Canada Gazette 원문을 바탕으로 Payment Hub가 작성한 비공식 국문 요약이며 정부의 공식 번역·승인 자료가 아니다. 원문 제목·발행일·출처 링크를 함께 제공한다.",
+      "region": "international",
+      "summarySourceUrl": "https://gazette.gc.ca/rp-pr/p1/2026/2026-10-24/html/reg1-eng.html",
+      "summaryBasis": "official-abstract",
+      "language": "en",
+      "focus": "payment",
+      "summaryStatus": "ready"
+    },
+    {
       "id": "doc-fsc-befdc40657d61188",
       "title": "신용정보법 과징금 부과의 예측 가능성을 한층 높였습니다.  - ｢신용정보업감독규정｣ 개정안 제18차 정례 금융위원회 의결",
       "publisher": "금융위원회",
@@ -175,6 +200,25 @@
       "summaryStatus": "not-needed",
       "focus": "payment",
       "summarySourceUrl": ""
+    },
+    {
+      "id": "doc-bis-649e56a898f28b8e",
+      "title": "Competing rails for crossborder payments: banks, fintechs, and stablecoins",
+      "publisher": "BIS",
+      "institution": "bis",
+      "date": "2026-10-19",
+      "type": "report",
+      "series": "BIS Working Papers",
+      "issue": "1385",
+      "issueUrl": "",
+      "url": "https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins",
+      "summary": "국경간 송금수단의 비용 비교: 은행·핀테크·스테이블코인\n공식 초록 기반 비공식 국문 요약\n• 은행 송금, 핀테크 송금업자, 스테이블코인 경로의 비용을 송금 구간과 금액별로 비교한 연구다.\n• 핀테크는 은행 대비 비용을 낮췄지만, 스테이블코인도 법정통화 교환·인출 수수료와 유동성 제약을 겪는다.\n• 일부 시장의 유리한 환율만으로 스테이블코인의 보편적 비용 우위를 단정할 수 없다.\n편집자 해석: 지급결제 수단을 비교할 때 수수료뿐 아니라 환전·현금화 비용과 실제 수취 가능성을 함께 살펴볼 필요가 있다.\n확인 범위: BIS 공식 상세의 Focus·Contribution·Findings·Abstract. PDF는 표지·저작권(2쪽)·초록(8쪽)을 대조했다. 전체 논문 요약은 아니다.",
+      "region": "international",
+      "summaryStatus": "ready",
+      "focus": "payment",
+      "language": "en",
+      "summaryBasis": "official-abstract",
+      "summarySourceUrl": "https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins"
     },
     {
       "id": "doc-kansascity-610851005511b14c",
