@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-27-cbb3b879e6b2",
+  "channel": "evening",
+  "date": "2026-10-27",
+  "title": "2026-10-27 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-001",
+      "articleId": "article-24ec34a29e02c0864e9cb9fc",
+      "rank": 1,
+      "title": "[현장] 채병득號 금결원, 네이버페이와 AI 결제 실증...디지털자산 시대...",
+      "publisher": "fntimes.com",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026102318251636181b5a221379_18",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T06:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-002",
+      "articleId": "article-bc1e07f45762643aa18f7180",
+      "rank": 2,
+      "title": "[올댓차이나] HSBC, 홍콩달러 스테이블코인 '레드코인' 출시",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261026_0003841659",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T16:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-003",
+      "articleId": "article-f62c7e93058e038a1c8a474f",
+      "rank": 3,
+      "title": "하나금융, 두나무와 스테이블코인 결제 기술검증 나서",
+      "publisher": "whitepaper.co.kr",
+      "url": "http://www.whitepaper.co.kr/news/articleView.html?idxno=268091",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T09:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-004",
+      "articleId": "article-8c89cb236fbc67ad9cef5168",
+      "rank": 4,
+      "title": "JP모건·씨티은행, AI 에이전트 계좌 접근 제한...한국 금융권도 'AI 거래...",
+      "publisher": "e-science.co.kr",
+      "url": "https://www.e-science.co.kr/news/articleView.html?idxno=138066",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T07:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-005",
+      "articleId": "article-927b9c2f384bf800e4d847f8",
+      "rank": 5,
+      "title": "줄어드는 은행 창구, 보안은 AI가 맡는다... 농협은행 100곳 시범 운영",
+      "publisher": "greened.kr",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=353061",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T21:09:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-006",
+      "articleId": "article-d4b6a45bc0998446d711b7e8",
+      "rank": 6,
+      "title": "국민은행 개인정보 유출 2200명 넘었다...급증한 배경에 촉각",
+      "publisher": "bloter.net",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=676763",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T18:27:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-007",
+      "articleId": "article-0a413d0e4d552f1f29e3fa55",
+      "rank": 7,
+      "title": "해킹 사태에 PHP 악재까지...'방어막' 구축 나선 은행권",
+      "publisher": "newsfc.co.kr",
+      "url": "http://www.newsfc.co.kr/news/articleView.html?idxno=82000",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T15:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-008",
+      "articleId": "article-335ca32fc352c7aad2bf4073",
+      "rank": 8,
+      "title": "미래에셋생명서 보험사 첫 해킹 유출...금감원, 긴급 현장점검(종합)",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261026127651002?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T17:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-009",
+      "articleId": "article-8508cdecd2db18d7f73fbeec",
+      "rank": 9,
+      "title": "금감원 “보안 역량 우수 금융사부터 ‘망분리 규제 전면 해제’ 검토”",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2640150",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T16:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-010",
+      "articleId": "article-ad2e4545afad07690759f7e8",
+      "rank": 10,
+      "title": "원화 가치 상승랠리에 명목실효환율도 2년만에 최고",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610261826063083",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T18:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-011",
+      "articleId": "article-adadf28c29aebaf6ea2422d2",
+      "rank": 11,
+      "title": "이찬진 금감원장, '금융지주 자회사 CEO 선임' 투명성 재차 강조",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202610261449144215",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T15:54:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-012",
+      "articleId": "article-7f1ea781ad78a5cdcf91b362",
+      "rank": 12,
+      "title": "4분기 주담대 수요 여전한데⋯은행권 대출 문턱은 여전히 높다",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2639952",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-26T12:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-013",
+      "articleId": "article-8e13f076d164175fa5e97ab2",
+      "rank": 13,
+      "title": "[인사] 한국은행",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261026153300002?input=1195m",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-014",
+      "articleId": "article-c82948ef343fadd3414ec8c3",
+      "rank": 14,
+      "title": "한은 통화정책·시장 부총재보에 최창호 통화정책국장",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261026152900002?input=1195m",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-015",
+      "articleId": "article-d863b0ac9e23f1f515385c74",
+      "rank": 15,
+      "title": "한은 통화정책국장에 방홍기...국제협력국장 강남이",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441166",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "evening-2026-10-27-cbb3b879e6b2-016",
+      "articleId": "article-e3cf2391ed2fbef42d7250cb",
+      "rank": 16,
+      "title": "[인사] 한국은행 外",
+      "publisher": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25472977",
+      "category": "한국은행·금융위 인사",
+      "categoryBasis": "source"
+    }
+  ]
+}
