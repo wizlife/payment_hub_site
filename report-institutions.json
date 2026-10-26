@@ -15,5 +15,6 @@
   "esm": {"label": "유럽안정화기구(ESM)", "domain": "esm.europa.eu", "region": "international"},
   "fed": {"label": "미 연방준비제도(Fed)", "domain": "federalreserve.gov", "region": "international"},
   "mas": {"label": "싱가포르통화청(MAS)", "domain": "mas.gov.sg", "region": "international"},
+  "financecanada": {"label": "캐나다 재무부", "domain": "gazette.gc.ca", "region": "international"},
   "kansascity": {"label": "캔자스시티 연방준비은행", "domain": "kansascityfed.org", "region": "international"}
 }
