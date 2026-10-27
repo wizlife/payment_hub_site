@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-10-28-82be7605fda9",
+  "channel": "evening",
+  "date": "2026-10-28",
+  "title": "2026-10-28 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-10-28-82be7605fda9-001",
+      "articleId": "article-a0643a2c42ffc14740e3c0e2",
+      "rank": 1,
+      "title": "금결원, ‘프로젝트 한강’ 확대 앞서 예금토큰 보안점검 용역 발주",
+      "publisher": "newstomato.com",
+      "url": "http://www.newstomato.com/ReadNews.aspx?inflow=N&no=1318171",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T15:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-002",
+      "articleId": "article-104c8367d9f2529cddaee246",
+      "rank": 2,
+      "title": "정치후원금 영수증 간편 발급·후보 등록 서류 간소화 되나",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261027_0003842741",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T11:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-003",
+      "articleId": "article-3f62a4131ddfc766392f783e",
+      "rank": 3,
+      "title": "삼성월렛 머니, 중국 위챗페이 QR 결제 지원",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12186870",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T13:33:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-004",
+      "articleId": "article-f6006e45ba2666faf0fbdf1b",
+      "rank": 4,
+      "title": "신한카드, 두나무 기와체인 활용 '토큰 결제' 실증...보안성 검증",
+      "publisher": "paxetv.com",
+      "url": "http://www.paxetv.com/news/articleView.html?idxno=285269",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T09:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-005",
+      "articleId": "article-ee46344ff95dc09cb8cd4569",
+      "rank": 5,
+      "title": "온통대전, QR결제 도입...27일부터 참여 가맹점 신청",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261027_0003842608",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T10:47:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-006",
+      "articleId": "article-dc7817e7af58b55e0331a435",
+      "rank": 6,
+      "title": "웨이브릿지, 글로벌 스테이블코인 네트워크 합류...국내 첫 OUSD 수탁 지원",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261027000392",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T16:07:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-007",
+      "articleId": "article-f86a15d02c0bf8dd2c5e9c3a",
+      "rank": 7,
+      "title": "보험사 첫 개인정보 유출...미래에셋생명, 보험계약 민감정보 포함됐나",
+      "publisher": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20261027000744",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T12:11:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-008",
+      "articleId": "article-ec8dd34b71343b3b3f3f39da",
+      "rank": 8,
+      "title": "농협, 손가락 정맥으로 금융업무 인증...전국 4800곳 순차 도입",
+      "publisher": "세계일보",
+      "url": "https://www.segye.com/newsView/20261027518290?OutUrl=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T18:17:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-009",
+      "articleId": "article-0e6c8ac974125e0c80448ff7",
+      "rank": 9,
+      "title": "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261027178700002?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T19:13:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-010",
+      "articleId": "article-1a1ccb57a81af88206486dac",
+      "rank": 10,
+      "title": "금융위, 금감원에 \"제재 제척기간 엄수하라\"...과도한 검사 확대 제동",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261026_0003841773",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T07:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-10-28-82be7605fda9-011",
+      "articleId": "article-00235c9dd119a64983d7cc85",
+      "rank": 11,
+      "title": "예대금리차 시중은행 확대·인뱅 축소 ‘엇갈린 행보’",
+      "publisher": "세계일보",
+      "url": "https://www.segye.com/newsView/20261026515488?OutUrl=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-27T06:02:00+09:00"
+    }
+  ]
+}
