@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-27-f6f842640691",
+  "channel": "morning",
+  "date": "2026-10-27",
+  "title": "2026-10-27 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-27-f6f842640691-001",
+      "articleId": "article-58d3ed720251754329559af5",
+      "rank": 1,
+      "title": "AI 독학해 기업정보 등 820만건 해킹",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003757865",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-002",
+      "articleId": "article-c87ee25afcdbd86fdcca7c4d",
+      "rank": 2,
+      "title": "KB국민銀 정보유출 2091명 추가 확인",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004675349",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-003",
+      "articleId": "article-d9ffc94404cc244885812e1a",
+      "rank": 3,
+      "title": "가계자산 양극화도 악화일로 … 상하위 20% 집값 격차 290배",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005754303",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-004",
+      "articleId": "article-c7e837a88a9fa9916e541d9f",
+      "rank": 4,
+      "title": "롯데·SK 양강 흔들까…장기렌터카 뛰어드는 캐피털사, 중소업계 설득전",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000961794",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-005",
+      "articleId": "article-57e53405380fab0f0e09c883",
+      "rank": 5,
+      "title": "국민성장펀드 첫 성적표…3개월 수익률 0.5%",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005346705",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-006",
+      "articleId": "article-90ee02cea3bb71b710a256ff",
+      "rank": 6,
+      "title": "SK하닉, 최대 60조원 주주환원 카드 꺼낸다",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004675290",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-007",
+      "articleId": "article-db1463f09e2c57885b075b29",
+      "rank": 7,
+      "title": "코인거래소도 교육세 내나…업계 부담 확산",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004675405",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-008",
+      "articleId": "article-40a6990368da9c693abb5d20",
+      "rank": 8,
+      "title": "아시아권 금융관계자 협력세미나 개최",
+      "publisher": "내일신문",
+      "url": "https://www.naeil.com/news/read/606388?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-009",
+      "articleId": "article-2f6810dc2d8f6a51062d51c6",
+      "rank": 9,
+      "title": "한국은행 신임 통화정책·시장 담당 부총재보에 최창호 국장",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441165",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-27-f6f842640691-010",
+      "articleId": "article-f56f6e9a49cb39ef0b2b2dd1",
+      "rank": 10,
+      "title": "수협은행장 인선, 3차도 '신학기 3 vs 이형주 2'…4차 회의 예정",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005431802",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
