@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-28-41aec02f3d38",
+  "channel": "morning",
+  "date": "2026-10-28",
+  "title": "2026-10-28 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-001",
+      "articleId": "article-27b6d56366a9a5a9be4c1040",
+      "rank": 1,
+      "title": "3분기 GDP 1% '깜짝성장' … 한국은행 \"올 4%도 가능\"",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005754874",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-002",
+      "articleId": "article-fe4cca2d0ebfe9846eb9c970",
+      "rank": 2,
+      "title": "토스가 불붙인 '얼굴결제' 경쟁…해킹 사태 속 보안 신뢰 확보 과제",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261027142041091",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-003",
+      "articleId": "article-6b0c0f6c69aa40dc41ce044d",
+      "rank": 3,
+      "title": "네이버 '글로벌 AI팩토리' 본궤도, 브룩필드와 90억弗 인프라 계약",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005432588",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-004",
+      "articleId": "article-222e35385ba39c7c52d81af3",
+      "rank": 4,
+      "title": "500개 AI 모델 한곳에서 이용한다…KT 통합플랫폼 ‘토큰팩토리’ 공개",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005595329",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-005",
+      "articleId": "article-33716be5c0d91cc21068cf6f",
+      "rank": 5,
+      "title": "삼성금융, 도쿄에 공동거점 만든다… 삼성화재 8년 만에 日 복귀",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005595351",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-006",
+      "articleId": "article-6424b87568c4d70845a7db04",
+      "rank": 6,
+      "title": "加, 비은행도 스테이블코인 찍는다",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004675652",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-007",
+      "articleId": "article-f094daceff9aee0a2b7f4140",
+      "rank": 7,
+      "title": "금결원, ‘프로젝트 한강’ 확대 앞서 예금토큰 보안점검 용역 발주",
+      "publisher": "뉴스토마토",
+      "url": "https://www.newstomato.com/ReadNews.aspx?inflow=N&no=1318171",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-008",
+      "articleId": "article-bee6d0634e819f7f85ab6618",
+      "rank": 8,
+      "title": "토스뱅크, 주담대 시장에 도전장…최대 10억 한도",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006397387",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-009",
+      "articleId": "article-d3ca543d06b5a4854b7c8d68",
+      "rank": 9,
+      "title": "월급 500만원 이상 17.6% 역대 최대… 10명 중 1명은 100만원도 못 벌었다",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003693075",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-28-41aec02f3d38-010",
+      "articleId": "article-303dc13998cc3251f6c2133f",
+      "rank": 10,
+      "title": "한국씨티은행장에 김경호 부행장 선임",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005347139",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
