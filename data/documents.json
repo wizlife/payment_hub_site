@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T02:37:22.844740+09:00",
+  "updatedAt": "2026-10-30T05:00:58.427311+09:00",
   "window": {
     "from": "2026-07-22",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
   },
   "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료의 서지 목록. 첫 화면은 지급결제 중심. 원문 링크와 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 자료의 완전 수집은 아님.",
   "coverage": [
@@ -93,6 +93,25 @@
     }
   ],
   "items": [
+    {
+      "id": "doc-bis-f54680adde0cbe48",
+      "title": "The roles of central banks and central bank money in the evolving payment system",
+      "publisher": "BIS",
+      "institution": "bis",
+      "date": "2026-10-29",
+      "type": "report",
+      "series": "CPMI",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bis.org/publications/roles-central-banks-and-central-bank-money-evolving-payment-system",
+      "summary": "변화하는 지급결제체계와 중앙은행화폐의 역할\n비공식 국문 요약\n• 토큰화·스테이블코인·비은행 지급서비스의 확산으로 결제체계가 복잡해져 유동성·운영·사이버 위험과 책임 배분을 함께 살펴야 한다.\n• 중앙은행화폐는 시스템적으로 중요한 결제의 안전한 결제자산이자 서로 다른 화폐를 액면가로 교환하는 신뢰의 기반이다. 민간의 혁신·경쟁과 보완적으로 작동한다.\n• 토큰화 플랫폼이 서로 연결되지 않으면 유동성이 분절될 수 있다. 중앙은행은 계좌 접근 조건, 인프라 개선, 새로운 결제구조의 감시와 표준 조정을 종합적으로 검토할 필요가 있다.\n편집자 해석: 국내 결제망과 토큰화 서비스의 연결을 검토할 때 기술뿐 아니라 결제자산·유동성·상호운용성·책임 구조를 함께 비교할 자료다. 특정 제도의 도입을 의무화한 규정은 아니다.\n확인 범위: 공식 PDF 표지·권리표시·서문과 Executive summary(인쇄 iii–v, PDF 7–9쪽). 전체 본문의 세부 분석을 모두 요약한 것은 아니다.",
+      "region": "international",
+      "summaryStatus": "ready",
+      "language": "en",
+      "summarySourceUrl": "https://www.bis.org/publications/roles-central-banks-and-central-bank-money-evolving-payment-system_1.pdf",
+      "focus": "payment",
+      "summaryBasis": "full-text"
+    },
     {
       "id": "doc-fsc-317206fd6808f3a7",
       "title": "빗썸 등 주요 가상자산사업자들에 대한 해킹사고에 대해 긴밀하고 신속하게 대응하고 있습니다. -「가상자산업권 등 침해사고 관련 긴급점검 회의 개최」",
