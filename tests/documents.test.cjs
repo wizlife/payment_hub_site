@@ -42,10 +42,12 @@ test('homepage focus excludes related-only reports without deleting their librar
 test('Korean summaries are searchable and unavailable full text has no invented summary',()=>{
   for(const d of docs.items){
     if(d.summaryStatus==='ready'){
-      assert.equal(d.language,'en'); assert.match(d.summary,/[가-힣]/);
+      assert.ok(d.region==='domestic'||d.language==='en'); assert.match(d.summary,/[가-힣]/);
+      assert.ok(d.summary.length <= (d.region==='domestic'?600:2400));
       const line=d.summary.split('\n').find(s=>s.trim());
       assert.ok(search.find(records,line,{kind:'document'}).some(r=>r.entryId===d.id));
     } else assert.equal(d.summary,'');
+    if(d.titleKo) assert.ok(search.find(records,d.titleKo,{kind:'document'}).some(r=>r.entryId===d.id));
   }
 });
 
