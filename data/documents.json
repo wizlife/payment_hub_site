@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T05:00:58.427311+09:00",
+  "updatedAt": "2026-10-30T08:48:09.209691+09:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-10-29"
@@ -142,12 +142,13 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37090",
-      "summary": "",
+      "summary": "이번 호는 재정·통화정책의 관계와 증권업 경쟁 환경을 살핀다. 금융기술 분야에서는 기술기업을 겨냥한 은행 사업과 Plaid의 AI 신용평가를 다룬다.\n공식 목차를 바탕으로 다루는 주제만 안내한다. 개별 글의 분석 결과·결론은 원문에서 확인할 수 있다.",
       "region": "domestic",
-      "summarySourceUrl": "",
       "focus": "related",
-      "summaryBasis": "",
-      "summaryStatus": "not-needed",
+      "summarySourceUrl": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37090",
+      "summaryBasis": "official-description",
+      "summaryStatus": "ready",
+      "titleKo": "",
       "language": "ko"
     },
     {
@@ -180,13 +181,14 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?ControlNo=368805&NodeID=884&ParentNodeID=882&VolumeID=7823",
-      "summary": "",
+      "summary": "금융권의 AI 활용 역량을 높일 교육과 인증 체계를 다룬다. 직무별 공통 역량 기준, 공동 교육 기반, 중소 금융회사 지원과 주기적으로 갱신하는 소규모 역량 인증을 제안한다.\n공식 영문 초록 기반의 짧은 안내이며, 연구원의 공식 번역은 아니다.",
       "region": "domestic",
-      "summaryStatus": "pending",
-      "language": "en",
       "focus": "related",
-      "summarySourceUrl": "",
-      "summaryBasis": ""
+      "summarySourceUrl": "https://www.kif.re.kr/kif4/eng/publication/pub_detail?mid=220&nid=889&sid=887&vid=7823&cno=368805",
+      "summaryBasis": "official-abstract",
+      "summaryStatus": "ready",
+      "titleKo": "국내 금융권의 AI 교육·인증 체계 구축 방안",
+      "language": "en"
     },
     {
       "id": "doc-kif-5424ae46bf82fbfe",
@@ -199,13 +201,14 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?ControlNo=368806&NodeID=884&ParentNodeID=882&VolumeID=7823",
-      "summary": "",
+      "summary": "금융회사 규모에 따라 데이터·인력·비용 부담과 AI 검증 역량이 달라지는 문제를 다룬다. 단계적이고 비례적인 정책 대응과 함께, 여러 회사가 동일한 외부 공급업체에 의존할 때의 위험 관리를 강조한다.\n공식 영문 초록 기반의 짧은 안내이며, 연구원의 공식 번역은 아니다.",
       "region": "domestic",
-      "summaryStatus": "pending",
-      "language": "en",
       "focus": "related",
-      "summarySourceUrl": "",
-      "summaryBasis": ""
+      "summarySourceUrl": "https://www.kif.re.kr/kif4/eng/publication/pub_detail?mid=220&nid=889&sid=887&vid=7823&cno=368806",
+      "summaryBasis": "official-abstract",
+      "summaryStatus": "ready",
+      "titleKo": "금융회사 규모별 AI 전환 격차 해소: 국내 금융권의 정책 과제",
+      "language": "en"
     },
     {
       "id": "doc-financecanada-e53fe0ba891eee0c",
@@ -465,12 +468,13 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37078",
-      "summary": "",
+      "summary": "이번 호는 연금시장과 인도네시아 금융 상황을 살피며, 디지털금융 분야에서는 Citi·Coinbase의 스테이블코인 결제 협력과 Revolut의 기업고객 확대를 다룬다.\n공식 목차를 바탕으로 다루는 주제만 안내한다. 개별 글의 분석 결과·결론은 원문에서 확인할 수 있다.",
       "region": "domestic",
-      "summarySourceUrl": "",
       "focus": "payment",
-      "summaryBasis": "",
-      "summaryStatus": "not-needed",
+      "summarySourceUrl": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37078",
+      "summaryBasis": "official-description",
+      "summaryStatus": "ready",
+      "titleKo": "",
       "language": "ko"
     },
     {
@@ -541,13 +545,14 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=884&ControlNo=368264&ParentNodeID=882&PageNo=1&SearchText=&VolumeID=7805&SearchIndex=-1",
-      "summary": "",
+      "summary": "이미 일한 대가를 급여일 전에 받는 EWA 서비스가 대출에 해당하는지에 관한 해외 규제 차이를 살펴본다. 국내에는 서비스의 성격과 제공업체의 영업행위를 판단할 기준이 필요하다는 논점을 제시한다.\n공식 영문 초록 기반의 짧은 안내이며, 현행 규제 전체를 설명한 법률 안내는 아니다.",
       "region": "domestic",
-      "summaryBasis": "",
-      "summaryStatus": "pending",
-      "language": "en",
-      "summarySourceUrl": "",
-      "focus": "related"
+      "focus": "related",
+      "summarySourceUrl": "https://www.kif.re.kr/kif4/eng/publication/pub_detail?mid=220&nid=889&sid=887&vid=7805&cno=368264",
+      "summaryBasis": "official-abstract",
+      "summaryStatus": "ready",
+      "titleKo": "임금 선지급(EWA) 서비스의 해외 규제 동향과 국내 시사점",
+      "language": "en"
     },
     {
       "id": "doc-esma-5c3715ce3dde2f4d",
@@ -959,13 +964,14 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?ControlNo=367014&NodeID=883&ParentNodeID=882&VolumeID=7784",
-      "summary": "",
+      "summary": "금융회사에서 AI의 개발·운영·통제 책임을 어떻게 정할지 다룬다. 감독 원칙과 회사의 자율성을 함께 고려하고, 기존 책무 체계 및 설명가능성·투명성 기준을 활용하는 방향을 논의한다.\n공식 영문 초록 기반 안내. 개별 제도의 시행 여부와 세부 요건은 원문에서 확인해야 한다.",
       "region": "domestic",
-      "summaryBasis": "",
-      "summaryStatus": "pending",
-      "language": "en",
-      "summarySourceUrl": "",
-      "focus": "related"
+      "focus": "related",
+      "summarySourceUrl": "https://www.kif.re.kr/kif4/eng/publication/pub_detail?mid=220&nid=889&sid=887&vid=7784&cno=367014",
+      "summaryBasis": "official-abstract",
+      "summaryStatus": "ready",
+      "titleKo": "금융회사의 AI 거버넌스 구축을 위한 정책 과제",
+      "language": "en"
     },
     {
       "id": "doc-kif-4d5e28cac964060c",
@@ -978,13 +984,14 @@
       "issue": "",
       "issueUrl": "",
       "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?NodeID=884&ControlNo=367016&ParentNodeID=882&PageNo=1&SearchText=&VolumeID=7784&SearchIndex=-1",
-      "summary": "",
+      "summary": "AI 에이전트가 소비자를 대신해 금융상품을 탐색·선택하는 환경에서 필요한 소비자 보호 원칙을 다룬다. 정보 제공, 불완전판매 예방, 에이전트 간 경쟁 여건을 주요 검토 대상으로 제시한다.\n공식 영문 초록 기반 안내. 보고서 전문의 요약이나 공식 번역은 아니다.",
       "region": "domestic",
-      "summaryBasis": "",
-      "summaryStatus": "pending",
-      "language": "en",
-      "summarySourceUrl": "",
-      "focus": "related"
+      "focus": "related",
+      "summarySourceUrl": "https://www.kif.re.kr/kif4/eng/publication/pub_detail?mid=220&nid=889&sid=887&vid=7784&cno=367016",
+      "summaryBasis": "official-abstract",
+      "summaryStatus": "ready",
+      "titleKo": "AI 쇼핑 에이전트 시대의 금융소비자 보호",
+      "language": "en"
     },
     {
       "id": "doc-kif-3991bfc103d7f926",
