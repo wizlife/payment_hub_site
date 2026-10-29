@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T09:17:46.726202+09:00",
+  "updatedAt": "2026-10-30T02:37:22.844740+09:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-10-28"
@@ -84,6 +84,12 @@
       "label": "캐나다 재무부",
       "status": "partial",
       "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
+    },
+    {
+      "institution": "hana",
+      "label": "하나금융연구소",
+      "status": "partial",
+      "note": "공식 연구보고서 목록에서 관련 자료의 서지·원문 링크만 선별. 기관 전체 발간물을 수록한 것은 아님."
     }
   ],
   "items": [
@@ -104,6 +110,25 @@
       "summarySourceUrl": "",
       "summaryStatus": "not-needed",
       "focus": "related",
+      "language": "ko"
+    },
+    {
+      "id": "doc-hana-98bd4b418088b328",
+      "title": "하나금융포커스 [제16권 20호]",
+      "publisher": "하나금융연구소",
+      "institution": "hana",
+      "date": "2026-10-26",
+      "type": "periodical",
+      "series": "하나금융포커스",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37090",
+      "summary": "",
+      "region": "domestic",
+      "summarySourceUrl": "",
+      "focus": "related",
+      "summaryBasis": "",
+      "summaryStatus": "not-needed",
       "language": "ko"
     },
     {
@@ -409,6 +434,25 @@
       "language": "en",
       "summarySourceUrl": "https://www.bis.org/publications/working-paper-1382-are-stablecoins-and-bank-deposits-substitutes",
       "focus": "related"
+    },
+    {
+      "id": "doc-hana-d1e76db8e0e9240f",
+      "title": "하나금융포커스 [제16권 19호]",
+      "publisher": "하나금융연구소",
+      "institution": "hana",
+      "date": "2026-10-12",
+      "type": "periodical",
+      "series": "하나금융포커스",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37078",
+      "summary": "",
+      "region": "domestic",
+      "summarySourceUrl": "",
+      "focus": "payment",
+      "summaryBasis": "",
+      "summaryStatus": "not-needed",
+      "language": "ko"
     },
     {
       "id": "doc-fsb-9a5cb0a536201475",
