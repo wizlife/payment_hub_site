@@ -62,7 +62,7 @@ const records = entries.map(({ item, edition, channel }) => ({
 }));
 const documents = await read('data/documents.json');
 assert(documents.schemaVersion === 1 && Array.isArray(documents.items), 'Invalid document catalog');
-const docFields = new Set(['id','title','publisher','institution','date','type','series','issue','issueUrl','url','summary','focus','language','summaryStatus','summaryBasis','summarySourceUrl','region']);
+const docFields = new Set(['id','title','publisher','institution','date','type','series','issue','issueUrl','url','summary','focus','language','summaryStatus','summaryBasis','summarySourceUrl','region','titleKo']);
 const registry = await read('report-institutions.json');
 const institutions = Object.fromEntries(Object.entries(registry).map(([id,v])=>[id,[v.label,v.domain]]));
 assert(!forbidden.test(JSON.stringify(documents)), 'Nonpublic document data');
@@ -78,9 +78,11 @@ for (const doc of documents.items) {
   assert(['payment','related'].includes(doc.focus), 'Missing reviewed homepage focus');
   assert(['ko','en'].includes(doc.language), 'Missing document language');
   assert(['ready','pending','not-needed'].includes(doc.summaryStatus), 'Invalid summary status');
+  if (doc.titleKo) assert(doc.language === 'en' && typeof doc.titleKo === 'string' && doc.titleKo.length <= 300 && /[가-힣]/.test(doc.titleKo), 'Invalid Korean title');
   if (doc.summaryStatus === 'ready') {
-    assert(doc.language === 'en' && ['full-text','official-abstract'].includes(doc.summaryBasis), 'Invalid summary basis');
-    assert(typeof doc.summary === 'string' && doc.summary.length >= 100 && doc.summary.length <= 2400 && /[가-힣]/.test(doc.summary), 'Invalid Korean summary');
+    const domestic = doc.region === 'domestic';
+    assert((domestic || doc.language === 'en') && (domestic ? ['full-text','official-abstract','official-description'] : ['full-text','official-abstract']).includes(doc.summaryBasis), 'Invalid summary basis');
+    assert(typeof doc.summary === 'string' && doc.summary.length >= (domestic ? 40 : 100) && doc.summary.length <= (domestic ? 600 : 2400) && /[가-힣]/.test(doc.summary), 'Invalid Korean summary');
     const source = new URL(doc.summarySourceUrl);
     assert(source.protocol === 'https:' && !source.username && !source.password && (source.hostname === institution[1] || source.hostname.endsWith('.' + institution[1])), 'Invalid summary source');
   } else {
@@ -99,7 +101,7 @@ const manifest = {
   schemaVersion: 1, engine: 'literal-substring', engineVersion: '1', language: 'ko',
   recordCount: records.length, newsRecordCount: entries.length, documentCount: documents.items.length, editionCount: catalog.editions.length,
   sourceDigest: hash.digest('hex'), fields: searchText.fields,
-  matching: 'all query terms must occur literally within title, summary, or publisher; NFC; case-insensitive; no aliases',
+  matching: 'all query terms must occur literally within title, titleKo, summary, or publisher; NFC; case-insensitive; no aliases',
 };
 // Validate all public input before replacing the last working search dataset.
 const target = path.join(root, 'data/search-records.json');

@@ -2,7 +2,7 @@
 
 // One literal matching rule shared by filtering, highlighting, and tests.
 (() => {
-  const fields = ['title', 'summary', 'publisher'];
+  const fields = ['title', 'summary', 'publisher', 'titleKo'];
   const normalize = text => String(text || '').normalize('NFC');
   const content = item => fields.map(field => normalize(item[field])).join('\n');
   function terms(query) {

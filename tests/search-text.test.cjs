@@ -68,7 +68,7 @@ test('generated records preserve sources and only expose explicitly selected pub
   const byId=new Map(items.map(item=>[item.id,item]));
   for(const record of records) {
     assert.ok(Object.keys(record).every(key=>allowed.has(key)));
-    for(const field of search.fields) assert.equal(record[field],byId.get(record.entryId)[field]||'');
+    for(const field of search.fields) assert.equal(record[field]||'',byId.get(record.entryId)[field]||'');
   }
 });
 
@@ -97,4 +97,10 @@ test('all grouped results preserve exactly the matching source appearances', () 
     assert.equal(groups.length,new Set(expected.map(item=>item.articleId)).size);
     assert.deepEqual(new Set(groups.flatMap(group=>group.appearances.map(item=>item.entryId))),new Set(expected.map(item=>item.entryId)));
   }
+});
+
+test('translated document titles are searchable without changing original titles', () => {
+  const doc=record({title:'AI governance',titleKo:'인공지능 지배구조',kind:'document'});
+  assert.equal(search.find([doc],'인공지능')[0],doc);
+  assert.equal(doc.title,'AI governance');
 });

@@ -330,3 +330,6 @@ a.article-title-link:hover, a.article-title-link:focus-visible { color: var(--gr
 .document-region .section-heading h3 { font-size: 1.1rem; }
 .document-card h4 { margin: .75rem 0; font-size: 1.08rem; line-height: 1.55; }
 .region-label { color: var(--muted); font-size: .75rem; }
+
+.document-title-ko { font-weight: 600; margin: .4rem 0; }
+.document-intro { line-height: 1.65; margin: .65rem 0; }

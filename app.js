@@ -176,14 +176,16 @@ function documentCard(meta, heading = 'h2') {
   top.append(element('span','region-label',regionLabels[meta.region]), element('span','topic-label',documentTypes[meta.type]), element('time','',`${dateLabel(meta.date)} 발행`),publisher);
   const title = element(heading); title.append(titleLink(meta, 'search-title-link'));
   card.append(top,title,element('p','document-series',[meta.series,meta.issue].filter(Boolean).join(' · ')));
+  if (meta.titleKo) { const translated=element('p','document-title-ko'); appendHighlighted(translated,meta.titleKo); card.append(translated); }
   const footer = element('div','search-result-footer'); footer.append(externalLink(meta,'발행기관 자료정보 ↗'));
   if (meta.issueUrl) { const issueLink=externalLink({...meta,url:meta.issueUrl},'간행물 해당 호 ↗'); footer.append(issueLink); }
   card.append(footer);
   if (meta.summaryStatus === 'ready') {
+    if (meta.region === 'domestic') { const intro=element('p','document-intro'); appendHighlighted(intro,meta.summary.split('\n')[0]); card.append(intro); }
     const details = element('details','document-summary');
-    details.append(element('summary','','국문 요약보고서 보기'));
+    details.append(element('summary','',meta.region === 'domestic' ? '주요 내용 보기' : '국문 요약 전체 보기'));
     const body = element('div','document-summary-body'); appendHighlighted(body,meta.summary); details.append(body);
-    details.append(element('p','document-access-note',`${meta.summaryBasis === 'full-text' ? '원문 본문' : '공식 초록'}을 바탕으로 작성한 AI 국문 요약입니다. 공식 번역이 아닙니다.`));
+    details.append(element('p','document-access-note',`${meta.summaryBasis === 'full-text' ? '원문 본문' : meta.summaryBasis === 'official-description' ? '공식 자료 소개·목차' : '공식 초록'}을 바탕으로 작성한 비공식 내용 안내입니다.`));
     if (meta.institution === 'esma') details.append(element('p','document-access-note','This document has been drafted using material downloaded from ESMA’s website. ESMA가 승인한 요약이 아닙니다.'));
     if (meta.institution === 'bis') details.append(element('p','document-access-note','출처: BIS 및 원문에 표시된 발행기관. BIS는 이 비공식 국문 요약의 정확성·완전성을 보증하지 않습니다.'));
     details.append(externalLink({...meta,url:meta.summarySourceUrl},'요약에 사용한 원문 ↗'));

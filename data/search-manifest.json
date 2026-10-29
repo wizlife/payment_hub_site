@@ -11,7 +11,8 @@
   "fields": [
     "title",
     "summary",
-    "publisher"
+    "publisher",
+    "titleKo"
   ],
-  "matching": "all query terms must occur literally within title, summary, or publisher; NFC; case-insensitive; no aliases"
+  "matching": "all query terms must occur literally within title, titleKo, summary, or publisher; NFC; case-insensitive; no aliases"
 }
