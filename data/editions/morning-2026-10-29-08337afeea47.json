@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-10-29-08337afeea47",
+  "channel": "morning",
+  "date": "2026-10-29",
+  "title": "2026-10-29 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-10-29-08337afeea47-001",
+      "articleId": "article-a1a8f1de82ff564a89a79e19",
+      "rank": 1,
+      "title": "카드-환전 없이 해외여행… ‘해외 앱 결제’ 일상화",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003758455",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-002",
+      "articleId": "article-a5398f4afdc7d605139231d7",
+      "rank": 2,
+      "title": "[단독]금융권 대규모 해킹 시도 IP주소 등록지는 ‘평양’",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003758524",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-003",
+      "articleId": "article-855ff4e3c96eaca4ded31b1f",
+      "rank": 3,
+      "title": "맞춤형 상담·업무 효율화 … 5대 은행, AI 서비스 활용 경쟁",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003693660",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-004",
+      "articleId": "article-7a10e503ae6765ebdad2fb2d",
+      "rank": 4,
+      "title": "은행 17곳 ‘서민 금융 성적표’ 내년부터 공개",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004006516",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-005",
+      "articleId": "article-4be71714873daeeaed576652",
+      "rank": 5,
+      "title": "방미통위, 인앱결제 금지법 적용 1호…구글 429억·애플 208억 과징금 부과",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003561278",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-006",
+      "articleId": "article-fd7dbff2f31ac45bf4de84a5",
+      "rank": 6,
+      "title": "칩 넘어 자금까지… 빅테크 AI동맹 커진다",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005433252",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-007",
+      "articleId": "article-4107bb76368205eba9b102d4",
+      "rank": 7,
+      "title": "솔리다임, 美 60조 낸드공장 추진... 곽노정 \"주주가치 제고 방향 투자\" [SK하이닉스 어닝서프라이즈]",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005596007",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-008",
+      "articleId": "article-eabdb9839e1e57cd8d3d2561",
+      "rank": 8,
+      "title": "PEF협의회→PE연합회…법인화로 목소리 키운다",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005755486",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-009",
+      "articleId": "article-904d75b45401977b2c5a31b0",
+      "rank": 9,
+      "title": "은행지주 이사회 99% 원안 가결… 이찬진, '거수기' 관행 지적",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005433247",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-10-29-08337afeea47-010",
+      "articleId": "article-154a2aa81d6f5fa229c79074",
+      "rank": 10,
+      "title": "2028년부터 퇴직급여 사외적립 의무화… 체불 막는다",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003693654",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}

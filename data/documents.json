@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T05:24:17.099948+09:00",
+  "updatedAt": "2026-10-29T09:17:46.726202+09:00",
   "window": {
     "from": "2026-07-22",
-    "to": "2026-10-24"
+    "to": "2026-10-28"
   },
   "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료의 서지 목록. 첫 화면은 지급결제 중심. 원문 링크와 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 자료의 완전 수집은 아님.",
   "coverage": [
@@ -87,6 +87,25 @@
     }
   ],
   "items": [
+    {
+      "id": "doc-fsc-317206fd6808f3a7",
+      "title": "빗썸 등 주요 가상자산사업자들에 대한 해킹사고에 대해 긴밀하고 신속하게 대응하고 있습니다. -「가상자산업권 등 침해사고 관련 긴급점검 회의 개최」",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-10-28",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/88010",
+      "summary": "",
+      "region": "domestic",
+      "summaryBasis": "",
+      "summarySourceUrl": "",
+      "summaryStatus": "not-needed",
+      "focus": "related",
+      "language": "ko"
+    },
     {
       "id": "doc-kif-65b5a138c1a7aa0f",
       "title": "효과적인 금융사기 대응을 위한 정보공유 강화 조치와 향후 과제",
