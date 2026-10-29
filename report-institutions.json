@@ -16,5 +16,8 @@
   "fed": {"label": "미 연방준비제도(Fed)", "domain": "federalreserve.gov", "region": "international"},
   "mas": {"label": "싱가포르통화청(MAS)", "domain": "mas.gov.sg", "region": "international"},
   "financecanada": {"label": "캐나다 재무부", "domain": "gazette.gc.ca", "region": "international"},
-  "kansascity": {"label": "캔자스시티 연방준비은행", "domain": "kansascityfed.org", "region": "international"}
+  "kansascity": {"label": "캔자스시티 연방준비은행", "domain": "kansascityfed.org", "region": "international"},
+  "kb": {"label": "KB경영연구소", "domain": "kbfg.com", "region": "domestic"},
+  "hana": {"label": "하나금융연구소", "domain": "hanaif.re.kr", "region": "domestic"},
+  "woori": {"label": "우리금융경영연구소", "domain": "wfri.re.kr", "region": "domestic"}
 }
