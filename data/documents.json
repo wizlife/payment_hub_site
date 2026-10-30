@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T08:48:09.209691+09:00",
+  "updatedAt": "2026-10-30T20:46:58.881963+09:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-10-29"
@@ -110,7 +110,8 @@
       "language": "en",
       "summarySourceUrl": "https://www.bis.org/publications/roles-central-banks-and-central-bank-money-evolving-payment-system_1.pdf",
       "focus": "payment",
-      "summaryBasis": "full-text"
+      "summaryBasis": "full-text",
+      "titleKo": "변화하는 지급결제체계에서 중앙은행과 중앙은행화폐의 역할"
     },
     {
       "id": "doc-fsc-317206fd6808f3a7",
@@ -227,7 +228,8 @@
       "summaryBasis": "official-abstract",
       "language": "en",
       "focus": "payment",
-      "summaryStatus": "ready"
+      "summaryStatus": "ready",
+      "titleKo": "캐나다 관보 제Ⅰ부 제160권 제43호: 스테이블코인 규정안"
     },
     {
       "id": "doc-fsc-befdc40657d61188",
@@ -284,7 +286,8 @@
       "focus": "payment",
       "language": "en",
       "summaryBasis": "official-abstract",
-      "summarySourceUrl": "https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins"
+      "summarySourceUrl": "https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins",
+      "titleKo": "국경 간 지급결제 경로의 경쟁: 은행·핀테크·스테이블코인"
     },
     {
       "id": "doc-kansascity-610851005511b14c",
@@ -303,7 +306,8 @@
       "language": "en",
       "focus": "payment",
       "summarySourceUrl": "",
-      "summaryStatus": "pending"
+      "summaryStatus": "pending",
+      "titleKo": "예금토큰과 토큰화 예금의 간략한 역사"
     },
     {
       "id": "doc-fsc-40fd35e76e588ee5",
@@ -337,11 +341,12 @@
       "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3300~0277bae3af.en.pdf",
       "summary": "",
       "region": "international",
-      "summaryBasis": "",
-      "summaryStatus": "pending",
-      "language": "en",
       "summarySourceUrl": "",
-      "focus": "payment"
+      "focus": "payment",
+      "summaryStatus": "pending",
+      "summaryBasis": "",
+      "language": "en",
+      "titleKo": "적을수록 더 나을 때: CBDC 보유한도의 행동 효과"
     },
     {
       "id": "doc-fsc-2c45b3e63ae96d45",
@@ -379,7 +384,8 @@
       "summaryStatus": "ready",
       "language": "en",
       "summarySourceUrl": "https://www.bis.org/publications/paper-175-money-and-architecture-trust",
-      "focus": "related"
+      "focus": "related",
+      "titleKo": "화폐와 신뢰의 구조"
     },
     {
       "id": "doc-bis-0382b90ab202c0f7",
@@ -398,7 +404,8 @@
       "summaryStatus": "ready",
       "summarySourceUrl": "https://www.bis.org/publications/final-report-fmis-management-general-business-risks-and-general-business-losses-further-guidance-pfmi.pdf",
       "summaryBasis": "full-text",
-      "focus": "related"
+      "focus": "related",
+      "titleKo": "금융시장인프라의 일반사업위험 및 일반사업손실 관리: PFMI 추가 지침 — 최종보고서"
     },
     {
       "id": "doc-fsc-83f824a92b898436",
@@ -436,7 +443,8 @@
       "summaryStatus": "ready",
       "language": "en",
       "summarySourceUrl": "https://www.bis.org/publications/project-aurum-phase-2-exploring-privacy-enhancing-technologies-digital-cash",
-      "focus": "payment"
+      "focus": "payment",
+      "titleKo": "아우룸 프로젝트 2단계: 디지털 현금을 위한 개인정보 보호 강화 기술 탐색"
     },
     {
       "id": "doc-bis-9e03fe650d34b8ad",
@@ -455,7 +463,8 @@
       "summaryStatus": "ready",
       "language": "en",
       "summarySourceUrl": "https://www.bis.org/publications/working-paper-1382-are-stablecoins-and-bank-deposits-substitutes",
-      "focus": "related"
+      "focus": "related",
+      "titleKo": "스테이블코인과 은행예금은 대체관계인가?"
     },
     {
       "id": "doc-hana-d1e76db8e0e9240f",
@@ -494,7 +503,8 @@
       "summaryStatus": "ready",
       "language": "en",
       "summarySourceUrl": "https://www.fsb.org/2026/10/global-stablecoin-arrangements-cross-border-vulnerabilities-and-financial-stability-monitoring/",
-      "focus": "related"
+      "focus": "related",
+      "titleKo": "글로벌 스테이블코인 체계: 국경 간 취약성과 금융안정 모니터링"
     },
     {
       "id": "doc-kif-b943af5bfdbd6bb6",
@@ -571,7 +581,8 @@
       "summaryStatus": "ready",
       "language": "en",
       "summarySourceUrl": "https://www.esma.europa.eu/sites/default/files/2026-10/ESMA91-1505572268-4934_-_Call_for_evidence_tokenisation.pdf",
-      "focus": "payment"
+      "focus": "payment",
+      "titleKo": "중앙청산소(CCP) 담보 토큰화에 관한 의견수렴"
     },
     {
       "id": "doc-cleveland-9a958a60c4255609",
@@ -586,11 +597,12 @@
       "url": "https://www.clevelandfed.org/publications/working-paper/2026/wp-2628-stablecoin-on-creditor-violence",
       "summary": "",
       "region": "international",
-      "summaryBasis": "",
-      "summaryStatus": "pending",
-      "language": "en",
       "summarySourceUrl": "",
-      "focus": "related"
+      "focus": "related",
+      "summaryStatus": "pending",
+      "summaryBasis": "",
+      "language": "en",
+      "titleKo": "스테이블코인을 통한 채권자 권익 침해"
     },
     {
       "id": "doc-fsc-3e03e26e1b6daf01",
@@ -742,7 +754,8 @@
       "focus": "payment",
       "summaryStatus": "ready",
       "summaryBasis": "official-abstract",
-      "language": "en"
+      "language": "en",
+      "titleKo": "미국 기업은 스테이블코인을 도입할 것인가? 설문조사가 보여주는 미온적 반응"
     },
     {
       "id": "doc-bruegel-bfa6b3900790af35",
@@ -757,11 +770,12 @@
       "url": "https://www.bruegel.org/working-paper/remunerating-means-payment",
       "summary": "",
       "region": "international",
-      "summaryBasis": "",
-      "summaryStatus": "pending",
-      "language": "en",
       "summarySourceUrl": "",
-      "focus": "payment"
+      "focus": "payment",
+      "summaryStatus": "pending",
+      "summaryBasis": "",
+      "language": "en",
+      "titleKo": "지급수단에 대한 이자 지급"
     },
     {
       "id": "doc-bis-f6677e8bd4948385",
@@ -780,7 +794,8 @@
       "summaryStatus": "ready",
       "language": "en",
       "summarySourceUrl": "https://www.bis.org/publications/paper-173-trusted-execution-environments-central-banks",
-      "focus": "related"
+      "focus": "related",
+      "titleKo": "중앙은행을 위한 신뢰 실행 환경"
     },
     {
       "id": "doc-fed-f78cbb4b5c2af195",
@@ -799,7 +814,8 @@
       "focus": "payment",
       "summaryStatus": "ready",
       "summaryBasis": "full-text",
-      "language": "en"
+      "language": "en",
+      "titleKo": "미 연준, GENIUS법에 따른 연준 감독 대상 지급용 스테이블코인 발행자의 규제체계 수립에 관한 두 가지 제안에 대해 의견수렴"
     },
     {
       "id": "doc-bok-99140f97fa0e0697",
@@ -913,7 +929,8 @@
       "summaryStatus": "ready",
       "summarySourceUrl": "https://www.bis.org/publications/cpmi-iosco-fmis-reliance-third-party-service-providers-challenges-and-risks.pdf",
       "summaryBasis": "full-text",
-      "focus": "related"
+      "focus": "related",
+      "titleKo": "금융시장인프라의 외부 서비스 제공자 의존: 과제와 위험 — 논의문서"
     },
     {
       "id": "doc-bis-394dfed74f69101a",
@@ -932,7 +949,8 @@
       "summaryStatus": "ready",
       "summarySourceUrl": "https://www.bis.org/publications/cpmi-iosco-cyber-resilience-toolkit-practical-considerations-fmis.pdf",
       "summaryBasis": "full-text",
-      "focus": "related"
+      "focus": "related",
+      "titleKo": "사이버 복원력 도구 모음: 금융시장인프라를 위한 실무 고려사항 — 협의보고서"
     },
     {
       "id": "doc-kcmi-4cbbdedfd0fd540e",
