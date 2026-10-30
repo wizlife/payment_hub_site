@@ -25,7 +25,7 @@ test('institution, publication type, date and news/document filters never leak o
 test('mixed search applies literal AND and phrases per source record, including publication agency',()=>{
   for(const q of ['한국은행 스테이블코인','토큰','"금융위원회"','cBdC','한강','금융결제원','없는검색어987654321']){
     const terms=search.terms(q);
-    const expected=records.filter(r=>terms.every(t=>['title','summary','publisher'].some(f=>(r[f]||'').normalize('NFC').toLowerCase().includes(t))));
+    const expected=records.filter(r=>terms.every(t=>['title','titleKo','summary','publisher'].some(f=>(r[f]||'').normalize('NFC').toLowerCase().includes(t))));
     assert.deepEqual(new Set(search.find(records,q).map(r=>r.entryId)),new Set(expected.map(r=>r.entryId)));
   }
 });
