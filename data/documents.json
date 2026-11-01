@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T05:10:19.565647+09:00",
+  "updatedAt": "2026-11-02T08:57:56.234558+09:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-10-30"
@@ -96,9 +96,41 @@
       "label": "영란은행",
       "status": "partial",
       "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
+    },
+    {
+      "institution": "imf",
+      "label": "국제통화기금(IMF)",
+      "status": "partial",
+      "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
+    },
+    {
+      "institution": "orbital",
+      "label": "Orbital Research",
+      "status": "partial",
+      "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
     }
   ],
   "items": [
+    {
+      "id": "doc-imf-b9411d69a6769084",
+      "title": "Deconstructing the Stablecoin Sandwich: The Cost of Cross-Border Stablecoin Transfers",
+      "publisher": "국제통화기금(IMF)",
+      "institution": "imf",
+      "date": "2026-10-30",
+      "type": "report",
+      "series": "IMF Working Papers",
+      "issue": "2026/230",
+      "issueUrl": "",
+      "url": "https://www.imf.org/en/publications/wp/issues/2026/10/30/deconstructing-the-stablecoin-sandwich-the-cost-of-cross-border-stablecoin-transfers-580817",
+      "summary": "",
+      "region": "international",
+      "summaryBasis": "",
+      "summaryStatus": "pending",
+      "titleKo": "스테이블코인 샌드위치 해부: 스테이블코인 국경 간 송금 비용",
+      "summarySourceUrl": "",
+      "focus": "payment",
+      "language": "en"
+    },
     {
       "id": "doc-fsc-c4882751d7226a94",
       "title": "불법 가상자산 취급업자(특금법상 미신고 가상자산사업자)에 대한 수사의뢰(DAXA, 3건) 및 접속차단(2건) 요청",
@@ -197,6 +229,26 @@
       "summaryStatus": "ready",
       "focus": "payment",
       "summaryBasis": "full-text"
+    },
+    {
+      "id": "doc-orbital-31effebb8f9f41c9",
+      "title": "The honest price of stablecoin FX",
+      "publisher": "Orbital Research",
+      "institution": "orbital",
+      "date": "2026-10-27",
+      "type": "report",
+      "series": "Orbital Research",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.getorbital.com/the-honest-price-of-stablecoin-fx",
+      "summary": "",
+      "region": "international",
+      "summaryBasis": "",
+      "summaryStatus": "pending",
+      "titleKo": "스테이블코인 외환거래의 실제 비용",
+      "summarySourceUrl": "",
+      "focus": "payment",
+      "language": "en"
     },
     {
       "id": "doc-hana-98bd4b418088b328",
