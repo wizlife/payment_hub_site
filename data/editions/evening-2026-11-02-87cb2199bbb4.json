@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-02-87cb2199bbb4",
+  "channel": "evening",
+  "date": "2026-11-02",
+  "title": "2026-11-02 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-001",
+      "articleId": "article-865ea12a34dfc6ec1545bbe8",
+      "rank": 1,
+      "title": "환전소 건너뛰고 QR로 직행...결제 국경 지우는 카드사 [카드톡톡]",
+      "publisher": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2012504",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-30T13:46:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-002",
+      "articleId": "article-8b4bf1734c87d51fa121558d",
+      "rank": 2,
+      "title": "[한국정보보호학회 칼럼] AI 시대의 금융보안, 망분리에서 제로트러스트...",
+      "publisher": "boannews.com",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=146911",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-01T10:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-003",
+      "articleId": "article-07307a82f639de284a03bfd8",
+      "rank": 3,
+      "title": "신한카드, 인도네시아 QR결제 개시...3200만 가맹점 이용",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261030_0003848866",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-31T10:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-004",
+      "articleId": "article-1f60c4535b7f68669ad1440b",
+      "rank": 4,
+      "title": "1년 새 10배 폭증...비자, 스테이블코인 정산액 250억달러 돌파",
+      "publisher": "digitaltoday.co.kr",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=711187",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-30T08:24:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-005",
+      "articleId": "article-c2e941c05cdc09e41ea08e5f",
+      "rank": 5,
+      "title": "솔라나·폴리곤, 경쟁 넘어 결제인프라 협력...스테이블코인-은행계좌 연...",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03076646645618168",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-30T08:08:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-006",
+      "articleId": "article-0ab79d1b374a539e2fa807ab",
+      "rank": 6,
+      "title": "당국, 금융권에 해킹 보안 개선계획 마련 촉구...내주 점검회의",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261031045700002?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-01T05:54:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-007",
+      "articleId": "article-5be789d952ec0056431e2c80",
+      "rank": 7,
+      "title": "고금리에 가계도 中企도 '빚폭탄 경고음'...5대 은행 연체율 10년來 최고",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261030_0003848999",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-01T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-008",
+      "articleId": "article-f9f76e045de5d75a845c2dd3",
+      "rank": 8,
+      "title": "금리 치솟는데, 주담대·신용대출 다시 들썩...10월 가계대출 2.2조↑",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261030_0003849031",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-01T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-009",
+      "articleId": "article-7485d90099e0cce38fc445d6",
+      "rank": 9,
+      "title": "한은 총재 “원화 아직도 약세”라고 했는데...‘환율 1200원’ 시대 다시...",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10921062?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-31T06:07:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-02-87cb2199bbb4-010",
+      "articleId": "article-ec59f30740bc83d000e9c44b",
+      "rank": 10,
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442306",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-10-31T08:02:00+09:00"
+    }
+  ]
+}
