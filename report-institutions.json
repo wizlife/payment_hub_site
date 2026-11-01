@@ -19,5 +19,6 @@
   "kansascity": {"label": "캔자스시티 연방준비은행", "domain": "kansascityfed.org", "region": "international"},
   "kb": {"label": "KB경영연구소", "domain": "kbfg.com", "region": "domestic"},
   "hana": {"label": "하나금융연구소", "domain": "hanaif.re.kr", "region": "domestic"},
-  "woori": {"label": "우리금융경영연구소", "domain": "wfri.re.kr", "region": "domestic"}
+  "woori": {"label": "우리금융경영연구소", "domain": "wfri.re.kr", "region": "domestic"},
+  "orbital": {"label": "Orbital Research", "domain": "getorbital.com", "region": "international"}
 }
