@@ -25,9 +25,10 @@
       }
     });
   }
-  if (disabled || navigator.webdriver || location.protocol !== 'https:' ||
-      location.hostname !== 'wizlife.github.io' ||
-      !location.pathname.startsWith('/payment_hub_site/')) return;
+  // The custom domain serves the site; the github.io project path redirects there.
+  const production = location.hostname === 'payment-hub.wizlife.xyz' ||
+    (location.hostname === 'wizlife.github.io' && location.pathname.startsWith('/payment_hub_site/'));
+  if (disabled || navigator.webdriver || location.protocol !== 'https:' || !production) return;
   const script = document.createElement('script');
   script.type = 'module';
   script.src = 'https://static.cloudflareinsights.com/beacon.min.js';

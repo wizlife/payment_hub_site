@@ -14,6 +14,9 @@ test('production visitor loads one beacon with SPA collection disabled',()=>{
  const r=run(); assert.equal(r.scripts.length,1); assert.equal(JSON.parse(r.scripts[0].dataset.cfBeacon).spa,false);
  r.click(); assert.equal(r.values['payment-hub-analytics-disabled'],'1'); assert.equal(r.reloaded(),true);
 });
+test('custom domain visitor loads the beacon',()=>{
+ assert.equal(run({location:{protocol:'https:',hostname:'payment-hub.wizlife.xyz',pathname:'/',reload:()=>{}}}).scripts.length,1);
+});
 test('operator preference, automation, local and unrelated host never load beacon',()=>{
- for(const overrides of [{navigator:{webdriver:true}},{localStorage:{getItem:()=> '1'}},{localStorage:{getItem:()=>{throw Error('denied');}}},{location:{protocol:'http:',hostname:'localhost',pathname:'/'}},{location:{protocol:'https:',hostname:'other.github.io',pathname:'/payment_hub_site/'}},{location:{protocol:'https:',hostname:'wizlife.github.io',pathname:'/other/'}}]) assert.equal(run(overrides).scripts.length,0);
+ for(const overrides of [{navigator:{webdriver:true}},{localStorage:{getItem:()=> '1'}},{localStorage:{getItem:()=>{throw Error('denied');}}},{location:{protocol:'http:',hostname:'localhost',pathname:'/'}},{location:{protocol:'https:',hostname:'other.github.io',pathname:'/payment_hub_site/'}},{location:{protocol:'https:',hostname:'wizlife.github.io',pathname:'/other/'}},{location:{protocol:'http:',hostname:'payment-hub.wizlife.xyz',pathname:'/'}},{location:{protocol:'https:',hostname:'evil.payment-hub.wizlife.xyz',pathname:'/'}}]) assert.equal(run(overrides).scripts.length,0);
 });
