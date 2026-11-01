@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T20:46:58.881963+09:00",
+  "updatedAt": "2026-11-02T05:10:19.565647+09:00",
   "window": {
     "from": "2026-07-22",
-    "to": "2026-10-29"
+    "to": "2026-10-30"
   },
   "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료의 서지 목록. 첫 화면은 지급결제 중심. 원문 링크와 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 자료의 완전 수집은 아님.",
   "coverage": [
@@ -90,9 +90,55 @@
       "label": "하나금융연구소",
       "status": "partial",
       "note": "공식 연구보고서 목록에서 관련 자료의 서지·원문 링크만 선별. 기관 전체 발간물을 수록한 것은 아님."
+    },
+    {
+      "institution": "boe",
+      "label": "영란은행",
+      "status": "partial",
+      "note": "Kiffmeister 뉴스레터에서 발견한 주요 보고서를 공식 발행처에서 확인해 선별. 기관 전체 목록은 아님."
     }
   ],
   "items": [
+    {
+      "id": "doc-fsc-c4882751d7226a94",
+      "title": "불법 가상자산 취급업자(특금법상 미신고 가상자산사업자)에 대한 수사의뢰(DAXA, 3건) 및 접속차단(2건) 요청",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-10-30",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/88039",
+      "summary": "금융정보분석원은 DAXA가 수사의뢰한 미신고 가상자산사업자 3곳 가운데 2곳의 사이트·앱에 대한 국내 접속차단을 요청했다. 실제 차단 여부는 관계기관의 후속 절차에서 결정된다. 미신고 영업에 따른 자금세탁과 이용자 피해를 줄이기 위한 대응을 안내한다.\n확인 범위: 금융위원회 공식 보도자료 소개.",
+      "region": "domestic",
+      "titleKo": "",
+      "summarySourceUrl": "https://www.fsc.go.kr/no010101/88039",
+      "language": "ko",
+      "summaryStatus": "ready",
+      "focus": "related",
+      "summaryBasis": "official-description"
+    },
+    {
+      "id": "doc-boe-3cec2331f916d24e",
+      "title": "Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral",
+      "publisher": "영란은행",
+      "institution": "boe",
+      "date": "2026-10-29",
+      "type": "policy",
+      "series": "Consultation Paper",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.bankofengland.co.uk/paper/2026/cp/supervisory-expectations-for-ccps-seeking-to-accept-tokenised-collateral",
+      "summary": "",
+      "region": "international",
+      "titleKo": "토큰화 담보를 수용하려는 중앙청산소(CCP)에 대한 감독상 기대사항 협의안",
+      "summarySourceUrl": "",
+      "language": "en",
+      "summaryStatus": "pending",
+      "focus": "payment",
+      "summaryBasis": ""
+    },
     {
       "id": "doc-bis-f54680adde0cbe48",
       "title": "The roles of central banks and central bank money in the evolving payment system",
@@ -131,6 +177,26 @@
       "summaryStatus": "not-needed",
       "focus": "related",
       "language": "ko"
+    },
+    {
+      "id": "doc-ecb-9d197602629c5950",
+      "title": "Eurosystem report on the public consultation on the Appia Roadmap",
+      "publisher": "유럽중앙은행(ECB)",
+      "institution": "ecb",
+      "date": "2026-10-28",
+      "type": "report",
+      "series": "Appia",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202608.en.pdf",
+      "summary": "핵심 내용: Appia 로드맵에 대한 127건의 의견을 정리한 보고서다. 응답자들은 중앙은행화폐가 여러 민간 결제자산을 연결하는 기준 역할을 하고, 민관이 함께 인프라를 발전시키는 방향을 지지했다.\n단일 결제망은 유동성을 모으기 쉽지만 집중 위험이 있고, 복수 결제망은 다양성과 복원력에 유리한 대신 상호운용성과 유동성 분산 문제가 생긴다는 의견이 제시됐다. DLT와 기존 인프라가 함께 작동하도록 공통 표준을 마련하는 과제도 강조됐다.\n지급결제 관점의 해석: 토큰화 자산 도입 시 결제자산 간 교환, 담보 이동, 네트워크 연결을 함께 설계할 필요가 있다는 점을 참고할 수 있다. 이는 편집자 해석이며 특정 구조가 최종 채택됐다는 의미는 아니다.\n확인 범위: 공식 PDF 1~3쪽 Executive summary. 유럽중앙은행(ECB) 자료에 근거한 비공식 국문 요약이며 공식 번역이 아니다.",
+      "region": "international",
+      "titleKo": "Appia 로드맵 공개 의견수렴 결과에 관한 유로시스템 보고서",
+      "summarySourceUrl": "https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202608.en.pdf",
+      "language": "en",
+      "summaryStatus": "ready",
+      "focus": "payment",
+      "summaryBasis": "full-text"
     },
     {
       "id": "doc-hana-98bd4b418088b328",
