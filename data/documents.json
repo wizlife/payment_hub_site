@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T08:57:56.234558+09:00",
+  "updatedAt": "2026-11-03T05:05:58.984925+09:00",
   "window": {
     "from": "2026-07-22",
-    "to": "2026-10-30"
+    "to": "2026-11-02"
   },
   "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료의 서지 목록. 첫 화면은 지급결제 중심. 원문 링크와 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 자료의 완전 수집은 아님.",
   "coverage": [
@@ -111,6 +111,46 @@
     }
   ],
   "items": [
+    {
+      "id": "doc-fsc-bf9828bfdb83e125",
+      "title": "글로벌 해킹 위협에 대비한 국내 가상자산사업자의 사고대응력 제고를 위해 긴밀하고 신속하게  대응해 나가겠습니다.",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-11-02",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/88054",
+      "summary": "금융위원회는 글로벌 거래소 해킹에 대응해 국내 가상자산사업자의 접근통제와 지갑 출고 승인·서명체계를 점검했습니다. 콜드월렛 비중 확대, 입출고 상시 모니터링, 이상 접근 정보 공유와 추가 보안조치를 당부했습니다. 확인 범위: 금융위원회 공식 보도자료.",
+      "region": "domestic",
+      "focus": "related",
+      "summaryBasis": "official-description",
+      "summaryStatus": "ready",
+      "language": "ko",
+      "titleKo": "",
+      "summarySourceUrl": "https://www.fsc.go.kr/no010101/88054"
+    },
+    {
+      "id": "doc-fsc-2b152c9a3aaa099d",
+      "title": "금융정보분석원, 국제자금세탁방지기구(FATF) 총회 참석",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-11-02",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/88048",
+      "summary": "금융정보분석원은 FATF 총회에서 가상자산 분야 국제기준 이행 점검과 스캠 범죄자금 차단 방안을 논의했다고 밝혔습니다. 우리나라도 트래블룰·자금세탁방지 제도의 이행 현황을 보고·점검받을 예정이며, 의심거래 정지와 기관 간 정보공유 경험을 소개했습니다. 확인 범위: 금융위원회 공식 보도자료.",
+      "region": "domestic",
+      "focus": "related",
+      "summaryBasis": "official-description",
+      "summaryStatus": "ready",
+      "language": "ko",
+      "titleKo": "",
+      "summarySourceUrl": "https://www.fsc.go.kr/no010101/88048"
+    },
     {
       "id": "doc-imf-b9411d69a6769084",
       "title": "Deconstructing the Stablecoin Sandwich: The Cost of Cross-Border Stablecoin Transfers",
