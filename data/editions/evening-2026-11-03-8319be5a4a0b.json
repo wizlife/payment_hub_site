@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-03-8319be5a4a0b",
+  "channel": "evening",
+  "date": "2026-11-03",
+  "title": "2026-11-03 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-001",
+      "articleId": "article-f887da58b0710cec096050f7",
+      "rank": 1,
+      "title": "[속보]금융위 \"디지털자산기본법 최대한 신속 추진...샌드박스 테스트도...",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04408326645641784",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T18:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-002",
+      "articleId": "article-2416a9cfef0e582a4c9cabe1",
+      "rank": 2,
+      "title": "블랙록·JP모건 토큰화 펀드 확대...비자는 기업 지급 기능 상업화",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/431096",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T10:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-003",
+      "articleId": "article-70fcff82eb9fc7a462dcd8e5",
+      "rank": 3,
+      "title": "토큰화 예금 24시간 결제...홍콩통화청, 앙상블 시범사업 새 단계",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/431358",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T21:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-004",
+      "articleId": "article-e5995633215530eb587b4c21",
+      "rank": 4,
+      "title": "금융당국, 글로벌 거래소 해킹에 국내 긴급점검⋯보안 강화 조치 논의",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2643095",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T15:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-005",
+      "articleId": "article-d78d83638e649bea2c351df1",
+      "rank": 5,
+      "title": "고위드, 취약 API·관리자 계정 악용에 허위 결제...카드정보도 유출",
+      "publisher": "suwonilbo.kr",
+      "url": "https://www.suwonilbo.kr/view.html?id=L261102154710ca98",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T16:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-006",
+      "articleId": "article-887a6ecb05401e658cacea36",
+      "rank": 6,
+      "title": "대형 GA 정보보안 공동점검 공식화",
+      "publisher": "kbanker.co.kr",
+      "url": "https://www.kbanker.co.kr/news/articleView.html?idxno=226307",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-007",
+      "articleId": "article-d3308d821257cc14128b77ea",
+      "rank": 7,
+      "title": "시큐리티스코어카드, AI 해킹 대응 위한 공급망 보안 강화 방안 제시",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261102000047",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T09:31:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-008",
+      "articleId": "article-8f2b42ed4b018c9e83bc53ca",
+      "rank": 8,
+      "title": "은행권, 지원 끝난 DB 교체 나선다...보안·장애 위험 선제 대응",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261102000092",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T15:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-009",
+      "articleId": "article-8e4cc7fff4769d2dd316db69",
+      "rank": 9,
+      "title": "미래에셋생명 해킹에 퇴직연금·임직원 정보도 유출...금감원, 현장검사...",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261102_0003851663",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T17:49:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-010",
+      "articleId": "article-ca5c0fa3967d844acc46ed46",
+      "rank": 10,
+      "title": "우리은행, 해외서 원화계좌 열고 국내 투자 성사...은행권 최초",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261102000314",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T14:19:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-03-8319be5a4a0b-011",
+      "articleId": "article-416488990ef66fede847a60b",
+      "rank": 11,
+      "title": "한국은행, 주요 은행·증권사 가상자산 시장 진출·리스크 점검",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261102000013",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-02T09:00:00+09:00"
+    }
+  ]
+}
