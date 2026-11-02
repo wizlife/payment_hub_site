@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-02-fcdd7a5181b7",
+  "channel": "morning",
+  "date": "2026-11-02",
+  "title": "2026-11-02 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-001",
+      "articleId": "article-0814a2b3f0afa96dee4cff8e",
+      "rank": 1,
+      "title": "신한카드, 인도네시아 QR결제 개시…3200만 가맹점 이용",
+      "publisher": "뉴시스",
+      "url": "https://n.news.naver.com/article/003/0014291907",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-002",
+      "articleId": "article-5406dbea3f9cb4afceeff04c",
+      "rank": 2,
+      "title": "임직원 100명 소집한 바이낸스, 20분간 8조원 빼가도 손 못써",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004007227",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-003",
+      "articleId": "article-29a99ec5414b34bd63366fba",
+      "rank": 3,
+      "title": "거래소 출금 권한 노리는 北해커 … 업비트·빗썸도 초긴장",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005757235",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-004",
+      "articleId": "article-01754bb93169e4a84dac4ef7",
+      "rank": 4,
+      "title": "보안점검 금투사 25% 미흡…보안 구멍 알고도 보완은 더뎌",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006401699",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-005",
+      "articleId": "article-3a9b0d3c4361e5660dbde52e",
+      "rank": 5,
+      "title": "외환시장 24시간 열자…원화 직접결제 비중 늘었다",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004677424",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-006",
+      "articleId": "article-0d3cdedaac9b97e6cf2712e1",
+      "rank": 6,
+      "title": "뜨거운 토큰증권 시장 선점경쟁…대형사 '거대연합군' vs 중소형사 '틈새공략'",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261030162510136",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-007",
+      "articleId": "article-53b78b98e091bc5b7e1c314b",
+      "rank": 7,
+      "title": "대출규제 속 케이뱅크 3분기 실적 '선방'…카뱅·토뱅 성적표 주목",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261101134122627",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-008",
+      "articleId": "article-e310b05c4a9400611d2a4ba1",
+      "rank": 8,
+      "title": "‘저PBR’ 151개 기업 첫 공개…주주환원 확대 등 계기 될까",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003479954",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-009",
+      "articleId": "article-bf594332b39cf64e6daf78b4",
+      "rank": 9,
+      "title": "연 4%대 정기예금 2년 9개월 만에 최대... 3%대 가계대출은 급감",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004007109",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-02-fcdd7a5181b7-010",
+      "articleId": "article-30d74fadc34e51528967a2ac",
+      "rank": 10,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442381",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
