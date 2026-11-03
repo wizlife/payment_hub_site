@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-04-125b4ff63845",
+  "channel": "evening",
+  "date": "2026-11-04",
+  "title": "2026-11-04 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-04-125b4ff63845-001",
+      "articleId": "article-8bb9655b48c438fb591238ab",
+      "rank": 1,
+      "title": "\"여신성·오픈뱅킹 안심차단 먼저 하세요\"... BNK경남은행, 김해 어르신 ...",
+      "publisher": "한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026110313240000149?did=NA",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T13:54:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-002",
+      "articleId": "article-8393bfeaf268d38d4a58e9f4",
+      "rank": 2,
+      "title": "금융위, 스테이블코인 결제 제도 검토⋯“AI 에이전트 법제화도 살필 것”",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2643200",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T07:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-003",
+      "articleId": "article-fce8428a2835c76fb1bb326f",
+      "rank": 3,
+      "title": "24시간 정산 더한 홍콩 토큰화 예금...은행 12곳 참여",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/blockchain/431638",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T07:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-004",
+      "articleId": "article-b988f5426b1811064ed6f0f0",
+      "rank": 4,
+      "title": "한양증권도 해킹 사고...개인정보 31건 유출",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10923472?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T08:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-005",
+      "articleId": "article-ab3d68e690f91698e64bd6ce",
+      "rank": 5,
+      "title": "토큰화 기업어음 12월 첫 발행 예상...폰테스 결제 추진",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/blockchain/432032",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T23:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-006",
+      "articleId": "article-f092fdcbe4a5144775328295",
+      "rank": 6,
+      "title": "이찬진 \"해킹사고 대응 미흡...대형금융사 CEO 책임 물을 것\"",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261103117300002?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T14:30:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-007",
+      "articleId": "article-db28c49427fef6cbde3898c0",
+      "rank": 7,
+      "title": "[컨콜] 카카오페이 \"스테이블코인 유통 인프라 검증·생태계 구축할 것...",
+      "publisher": "asiaa.co.kr",
+      "url": "https://www.asiaa.co.kr/news/articleView.html?idxno=269188",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T16:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-008",
+      "articleId": "article-fe89695352388cb40abbf8ea",
+      "rank": 8,
+      "title": "‘24시간 탐지’가 막았다...토스증권 정보유출범 공소청 송치",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04549366645642112",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T15:14:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-009",
+      "articleId": "article-138c79a94b496361b05b6597",
+      "rank": 9,
+      "title": "원·달러 환율, 2.8원 내린 1341.0원 마감",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261103_0003853099",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T15:50:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-010",
+      "articleId": "article-292f862e816fabc07eb62b3d",
+      "rank": 10,
+      "title": "금융지주 회장 3연임 청신호...금융위, 법으로 금지 안 한다",
+      "publisher": "중앙일보",
+      "url": "https://www.joongang.co.kr/article/25475497",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-04T00:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-04-125b4ff63845-011",
+      "articleId": "article-20731a5b25f8f7024ad01577",
+      "rank": 11,
+      "title": "금리 올려도 안 잡힌다...5대 은행 가계대출 한 달 만에 2.7조 증가 전환",
+      "publisher": "ezyeconomy.com",
+      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241501",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-03T18:08:00+09:00"
+    }
+  ]
+}
