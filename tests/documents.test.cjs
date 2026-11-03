@@ -34,10 +34,11 @@ test('search manifest counts both independent catalogs',()=>{
   assert.equal(search.find(records,'private provenance',{kind:'document'}).length,0);
 });
 
-test('homepage focus excludes related-only reports without deleting their library/search entries',()=>{
-  const featured=['domestic','international'].flatMap(region=>docs.items.filter(d=>d.focus==='payment'&&d.region===region).slice(0,3));
-  assert.ok(featured.length); assert.ok(featured.every(d=>d.focus==='payment'));
-  for(const d of docs.items.filter(d=>d.focus==='related')) assert.ok(records.some(r=>r.entryId===d.id));
+test('both document focus classes retain their public classification in search',()=>{
+  for(const d of docs.items) {
+    assert.ok(['payment','related'].includes(d.focus));
+    assert.equal(records.find(r=>r.entryId===d.id)?.focus,d.focus);
+  }
 });
 test('Korean summaries are searchable and unavailable full text has no invented summary',()=>{
   for(const d of docs.items){

@@ -197,15 +197,15 @@ function documentCard(meta, heading = 'h2') {
 }
 function renderDocumentPreview() {
   const section=$('#document-preview'); section.replaceChildren();
-  section.append(element('h2','','지급결제 주요 자료'),element('p','section-description','결제·송금·청산결제·디지털화폐와 직접 관련된 최근 자료입니다. 그 밖의 금융자료는 자료실과 검색에서 볼 수 있습니다.'));
+  section.append(element('h2','','최근 기관자료'),element('p','section-description','자료실에 공개된 국내·해외 자료를 발행일 기준으로 각각 최신 3건씩 보여줍니다.'));
   for (const [region,label] of Object.entries(regionLabels)) {
     const group=element('section','document-region');group.dataset.region=region;
     const head=element('div','section-heading');head.append(element('h3','',label));
     const more=element('a','text-button',label+' 전체 보기 →');more.href='?view=library&region='+region+'&sort=latest';
     more.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();navigate({view:'library',kind:'document',region,institution:'all',type:'all',channel:'all',date:'all',edition:'',query:'',sort:'latest'},{scroll:true});});head.append(more);
-    const items=documents.items.filter(d=>d.focus==='payment'&&d.region===region).slice(0,3);
+    const items=documents.items.filter(d=>d.region===region).sort((a,b)=>b.date.localeCompare(a.date)||a.id.localeCompare(b.id)).slice(0,3);
     const grid=element('div','document-grid');grid.append(...items.map(d=>documentCard(d,'h4')));
-    if(!items.length)grid.append(element('p','section-description',documentsError?'자료를 불러오지 못했습니다.':'등록된 지급결제 자료를 준비하고 있습니다.'));
+    if(!items.length)grid.append(element('p','section-description',documentsError?'자료를 불러오지 못했습니다.':'등록된 기관자료를 준비하고 있습니다.'));
     group.append(head,grid);section.append(group);
   }
 }
