@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-03-ff90beb19cac",
+  "channel": "morning",
+  "date": "2026-11-03",
+  "title": "2026-11-03 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-001",
+      "articleId": "article-7f81d4b5b136df471399f835",
+      "rank": 1,
+      "title": "이억원 \"264조 공급에도 체감 부족…자금 흐름 병목 해소\"",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2643067",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-002",
+      "articleId": "article-7e780b50aa72a9f0cf242131",
+      "rank": 2,
+      "title": "은행 ‘수퍼앱’ 키웠지만 1인당 이용 시간은 줄어",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004007374",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-003",
+      "articleId": "article-410d6a99de9545b7aadbeda7",
+      "rank": 3,
+      "title": "금융당국, 지주회장 3연임 문턱 높인다",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005757908",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-004",
+      "articleId": "article-f79ab0f7fa41119ebf4be387",
+      "rank": 4,
+      "title": "금융위, 국내 거래소 긴급 소집… “코인 오프라인 보관 확대해야”",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003759619",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-005",
+      "articleId": "article-05a5b75f0e4a585ebfc639f5",
+      "rank": 5,
+      "title": "은행 민원 줄었는데…주담대 불만은 두 분기 연속 늘었다",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261102154303839",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-006",
+      "articleId": "article-47af20ca3579185da03ac5e6",
+      "rank": 6,
+      "title": "주식 판 돈, 다음날에 받는다…2028년 ‘결제주기 개편’ 시행",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003562323",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-007",
+      "articleId": "article-75e7ddc865c0652d48444fae",
+      "rank": 7,
+      "title": "금융지주, 증시 불황·고금리에 ‘이자장사’ 의존 높아져",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004171838",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-008",
+      "articleId": "article-55c37573b12025992a1fdc72",
+      "rank": 8,
+      "title": "'8조원 해킹' 바이낸스, 출금 재개되고 후 5조원 빠져나가",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005597761",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-009",
+      "articleId": "article-8d715a1eecd42081e92ee785",
+      "rank": 9,
+      "title": "3분기 실적 전망 엇갈린 네카오… AI인프라·서비스 각개전투",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005598240",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-03-ff90beb19cac-010",
+      "articleId": "article-a4e5a91706b6f368be1d67bd",
+      "rank": 10,
+      "title": "인터넷은행 ‘마통’ 금리 두달 연속 7%대… 5대 은행보다 높아",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004007375",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
