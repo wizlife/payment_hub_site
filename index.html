@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f8f5">
+  <meta name="hub-ui-version" content="73165944d809c2d3e872d68b3400054cdfa8bd1a16dc3d42ab1a419f13672df0">
   <meta name="description" content="조간스크랩, 지급결제 스크랩, AI 뉴스의 최신 정리본을 한곳에서 확인하고 지난 자료를 검색하는 Payment Hub.">
   <title>최신 브리핑 · Payment Hub</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20261101">
-  <script src="./search-text.js?v=20261101" defer></script>
-  <script src="./app.js?v=20261101" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=e3b62cffe432273bcaef4fe9698e87e7692377ac66e14bf512b621da61b6e068">
+  <script src="./search-text.js?v=d070a4f64c203d3b2c1853df4af506943a6a88720f3fa98ba0c3938a94b83956" defer></script>
+  <script src="./data-client.js?v=4fd24513c874fce3f89c383792ecccb20dc4f6ab02c39c75b00d1b14e3577f4b" defer></script>
+  <script src="./app.js?v=f4fa10c7c56559a75943e0012d8e477c6159ef11c4952356997de59b90142884" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#briefing">브리핑으로 건너뛰기</a>
@@ -27,6 +29,10 @@
   </header>
 
   <main class="page-shell">
+    <div class="refresh-bar" aria-label="자료 갱신">
+      <div><p id="refresh-status" role="status" aria-live="polite">최신 자료를 확인하고 있습니다.</p><small id="refresh-checked"></small></div>
+      <div class="refresh-actions"><button id="check-updates" class="text-button" type="button">새 자료 확인</button><button id="apply-update" class="primary-button" type="button" hidden>업데이트</button></div>
+    </div>
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <h1 id="hero-title">정리된 소식을, <span>한곳에서.</span></h1>
@@ -93,6 +99,6 @@
     <div><a class="footer-brand" href="./">paymenthub.</a><span>매일의 정보를, 하나의 흐름으로.<small class="footer-notice">이 저장소와 홈페이지는 개인이 비상업적 목적으로 운영합니다.<br>방문 통계는 Cloudflare Web Analytics로 집계합니다. <button id="analytics-toggle" class="text-button" type="button" hidden>내 방문 통계에서 제외</button></small></span></div>
     <a href="#top" id="back-to-top">맨 위로 <span aria-hidden="true">↑</span></a>
   </footer>
-  <script src="./analytics.js?v=20261101" defer></script>
+  <script src="./analytics.js?v=aebbecaa94e86da60df2aca4bb2eead910447a270ca0c2de21efcc45adcff3c3" defer></script>
 </body>
 </html>

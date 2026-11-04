@@ -14,11 +14,13 @@ const regionLabels = {domestic:'국내 자료',international:'해외·국제기�
 let routeToken = 0;
 let searchToken = 0;
 let searchTimer;
-let searchDataPromise;
 let searchResults = [];
 let shownResults = 0;
-const editions = new Map();
 let state = readRoute();
+const dataClient = HubData.create({ base: siteRoot });
+const uiVersion = document.querySelector('meta[name="hub-ui-version"]').content;
+let activeSnapshot, refreshPromise;
+let lastCheckAttempt = 0;
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -210,18 +212,9 @@ function renderDocumentPreview() {
   }
 }
 async function fetchEdition(record) {
-  if (!editions.has(record.id)) {
-    const path = new URL(record.path, siteRoot);
-    if (path.origin !== siteRoot.origin || !path.pathname.startsWith(siteRoot.pathname + 'data/editions/')) throw new Error('Invalid edition path');
-    const promise = fetch(path).then(async response => {
-      if (!response.ok) throw new Error('Edition unavailable');
-      const data = await response.json();
-      if (data.id !== record.id || !Array.isArray(data.items)) throw new Error('Invalid edition');
-      return data;
-    }).catch(error => { editions.delete(record.id); throw error; });
-    editions.set(record.id, promise);
-  }
-  return editions.get(record.id);
+  const data = await dataClient.read(activeSnapshot, record.path);
+  if (data.id !== record.id || !Array.isArray(data.items)) throw new Error('Invalid edition');
+  return data;
 }
 function articleCard(item, index) {
   const card = element('article', item.summary ? 'ai-card' : 'ai-card title-card'); card.id = item.id; card.tabIndex = -1;
@@ -277,7 +270,7 @@ function jumpToHash() {
   const target = document.getElementById(id);
   if (target) { target.scrollIntoView({ block: 'center' }); target.focus({ preventScroll: true }); }
 }
-async function renderRoute() {
+async function renderRoute({ preservePosition = false } = {}) {
   if (!catalog) return;
   const token = ++routeToken; ++searchToken;
   $('.hero').hidden = state.view !== 'latest';
@@ -290,7 +283,7 @@ async function renderRoute() {
   const viewLabels = { latest: '최신 브리핑', archive: '지난 자료', search: '전체 검색', library:'지급결제 자료실' };
   document.title = `${viewLabels[state.view]} · Payment Hub`;
   fillFilters();
-  if (['search','library'].includes(state.view)) { runSearch(); return; }
+  if (['search','library'].includes(state.view)) { await runSearch(); return; }
   const sorted = sortedEditions();
   let records;
   if (state.view === 'archive') {
@@ -307,17 +300,11 @@ async function renderRoute() {
     if (token !== routeToken) return;
     $('#edition-content').replaceChildren(...data.map(renderEdition));
     $('#results-status').textContent = `${data.length}개 정리본 · ${data.reduce((sum, edition) => sum + edition.items.length, 0)}개 기사 항목${state.view === 'latest' ? ' · 채널별 기준일을 확인해 주세요.' : ' · 같은 기사가 다른 정리본에도 포함될 수 있습니다.'}`;
-    requestAnimationFrame(jumpToHash);
+    if (!preservePosition) requestAnimationFrame(jumpToHash);
   } catch { if (token === routeToken) { $('#results-status').textContent = '자료를 불러오지 못했습니다.'; $('#error-description').textContent = '선택한 정리본을 불러오지 못했습니다. 연결 상태를 확인하고 다시 시도해 주세요.'; $('#load-error').hidden = false; } }
 }
 async function getSearchRecords() {
-  if (!searchDataPromise) searchDataPromise = fetch(new URL('./data/search-records.json', siteRoot)).then(async response => {
-    if (!response.ok) throw new Error('Search data unavailable');
-    const data = await response.json();
-    if (data.schemaVersion !== 1 || !Array.isArray(data.records)) throw new Error('Invalid search data');
-    return data.records;
-  }).catch(error => { searchDataPromise = null; throw error; });
-  return searchDataPromise;
+  return activeSnapshot.records;
 }
 function editionLink(meta, label, className = 'edition-link') {
   const query = state.query;
@@ -395,18 +382,47 @@ async function runSearch() {
     await appendSearchResults(token);
   } catch { if (token === searchToken) { $('#results-status').textContent = '검색을 불러오지 못했습니다.'; $('#error-description').textContent = '검색 파일을 불러오지 못했습니다. 다시 시도하거나 지난 자료에서 정리본을 선택해 주세요.'; $('#load-error').hidden = false; } }
 }
-async function load() {
-  $('#load-error').hidden = true;
-  try {
-    const response = await fetch(new URL('./data/catalog.json', siteRoot));
-    if (!response.ok) throw new Error('Catalog unavailable');
-    const data = await response.json();
-    if (!Array.isArray(data.channels) || !Array.isArray(data.editions)) throw new Error('Invalid catalog');
-    catalog = data;
-    const registryResponse = await fetch(new URL('./report-institutions.json',siteRoot));
-    if(!registryResponse.ok) throw new Error('Institutions unavailable');
-    const registry = await registryResponse.json();
-    institutionLabels = Object.fromEntries(Object.entries(registry).map(([id,v])=>[id,v.label]));
+function readingPosition() {
+  const articles = [...document.querySelectorAll('article[id]')].filter(node => node.getClientRects().length);
+  const anchor = articles.find(node => node.getBoundingClientRect().bottom > 0);
+  return { x: scrollX, y: scrollY, anchor: anchor?.id, top: anchor?.getBoundingClientRect().top,
+    shown: shownResults, focus: document.activeElement?.id,
+    open: [...document.querySelectorAll('article[id] details[open]')].map(node => [node.closest('article').id, [...node.closest('article').querySelectorAll('details')].indexOf(node)]) };
+}
+async function restorePosition(saved) {
+  if (!saved) return;
+  while (['search','library'].includes(state.view) && shownResults < saved.shown && shownResults < searchResults.length) await appendSearchResults(searchToken);
+  for (const [id, index] of saved.open || []) { const detail = document.getElementById(id)?.querySelectorAll('details')[index]; if (detail) detail.open = true; }
+  await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+  const anchor = saved.anchor && document.getElementById(saved.anchor);
+  window.scrollTo({ left: saved.x || 0, top: anchor ? scrollY + anchor.getBoundingClientRect().top - saved.top : saved.y || 0, behavior: 'instant' });
+  const focus = document.getElementById(saved.focus === 'apply-update' ? 'check-updates' : saved.focus);
+  if (focus?.getClientRects().length) focus.focus({ preventScroll: true });
+}
+function reloadUI(release, userInitiated) {
+  const url = new URL(location.href);
+  if (url.searchParams.get('_hub_ui') === release.uiVersion) {
+    if (!userInitiated) throw new Error('UI release not yet available');
+    url.searchParams.set('_hub_retry', String(Date.now()));
+  }
+  try { sessionStorage.setItem('payment-hub-reading-position', JSON.stringify({ version: release.uiVersion, position: readingPosition(), route: routeUrl(state, location.hash).href })); } catch { /* Storage is optional. */ }
+  url.searchParams.set('_hub_ui', release.uiVersion);
+  location.replace(url);
+}
+function checkedNow() {
+  $('#refresh-checked').textContent = '최근 확인 ' + new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(new Date()) + ' (한국시간)';
+}
+async function activateSnapshot(next) {
+  const saved = activeSnapshot ? readingPosition() : null;
+  // Read any in-flight input before repainting; the refresh must not reset a query.
+  if (activeSnapshot && ['search','library'].includes(state.view)) {
+    clearTimeout(searchTimer); state.query = $('#news-search').value;
+    history.replaceState(null, '', routeUrl(state, location.hash));
+  }
+  ++routeToken; ++searchToken;
+  activeSnapshot = next; catalog = next.catalog; documents = next.documents; documentsError = false;
+  institutionLabels = Object.fromEntries(Object.entries(next.registry).map(([id,v]) => [id,v.label]));
+  if (!saved) {
     state = readRoute();
     const legacyEdition = /^(morning|evening|ai)-(\d{4}-\d{2}-\d{2})$/.exec(state.edition);
     if (legacyEdition && !catalog.editions.some(edition => edition.id === state.edition)) {
@@ -418,10 +434,61 @@ async function load() {
       const record = catalog.editions.find(edition => edition.channel === legacy[1] && edition.date === '2026-09-22' && (!state.edition || edition.id === state.edition));
       if (record) { const edition = await fetchEdition(record); const entry = edition.items[Number(legacy[2]) - 1]; if (entry) { state = { ...state, view: 'archive', edition: record.id, channel: 'all', date: 'all' }; history.replaceState(null, '', routeUrl(state, entry.id)); } }
     }
-    try { const r=await fetch(new URL('./data/documents.json',siteRoot));if(!r.ok)throw new Error('Documents unavailable');const d=await r.json();if(!Array.isArray(d.items))throw new Error('Invalid documents');documents=d;documentsError=false;} catch {documentsError=true;}
-    renderOverview(); renderDocumentPreview(); await renderRoute();
-  } catch { $('#results-status').textContent = '자료를 불러오지 못했습니다.'; $('#error-description').textContent = '공개 자료 목록을 불러오지 못했습니다. 연결 상태를 확인하고 다시 시도해 주세요.'; $('#load-error').hidden = false; }
+  }
+  renderOverview(); renderDocumentPreview(); await renderRoute({ preservePosition: !!saved });
+  await restorePosition(saved);
+  if (!saved) try {
+    const resume = JSON.parse(sessionStorage.getItem('payment-hub-reading-position') || 'null');
+    sessionStorage.removeItem('payment-hub-reading-position');
+    if (resume?.version === uiVersion && resume.route === routeUrl(state, location.hash).href) await restorePosition(resume.position);
+  } catch { /* Storage is optional. */ }
+  document.documentElement.dataset.release = next.manifest.version;
 }
+function checkForUpdates({ apply = false, force = false, userInitiated = false } = {}) {
+  if (refreshPromise) return refreshPromise;
+  if (!force && (document.hidden || Date.now() - lastCheckAttempt < 60000)) return Promise.resolve();
+  lastCheckAttempt = Date.now();
+  $('#check-updates').disabled = true; $('#apply-update').disabled = true;
+  $('#refresh-status').textContent = apply ? '자료를 확인하고 있습니다.' : '새 자료가 있는지 확인하고 있습니다.';
+  refreshPromise = (async () => {
+    try {
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const release = await dataClient.manifest();
+          if (activeSnapshot?.manifest.version === release.version) {
+            $('#apply-update').hidden = true;
+            // A failed archive request can be retried even when the release is unchanged.
+            if (apply && !$('#load-error').hidden) await renderRoute({ preservePosition: true });
+            checkedNow(); $('#refresh-status').textContent = '최신 자료를 보고 있습니다.'; return;
+          }
+          if (activeSnapshot && !apply) {
+            $('#apply-update').hidden = false; checkedNow();
+            $('#refresh-status').textContent = release.uiVersion === uiVersion ? '새 자료가 있습니다. 업데이트하면 목록과 검색에 함께 반영됩니다.' : '새 화면이 준비되었습니다. 업데이트하면 읽던 위치로 돌아옵니다.'; return;
+          }
+          if (release.uiVersion !== uiVersion) { reloadUI(release, userInitiated); return; }
+          const next = await dataClient.stage(release, activeSnapshot);
+          const ids = new Set(next.catalog.channels.map(channel => channel.latestEditionId).filter(Boolean));
+          if (state.edition) ids.add(state.edition);
+          await Promise.all(next.catalog.editions.filter(ref => ids.has(ref.id)).map(ref => dataClient.read(next, ref.path)));
+          const latest = await dataClient.manifest();
+          if (latest.version !== release.version) throw new Error('Release changed during refresh');
+          await activateSnapshot(next);
+          $('#apply-update').hidden = true; checkedNow();
+          $('#refresh-status').textContent = '최신 자료를 보고 있습니다.'; return;
+        } catch (error) { if (attempt === 1) throw error; }
+      }
+    } catch {
+      $('#refresh-status').textContent = activeSnapshot ? '새 자료를 확인하지 못했습니다. 현재 자료는 유지됩니다. 다시 확인해 주세요.' : '자료를 불러오지 못했습니다. 연결을 확인한 뒤 다시 시도해 주세요.';
+      if (!activeSnapshot) {
+        $('#results-status').textContent = '자료를 불러오지 못했습니다.';
+        $('#error-description').textContent = '공개 자료와 검색을 함께 불러오지 못했습니다. 다시 시도해 주세요.';
+        $('#load-error').hidden = false;
+      }
+    } finally { refreshPromise = null; $('#check-updates').disabled = false; $('#apply-update').disabled = false; }
+  })();
+  return refreshPromise;
+}
+function load() { return checkForUpdates({ apply: true, force: true, userInitiated: true }); }
 
 for (const node of document.querySelectorAll('[data-view]')) node.addEventListener('click', event => { event.preventDefault(); navigate({ view: node.dataset.view, kind:node.dataset.view === 'library' ? 'document' : 'all', region:'all',institution:'all', type:'all', edition: '', channel: 'all', date: 'all', query: '', highlight: '', sort: 'relevance' }, { scroll: node.tagName === 'A' }); });
 for (const field of ['channel', 'date']) $('#archive-' + field).addEventListener('change', event => navigate({ [field]: event.target.value, edition: '', highlight: '' }));
@@ -440,7 +507,9 @@ for (const field of ['channel','date','sort','kind','institution','type','region
 });
 $('#clear-search').addEventListener('click', () => { navigate({ query: '' }, { replace: true }); $('#news-search').focus(); });
 $('#reset-search').addEventListener('click', () => navigate({ query: '', kind:state.view==='library'?'document':'all',region:'all',institution:'all',type:'all',channel: 'all', date: 'all', sort: 'relevance' }, { replace: true }));
-$('#retry-load').addEventListener('click', () => catalog ? renderRoute() : load());
+$('#retry-load').addEventListener('click', load);
+$('#check-updates').addEventListener('click', () => checkForUpdates({ apply: !activeSnapshot, force: true, userInitiated: true }));
+$('#apply-update').addEventListener('click', load);
 $('#load-more').addEventListener('click', () => {
   const token = searchToken;
   appendSearchResults(token).catch(() => {
@@ -449,4 +518,10 @@ $('#load-more').addEventListener('click', () => {
 });
 $('#back-to-top').addEventListener('click', event => { event.preventDefault(); window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); });
 window.addEventListener('popstate', () => { clearTimeout(searchTimer); state = readRoute(); renderRoute(); });
-load();
+const resumeCheck = () => checkForUpdates({ apply: !activeSnapshot });
+document.addEventListener('visibilitychange', resumeCheck);
+window.addEventListener('focus', resumeCheck);
+window.addEventListener('pageshow', resumeCheck);
+window.addEventListener('online', resumeCheck);
+setInterval(resumeCheck, 5 * 60 * 1000);
+checkForUpdates({ apply: true, force: true });

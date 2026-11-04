@@ -333,3 +333,15 @@ a.article-title-link:hover, a.article-title-link:focus-visible { color: var(--gr
 
 .document-title-ko { font-weight: 600; margin: .4rem 0; }
 .document-intro { line-height: 1.65; margin: .65rem 0; }
+
+.refresh-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 20px; padding: 12px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--paper, #fff); }
+.refresh-bar p { margin: 0; font-size: .85rem; line-height: 1.6; overflow-wrap: anywhere; }
+.refresh-bar small { color: var(--muted); font-size: .75rem; }
+.refresh-actions { display: flex; flex: 0 0 auto; align-items: center; gap: 8px; }
+.refresh-actions button { min-height: 44px; padding: 8px 12px; white-space: nowrap; }
+.refresh-actions button:disabled { opacity: .6; cursor: progress; }
+.refresh-actions button[hidden] { display: none; }
+@media (max-width: 520px) {
+  .refresh-bar { flex-wrap: wrap; padding: 12px; }
+  .refresh-actions { margin-left: auto; }
+}
