@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-04-d9be1f261ec1",
+  "channel": "morning",
+  "date": "2026-11-04",
+  "title": "2026-11-04 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-001",
+      "articleId": "article-f82ff33999a7b7ec03567daf",
+      "rank": 1,
+      "title": "충전해놓고 잊은 선불금만 250억…잠자는 돈 찾아가세요",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005349708",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-002",
+      "articleId": "article-0fc21d84a74f8fae9c6ac03c",
+      "rank": 2,
+      "title": "토스, 공정위에 네이버 제소…플랫폼 갈등 '점입가경'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005349871",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-003",
+      "articleId": "article-f4f6099cdd0ae168453fa700",
+      "rank": 3,
+      "title": "이형주 FIU원장, 수협은행장 도전 '제동'",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005598881",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-004",
+      "articleId": "article-a9c429d9b05331a8f604d185",
+      "rank": 4,
+      "title": "결국 해킹으로 자금까지 유출됐다…첫 타자는 온투업, 그 다음은?",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006402952",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-005",
+      "articleId": "article-b5ef96a50a3770263b6a9034",
+      "rank": 5,
+      "title": "\"해킹 책임 CEO에 물을 것\"…경고 날린 이찬진 금감원장",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005349804",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-006",
+      "articleId": "article-888e950a208ac3ae7f2f77e3",
+      "rank": 6,
+      "title": "李, '사이버 보안 차르' 지시…사상 초유 '대통령 개인정보 유출' 속 보안 재정비",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261103145909300",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-007",
+      "articleId": "article-dd6f237e53239d005784f1ae",
+      "rank": 7,
+      "title": "실적 2배인데 주가는 52주 최저… 케이뱅크 고전, 주주 ‘우리’ 끙끙",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003695504",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-008",
+      "articleId": "article-a75944961908165a6caadfef",
+      "rank": 8,
+      "title": "31개기관·5460명 세종 가는데…\"주거·교통망 대책 먼저 마련을\"",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005436151",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-009",
+      "articleId": "article-20b3fd667cd1e8a25866b8a1",
+      "rank": 9,
+      "title": "물가 안정이냐, 내수 회복이냐...한은, 이달 금리 인상 '고심'",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006403207",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-010",
+      "articleId": "article-0d0fa38ed3ac69c8d2969389",
+      "rank": 10,
+      "title": "기업대출 늘리면 건전성 부담… 은행권 '생산적 금융' 딜레마",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005598887",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-04-d9be1f261ec1-011",
+      "articleId": "article-78f10516c56888363ac9e0a7",
+      "rank": 11,
+      "title": "'토큰' 키우겠다는 증권사… 10곳 중 9곳은 \"인력 부족\"",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005598835",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
