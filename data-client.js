@@ -42,7 +42,12 @@
         }).catch(error => { snapshot.files.delete(path); throw error; });
         snapshot.files.set(path, promise);
       }
-      return snapshot.files.get(path);
+      try { return await snapshot.files.get(path); }
+      catch (error) {
+        // A pending request may have been shared from the previous snapshot.
+        // Evict it here too, so a failed archive read can always be retried.
+        snapshot.files.delete(path); throw error;
+      }
     }
     async function stage(release, previous) {
       const snapshot = { manifest: release, files: new Map() };

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "uiVersion": "73165944d809c2d3e872d68b3400054cdfa8bd1a16dc3d42ab1a419f13672df0",
+  "uiVersion": "0e45bfa22613bfdaac7e0b31a164802f5107826e0163ed5426f0134d4ed1836b",
   "sourceDigest": "2ac1cb0dc9de5b38b91b4cc9305971d6845d356177c731aad6cbc384b846cff1",
   "files": {
     "data/catalog.json": "eeede0b0a55b5c8695de46a2df46fea7b4923305717929315b8b5318512ee077",
@@ -173,5 +173,5 @@
     "data/search-records.json": "df18a301e90606f1868b4812a4e959721f3912ffdec08d98e721ba26adde7f1d",
     "report-institutions.json": "c5de985dfc98f352d7ee6da12e510bc1c025085e159df8a1e113cf86681cded2"
   },
-  "version": "9d8bec507dea99b5edc14a1f63ed0c3ed593bfae0b3f83e85fb28e96311f302a"
+  "version": "2ebb26ff2b598df76360e730e277f3b31b930a8cedb67cffea002ed4cee2ec9c"
 }

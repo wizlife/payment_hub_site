@@ -74,3 +74,14 @@ test('committed release exactly matches public files and versioned UI references
   for (const name of ['styles.css','search-text.js','data-client.js','app.js','analytics.js']) assert.ok(html.includes(`./${name}?v=${await sha(read(name))}`), name);
   assert.equal(release.uiVersion, await sha(html.replace(/(<meta name="hub-ui-version" content=")[^"]*(">)/, '$1$2')));
 });
+
+test('a failed request inherited from another snapshot is evicted before retry', async () => {
+  const name = 'data/editions/morning-2026-11-04-test.json';
+  const body = JSON.stringify({ id: 'morning-2026-11-04-test', items: [] });
+  const failed = Promise.reject(new Error('Earlier snapshot request failed')); failed.catch(() => {});
+  const snapshot = { manifest: { files: { [name]: await sha(body) } }, files: new Map([[name, failed]]) };
+  const client = create({ base: 'https://example.test/', fetcher: async () => new Response(body) });
+  await assert.rejects(client.read(snapshot, name), /Earlier/);
+  assert.equal(snapshot.files.has(name), false);
+  assert.equal((await client.read(snapshot, name)).id, 'morning-2026-11-04-test');
+});
