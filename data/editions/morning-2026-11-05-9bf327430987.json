@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-05-9bf327430987",
+  "channel": "morning",
+  "date": "2026-11-05",
+  "title": "2026-11-05 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-05-9bf327430987-001",
+      "articleId": "article-3800380e3afbc5bccdf50732",
+      "rank": 1,
+      "title": "부채한도 충돌 땐 금융시장 충격파…변수 커진 한국 경제",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003480770",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-002",
+      "articleId": "article-c2373d50cc313a454ef19167",
+      "rank": 2,
+      "title": "연초 급증했던 비은행 주택대출 주춤…은행권과 흐름 역전",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2644078",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-003",
+      "articleId": "article-b554ff4f56477f5eafc69aeb",
+      "rank": 3,
+      "title": "불법사금융 막으려 빌려준 100만원…연체율 44% 넘어, 20대 이하는 50.7%",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004007671",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-004",
+      "articleId": "article-db48cde1839f2dbc4710e962",
+      "rank": 4,
+      "title": "GA업계, 개인정보 보호 역량 높인다...보안책임자 선임 의무화",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003482185",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-005",
+      "articleId": "article-08135bd539da34d142fcce99",
+      "rank": 5,
+      "title": "GPU 가치 평가 어렵다지만…AI 인프라 지원에 손놓은 은행권",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004678813",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-006",
+      "articleId": "article-e27d119ffb5322e70f1ab876",
+      "rank": 6,
+      "title": "美 '블루웨이브'에도 환율 잠잠…단기 전망은 엇갈려",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006403723",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-007",
+      "articleId": "article-2051eaad1e2e4d387b96de1e",
+      "rank": 7,
+      "title": "홍콩ELS 과징금 3700억…은행 \"소송 검토\"",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005350320",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-008",
+      "articleId": "article-b5b37d81b0e65aee251b4d6a",
+      "rank": 8,
+      "title": "금융권, 줄줄이 영구채 발행…하나·JB 이어 KB금융 추진",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005350318",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-009",
+      "articleId": "article-82a96417cde605084b5f8c54",
+      "rank": 9,
+      "title": "내년부터 주총장 안가도 주주권 행사",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005599521",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-05-9bf327430987-010",
+      "articleId": "article-02ca7998ae4037c57876141a",
+      "rank": 10,
+      "title": "北해커, 이직면접 미끼로 바이낸스 개발자 낚았다",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005759078",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
