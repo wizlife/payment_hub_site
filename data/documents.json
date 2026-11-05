@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T05:05:58.984925+09:00",
+  "updatedAt": "2026-11-06T00:02:47.463592+09:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-11-02"
@@ -388,6 +388,26 @@
       "focus": "payment",
       "summaryStatus": "ready",
       "titleKo": "캐나다 관보 제Ⅰ부 제160권 제43호: 스테이블코인 규정안"
+    },
+    {
+      "id": "doc-imf-30f74f4f08ccb592",
+      "title": "Common Monetary Area: Project Sunbird and cross-border payments with CBDC",
+      "publisher": "국제통화기금(IMF)",
+      "institution": "imf",
+      "date": "2026-10-21",
+      "type": "report",
+      "series": "High Level Summary Technical Assistance Report",
+      "issue": "2026/072",
+      "issueUrl": "",
+      "url": "https://www.imf.org/en/publications/high-level-summary-technical-assistance-reports/issues/2026/10/15/common-monetary-area-project-sunbird-and-cross-border-payments-with-cbdc-580545",
+      "summary": "",
+      "region": "international",
+      "focus": "payment",
+      "language": "en",
+      "summaryStatus": "pending",
+      "summarySourceUrl": "",
+      "titleKo": "공동통화지역: 프로젝트 선버드와 CBDC를 활용한 국경 간 지급결제",
+      "summaryBasis": ""
     },
     {
       "id": "doc-fsc-befdc40657d61188",
