@@ -304,7 +304,7 @@ async function renderRoute({ preservePosition = false } = {}) {
   } catch { if (token === routeToken) { $('#results-status').textContent = '자료를 불러오지 못했습니다.'; $('#error-description').textContent = '선택한 정리본을 불러오지 못했습니다. 연결 상태를 확인하고 다시 시도해 주세요.'; $('#load-error').hidden = false; } }
 }
 async function getSearchRecords() {
-  return activeSnapshot.records;
+  return dataClient.search(activeSnapshot);
 }
 function editionLink(meta, label, className = 'edition-link') {
   const query = state.query;
@@ -466,22 +466,31 @@ function checkForUpdates({ apply = false, force = false, userInitiated = false }
             $('#refresh-status').textContent = release.uiVersion === uiVersion ? '새 자료가 있습니다. 업데이트하면 목록과 검색에 함께 반영됩니다.' : '새 화면이 준비되었습니다. 업데이트하면 읽던 위치로 돌아옵니다.'; return;
           }
           if (release.uiVersion !== uiVersion) { reloadUI(release, userInitiated); return; }
-          const next = await dataClient.stage(release, activeSnapshot);
-          const ids = new Set(next.catalog.channels.map(channel => channel.latestEditionId).filter(Boolean));
-          if (state.edition) ids.add(state.edition);
-          await Promise.all(next.catalog.editions.filter(ref => ids.has(ref.id)).map(ref => dataClient.read(next, ref.path)));
-          const latest = await dataClient.manifest();
-          if (latest.version !== release.version) throw new Error('Release changed during refresh');
+          const next = await dataClient.stage(release, activeSnapshot, { editionId: state.edition });
+          // Search is optional for first-page display. When replacing an existing
+          // search view, verify its new records before touching the current view.
+          if (activeSnapshot?.records || ['search','library'].includes(state.view)) await dataClient.search(next);
           await activateSnapshot(next);
           $('#apply-update').hidden = true; checkedNow();
-          $('#refresh-status').textContent = '최신 자료를 보고 있습니다.'; return;
+          $('#refresh-status').textContent = '최신 자료를 보고 있습니다.';
+          // The verified snapshot is already usable. A slow final version check
+          // must not hold back the articles, nor discard them if the check fails.
+          try {
+            const latest = await dataClient.manifest();
+            checkedNow();
+            if (latest.version !== next.manifest.version) {
+              $('#apply-update').hidden = false;
+              $('#refresh-status').textContent = latest.uiVersion === uiVersion ? '새 자료가 있습니다. 업데이트하면 목록과 검색에 함께 반영됩니다.' : '새 화면이 준비되었습니다. 업데이트하면 읽던 위치로 돌아옵니다.';
+            }
+          } catch { $('#refresh-status').textContent = '최신 여부를 다시 확인하지 못했습니다. 확인된 자료는 계속 볼 수 있습니다.'; }
+          return;
         } catch (error) { if (attempt === 1) throw error; }
       }
     } catch {
       $('#refresh-status').textContent = activeSnapshot ? '새 자료를 확인하지 못했습니다. 현재 자료는 유지됩니다. 다시 확인해 주세요.' : '자료를 불러오지 못했습니다. 연결을 확인한 뒤 다시 시도해 주세요.';
       if (!activeSnapshot) {
         $('#results-status').textContent = '자료를 불러오지 못했습니다.';
-        $('#error-description').textContent = '공개 자료와 검색을 함께 불러오지 못했습니다. 다시 시도해 주세요.';
+        $('#error-description').textContent = '공개 자료를 불러오지 못했습니다. 다시 시도해 주세요.';
         $('#load-error').hidden = false;
       }
     } finally { refreshPromise = null; $('#check-updates').disabled = false; $('#apply-update').disabled = false; }
