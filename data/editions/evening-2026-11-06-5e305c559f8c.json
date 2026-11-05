@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-06-5e305c559f8c",
+  "channel": "evening",
+  "date": "2026-11-06",
+  "title": "2026-11-06 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-001",
+      "articleId": "article-ee515eed0693621bbc062f0e",
+      "rank": 1,
+      "title": "금융보안원, AI로 클라우드 사업자 보안 취약점 점검 강화",
+      "publisher": "thelec.kr",
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64971",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-05T17:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-002",
+      "articleId": "article-840efe7254ac2ba6f8483614",
+      "rank": 2,
+      "title": "구글 AI 검색으로 상품 찾고 바로 결제...캐나다서 일부 브랜드 연동",
+      "publisher": "digitaltoday.co.kr",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712780",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-05T09:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-003",
+      "articleId": "article-a6e4dc4086b4de740c32ac8c",
+      "rank": 3,
+      "title": "금융권 580개사 보안 전수점검...취약점 방치 땐 이행강제금 추진",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2644301",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-05T09:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-004",
+      "articleId": "article-e4624b09813581cd81b28558",
+      "rank": 4,
+      "title": "예탁결제원 사모MMF 토큰화 통합테스트 내달 착수...5일 설명회 개최",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443131",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-05T08:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-005",
+      "articleId": "article-f55aba2d6b06047ce668a8ca",
+      "rank": 5,
+      "title": "외국어 서류 검토부터 규정 대조까지 척척...우리은행, 해외송금에 'AI 심...",
+      "publisher": "widedaily.com",
+      "url": "https://www.widedaily.com/news/articleView.html?idxno=302928",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-05T10:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-006",
+      "articleId": "article-75e4575bdb1df6f67e15ba9a",
+      "rank": 6,
+      "title": "카카오뱅크, 의심 송금엔 AI가 전화...한 달 10만건 안내",
+      "publisher": "joongangenews.com",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=561404",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-05T10:24:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-007",
+      "articleId": "article-14f54735683ac6bfdd96cd76",
+      "rank": 7,
+      "title": "스테이블코인 송금 비용 0.30%~거의 9%...항상 더 싸진 않았다",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/433466",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T02:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-008",
+      "articleId": "article-7845251c7556bce8839a6de8",
+      "rank": 8,
+      "title": "'블루웨이브' 속 외국인 3조 순매도...환율 0.6원 오른 1,342.1원",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261105138400002?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-05T16:07:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-009",
+      "articleId": "article-a97a2ecb5c215450a3bdd24d",
+      "rank": 9,
+      "title": "[그래픽] 영국 중앙은행 기준금리 추이",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/GYH20261105001000044?input=1363m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-05T22:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-06-5e305c559f8c-010",
+      "articleId": "article-05e862f8817d9a4a4df38da3",
+      "rank": 10,
+      "title": "우대금리 공시 세분화... 금감원, 대출금리 '꼼수산정' 손본다",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/11/06/2026110519535912774",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T04:10:00+09:00"
+    }
+  ]
+}
