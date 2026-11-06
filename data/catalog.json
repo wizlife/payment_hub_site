@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T06:32:56.139453+09:00",
+  "updatedAt": "2026-11-06T09:13:14.481927+09:00",
   "channels": [
     {
       "id": "morning",
       "label": "조간스크랩",
-      "latestEditionId": "morning-2026-11-05-9bf327430987",
+      "latestEditionId": "morning-2026-11-06-d6d0251f39d7",
       "status": "available"
     },
     {
@@ -17,12 +17,13 @@
     {
       "id": "ai",
       "label": "AI 뉴스",
-      "latestEditionId": "ai-2026-11-05-1e4ead65fe11",
+      "latestEditionId": "ai-2026-11-06-2ed4e491c55e",
       "status": "available"
     }
   ],
   "defaultEditionIds": {
     "morning": {
+      "2026-11-06": "morning-2026-11-06-d6d0251f39d7",
       "2026-11-05": "morning-2026-11-05-9bf327430987",
       "2026-11-04": "morning-2026-11-04-d9be1f261ec1",
       "2026-11-03": "morning-2026-11-03-ff90beb19cac",
@@ -111,6 +112,7 @@
       "2026-09-01": "evening-2026-09-01-c10ede7d9180"
     },
     "ai": {
+      "2026-11-06": "ai-2026-11-06-2ed4e491c55e",
       "2026-11-05": "ai-2026-11-05-1e4ead65fe11",
       "2026-11-04": "ai-2026-11-04-884b2589522c",
       "2026-11-03": "ai-2026-11-03-26afa7ed11f6",
@@ -173,12 +175,28 @@
   },
   "editions": [
     {
+      "id": "morning-2026-11-06-d6d0251f39d7",
+      "channel": "morning",
+      "date": "2026-11-06",
+      "title": "2026-11-06 조간스크랩",
+      "itemCount": 9,
+      "path": "data/editions/morning-2026-11-06-d6d0251f39d7.json"
+    },
+    {
       "id": "evening-2026-11-06-5e305c559f8c",
       "channel": "evening",
       "date": "2026-11-06",
       "title": "2026-11-06 지급결제 아침 스크랩",
       "itemCount": 10,
       "path": "data/editions/evening-2026-11-06-5e305c559f8c.json"
+    },
+    {
+      "id": "ai-2026-11-06-2ed4e491c55e",
+      "channel": "ai",
+      "date": "2026-11-06",
+      "title": "2026-11-06 AI 뉴스",
+      "itemCount": 12,
+      "path": "data/editions/ai-2026-11-06-2ed4e491c55e.json"
     },
     {
       "id": "morning-2026-11-05-9bf327430987",

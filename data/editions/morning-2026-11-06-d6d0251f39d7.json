@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-06-d6d0251f39d7",
+  "channel": "morning",
+  "date": "2026-11-06",
+  "title": "2026-11-06 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-001",
+      "articleId": "article-55046f1fec0d237a4ea320c7",
+      "rank": 1,
+      "title": "한달간 37곳 47만건 정보유출... 금융사 580곳 보안 전수점검",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005600237",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-002",
+      "articleId": "article-533f5cf10443ac8df051ca19",
+      "rank": 2,
+      "title": "시중은행 NIM 뒷걸음…인터넷은행 '저원가 예금'으로 방어",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003482675",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-003",
+      "articleId": "article-05aac701d6c734aac46ab9ed",
+      "rank": 3,
+      "title": "가상자산 과세 2029년부터… 3년간 손실이월공제 추진",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005600246",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-004",
+      "articleId": "article-d570a7a346f77109d9d935f3",
+      "rank": 4,
+      "title": "바이낸스 이어 프랑스 은행도…전세계 번지는 해킹 공포",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003563224",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-005",
+      "articleId": "article-362523c58f5c78f00000f368",
+      "rank": 5,
+      "title": "쿠팡 정보유출 4000억 과징금…법원, 효력 정지 신청 거부",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005350910",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-006",
+      "articleId": "article-66ff5fdb6886720159e6b6ae",
+      "rank": 6,
+      "title": "주담대 위축되자… 은행권, 무주택 세입자 공략 ‘잰걸음’",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003696365",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-007",
+      "articleId": "article-a1cc498e695c06758ebc3854",
+      "rank": 7,
+      "title": "與 “성장기반 투자” vs 野 “채무 상환부터”",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004172855",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-008",
+      "articleId": "article-91cfd682d46b93b2e6826bb2",
+      "rank": 8,
+      "title": "카카오, 검색 없이 AI가 상품 추천…2028년 AI 손익분기점 목표",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2644474",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-06-d6d0251f39d7-009",
+      "articleId": "article-3a54e744ad40ea145a3d4de8",
+      "rank": 9,
+      "title": "9월 경상흑자 첫 600억弗 돌파 … 여행수지는 적자늪",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005759755",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
