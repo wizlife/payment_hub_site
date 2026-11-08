@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "uiVersion": "ca80ae9ae0798f8d33869860823986c9f672f14d62b8c6b90aee1851b399af64",
-  "sourceDigest": "de1c613bddce66697966cf8d388a297482190983a185929085cad3a5516a1f7c",
+  "sourceDigest": "eb21acd5ff46c7dbc04a12e10282924dc2900d3babfcb013078f4afe7f9dd8bf",
   "files": {
-    "data/catalog.json": "78de2520d879275912aad9c079755987de4ac1c5d31535ee02c62ace19193b51",
+    "data/catalog.json": "137be23e39ed07890fa35220058fb6761a823e34c8a94f10d68706a73eccefab",
     "data/documents.json": "aaa8f26abfabc2bd9e364545e6e5d431629c077a600fee5275e4e1b81dce3c65",
     "data/editions/ai-2026-09-01-5f8374720465.json": "aa86eb55bc79273399663f302dd4e319198d2673effd8de4bb08818c0e644037",
     "data/editions/ai-2026-09-02-5a0c7137f1a8.json": "cfd7ba0336e51c4db03be04d7566f166e233a24589b123d406d05e61b0594aea",
@@ -133,6 +133,7 @@
     "data/editions/evening-2026-11-04-125b4ff63845.json": "63a796924f3d98aabbfab9354044d5d96a22e42a7368e89195a0b7f230c9f0f8",
     "data/editions/evening-2026-11-05-ea76f59c7624.json": "fdcd276cabf935b63fc4f69174b7afdb669b8dc60187a4a1798b3f04e727f432",
     "data/editions/evening-2026-11-06-5e305c559f8c.json": "9220a88446389c6cdb3e63ff3e19a073a8d79985158c512f3e7fb33bf26eaf69",
+    "data/editions/evening-2026-11-09-1280a3d8fa49.json": "34219d1ac5cec740ab6fe6f6e0f3117be8a1f7e3da7026a4c77754f9f1751e28",
     "data/editions/morning-2026-09-01-40f28e59496f.json": "dbe3fcd90ef73a12353a182f8c15b8d5cbc544346ffebbea6eb12fd3d43eb303",
     "data/editions/morning-2026-09-04-c82cdca56b1d.json": "d2d030e06e57de9c6dbe844de09457c9164e52d98ccc44f45f442217f946751e",
     "data/editions/morning-2026-09-07-47b494d5dbf7.json": "345263f1eb0e4a7ad7a7e56264247926ea2292eaa371a98b82bac6921241319f",
@@ -175,9 +176,9 @@
     "data/editions/morning-2026-11-04-d9be1f261ec1.json": "9c3c7417678a98584475748cfa2f78899ab5d942f1add345bf71dc058c6a87c2",
     "data/editions/morning-2026-11-05-9bf327430987.json": "5d71ea61b8b44611b5e99fe5f96fb48f700a67b07751d90dd28f676618a106c1",
     "data/editions/morning-2026-11-06-d6d0251f39d7.json": "6d9badb33be20626d3792e1526bf0a0395952196133635733e1145e1973154c0",
-    "data/search-manifest.json": "dc64e9cddf0c7230b02db963726f1c78c58cff0c5e6cbea09a351cbc5b397a63",
-    "data/search-records.json": "388b55a3b7e8ea5af787c286d0af1fe698472f3974382d9c398e4eba476ab614",
+    "data/search-manifest.json": "35a02ac2761832edfbb22268501faabda878892c0b00931fe76e848de818dc9e",
+    "data/search-records.json": "fea33ddda52b51f461005f998975fd2f1e0c5e0f6b7f8bb4d8fe0fd07f42c544",
     "report-institutions.json": "c5de985dfc98f352d7ee6da12e510bc1c025085e159df8a1e113cf86681cded2"
   },
-  "version": "1bf2cc0889dfb4bb598dec8829f1d2d667a1ede382099841dad49a0563fd5fa6"
+  "version": "1766a6498f2289132792ba9302c705f6ea34d7745ed3b6f55a82db2a491f176e"
 }

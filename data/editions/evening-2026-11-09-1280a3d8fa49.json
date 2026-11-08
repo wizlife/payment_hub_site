@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-09-1280a3d8fa49",
+  "channel": "evening",
+  "date": "2026-11-09",
+  "title": "2026-11-09 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-001",
+      "articleId": "article-7c5d7b45e467e2ff572c4909",
+      "rank": 1,
+      "title": "[AI해킹 비상] 금융 CEO 책임만으론 부족... \"오픈뱅킹 금융망 개방부터...",
+      "publisher": "g-enews.com",
+      "url": "https://www.g-enews.com/view.php?ud=202611061455514966cd0bfacc1c_1",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-08T12:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-002",
+      "articleId": "article-23981caee5960daf087070c6",
+      "rank": 2,
+      "title": "'사칭'이라던 자비스, 실제 뚫렸다... 공동인증서·결제 정보 등 유출 확...",
+      "publisher": "boannews.com",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147080",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-07T00:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-003",
+      "articleId": "article-e03059c77a242228c7f09c91",
+      "rank": 3,
+      "title": "JP모건 예금토큰 이더리움으로, 머니마켓펀드는 솔라나로",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/433989",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T18:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-004",
+      "articleId": "article-b30da3aeb6518c448f4dd75b",
+      "rank": 4,
+      "title": "우리은행, 해외송금 심사에 AI 도입...효율은 올리고 오류는 줄였다",
+      "publisher": "thepublic.kr",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=325341",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T09:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-005",
+      "articleId": "article-f882c072406d567fad0d7ce0",
+      "rank": 5,
+      "title": "AI 해킹에 기존 방어망 뚫리나...금융권 보안 '경고등'",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261107032100017?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-08T06:05:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-006",
+      "articleId": "article-7c039a8ab0c313d72c2a1365",
+      "rank": 6,
+      "title": "금융권 해킹 대책이 자체점검 확대?...실효성 확보가 관건",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261105_0003856898",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T07:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-007",
+      "articleId": "article-6fb9dc63c59ac200c5842e51",
+      "rank": 7,
+      "title": "해킹 취약 고리 GA 74곳, 금융보안원 가입 추진...회비 놓고 '줄다리기'",
+      "publisher": "아시아경제",
+      "url": "https://view.asiae.co.kr/article/2026110609391957816",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T10:14:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-008",
+      "articleId": "article-ee1adbefe434fabc56925ca7",
+      "rank": 8,
+      "title": "미래에셋증권, 고객 3800여명 계좌번호·임직원 3만여명 개인정보 유출",
+      "publisher": "이투데이",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/20442",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-07T08:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-009",
+      "articleId": "article-53f45a5a4a45e358aeea5414",
+      "rank": 9,
+      "title": "디지털자산기본법 이달 공개...가상자산거래소 대주주 지분 15~20% 제한 추...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2645388",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-08T10:04:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-010",
+      "articleId": "article-8298d179c8d81a6da0493427",
+      "rank": 10,
+      "title": "8.5조원 바이낸스 해킹에 美 금융당국, 은행권 시스템 점검 나서 [크립토...",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10928772?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T16:31:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-011",
+      "articleId": "article-9178e1b09d0f94f29ca01a91",
+      "rank": 11,
+      "title": "금융권 개인정보 유출 2차 피해 막는다...특별대응기간 연말까지 연장",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/11/06/2026110611385279014",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T13:33:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-012",
+      "articleId": "article-e64ebef5c31445efafe82f65",
+      "rank": 12,
+      "title": "[단독]국민은행, 해킹 사고에 '망분리 예외' 또 탈락...농협銀, 카카오·...",
+      "publisher": "아시아경제",
+      "url": "https://view.asiae.co.kr/article/2026110607380691848",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-06T07:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-013",
+      "articleId": "article-8792c555b49b19df2d4429c1",
+      "rank": 13,
+      "title": "대신·한양·미래에셋증권 잇단 해킹...금융투자업계 보안체계 도마",
+      "publisher": "press9.kr",
+      "url": "http://www.press9.kr/news/articleView.html?idxno=85767",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-08T15:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-014",
+      "articleId": "article-205e61437efac7e48256aee2",
+      "rank": 14,
+      "title": "금감원, 인력난에 IT 보안 검사 난항... 금융위와 충원 협의 착수",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/11/08/CMU7JLFVNJHWXHY2MV6WXUEARU/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-08T07:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-015",
+      "articleId": "article-bf87e454cdd0091b8848b5c4",
+      "rank": 15,
+      "title": "美 블루웨이브 덮친 외환시장...1360원대 환율 방향 가를 변수는",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/economy/2026/11/08/2026110810105359621",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-08T13:03:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-09-1280a3d8fa49-016",
+      "articleId": "article-8a8aacc73590aa169e8f2461",
+      "rank": 16,
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443590",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-07T08:02:00+09:00"
+    }
+  ]
+}
