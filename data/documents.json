@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T00:02:47.463592+09:00",
+  "updatedAt": "2026-11-09T00:15:54.396004+09:00",
   "window": {
     "from": "2026-07-22",
-    "to": "2026-11-02"
+    "to": "2026-11-09"
   },
   "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료의 서지 목록. 첫 화면은 지급결제 중심. 원문 링크와 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 자료의 완전 수집은 아님.",
   "coverage": [
@@ -111,6 +111,66 @@
     }
   ],
   "items": [
+    {
+      "id": "doc-hana-c20537f2d0763b8b",
+      "title": "하나금융포커스 [제16권 21호]",
+      "publisher": "하나금융연구소",
+      "institution": "hana",
+      "date": "2026-11-09",
+      "type": "periodical",
+      "series": "하나금융포커스",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37107",
+      "summary": "이번 호는 기업승계 시대에 은행이 맡을 역할과 GA 규제 강화에 따른 보험사의 채널 전략 변화를 다룬다. 또한 은행과 핀테크가 글로벌 결제시장에서 경쟁하면서도 협력하는 흐름 등을 짚는다.",
+      "region": "domestic",
+      "summaryStatus": "ready",
+      "focus": "payment",
+      "summarySourceUrl": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37107",
+      "summaryBasis": "official-description",
+      "language": "ko",
+      "titleKo": ""
+    },
+    {
+      "id": "doc-kif-c8de420658db3bbf",
+      "title": "Stronger Information Sharing to Combat Financial Fraud and Challenges Ahead",
+      "publisher": "한국금융연구원",
+      "institution": "kif",
+      "date": "2026-11-07",
+      "type": "periodical",
+      "series": "KIF 정기간행물",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.kif.re.kr/KIF/Publication/ReportDetail.aspx?ControlNo=369309&NodeID=884&ParentNodeID=882&VolumeID=7828",
+      "summary": "최근 통신사기피해환급법 개정으로 금융회사가 거래정보를 공유·보호하고 거래를 정지하는 법적 근거와 책임, 절차가 명확해졌다. 가상자산사업자에게도 관련 의무가 새로 부과되었다. 이 보고서는 이러한 변화를 계기로 보이스피싱 등 금융사기 대응 과제를 살핀다. 공식 초록에 따르면 저자는 이상거래탐지시스템(FDS) 데이터와 자금세탁방지(AML/CFT) 데이터를 더 적극적으로 연계·분석해 피해 사전 예방과 사후 구제를 함께 강화해야 한다고 본다. 아울러 정보공유 체계의 남용을 막는 장치와, 정보공유에 따른 거래정지로 손실을 입은 계좌 보유자를 위한 합리적인 구제·보상 기준과 절차를 과제로 제시한다. (공식 영문 초록 범위 기준이며 본문 PDF는 확인하지 않음)",
+      "region": "domestic",
+      "summaryStatus": "ready",
+      "focus": "related",
+      "summarySourceUrl": "https://www.kif.re.kr/kif4/eng/publication/pub_detail?mid=220&nid=889&sid=887&vid=7828&cno=369309",
+      "summaryBasis": "official-abstract",
+      "language": "en",
+      "titleKo": "금융사기 대응을 위한 정보공유 강화와 향후 과제"
+    },
+    {
+      "id": "doc-fsc-9d897c93b4f3295c",
+      "title": "금융권은 개인정보 유출 사고에 따른 보이스피싱 예방에 총력 대응하고 있습니다.",
+      "publisher": "금융위원회",
+      "institution": "fsc",
+      "date": "2026-11-06",
+      "type": "policy",
+      "series": "보도자료",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.fsc.go.kr/no010101/88098",
+      "summary": "금융위원회가 최근 금융회사에서 잇따라 발생한 개인정보 유출사고 이후, 보이스피싱·스미싱 등 2차 피해를 막기 위한 금융권 공동 대응 경과와 향후 계획을 정리한 보도참고자료다. 유출고객 전담 상담창구 운영, 이상거래탐지(FDS) 강화와 고액 이체 시 본인확인, ASAP을 통한 이상거래 정보 공유, 피해구제 보고체계 마련 등 주요 조치를 소개한다. 11월 6일 기준으로 고객 자금 유출 피해는 보고되지 않아 소비자경보를 '주의' 단계로 유지한다고 밝혔다. 또 특별대응기간을 12월 말까지 연장하고 금융회사별 이행 상황을 점검하겠다는 계획과 소비자 유의사항을 담았다.",
+      "region": "domestic",
+      "summaryStatus": "ready",
+      "focus": "related",
+      "summarySourceUrl": "https://www.fsc.go.kr/no010101/88098",
+      "summaryBasis": "official-description",
+      "language": "ko",
+      "titleKo": ""
+    },
     {
       "id": "doc-fsc-bf9828bfdb83e125",
       "title": "글로벌 해킹 위협에 대비한 국내 가상자산사업자의 사고대응력 제고를 위해 긴밀하고 신속하게  대응해 나가겠습니다.",
