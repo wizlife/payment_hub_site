@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-09-fdbf23aa6be3",
+  "channel": "morning",
+  "date": "2026-11-09",
+  "title": "2026-11-09 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-001",
+      "articleId": "article-ac2aa45d1fb545103aeaacf5",
+      "rank": 1,
+      "title": "대책 발표 당일도 털린 금융… \"이행 시급\"",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005438182",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-002",
+      "articleId": "article-488579ebf8ded8771212fb57",
+      "rank": 2,
+      "title": "해킹 막으려다 정상거래 차단하면, 배상 어떻게?…금융사 책임 불명확",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005438118",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-003",
+      "articleId": "article-14fe6de37d1f43678e8dfe7b",
+      "rank": 3,
+      "title": "[단독]CD 금리 때아닌 역주행…이자부담 커지는 기업들",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004679893",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-004",
+      "articleId": "article-6ebc18022191f0593f906fa5",
+      "rank": 4,
+      "title": "내년 첫발 떼는 민생지킴대출.. 10년간 원금절반 회수 못한다",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005601014",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-005",
+      "articleId": "article-b4bb3b878920145606698614",
+      "rank": 5,
+      "title": "카뱅·토뱅도 애플페이 … 현대카드 독점 깨진다",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005760689",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-006",
+      "articleId": "article-bf1d300f3a3c1c0d107e4ecc",
+      "rank": 6,
+      "title": "美민주 'AI 중단' 압박에 증시 패닉셀",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005760237",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-007",
+      "articleId": "article-624f5a2f2218ba1961d266f0",
+      "rank": 7,
+      "title": "거래소 해킹 땐 배상, 파산 땐 코인 반환받을까 [뉴스 분석]",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003696995",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-008",
+      "articleId": "article-2947bd691b007c13edbea78b",
+      "rank": 8,
+      "title": "협동조합 육성에 예산 400억…野 \"수요입증 안돼\" 삭감 예고",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005351300",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-009",
+      "articleId": "article-33503b338c9154eb2b79419e",
+      "rank": 9,
+      "title": "소득 불안한 자영업자…사장님 최소 19만명은 ‘투잡러’",
+      "publisher": "한겨레",
+      "url": "https://n.news.naver.com/article/028/0002831241",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-010",
+      "articleId": "article-4995cfc30e4e4e230b4cf982",
+      "rank": 10,
+      "title": "양자컴퓨터發 보안 위협…금융권, 양자내성암호 전환 추진",
+      "publisher": "미디어펜",
+      "url": "https://www.mediapen.com/news/view/1136023",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-09-fdbf23aa6be3-011",
+      "articleId": "article-f8830049f5bb4c62c5b3e0b3",
+      "rank": 11,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443656",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
