@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-10-b982d4a6240a",
+  "channel": "evening",
+  "date": "2026-11-10",
+  "title": "2026-11-10 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-001",
+      "articleId": "article-477c303f0ce7ef44aa764820",
+      "rank": 1,
+      "title": "금융권 QR결제 확산...해외 결제 접점 확대",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261109000212",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T14:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-002",
+      "articleId": "article-3f4f0e0d700803526aad21a9",
+      "rank": 2,
+      "title": "금융결제원 오픈 API 330억건 추적해보니···신한·삼성카드 넘어 핀테...",
+      "publisher": "womaneconomy.co.kr",
+      "url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=260866",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T13:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-003",
+      "articleId": "article-333ebc1bb127028de6801e0b",
+      "rank": 3,
+      "title": "\"지갑 없이 현금 찾는다\"...모바일현금카드, 편의점 ATM으로 확대",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261109140155470",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T16:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-004",
+      "articleId": "article-ec14c7036a9d435fd39fdaa6",
+      "rank": 4,
+      "title": "케뱅 이어, 카뱅도 오늘 ‘스텔스 통장’ 출시...오픈뱅킹 조회 안 돼",
+      "publisher": "datanews.co.kr",
+      "url": "http://www.datanews.co.kr/news/article.html?no=147401",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T08:46:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-005",
+      "articleId": "article-3f097be466f7a212399e7e8c",
+      "rank": 5,
+      "title": "거래소 지분규제 유예 무게... 스테이블코인, 은행서 발행 [코인 브리핑...",
+      "publisher": "세계일보",
+      "url": "https://www.segye.com/newsView/20261108509246?OutUrl=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T05:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-006",
+      "articleId": "article-4a9dc4d7be0187f2a12fcd40",
+      "rank": 6,
+      "title": "대신증권, 개인정보 유출 재차 사과...보상보험 가입 등 지원책 발표",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10930978?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T15:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-007",
+      "articleId": "article-325159f8977a4a2139b06c08",
+      "rank": 7,
+      "title": "중남미 6개국 통화 토큰화...스테이블코인, 저축 넘어 결제 인프라로",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/435187",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T21:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-008",
+      "articleId": "article-65d8d2f159f35b08f2efba23",
+      "rank": 8,
+      "title": "[단독] 해킹당한 은행 전산망, 의무 보안점검서 제외...법적 기준도 없었...",
+      "publisher": "newspim.com",
+      "url": "https://www.newspim.com/news/view/20261109000853",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T16:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-009",
+      "articleId": "article-698a8541d56d4a5651ae7d78",
+      "rank": 9,
+      "title": "자금까지 털리는 중소 금융사...금융보안원 지원책, 보안 사각지대 해법...",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261109_0003860089",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T10:43:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-010",
+      "articleId": "article-9ac629d79b9ebd9588fff27a",
+      "rank": 10,
+      "title": "금감원 미래에셋증권도 현장점검...그룹 잇단 해킹 연관성 주시",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261109093400002?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T13:57:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-011",
+      "articleId": "article-b341adb91d83d5517d23ad76",
+      "rank": 11,
+      "title": "경찰 \"금융권 해킹 국제공조 수사...'사이버보안 차르' 적극 협조\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/society/2026/11/09/2026110911064666671",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T12:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-012",
+      "articleId": "article-809f275d91e6dd74893f982d",
+      "rank": 12,
+      "title": "KB국민카드, 카드업계 최초 한은과 예금토큰 연구 협력",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611091156350728",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T11:59:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-013",
+      "articleId": "article-8ac857ff3346e0aacafd366c",
+      "rank": 13,
+      "title": "금융보안원, AI로 보이스피싱 위험도 분석...금융사에 제공",
+      "publisher": "아시아경제",
+      "url": "https://view.asiae.co.kr/article/2026110909385929793",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T09:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-014",
+      "articleId": "article-a054d4ff11d59b48041c8840",
+      "rank": 14,
+      "title": "잇따른 해킹 공격에 주요 은행 보안 투자 1000억대로 대폭 확대",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10929965?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T08:21:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-015",
+      "articleId": "article-4daf1c7a31934bfb5aab0f76",
+      "rank": 15,
+      "title": "BNK금융, 전 계열사 사이버 보안 특별점검...AI 대응체계 강화",
+      "publisher": "조세일보",
+      "url": "http://www.joseilbo.com/news/news_read.php?class=51&grp=&uid=579241",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T15:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-016",
+      "articleId": "article-5647f9d75b43d416662a250d",
+      "rank": 16,
+      "title": "공공기관 지정 피하려 고강도 쇄신...금감원 감독 독립성은 지킬까",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04483766645644080",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T19:29:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-017",
+      "articleId": "article-6ef1a3c5a165e9e2e478d7af",
+      "rank": 17,
+      "title": "금감원, 삼성증권 ‘초고액자산가 거점점포’ 불건전영업행위에 84억원...",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/11/09/G7XLAL3WHFCTZAYUN7ZGQWFZ3I/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T17:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-10-b982d4a6240a-018",
+      "articleId": "article-1520523ebb46cb1e5fe0f871",
+      "rank": 18,
+      "title": "금감원, ‘가맹점주 정보 유출’ 우리카드 곧 제재... 신한도 일정 조율",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/11/09/W3TYFKCKDZE5LL6SFVPNKMNMHM/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-09T10:23:00+09:00"
+    }
+  ]
+}
