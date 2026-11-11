@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T09:10:21.786982+09:00",
+  "updatedAt": "2026-11-12T06:30:06.973308+09:00",
   "channels": [
     {
       "id": "morning",
@@ -11,7 +11,7 @@
     {
       "id": "evening",
       "label": "석간스크랩",
-      "latestEditionId": "evening-2026-11-11-e3f58dc141f6",
+      "latestEditionId": "evening-2026-11-12-0220ec863708",
       "status": "available"
     },
     {
@@ -70,6 +70,7 @@
       "2026-09-01": "morning-2026-09-01-40f28e59496f"
     },
     "evening": {
+      "2026-11-12": "evening-2026-11-12-0220ec863708",
       "2026-11-11": "evening-2026-11-11-e3f58dc141f6",
       "2026-11-10": "evening-2026-11-10-b982d4a6240a",
       "2026-11-09": "evening-2026-11-09-1280a3d8fa49",
@@ -183,6 +184,14 @@
     }
   },
   "editions": [
+    {
+      "id": "evening-2026-11-12-0220ec863708",
+      "channel": "evening",
+      "date": "2026-11-12",
+      "title": "2026-11-12 지급결제 아침 스크랩",
+      "itemCount": 13,
+      "path": "data/editions/evening-2026-11-12-0220ec863708.json"
+    },
     {
       "id": "morning-2026-11-11-ac84bfbb89d1",
       "channel": "morning",

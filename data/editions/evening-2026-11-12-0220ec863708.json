@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-12-0220ec863708",
+  "channel": "evening",
+  "date": "2026-11-12",
+  "title": "2026-11-12 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-12-0220ec863708-001",
+      "articleId": "article-dc5200397b5324bb835b4b23",
+      "rank": 1,
+      "title": "채병득號 금결원, CMS 납부수단 확대...실시간 출금·전자신청 강화 [금융...",
+      "publisher": "fntimes.com",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026111019102445641b5a221379_18",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T17:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-002",
+      "articleId": "article-2c90f5ce4b63023ae2b3ad3f",
+      "rank": 2,
+      "title": "채병득 금융결제원장, 불법사금융 피해 막는 ‘사람 살리는 금융’ 동참...",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12205695",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T18:25:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-003",
+      "articleId": "article-b0fe08bcace6998eacf67551",
+      "rank": 3,
+      "title": "[뉴스줌인]금융사 돈으로 운영되는 금보원, 박상원 원장 전문성 도마",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261111000344",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T15:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-004",
+      "articleId": "article-e1571e8eaff0fb7921b6192b",
+      "rank": 4,
+      "title": "스테이블코인 규제 윤곽...금감원 '전금법'·한은 '은행 발행'",
+      "publisher": "cstimes.com",
+      "url": "https://www.cstimes.com/news/articleView.html?idxno=727449",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T09:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-005",
+      "articleId": "article-bd890567e59a128fd0e83a89",
+      "rank": 5,
+      "title": "재경부 \"스테이블코인 국경간 결제, 외국환거래법 개정해 제도화\"",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05139766645644736",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T16:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-006",
+      "articleId": "article-68ca2b0ac293b217ecc6894a",
+      "rank": 6,
+      "title": "가민, 간편결제 서비스 '가민 페이' 국내 출시... 티머니 지원",
+      "publisher": "m-i.kr",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2017048",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T10:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-007",
+      "articleId": "article-343466b1097d5f04a5c67154",
+      "rank": 7,
+      "title": "미래에셋마저 뚫리자 증권가 해킹 경계령...대응책 공개는 조심",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05090566645644736",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T16:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-008",
+      "articleId": "article-2c32ee94ad38e944844e3cf8",
+      "rank": 8,
+      "title": "금융보안원 정보유출에 금융당국 강력 대응...전면적 대책 마련 주문",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04234486645644736",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T12:09:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-009",
+      "articleId": "article-c3bdc227f8e6fedbfe180e8b",
+      "rank": 9,
+      "title": "한은, 국채 토큰화 전담조직 신설⋯\"토큰화, 최종결제는 중앙은행 화폐...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2646974",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T18:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-010",
+      "articleId": "article-52e2fc575075284e2824ff6d",
+      "rank": 10,
+      "title": "[게시판] Sh수협은행, 글로벌 예금토큰 기반 외환송금 검증",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261111149000002?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T16:37:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-011",
+      "articleId": "article-3305592bea5dac7dac7b091e",
+      "rank": 11,
+      "title": "원·달러 환율, 3.9원 내린 1333.6원 마감",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261111_0003864097",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T15:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-012",
+      "articleId": "article-bf61666de82119f9dbca6867",
+      "rank": 12,
+      "title": "가계대출 6.4조 늘었는데...은행들은 닫았던 대출문 다시 연다",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04742886645644736",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T15:24:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-12-0220ec863708-013",
+      "articleId": "article-4c1c3b2f20b4333935282b3b",
+      "rank": 13,
+      "title": "금융위·고용부, 건설 근로자 금융지원 확대... 이력 활용한 신용평가 체...",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/11/11/CVZTALAA7ZB6DNB7C7PHYOV43Y/",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-11T14:01:00+09:00"
+    }
+  ]
+}
