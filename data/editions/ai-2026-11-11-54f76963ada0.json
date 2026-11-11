@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-2026-11-11-54f76963ada0",
+  "channel": "ai",
+  "date": "2026-11-11",
+  "title": "2026-11-11 AI 뉴스",
+  "items": [
+    {
+      "id": "ai-2026-11-11-54f76963ada0-001",
+      "articleId": "article-c0a3c398c29ae75912eb6936",
+      "rank": 1,
+      "title": "“한국어 데이터 100만건 만든다” 엔비디아·KAIST 4000억 규모 AI 연구",
+      "publisher": "조선비즈",
+      "url": "https://biz.chosun.com/science-chosun/science/2026/11/10/MM2DKM3FMMZWCNDBGAZGKMZZGI/",
+      "category": "국내 및 국외 AI 산업 동향",
+      "categoryBasis": "source",
+      "summary": "엔비디아가 KAIST와 국내에 AI 공동연구소를 설립하고 5년간 3억달러(약 4000억원) 규모 자원을 지원한다. 지원액 중 2억5000만달러는 컴퓨팅 자원, 5000만달러는 연구비·인건비로 쓰인다. 연구소는 합성 데이터 기술로 고품질 한국어 학습 데이터 100만건을 내년까지 만들어 국내 기업·연구자에게 무료 공개할 계획이다.",
+      "publishedAt": "2026-11-10T16:19:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-002",
+      "articleId": "article-d12050675ef7e2ed96a1a525",
+      "rank": 2,
+      "title": "TSMC, 앤스로픽·오픈AI에 최대 10억달러 투자한다",
+      "publisher": "글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026111023290783679a1f309431_1",
+      "category": "국내 및 국외 AI 산업 동향",
+      "categoryBasis": "source",
+      "summary": "TSMC 이사회가 앤스로픽과 오픈AI에 각각 최대 5억달러씩 총 최대 10억달러를 투자하는 안건을 승인했다고 로이터통신이 보도했다. 앤스로픽은 IPO 공모가로 보통주를, 오픈AI는 우선주를 취득하는 방식이며 실제 집행 규모와 지분율은 확정되지 않았다. 앤스로픽은 같은 날 주당 70~78달러의 IPO 희망 공모가를 제시했다.",
+      "publishedAt": "2026-11-11T02:00:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-003",
+      "articleId": "article-089d8aa25f2abbfe217bfe9e",
+      "rank": 3,
+      "title": "구글 새 TPU, AMD는 헬리오스 영업 전쟁…엔비디아 틈 파고든다",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20112614",
+      "category": "국내 및 국외 AI 산업 동향",
+      "categoryBasis": "source",
+      "summary": "엔비디아 경영 리스크가 커지는 틈을 타 경쟁사들이 AI 가속기 영업전에 나설 것으로 전망된다. 구글은 ‘TPU 8tx’와 ‘TPU 8i맥스’를 공개해 8세대 TPU 라인업을 4종으로 늘렸고, AMD는 최신 CPU·GPU를 탑재한 서버 랙 ‘헬리오스’ 판매에 본격 착수했다. MS·AWS·메타·오픈AI도 자체 칩 공급 속도를 높이고 있다.",
+      "publishedAt": "2026-11-10T17:46:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-004",
+      "articleId": "article-49e4d148ab4accd7fb04d1ae",
+      "rank": 4,
+      "title": "엔비디아, 2세대 로봇두뇌 공개…\"시연 5번에 95% 성공\"",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261110119900009",
+      "category": "AI 신기술 및 연구 동향",
+      "categoryBasis": "source",
+      "summary": "엔비디아가 로봇학습학회(CoRL)에서 2세대 로봇 AI 모델 ‘그루트 2’와 로봇 학습 프레임워크 ‘아이작 랩 3.0’을 공개했다. 그루트 2는 작업당 시연 1회로 50개 작업에서 평균 71%, 시연 5회에서는 95%의 성공률을 기록했다. 한국 피지컬 AI 스타트업 리얼월드와 공동으로 로봇 성능평가 도구 ‘덱스벤치’도 함께 내놨다.",
+      "publishedAt": "2026-11-10T15:18:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-005",
+      "articleId": "article-628cb7e0421c306b9eed3726",
+      "rank": 5,
+      "title": "\"반도체 가상 실험 하루→1분\"…삼성·SK하이닉스, 엔비디아와 AI 공동개발 성과",
+      "publisher": "뉴스핌",
+      "url": "https://www.newspim.com/news/view/20261110000546",
+      "category": "AI 신기술 및 연구 동향",
+      "categoryBasis": "source",
+      "summary": "삼성전자와 SK하이닉스가 ‘엔비디아 AI 데이 서울 2026’에서 물리 시뮬레이션 AI 도구 ‘피직스네모’를 활용한 반도체 시뮬레이션 고속화 성과를 발표했다. 삼성전자는 CPU 멀티코어 환경에서 하루 걸리던 대면적 열·기계 해석을 GPU 환경에서 약 1분으로 줄여 1000~4000배 단축 효과를 얻었다고 밝혔다. SK하이닉스는 칩 단위 해석 모델이 32스레드 CPU 대비 30배 이상 빨라졌다고 설명했다.",
+      "publishedAt": "2026-11-10T14:19:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-006",
+      "articleId": "article-8b81654900da851f85af051c",
+      "rank": 6,
+      "title": "“놀고 있는 GPU 잡는다”…AIDC 병목 뚫는 ‘오픈K-클라우드’ 공개",
+      "publisher": "아이티데일리",
+      "url": "https://www.itdaily.kr/news/articleView.html?idxno=242814",
+      "category": "AI 신기술 및 연구 동향",
+      "categoryBasis": "source",
+      "summary": "ETRI가 ‘오픈K-클라우드 데브데이 2026’에서 이종 AI 반도체를 단일 클라우드로 묶는 쿠버네티스 기반 플랫폼 ‘오픈K-클라우드’의 실증 성과를 공개했다. 데이터센터 GPU 할당률은 75% 수준이지만 실질 가동률은 50~60%에 그친다는 분석과 함께 CPU 병목·스케줄링 제약을 원인으로 제시했다. 퓨리오사AI·리벨리온·텐스토렌트 가속기 자동 감지, 무중단 롤링 업데이트, 원격 가속 연산 분리 기술이 적용됐다.",
+      "publishedAt": "2026-11-10T15:29:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-007",
+      "articleId": "article-302137eedee79243d5c0687e",
+      "rank": 7,
+      "title": "[AI의 역습]AI 해킹 위협, 금융·민간 전방위 확산…정부·당국 “보안 체계 전면 개편”",
+      "publisher": "세계일보",
+      "url": "https://www.segyebiz.com/newsView/20261110515120",
+      "category": "AI 관련 보안",
+      "categoryBasis": "source",
+      "summary": "금융위원회는 9월 30일부터 11월 3일까지 금융권 37개사에서 침해사고 40건이 신고되고 약 47만3000건의 정보가 유출됐다고 밝혔다. 금융당국은 580여개사 전수점검 범위를 고객용 홈페이지에서 직원관리·제휴업무·개발·테스트 시스템까지 확대했다. 공격정보 통합관제시스템은 12월 시범운영을 거쳐 내년 1분기 전 금융권 활용을 추진하고, 망분리 규제 전면해제 TF에서 제로트러스트 등 대체 보안수단을 논의할 예정이다.",
+      "publishedAt": "2026-11-10T16:27:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-008",
+      "articleId": "article-4c070532806605a4519812db",
+      "rank": 8,
+      "title": "숭실대 AI안전성연구센터, AI 해커 속여 실제 서버 보호하는 기만 방어 기술 개발",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261110000262",
+      "category": "AI 관련 보안",
+      "categoryBasis": "source",
+      "summary": "숭실대 AI안전성연구센터 최대선 교수 연구팀이 AI 해킹 도구를 가짜 서버로 유인해 무력화하는 기만 방어 기술을 개발했다고 밝혔다. 자율 침투 AI ‘아르텍스’ 실험에서 방어가 없을 때 취약 웹 서버 60개 중 35개를 뚫던 공격이 방어 적용 후 실제 서버에는 한 건도 닿지 못했다. 정상 크롤러 117회 중 오분류는 없었고, 연구 결과는 arXiv(2611.07611)에 게재됐다.",
+      "publishedAt": "2026-11-10T13:23:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-009",
+      "articleId": "article-bcb6cc9a73a3d19ee49ac578",
+      "rank": 9,
+      "title": "해커도 AI, 방어도 AI…창과 방패 대결 시작 [해킹의 습격]",
+      "publisher": "KBS",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8709131",
+      "category": "AI 관련 보안",
+      "categoryBasis": "source",
+      "summary": "가상 은행 사이트 실험에서 해킹 AI가 22분 만에 계좌 정보 999건과 관리자 아이디·비밀번호를 빼냈고, 같은 조건에서 보안 AI는 침입 징후를 포착해 공격 경로 역추적과 패치 자동 생성으로 대응했다. 우리은행은 AI를 활용한 상시 모의 해킹으로 금융권 연쇄 해킹 피해를 막았다고 설명했다. 보안업계와 학계는 개별 기업 대응뿐 아니라 위협 정보의 신속한 공유도 중요하다고 지적했다.",
+      "publishedAt": "2026-11-10T21:07:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-010",
+      "articleId": "article-c320a0640930755e16386c93",
+      "rank": 10,
+      "title": "JB금융, 전북·광주銀 통합 'AI 콜센터' 깐다···지방금융 첫 사례",
+      "publisher": "뉴스웨이",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026110914533866459",
+      "category": "국내 금융권 AI 동향",
+      "categoryBasis": "source",
+      "summary": "JB금융지주가 오는 25일 전북은행·광주은행을 대상으로 그룹사 통합 AI 컨택센터 구축 사업에 착수한다. 자유 발화 기반 보이스봇은 발화 종료 후 0.5초 이내 응답, 의도 파악 정확도 93% 이상, 완결률 90% 이상을 목표로 한다. 개발기간은 11개월로 실제 서비스 시점은 내후년 초가 유력하며, 다국어 응대는 10개국어에서 18개국어까지 확대할 방침이다.",
+      "publishedAt": "2026-11-10T10:12:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-011",
+      "articleId": "article-6db5c03da69aa6ba6fcf4a4b",
+      "rank": 11,
+      "title": "대출 심사부터 수백조 자금배분까지… 은행 ‘AI 두뇌’ 경쟁",
+      "publisher": "IT조선",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000637",
+      "category": "국내 금융권 AI 동향",
+      "categoryBasis": "source",
+      "summary": "은행의 AI 활용이 고객 상담을 넘어 대출 심사와 자금배분 같은 핵심 업무로 확대되고 있다. 기업은행은 13억6426만원 규모의 여신포트폴리오 체계 개편 컨설팅 사업을 발주해 19일 우선협상대상자를 선정할 예정이고, NH농협은행은 지난달 AI 기반 최적 자산배분 분석체계를 구축했다. KB국민·신한·하나·우리 등 8개 은행은 AI 기반 소상공인 특화 신용평가모형을 시범운영 중이다.",
+      "publishedAt": "2026-11-10T14:57:00+09:00"
+    },
+    {
+      "id": "ai-2026-11-11-54f76963ada0-012",
+      "articleId": "article-818d3a1452901e3d73d4be61",
+      "rank": 12,
+      "title": "출시 전 AI로 소비자 위험 검토...한화손보, 금융 AI 챌린지 대상",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20112552",
+      "category": "국내 금융권 AI 동향",
+      "categoryBasis": "source",
+      "summary": "‘2026 금융 AI Challenge’에서 한화손해보험 직원 1인 팀 ‘10percent’의 ‘모의창구’가 대상인 금융위원장상을 받았다. AI로 구현한 가상고객 500명이 출시 전 상품 설명서를 읽고 소비자가 오해할 수 있는 조항을 약 20분 만에 찾아내는 서비스로, ELS 조기상환 조건 오해 사례 등이 확인됐다. 올해 대회에는 역대 최대인 1380개 팀 2102명이 참가해 7개 팀이 수상했다.",
+      "publishedAt": "2026-11-10T16:57:00+09:00"
+    }
+  ]
+}

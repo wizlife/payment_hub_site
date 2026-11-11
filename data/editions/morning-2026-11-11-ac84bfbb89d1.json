@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-11-ac84bfbb89d1",
+  "channel": "morning",
+  "date": "2026-11-11",
+  "title": "2026-11-11 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-001",
+      "articleId": "article-200184c093ea7e6d55596118",
+      "rank": 1,
+      "title": "금융결제원 CMS, 사업자의 자금수납 편의성 높인다",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003761411",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-002",
+      "articleId": "article-0b481bb61bd6efdc68a18348",
+      "rank": 2,
+      "title": "신현송 한은총재, ‘국제결제은행 CPMI’ 의장 선임",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004174110",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-003",
+      "articleId": "article-6fff4bc465fab77fee6760d4",
+      "rank": 3,
+      "title": "‘디지털 보안 총괄’ 금융보안원도 뚫렸다",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003761548",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-004",
+      "articleId": "article-2936f65269fef0f41872f849",
+      "rank": 4,
+      "title": "카카오페이, AI·DB로 보험대리업 승부수",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005602211",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-005",
+      "articleId": "article-fc5886b04cd2f9c0ef553e52",
+      "rank": 5,
+      "title": "은행연합회장 선임 절차 시작...13일 후보군 공개",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005439102",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-006",
+      "articleId": "article-105d1ef3d33f43d46ad46421",
+      "rank": 6,
+      "title": "트래블카드 다음은 애플페이·삼성월렛…은행권 해외결제 2차전",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005439190",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-007",
+      "articleId": "article-8f4e28c7a3c2461b2d44df10",
+      "rank": 7,
+      "title": "네이버·두나무 결합에 단서 붙나",
+      "publisher": "국민일보",
+      "url": "https://n.news.naver.com/article/005/0001884343",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-008",
+      "articleId": "article-c03607c841b51274a0cb3b0a",
+      "rank": 8,
+      "title": "코스피 상장사 5곳중 1곳, ESG 공시 준비 안 됐다",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005439312",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-009",
+      "articleId": "article-688a93ed2ac0dfcd4033e5ba",
+      "rank": 9,
+      "title": "3000억 특별출연금, 누가 더 낼까",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005602210",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-11-ac84bfbb89d1-010",
+      "articleId": "article-a499b51887a83ab8bdba0de9",
+      "rank": 10,
+      "title": "“떨어진 주가 배상하라” 집단소송 당한 젠슨 황",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004008922",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
