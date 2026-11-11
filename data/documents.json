@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T00:15:54.396004+09:00",
+  "updatedAt": "2026-11-12T05:01:52.576144+09:00",
   "window": {
     "from": "2026-07-22",
-    "to": "2026-11-09"
+    "to": "2026-11-10"
   },
   "scope": "지급결제·전자금융·인증·금융데이터·AI·보안·거래 보호 등 금융결제원 관련 공식 기관자료의 서지 목록. 첫 화면은 지급결제 중심. 원문 링크와 검증된 영문 자료의 국문 요약 제공. PDF 원문 미복제. 전체 자료의 완전 수집은 아님.",
   "coverage": [
@@ -111,6 +111,26 @@
     }
   ],
   "items": [
+    {
+      "id": "doc-hana-e5fb79ebc21b5d19",
+      "title": "HIF 월간 산업 이슈 (11월)",
+      "publisher": "하나금융연구소",
+      "institution": "hana",
+      "date": "2026-11-10",
+      "type": "report",
+      "series": "연구보고서",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37117",
+      "summary": "이번 호는 공식 요약 목차상 차세대 D램 상용화 경쟁, 건설 업황 회복과 양극화를 다루며, 정보보안 항목에서는 AI 에이전트가 'AI 레드팀' 역할로 금융보안 취약점을 공격하는 사례를 주제로 다룹니다.",
+      "region": "domestic",
+      "summaryStatus": "ready",
+      "focus": "related",
+      "language": "ko",
+      "summarySourceUrl": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37117",
+      "summaryBasis": "official-description",
+      "titleKo": ""
+    },
     {
       "id": "doc-hana-c20537f2d0763b8b",
       "title": "하나금융포커스 [제16권 21호]",
