@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-13-5d88384fb083",
+  "channel": "evening",
+  "date": "2026-11-13",
+  "title": "2026-11-13 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-13-5d88384fb083-001",
+      "articleId": "article-02d00ac3815943e9647fd2e5",
+      "rank": 1,
+      "title": "해킹 공식 사과한 금융보안원...금융위, 특정감사 착수키로",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20113730?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T18:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-002",
+      "articleId": "article-f61094cab1f4d731067a77b4",
+      "rank": 2,
+      "title": "[22회 스마트금융컨퍼런스] 조재박 네이버페이 CBO “AI 에이전트 결제...",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261112000249",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T18:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-003",
+      "articleId": "article-000f542fdaf1edf65dd80e80",
+      "rank": 3,
+      "title": "\"AI에 10만원까지만 송금 허용\"...아톤, 금융권 '디지털 위임장' 출시",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/tech/2026/11/12/2026111208443050444",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T08:45:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-004",
+      "articleId": "article-524aaaff74850ff320b95bf5",
+      "rank": 4,
+      "title": "카카오페이증권, AI로 주식 매도·이체까지 탐지...금융사기 대응 강화",
+      "publisher": "ezyeconomy.com",
+      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241786",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T13:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-005",
+      "articleId": "article-73748104c84bce177c3674c7",
+      "rank": 5,
+      "title": "주민센터부터 검사까지 릴레이 사칭...금감원, 신종 보이스피싱 경보 발...",
+      "publisher": "widedaily.com",
+      "url": "https://www.widedaily.com/news/articleView.html?idxno=303523",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T13:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-006",
+      "articleId": "article-52d6270aa01c3b05059344fb",
+      "rank": 6,
+      "title": "토큰증권 시행 3개월 앞으로...\"결제는 어떻게? 준비 미진\"",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261112117000008?input=1195m",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T15:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-007",
+      "articleId": "article-57b3082fd66bbcdda03a0fa2",
+      "rank": 7,
+      "title": "비댁스, 국회서 원화 스테이블코인 논의⋯“발행ᆞ관리ᆞ검증 분리해야...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2647551",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T16:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-008",
+      "articleId": "article-ffdfb15bd2486d8e44fe8dfd",
+      "rank": 8,
+      "title": "해킹 의심 때 거래소 입출금 차단 허용키로...28곳 금융보안원 가입 추진",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/437061",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T17:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-009",
+      "articleId": "article-8020fadf04db7e17f015ad22",
+      "rank": 9,
+      "title": "티머니, 서울 공항버스 3개 사와 10년 계약...내년 EMV·QR 결제 도입",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02899526645645064",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T10:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-010",
+      "articleId": "article-7014a5d737fdf668f982d966",
+      "rank": 10,
+      "title": "한국형 결제 표준 재추진... 이번엔 모바일 간편결제에 집중",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/11/12/CDF56QJBYJGPXJYPXCG6KFMSQE/",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T10:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-011",
+      "articleId": "article-ceb5244ea9c1368c01f8dd46",
+      "rank": 11,
+      "title": "스테이블코인 열차 놓칠라...한국은 발행 주체만 씨름",
+      "publisher": "데일리안",
+      "url": "https://www.dailian.co.kr/news/view/1713787/?sc=Naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T06:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-012",
+      "articleId": "article-a9b7b3348135cf421583d95c",
+      "rank": 12,
+      "title": "정보 유출로 대국민 사과...금융보안원 \"전산망 전수 점검\"",
+      "publisher": "news.tvchosun.com",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/12/2026111290212.html",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T17:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-013",
+      "articleId": "article-fc446f47c3a59a4e09598004",
+      "rank": 13,
+      "title": "수출업체 달러 매도에 환율 하락세...'강달러·AI 우려' 낙폭은 제한",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611121017256698",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T12:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-014",
+      "articleId": "article-94ed1afaf3a8e2517a53b9de",
+      "rank": 14,
+      "title": "국고채 담합 2500억 과징금에 은행권 법적 대응 저울질",
+      "publisher": "헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10934552?ref=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T09:13:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-13-5d88384fb083-015",
+      "articleId": "article-57f62808babef125aba1a24b",
+      "rank": 15,
+      "title": "집단대출·빚투 재개에 한 달 새 5조 증가... 은행 가계대출 1200조 넘었다",
+      "publisher": "서울신문",
+      "url": "https://www.seoul.co.kr/news/economy/finance/2026/11/12/20261112029001?wlog_tag3=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-12T05:05:00+09:00"
+    }
+  ]
+}
