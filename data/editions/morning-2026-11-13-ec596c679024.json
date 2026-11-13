@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-13-ec596c679024",
+  "channel": "morning",
+  "date": "2026-11-13",
+  "title": "2026-11-13 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-13-ec596c679024-001",
+      "articleId": "article-6d408d625a7ba27841db7a01",
+      "rank": 1,
+      "title": "해킹 공식 사과한 금융보안원…금융위, 특정감사 착수키로",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004681648",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-002",
+      "articleId": "article-d8c893f68723403c1f2580ff",
+      "rank": 2,
+      "title": "가상자산 해킹 의심만 돼도 … 거래소 입출금 즉시 막는다",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005762954",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-003",
+      "articleId": "article-9a0d4d8e223a1ba357fc3e22",
+      "rank": 3,
+      "title": "애플페이 결국 인뱅이 먼저…'삼성페이' 눈치보다 기회 놓친 카드사",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261112143005255",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-004",
+      "articleId": "article-7f9720c956f01d00911b0ef0",
+      "rank": 4,
+      "title": "같은 매장·같은 카드인데 할인 쏙 빠졌다? 키오스크 'PG 승인' 주의보",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2644762",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-005",
+      "articleId": "article-1d77521d250ed9ce6e39ec0a",
+      "rank": 5,
+      "title": "[22회 스마트금융컨퍼런스] AI에 금융 맡기는 시대, 관건은 '신뢰 인프라' 구축",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003485229",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-006",
+      "articleId": "article-e0d9714cb3887e7a83963690",
+      "rank": 6,
+      "title": "네이버, AI 팩토리·에이전트·물류 ‘3대 성장축’ 띄운다",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004681611",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-007",
+      "articleId": "article-7bfcaceae6a30881f17b2beb",
+      "rank": 7,
+      "title": "금융지주 ‘거수기 이사회’ 차단…회장 3연임 땐 ‘75% 찬성’ 필요",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003564882",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-008",
+      "articleId": "article-c7f5571d18231f30b52f1cdf",
+      "rank": 8,
+      "title": "‘칩 통제’ 불똥 튀나 삼전닉스 긴장…5000억달러 순환금융도 위험 노출[젠슨 황 스캔들]",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004681654",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-009",
+      "articleId": "article-3876392149e1a54cd1eb29c5",
+      "rank": 9,
+      "title": "충청 메가프로젝트 첫삽…李대통령 “112개 기업, 24조 추가투자”",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004681702",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-13-ec596c679024-010",
+      "articleId": "article-af45f64fe0a8df300859268c",
+      "rank": 10,
+      "title": "성과급 3억 이상 받는 금융사 직원 연봉 공개",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005353261",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
