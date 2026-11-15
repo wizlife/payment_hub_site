@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-16-8124d043706a",
+  "channel": "evening",
+  "date": "2026-11-16",
+  "title": "2026-11-16 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-16-8124d043706a-001",
+      "articleId": "article-19519d5470e4cc726cf932ea",
+      "rank": 1,
+      "title": "청소년·외국인도 '내 계좌 일괄조회' 열린다⋯금융결제원 12월 시행 목...",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2647015",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-16T05:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-002",
+      "articleId": "article-4f1dd2437cf960513106820d",
+      "rank": 2,
+      "title": "해킹에 고개 숙인 금융보안원...금융위, 16일부터 특정감사",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20113719?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-13T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-003",
+      "articleId": "article-8d34ffcc5566f4a916a176c2",
+      "rank": 3,
+      "title": "수수료에 발목 잡힌 애플페이, 간편결제 부상에 입지 좁아져",
+      "publisher": "조선일보",
+      "url": "https://biz.chosun.com/stock/finance/2026/11/14/LF6RRMZV2RCUZBYHOVTRSKEU4M/",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-14T07:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-004",
+      "articleId": "article-e7ce9991d4ae74e83e68cb1a",
+      "rank": 4,
+      "title": "금융권 연쇄 해킹에⋯금감원, 업권별 보안점검 확대",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2648244",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-15T10:34:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-005",
+      "articleId": "article-8c053564384ca45f7a7a6355",
+      "rank": 5,
+      "title": "와이어엑스, 전용 계좌·카드 갖춘 AI 결제 에이전트 나보카 공개",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/437520",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-13T11:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-006",
+      "articleId": "article-e5f0869e54364440c94455b5",
+      "rank": 6,
+      "title": "또 금융권 해킹...KB캐피탈·코인마켓 '플라이빗' 개인정보 유출",
+      "publisher": "노컷뉴스",
+      "url": "https://www.nocutnews.co.kr/news/6606419",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-13T10:37:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-007",
+      "articleId": "article-7019d0eb00e1af910e893961",
+      "rank": 7,
+      "title": "스테이블코인 카드 결제, 월 13억달러 돌파... 1년 새 3배 성장",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611151854452362",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-15T18:56:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-008",
+      "articleId": "article-61d0873ae5723012e2cb3878",
+      "rank": 8,
+      "title": "\"주말에 갈 식당 찾아서 예약해줘\" 말했더니...'놀라운 결과' [정지은의...",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202611146124i",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-14T11:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-009",
+      "articleId": "article-e5c5e2cf35d63ef9a7f6ce55",
+      "rank": 9,
+      "title": "해킹 당한 금융보안원 “공격 IP 246개 차단완료...국적은 한국”",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12208349",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-13T19:51:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-010",
+      "articleId": "article-100b740e672990264586d38d",
+      "rank": 10,
+      "title": "미래에셋 계열사 해킹서 법 위반 확인...금융권 보안점검 확대",
+      "publisher": "jnilbo.com",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082757",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-15T09:35:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-011",
+      "articleId": "article-88b6593c1edc043ce49db432",
+      "rank": 11,
+      "title": "금감원, 은행 탄력점포 확대 추진...현역병 대부업 신용대출 제한",
+      "publisher": "뉴스1",
+      "url": "https://www.news1.kr/finance/general-finance/6354274",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-15T12:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-012",
+      "articleId": "article-0d7e14a361e2df4e74eff48b",
+      "rank": 12,
+      "title": "[단독]외형 빠르게 키운 지방은행, 연체 리스크도 ↑...전북·광주 'NPL 4...",
+      "publisher": "아시아경제",
+      "url": "https://view.asiae.co.kr/article/2026111311533788312",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-15T10:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-013",
+      "articleId": "article-877221f7753d6cc6d9d9cd8a",
+      "rank": 13,
+      "title": "강달러에 환율 반등 압력...'반도체 달러'가 막아설까[주간외환전망]",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01088966645646048",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-15T05:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-16-8124d043706a-014",
+      "articleId": "article-e4830fde3af2ece2bbffcb2d",
+      "rank": 14,
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444759",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-14T08:02:00+09:00"
+    }
+  ]
+}
