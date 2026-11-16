@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-16-51ebcfea5ac4",
+  "channel": "morning",
+  "date": "2026-11-16",
+  "title": "2026-11-16 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-001",
+      "articleId": "article-96b405582155848420498b11",
+      "rank": 1,
+      "title": "잠자는 카드 포인트, 내년 5월부터 지역화폐로 전환 가능",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003762436",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-002",
+      "articleId": "article-452ca206a0392c12b68c9ee5",
+      "rank": 2,
+      "title": "분기 순익 첫 1조…정진완 우리은행장 연임한다",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004681950",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-003",
+      "articleId": "article-4ae7d16343252e512b97e422",
+      "rank": 3,
+      "title": "우리은행, 금융업무 시스템 '새판' 짠다…신상품 출시 빨라진다",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003485658",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-004",
+      "articleId": "article-4a318937dbbbec5d7edc12c4",
+      "rank": 4,
+      "title": "이억원 금융위원장, 유럽 금융당국과 협력 확대",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005604414",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-005",
+      "articleId": "article-b7db33a028a9bab872777bfd",
+      "rank": 5,
+      "title": "전국민 무료 ‘모두의 AI’ 내달 출시… 공공데이터 접근 권한 등 기준 정비해야",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005604502",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-006",
+      "articleId": "article-b1c929b1f28737f25674aa61",
+      "rank": 6,
+      "title": "직장인 언제 가라고… 주말 문 여는 탄력점포 10%뿐",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003699580",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-007",
+      "articleId": "article-90853e54cd9bef4636809411",
+      "rank": 7,
+      "title": "'충성론' 퇴출… 현역병 대부업 대출 연내 금지",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005604415",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-008",
+      "articleId": "article-0e8aa8630d8f1dcd1d9ff8f1",
+      "rank": 8,
+      "title": "젠슨 황 퇴진에 670조원 'AI금융' 흔들 … 연준도 \"위험\" 경고",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005764004",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-16-51ebcfea5ac4-009",
+      "articleId": "article-adb54f59f511a901cd6a5252",
+      "rank": 9,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444834",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
