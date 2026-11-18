@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "uiVersion": "ca80ae9ae0798f8d33869860823986c9f672f14d62b8c6b90aee1851b399af64",
-  "sourceDigest": "b87dee62a29539199a324b11ae040483803c13b9db4cc6817cdb6b4d82d0da32",
+  "sourceDigest": "9223cf85ef8e248d266600e507ea1b89f1226d14e24ddb3cebf78ff3cd7ee24f",
   "files": {
-    "data/catalog.json": "704bbc2dcad8c46921aecacfb0bfa81733a5aae5300ca436b442700082f34a60",
+    "data/catalog.json": "413c18c0190ce5524d27a44f10a3a16c0485f0b0cf70f354d1abf099fff5e409",
     "data/documents.json": "a02627950dbeb815dc962a48b1a1b9bd3c91b28e81f1f5658e74ba729f28e74d",
     "data/editions/ai-2026-09-01-5f8374720465.json": "aa86eb55bc79273399663f302dd4e319198d2673effd8de4bb08818c0e644037",
     "data/editions/ai-2026-09-02-5a0c7137f1a8.json": "cfd7ba0336e51c4db03be04d7566f166e233a24589b123d406d05e61b0594aea",
@@ -71,6 +71,7 @@
     "data/editions/ai-2026-11-13-ef3e7aed0e98.json": "7b76dd5d5d5276ffed1eee8bcb1a3a7be0762db2a658c034b845874aafe7b1d8",
     "data/editions/ai-2026-11-16-dcfe80bae23c.json": "4a066462b2932926d1c43cc1ab107c5c2d97e595e3a3735096b09d66a6fe780b",
     "data/editions/ai-2026-11-17-99903408f8fa.json": "b6d6b76031252901c1a33d8a8c6ea1f586851e299f226102e0a92b2664dbe118",
+    "data/editions/ai-2026-11-18-8d62a614346a.json": "67b6a5db47aa6fd5953625ce6047dc9773fe0e86ac3f49b03bead554530edd49",
     "data/editions/evening-2026-09-01-62edd6cd4146.json": "c91c366ecd83c8cbfb4e41f17ffa2cea5f1e31ecba05f1b60e0dce5a90565d68",
     "data/editions/evening-2026-09-01-c10ede7d9180.json": "3616a2c22210d99ac05fd5b995a7c6d909ef77bde3c4d51909528f5474d5990c",
     "data/editions/evening-2026-09-02-dd34a18c0da6.json": "98f78530f4003afc893f3c45c90838e23c90f84e37aac8221e99efdcd2f1bf88",
@@ -197,9 +198,10 @@
     "data/editions/morning-2026-11-13-ec596c679024.json": "6590221a054b8d6cf86004bd50b7028780cde0d9dfc71a3d18cec079eac9d303",
     "data/editions/morning-2026-11-16-51ebcfea5ac4.json": "6febd67fd86719924a83f6e675114b474218cf839a684e3f84afc0b5f31e901e",
     "data/editions/morning-2026-11-17-63dcb048b709.json": "601ccde82b03de639b8671de03ac2c2878f19d74cd70c8823661c7c4abde1cea",
-    "data/search-manifest.json": "e5f9ca4e02f5710690d0c2e419a8b687e9ebde091fe25dffb8eef13a336f0e70",
-    "data/search-records.json": "994f1a968484474dcd271838021d1fdcbdb9ca709a271d3b230e35f49d139404",
+    "data/editions/morning-2026-11-18-7678f55e9e09.json": "ff51a5ee6dddfbf720e35d513c75af5bedbff29c14891286581e6f6cdcb9f6f4",
+    "data/search-manifest.json": "17558536d3b718f3683826e47a8392ed18b24536a51093c59bb958782feda224",
+    "data/search-records.json": "a0c9237bb5fbf309d5edf79a0e631f580efd24d3cd0d7b222383a3986964e6f7",
     "report-institutions.json": "c5de985dfc98f352d7ee6da12e510bc1c025085e159df8a1e113cf86681cded2"
   },
-  "version": "675372a8f2cc8c12ceba59b8a554802fa5cd3100e8ff51033e8f2bcd024af399"
+  "version": "2a5cc337f1aaf3734f86dd2fb788ca904a00b67f33091c3f9b7b4e90219a340a"
 }
