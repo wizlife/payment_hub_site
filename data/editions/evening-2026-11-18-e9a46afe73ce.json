@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-18-e9a46afe73ce",
+  "channel": "evening",
+  "date": "2026-11-18",
+  "title": "2026-11-18 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-001",
+      "articleId": "article-26215d6f0d45cdc164928263",
+      "rank": 1,
+      "title": "싱가포르·독일, CBDC로 국경 간 외환 결제 시험...결제 리스크 줄인다",
+      "publisher": "digitaltoday.co.kr",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716080",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T14:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-002",
+      "articleId": "article-8e498131147af8cb281f580d",
+      "rank": 2,
+      "title": "KB증권, 채권 토큰증권 발행·정산·상환 전 과정 실증",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611171435246994",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T14:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-003",
+      "articleId": "article-8e1fc0ba7cd8f0b90e2582e6",
+      "rank": 3,
+      "title": "[정책포커스] 금융위, 가상자산사업자에 대한 규제 고도화...금융보안원...",
+      "publisher": "sisacast.kr",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=101910",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T10:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-004",
+      "articleId": "article-e7b97685f59547b137b8ca3f",
+      "rank": 4,
+      "title": "갈수록 현금 찾기 어려워진다...2년새 ‘4대 은행 ATM’ 1268대 사라져",
+      "publisher": "한겨레",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1287711.html",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T14:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-005",
+      "articleId": "article-6ca96ca61cbac1e05a950407",
+      "rank": 5,
+      "title": "챗GPT가 결제까지 대신한다...오픈AI, 'AI 지갑' 출시",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/202611171429i",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T11:49:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-006",
+      "articleId": "article-55127d697cdfcaafebc48336",
+      "rank": 6,
+      "title": "금감원, 전자금융업·온투업계에 'AI 해킹' 점검 요청",
+      "publisher": "YTN",
+      "url": "https://www.ytn.co.kr/_ln/0102_202611171128115684",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T11:28:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-007",
+      "articleId": "article-51265767cf83859713fe1f5a",
+      "rank": 7,
+      "title": "가민페이 상륙에 애플페이 확장까지... 뜨거워지는 간편결제 대전",
+      "publisher": "조선일보",
+      "url": "https://www.chosun.com/economy/tech_it/2026/11/17/LY72PS3DE5GRLNPWGQN7ZWXKQM/",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T06:01:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-008",
+      "articleId": "article-f2a4636a3e5893d4c37e4430",
+      "rank": 8,
+      "title": "금융권 AI 해킹에 개인정보 11만건 유출...시민단체 \"피해 보상 강화해야...",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/society/2026/11/17/2026111711393930046",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T15:09:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-009",
+      "articleId": "article-f7e304e7b299819a60197270",
+      "rank": 9,
+      "title": "금융권 해킹에 대부업권도 보안 점검...\"취약점 방치 시 엄정 제재\"",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261117_0003870826",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T14:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-010",
+      "articleId": "article-86c6ca8ef41cb1dfae781711",
+      "rank": 10,
+      "title": "금융권 해킹 '약한 고리' 조인다...전금·온투·대부업 전수점검",
+      "publisher": "thepublic.kr",
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=327151",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T17:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-011",
+      "articleId": "article-a50718171037fe8fa96b3f24",
+      "rank": 11,
+      "title": "금융사 해킹 조사하는 금융보안원도 공격받아...금융위 소비자 피해 방지...",
+      "publisher": "dailypop.kr",
+      "url": "http://www.dailypop.kr/news/articleView.html?idxno=104620",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T13:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-012",
+      "articleId": "article-fa6640722063bfe1572e4eb6",
+      "rank": 12,
+      "title": "금융당국, 금융 플랫폼 274곳 사이버 보안 점검 강화...외부 노출 시스템...",
+      "publisher": "jemin.com",
+      "url": "https://www.jemin.com/news/articleView.html?idxno=847461",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T11:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-013",
+      "articleId": "article-77d25ce19470e1cd51663ebf",
+      "rank": 13,
+      "title": "지역 중소·중견기업에 4.5조원 대출 지원...은행권 3000억원 출연",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261117_0003870963",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T12:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-014",
+      "articleId": "article-72cdfd21a476f7260000afca",
+      "rank": 14,
+      "title": "[단독] \"추가 자료 요구 시 금융위 승인\"..내주 금융감독원 행정 쇄신안...",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611171523306497",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T17:16:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-18-e9a46afe73ce-015",
+      "articleId": "article-6a89a88915c14354ccf80142",
+      "rank": 15,
+      "title": "씨티 \"한은, 이달 기준금리 추가 인상할 것⋯하방리스크는 민간소비\"",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2649268",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-17T14:36:00+09:00"
+    }
+  ]
+}
