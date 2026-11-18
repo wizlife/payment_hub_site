@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-19-d1d6596e59db",
+  "channel": "evening",
+  "date": "2026-11-19",
+  "title": "2026-11-19 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-001",
+      "articleId": "article-f33502173b06e3ab13bbf800",
+      "rank": 1,
+      "title": "호우 피해 줄이고 체납액 414억 징수...행안부 직원들 특별포상",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261118_0003873175",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T15:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-002",
+      "articleId": "article-a38a028fffd9c0071190d522",
+      "rank": 2,
+      "title": "금융위 \"토큰증권 퍼블릭 체인 지향...비금전신탁 연내 입법 노력\"",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03981926645647032",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T16:49:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-003",
+      "articleId": "article-cf2ad24e4bcc72e1c91959ae",
+      "rank": 3,
+      "title": "갤럭시아머니트리 \"한·일 간 스테이블코인 무역송금 POC 완료\"",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026111837506",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T09:31:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-004",
+      "articleId": "article-d6456f03dbd662df01f8dd17",
+      "rank": 4,
+      "title": "BC카드, 피클과 AI 에이전트 결제 실증⋯사업화 가능성 검토",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2649943",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T16:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-005",
+      "articleId": "article-6a8eaa0b056a08defebcee15",
+      "rank": 5,
+      "title": "현대카드, JP모간과 AI 금융거래 검증⋯환전·송금까지 자동화",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2649958",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T16:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-006",
+      "articleId": "article-d07f310e04c66b8a30030e54",
+      "rank": 6,
+      "title": "자바서 치명적 보안 취약점 발견...금융당국, 전 금융권 긴급 대응",
+      "publisher": "industrynews.co.kr",
+      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89782",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T16:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-007",
+      "articleId": "article-44963e030535f2838356e53c",
+      "rank": 7,
+      "title": "금융권 IT자산 관리 의무화...대형사 취약점 점검 연 2회로",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2649443",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-008",
+      "articleId": "article-cc7bd7f9396f27b764aa32b5",
+      "rank": 8,
+      "title": "금융당국, 금융권에 '자바 보안 취약점' 패치·점검 지시",
+      "publisher": "news.bizwatch.co.kr",
+      "url": "https://news.bizwatch.co.kr/article/finance/2026/11/18/0010",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T09:58:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-009",
+      "articleId": "article-08968a8a24720a6463b82ec2",
+      "rank": 9,
+      "title": "9월 시중은행 연체율 10년래 '최고'",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611181026143764",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T10:33:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-010",
+      "articleId": "article-5e8959afbd7bfff441e5e9ce",
+      "rank": 10,
+      "title": "'루피아화 가치 사상 최저' 인니, 기준금리 0.25%p 깜짝 인상",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261118169600104?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T17:59:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-19-d1d6596e59db-011",
+      "articleId": "article-302f04c52a4b52d36958a301",
+      "rank": 11,
+      "title": "금감원 여직원 '최다'인데...여성임원 ‘0명'",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04001606645647032",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-18T16:51:00+09:00"
+    }
+  ]
+}
