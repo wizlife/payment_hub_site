@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-19-0d62551bf76c",
+  "channel": "morning",
+  "date": "2026-11-19",
+  "title": "2026-11-19 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-001",
+      "articleId": "article-df49b1fa6b243680e93e31d5",
+      "rank": 1,
+      "title": "카카오페이·토스도 '주민등록증' 진위확인…24일부터 서비스 확대",
+      "publisher": "뉴스1",
+      "url": "https://n.news.naver.com/article/421/0009296611",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-002",
+      "articleId": "article-404eaabac3c098e4e59bac72",
+      "rank": 2,
+      "title": "쇼핑 대신한 AI, 은행 문턱서 멈췄다…보안과 편의의 딜레마",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261118152309615",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-003",
+      "articleId": "article-f953a67d122a536f97532278",
+      "rank": 3,
+      "title": "현대카드, AI에이전트로 환전·송금…가상법인간 거래 성공",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004683598",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-004",
+      "articleId": "article-f8f5b1f25d14ccfeecceaf35",
+      "rank": 4,
+      "title": "감당 못할 주거비에…‘월세페이’ 우후죽순",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004683673",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-005",
+      "articleId": "article-7263a24d4b9d60d583fd78f7",
+      "rank": 5,
+      "title": "대형 금융사 보안점검 연 2회로 늘린다…모든 IT자산 관리대상에",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003487133",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-006",
+      "articleId": "article-c6830fdeb66eca5a99e3c175",
+      "rank": 6,
+      "title": "전국구 은행 꿈꾸는 iM… 제주-호남 금융시장 공략",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003763534",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-007",
+      "articleId": "article-b9a8e22108d71785a64b7e91",
+      "rank": 7,
+      "title": "지방금고 유치전, 중요해진 '지역재투자'",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005443240",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-008",
+      "articleId": "article-e22cc412ec1e406a3e9bf00d",
+      "rank": 8,
+      "title": "코인 빙하기에 두나무·빗썸 '적자'",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005606349",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-19-0d62551bf76c-009",
+      "articleId": "article-ff8550b82139b87c2af13219",
+      "rank": 9,
+      "title": "KDI “韓경제 내년이 더 좋다”…성장률 3.9%로 상향",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004683506",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
