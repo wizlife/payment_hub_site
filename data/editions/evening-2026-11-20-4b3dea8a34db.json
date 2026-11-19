@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-20-4b3dea8a34db",
+  "channel": "evening",
+  "date": "2026-11-20",
+  "title": "2026-11-20 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-001",
+      "articleId": "article-1188420953a70d9d8a98b15e",
+      "rank": 1,
+      "title": "디지털자산법 정부안 공개 임박...은행·카드사 스테이블코인 사업 어디...",
+      "publisher": "news.mtn.co.kr",
+      "url": "https://news.mtn.co.kr/article/2026111911160260873",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T11:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-002",
+      "articleId": "article-3df1c86eeffcc63f2676324d",
+      "rank": 2,
+      "title": "예보, 예금토큰 보호체계 점검 착수...'디지털 예금' 제도권 편입 신호탄",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261119000072",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T09:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-003",
+      "articleId": "article-42eb08cb81ccced528c90eb7",
+      "rank": 3,
+      "title": "저축은행 교육관리 사이트 '해킹'...직원 개인정보 유출",
+      "publisher": "뉴스1",
+      "url": "https://www.news1.kr/finance/general-finance/6359146",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T10:12:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-004",
+      "articleId": "article-e4b7463c12b68356965cf898",
+      "rank": 4,
+      "title": "1억 싱가포르달러 토큰화 어음, CBDC로 결제했다",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/blockchain/440562",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T14:16:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-005",
+      "articleId": "article-17861e1aa892e49fa91503dd",
+      "rank": 5,
+      "title": "금융위, 금융보안원 관리 의사운영팀에서 한다고?",
+      "publisher": "news.bizwatch.co.kr",
+      "url": "https://news.bizwatch.co.kr/article/finance/2026/11/17/0042",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T08:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-006",
+      "articleId": "article-667b8ae1095fb70fcd8d5463",
+      "rank": 6,
+      "title": "싱가포르, 토큰화 예금·머니마켓펀드 간 첫 DvP 파일럿 완료",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/440720",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T18:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-007",
+      "articleId": "article-1e142dc14c1d496f83d10447",
+      "rank": 7,
+      "title": "망분리 빗장 푸는 금융권...안방 보안, 외산에 내줄라",
+      "publisher": "sidae.com",
+      "url": "https://www.sidae.com/article/2026111714214050843",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T05:30:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-008",
+      "articleId": "article-8c0c079a352194782b31a478",
+      "rank": 8,
+      "title": "해시드, AI 송금·결제 시제품 발굴···9팀 수상",
+      "publisher": "hansbiz.co.kr",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=884973",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T08:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-009",
+      "articleId": "article-bb35e56e82247233d751155f",
+      "rank": 9,
+      "title": "4대은행 올해 고정이하여신 23% 늘 때 대손충당금 2% 증가",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261118159600002?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T05:51:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-010",
+      "articleId": "article-d97f2143780e77a753e554ee",
+      "rank": 10,
+      "title": "금감원 쇄신안 이르면 다음 주 발표...금융위 검사·제재 관여 확대에 내...",
+      "publisher": "국민일보",
+      "url": "https://www.kmib.co.kr/article/20261119501381",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T15:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-20-4b3dea8a34db-011",
+      "articleId": "article-6f300aacbc6218f3c73580b6",
+      "rank": 11,
+      "title": "“해외 안가는데 환율 뭔 상관?”...생활비 16만원 절약효과 있다는데",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12213429",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-19T12:01:00+09:00"
+    }
+  ]
+}
