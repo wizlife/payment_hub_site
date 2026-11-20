@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-20-b2b088cf98b6",
+  "channel": "morning",
+  "date": "2026-11-20",
+  "title": "2026-11-20 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-001",
+      "articleId": "article-9f02d27a291bd254a11a1b54",
+      "rank": 1,
+      "title": "우리銀 정진완 ‘연임’ 물꼬 텄지만… 4대 은행장은 안갯속",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005607057",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-002",
+      "articleId": "article-266f6aab31d3ffa667ba249e",
+      "rank": 2,
+      "title": "'이재근號' 닻 올리는 KB금융…세대 교체 넘어 '새 성장 방정식' 시험대",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261119141959104",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-003",
+      "articleId": "article-99165d7686d9965def7bc010",
+      "rank": 3,
+      "title": "네이버페이·업비트 한집이 되면…쇼핑 적립금, 현금처럼 쓸 수 있나",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003701394",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-004",
+      "articleId": "article-747bd758514ac63db4833cff",
+      "rank": 4,
+      "title": "외국인 통장 경쟁 뛰어든 인뱅 3사…다음 과제는 대출",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2650475",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-005",
+      "articleId": "article-d4599c25efb6666936d59cbe",
+      "rank": 5,
+      "title": "인뱅 3사 실적 ‘훈풍’… 2026년 3분기 누적 순익 6000억 넘어",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004176625",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-006",
+      "articleId": "article-d3a0ec24ce02db815e0aa749",
+      "rank": 6,
+      "title": "기업금융 키운 농협銀, 첫 순익 2조 눈앞",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005356035",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-007",
+      "articleId": "article-b944fcb9767972858c903abf",
+      "rank": 7,
+      "title": "3년간 안 찾아간 실손보험금 최대 1조원, 내년부터 앱으로 한 번에 찾아 청구 가능",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004010661",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-008",
+      "articleId": "article-9a9699594fe90ee2fd003c2b",
+      "rank": 8,
+      "title": "연쇄 해킹에 놀란 은행권, ‘화이트해커' 모시기 경쟁",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006412760",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-009",
+      "articleId": "article-3cf06435f6502cf020e2b33a",
+      "rank": 9,
+      "title": "내수는 꽁꽁… K자형 양극화 심화",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005607082",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-20-b2b088cf98b6-010",
+      "articleId": "article-edb1a237f7eb9ac2c1184962",
+      "rank": 10,
+      "title": "통화 긴축 우려에 비트코인 ‘날개 없는 추락’",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004176594",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
