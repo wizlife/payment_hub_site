@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-23-dd1c6e960775",
+  "channel": "evening",
+  "date": "2026-11-23",
+  "title": "2026-11-23 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-001",
+      "articleId": "article-2ac39d59daa6e0ee8ea169d1",
+      "rank": 1,
+      "title": "카카오페이도 토스도...내일부터 주민등록증 사진까지 확인",
+      "publisher": "SBS",
+      "url": "https://biz.sbs.co.kr/article_hub/20000348029?division=NAVER",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-22T14:48:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-002",
+      "articleId": "article-4cf1d905a2a8beb7e3e464de",
+      "rank": 2,
+      "title": "카카오페이·토스서도 '주민등록증 진위확인'...사진정보까지 검증한다",
+      "publisher": "데일리안",
+      "url": "https://www.dailian.co.kr/news/view/1718058/?sc=Naver",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-22T12:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-003",
+      "articleId": "article-6c2cbf12b512befc463b6b8e",
+      "rank": 3,
+      "title": "인터넷지로 지방세입금 조회·납부 중단...22일 오전 9시까지",
+      "publisher": "vegannews.co.kr",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=409108",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-22T03:32:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-004",
+      "articleId": "article-ecb011ddc35dbb745612cabf",
+      "rank": 4,
+      "title": "카카오페이·토스에서 23일부터 주민등록증 진위확인 가능",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611221444005684",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-22T14:53:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-005",
+      "articleId": "article-8e9065fd402e067a1f9ea952",
+      "rank": 5,
+      "title": "DBS, 기관 고객에 USDC 발행·상환...미·싱가포르 토큰화 예금 송금",
+      "publisher": "tokenpost.kr",
+      "url": "https://www.tokenpost.kr/news/breaking/441660",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-21T00:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-006",
+      "articleId": "article-91d31a12b9eaecd5fddda842",
+      "rank": 6,
+      "title": "디지털자산법 정부안 곧 공개⋯원화 스테이블코인 결제 오픈 기대",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2650950",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-22T14:26:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-007",
+      "articleId": "article-4a41473c34b8976a71048cca",
+      "rank": 7,
+      "title": "BC카드, 피클과 AI 에이전트 결제 기술 검증 '맞손'",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261120_0003877245",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-21T09:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-008",
+      "articleId": "article-d0b615ee6385a05f7152cfe4",
+      "rank": 8,
+      "title": "양자컴퓨터 공격도 막을 수 있게...양자내성암호에 주목하는 금융권",
+      "publisher": "이데일리",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01672806645648016",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-21T08:02:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-009",
+      "articleId": "article-32df73c8c3b8da88b1e421c8",
+      "rank": 9,
+      "title": "AI가 환전 견적 비교하고 송금까지...현대카드, JP모간과 PoC",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261120_0003877267",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-21T10:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-010",
+      "articleId": "article-f1a7b2a1740e34ee441b02b0",
+      "rank": 10,
+      "title": "[경제 이슈] 한국은행, \"자산토큰화는 결제의 안전성부터 화폐 단일성까...",
+      "publisher": "sisacast.kr",
+      "url": "http://www.sisacast.kr/news/articleView.html?idxno=101930",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-20T09:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-011",
+      "articleId": "article-53032c247ddac8bb60aa40c1",
+      "rank": 11,
+      "title": "애플페이 확산 시 연 3000억 국부 유출...간편결제 유료화 도미노 우려",
+      "publisher": "marketnews.co.kr",
+      "url": "https://www.marketnews.co.kr/news/articleView.html?idxno=80025",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-20T10:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-012",
+      "articleId": "article-76e89627ebebbfa0262e3a2c",
+      "rank": 12,
+      "title": "금융권 IT자산 관리 의무 강화되나...대형 금융사 보안 사각지대 줄인다",
+      "publisher": "lcnews.co.kr",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=211716",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-20T08:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-013",
+      "articleId": "article-96af7769012fa5629da6d1e2",
+      "rank": 13,
+      "title": "[금융보안원 참사] 中 은행·보험·증권·카드가 2차 표적···사이버 경...",
+      "publisher": "womaneconomy.co.kr",
+      "url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=261364",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-20T06:00:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-014",
+      "articleId": "article-1083bb718322cb1533c9e6d6",
+      "rank": 14,
+      "title": "증권사 보안점검 연 2회로...HTS·MTS 관리비용 부담 커진다",
+      "publisher": "ebn.co.kr",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1732432",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-20T10:22:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-015",
+      "articleId": "article-9ca07cd50207184094fce05b",
+      "rank": 15,
+      "title": "지방은행 깡통대출 2조 넘어",
+      "publisher": "한국경제",
+      "url": "https://www.hankyung.com/article/2026112224721",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-22T18:11:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-016",
+      "articleId": "article-ee45dd7864ebeca29a9c0569",
+      "rank": 16,
+      "title": "금감원, 케이뱅크 정기검사 착수...해킹 대응체계 집중 점검 전망",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261120_0003876216",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-20T09:41:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-017",
+      "articleId": "article-8ef492368ccae71a94500b23",
+      "rank": 17,
+      "title": "\"한은, 26일 기준금리 인상\" 한목소리...10곳 중 9곳 \"내년 3.50%\" [금통위...",
+      "publisher": "뉴스1",
+      "url": "https://www.news1.kr/economy/trend/6361408",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-22T06:29:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-23-dd1c6e960775-018",
+      "articleId": "article-46992fdfeb230e859f775ec4",
+      "rank": 18,
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445844",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-21T08:02:00+09:00"
+    }
+  ]
+}
