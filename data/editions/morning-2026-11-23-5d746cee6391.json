@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-23-5d746cee6391",
+  "channel": "morning",
+  "date": "2026-11-23",
+  "title": "2026-11-23 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-23-5d746cee6391-001",
+      "articleId": "article-6c410681033224e4a2042d02",
+      "rank": 1,
+      "title": "행안부 신분증 검증망, 카카오페이·토스까지 확대…전자 금융 안전성 강화",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003488224",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-002",
+      "articleId": "article-4d0ad1fc3b9e36553460923d",
+      "rank": 2,
+      "title": "‘블랙 먼데이’ 우려에…증안펀드 꺼낸 당국",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003567046",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-003",
+      "articleId": "article-fcd637ac13b228e044dac2fd",
+      "rank": 3,
+      "title": "한전도 털렸다…주민번호 포함 152만건 유출",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005767335",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-004",
+      "articleId": "article-d206004189eda0f64704e672",
+      "rank": 4,
+      "title": "AI 해킹 위협 커지는데…‘이사회 역량표’서 보안은 빠졌다",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004684840",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-005",
+      "articleId": "article-a6651d47fb971aa03c73bceb",
+      "rank": 5,
+      "title": "AI가 무효확인서 판독…금감원, 피해자 구제 속도 10배 높인다",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006413672",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-006",
+      "articleId": "article-2c4de9df43e934cfc5517ccd",
+      "rank": 6,
+      "title": "사고 나면 늦다…농협은행, 에이전틱 AI로 '여신사고 제로' 굳히기",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003488247",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-007",
+      "articleId": "article-ceaf7b187782f6def851676e",
+      "rank": 7,
+      "title": "주주환원 10조원 넘긴 4대 금융…역대급 실적에 내년 확대 기대",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006413792",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-008",
+      "articleId": "article-174952c143c88967734930ea",
+      "rank": 8,
+      "title": "사법 리스크 완화… 카카오 AI 신사업 탄력",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004177229",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-009",
+      "articleId": "article-a628f26533e6a6ae27e1dbab",
+      "rank": 9,
+      "title": "이억원, FSB 총회서 AI·스테이블코인 등 논의…금융 안정 모색",
+      "publisher": "연합뉴스",
+      "url": "https://n.news.naver.com/article/001/0016456352",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-010",
+      "articleId": "article-91d31a12b9eaecd5fddda842",
+      "rank": 10,
+      "title": "디지털자산법 정부안 곧 공개…원화 스테이블코인 결제 오픈 기대",
+      "publisher": "이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2650950",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-23-5d746cee6391-011",
+      "articleId": "article-1b92bdca0d101c53ff924008",
+      "rank": 11,
+      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
+      "publisher": "연합인포맥스",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445909",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
