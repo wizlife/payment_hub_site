@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-24-0f2f8ce6fdbd",
+  "channel": "evening",
+  "date": "2026-11-24",
+  "title": "2026-11-24 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-001",
+      "articleId": "article-c9b0fd7fe6b0187d8f6a4b0a",
+      "rank": 1,
+      "title": "금융결제원, 국산 AI 반도체 금융결제 적용 실증 확대",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261123000248",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T12:33:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-002",
+      "articleId": "article-5af9bb28711318edc00a247d",
+      "rank": 2,
+      "title": "간편금융 보안 사각지대 줄인다",
+      "publisher": "내일신문",
+      "url": "https://www.naeil.com/news/read/609754?ref=naver",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T13:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-003",
+      "articleId": "article-ef44fe5054c57ea0890b9e45",
+      "rank": 3,
+      "title": "오늘부터 카카오페이·토스서 주민등록증 진위확인 가능",
+      "publisher": "tfmedia.co.kr",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=209112",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T08:06:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-004",
+      "articleId": "article-537bb2aaa8b6f977a9ba07de",
+      "rank": 4,
+      "title": "토스, 캐나다 법인 설립...오픈뱅킹 개막 앞두고 북미 진출 채비",
+      "publisher": "news2day.co.kr",
+      "url": "https://www.news2day.co.kr/article/20261123500172",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T15:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-005",
+      "articleId": "article-df8a4b2fe64e075ae92c91a1",
+      "rank": 5,
+      "title": "토스, 캐나다에 현지 법인...오픈뱅킹 시장 진출 채비",
+      "publisher": "press9.kr",
+      "url": "http://www.press9.kr/news/articleView.html?idxno=86816",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T09:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-006",
+      "articleId": "article-c61e60c5a5aafd287b11486d",
+      "rank": 6,
+      "title": "2년만에 베일 벗는 디지털자산기본법... 업권별 이해관계 조율 관건",
+      "publisher": "IT조선",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=3000000001594",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T14:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-007",
+      "articleId": "article-5ed3f1b60d1cfd3c94070eee",
+      "rank": 7,
+      "title": "삼성증권도 해킹···고객 8천여명 개인정보 유출",
+      "publisher": "한국경제",
+      "url": "https://magazine.hankyung.com/business/article/202611233697b",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T10:52:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-008",
+      "articleId": "article-857d26ad28254fac1a1acd45",
+      "rank": 8,
+      "title": "외양간 고치는 사이 '옆문' 또 털렸다...증권사 해킹 대응 고심",
+      "publisher": "news.bizwatch.co.kr",
+      "url": "https://news.bizwatch.co.kr/article/market/2026/11/23/0025",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T15:42:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-009",
+      "articleId": "article-6dc0d63d5302b999beeed5a3",
+      "rank": 9,
+      "title": "비자, 알리페이 플러스와 QR결제 서비스 확대",
+      "publisher": "전자신문",
+      "url": "https://www.etnews.com/20261123000078",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T09:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-010",
+      "articleId": "article-118edbc9e4e8927550ea99eb",
+      "rank": 10,
+      "title": "롯데카드, 보안점검 빠뜨리고도 '100점'...297만명 유출에 과징금 누적 1...",
+      "publisher": "ppss.kr",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=322531",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T23:18:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-011",
+      "articleId": "article-0737391359b491e7af451086",
+      "rank": 11,
+      "title": "상장사 '자사주 매수' 한도 푼다...금융위, 3개월간 규제 완화",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261123_0003879427",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T14:45:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-012",
+      "articleId": "article-a63e861a9ee62275fd112954",
+      "rank": 12,
+      "title": "5대은행 올해 부실채권 5.8조 정리...中企 연체율은 대기업의 3배",
+      "publisher": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20261122031400002?input=1195m",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T05:57:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-24-0f2f8ce6fdbd-013",
+      "articleId": "article-dda598b9ea5e3186cbe8fbe1",
+      "rank": 13,
+      "title": "기준금리 3.25%로 올릴 듯... 내년 성장 전망도 상향 유력",
+      "publisher": "서울신문",
+      "url": "https://www.seoul.co.kr/news/economy/finance/2026/11/23/20261123031005?wlog_tag3=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-23T05:05:00+09:00"
+    }
+  ]
+}
