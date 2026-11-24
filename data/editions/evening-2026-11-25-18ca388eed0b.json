@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "evening-2026-11-25-18ca388eed0b",
+  "channel": "evening",
+  "date": "2026-11-25",
+  "title": "2026-11-25 지급결제 아침 스크랩",
+  "items": [
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-001",
+      "articleId": "article-5d434d880277b33bc4a2400b",
+      "rank": 1,
+      "title": "국산 NPU 금융권서 성능 검증...NIPA, 금융결제원과 실증 확대",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12217023",
+      "category": "금융결제원 직접 관련",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T13:36:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-002",
+      "articleId": "article-06f45562b666220e0dc51d54",
+      "rank": 2,
+      "title": "카카오페이·토스도 '주민등록증 진위확인' 가능···네이버페이는 12월...",
+      "publisher": "koscaj.com",
+      "url": "https://www.koscaj.com/news/articleView.html?idxno=327620",
+      "category": "지급결제·인증·보안",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T17:12:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-003",
+      "articleId": "article-bddcc28f15387e7d74778deb",
+      "rank": 3,
+      "title": "은행권 과반 컨소시엄에 원화 스테이블코인 허용",
+      "publisher": "매일경제",
+      "url": "https://www.mk.co.kr/article/12217419",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T17:37:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-004",
+      "articleId": "article-379fb435c211a27079bae1ed",
+      "rank": 4,
+      "title": "[단독]‘피클<AI에이전트>’ 이용 늘어나는데...카드사, 결제주체 모른...",
+      "publisher": "서울경제",
+      "url": "https://www.sedaily.com/article/20118362?ref=naver",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T16:35:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-005",
+      "articleId": "article-28f7832a1efcf66ffe8dd40c",
+      "rank": 5,
+      "title": "스테이블코인 발행 접점 찾은 한은·금융위...남은 과제는",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/economy/2026/11/24/2026112414563234838",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T15:29:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-006",
+      "articleId": "article-cb95cb1ad0ba4e7de10d501b",
+      "rank": 6,
+      "title": "간편결제 이용률 왜 줄었나...개인정보 유출 경험 2배 뛰었다",
+      "publisher": "SBS",
+      "url": "https://biz.sbs.co.kr/article_hub/20000348566?division=NAVER",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T16:10:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-007",
+      "articleId": "article-fae20674c78fc97f8477d70a",
+      "rank": 7,
+      "title": "[2026 보안 이슈 결산-2] 망분리 깬 AI 해킹 공격... 금융권, '자율·복원...",
+      "publisher": "boannews.com",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=147449",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T17:40:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-008",
+      "articleId": "article-3a0bdbdc840f5ad93c186fa6",
+      "rank": 8,
+      "title": "하나저축은행서 552명 개인정보 유출...저축은행 해킹 벌써 5곳",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/finance/2026/11/24/2026112419460277457",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T19:53:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-009",
+      "articleId": "article-b37acbd2732ae222ff8ede07",
+      "rank": 9,
+      "title": "카드사 임직원 10명 중 8명 \"5년 안에 AI 에이전트 결제 상용화\"",
+      "publisher": "뉴스1",
+      "url": "https://www.news1.kr/finance/insurance-card/6364484",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T16:38:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-010",
+      "articleId": "article-168bae8f7367d2d7b0db28ab",
+      "rank": 10,
+      "title": "증권가 덮친 해킹 공포... 보안 예산 늘렸는데 왜?",
+      "publisher": "ekoreanews.co.kr",
+      "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=89360",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T16:16:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-011",
+      "articleId": "article-6a7ce2f60ee6ac218be40af5",
+      "rank": 11,
+      "title": "한전·삼성증권 해킹사고...개인정보 153만건 유출",
+      "publisher": "mstoday.co.kr",
+      "url": "https://www.mstoday.co.kr/news/articleView.html?idxno=200578",
+      "category": "디지털금융·정책 동향",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T12:20:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-012",
+      "articleId": "article-310774d0d7194c8e372071af",
+      "rank": 12,
+      "title": "금융위, 롯데카드에 과징금 10억2000만원...해킹 관련 공시의무 위반",
+      "publisher": "뉴시스",
+      "url": "https://www.newsis.com/view/NISX20261124_0003880453",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T09:44:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-013",
+      "articleId": "article-62031cd1b9ccdedb84db089c",
+      "rank": 13,
+      "title": "채권시장 종사자 54% \"11월 한은 금통위, 기준금리 인상할 것\"",
+      "publisher": "머니투데이",
+      "url": "https://www.mt.co.kr/stock/2026/11/24/2026112414014198600",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T14:31:00+09:00"
+    },
+    {
+      "id": "evening-2026-11-25-18ca388eed0b-014",
+      "articleId": "article-0fa5af4942e40a345e0d085a",
+      "rank": 14,
+      "title": "중소기업 연체율, 대기업 3배... 은행 건전성 ‘비상’",
+      "publisher": "세계일보",
+      "url": "https://www.segye.com/newsView/20261123514758?OutUrl=naver",
+      "category": "금융일반 등",
+      "categoryBasis": "source",
+      "publishedAt": "2026-11-24T06:06:00+09:00"
+    }
+  ]
+}
