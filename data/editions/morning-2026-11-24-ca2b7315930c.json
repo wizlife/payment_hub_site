@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-24-ca2b7315930c",
+  "channel": "morning",
+  "date": "2026-11-24",
+  "title": "2026-11-24 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-001",
+      "articleId": "article-7749d87d1685997a4886e4cb",
+      "rank": 1,
+      "title": "채병득號 금결원, NIPA와 협력 확대…국산 AI 반도체 활용·실증 강화",
+      "publisher": "한국금융신문",
+      "url": "https://www.fntimes.com/html/view.php?ud=2026112315201159171b5a221379_18",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-002",
+      "articleId": "article-51dc7a9cd12538b1ff61f951",
+      "rank": 2,
+      "title": "박종복 前 SC제일은행장, 차기 은행연합회장에 내정",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005357220",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-003",
+      "articleId": "article-2abf3e453df6ab3d700cf05a",
+      "rank": 3,
+      "title": "“KB, 리딩뱅크 넘어 리딩 플랫폼으로”",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004011268",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-004",
+      "articleId": "article-1360f26cc2839bb0a6226688",
+      "rank": 4,
+      "title": "[단독] 금감원·국책은행 서울 잔류 가닥…다음달 발표할 듯",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004685267",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-005",
+      "articleId": "article-da9b6630c8f9a268d52d70dd",
+      "rank": 5,
+      "title": "\"4400만 가입자 데이터로 금융 확장\"…카카오페이, 초개인화 승부수",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261123110341565",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-006",
+      "articleId": "article-c3180a4ba13710fe708d0908",
+      "rank": 6,
+      "title": "물가·성장 견조… 증시 힘들어도 韓銀 금리 올릴 듯",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004177494",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-007",
+      "articleId": "article-8ef60814cc7a381175c5eca2",
+      "rank": 7,
+      "title": "이억원 \"중대민생범죄 계좌 정지 확대… 자금세탁 철저 대응\"",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005608507",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-008",
+      "articleId": "article-8955cf290be840cd18cbda74",
+      "rank": 8,
+      "title": "네이버-두나무 결합, 금융위 지분규제도 변수",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003764532",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-009",
+      "articleId": "article-cedd28f98cfd7b61080121bc",
+      "rank": 9,
+      "title": "은행 맘대로 고객 서비스 변경·중단 못한다",
+      "publisher": "조선일보",
+      "url": "https://n.news.naver.com/article/023/0004011284",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-010",
+      "articleId": "article-86e1d2efe3fbbced1d833c9a",
+      "rank": 10,
+      "title": "삼성증권도 고객 8241명 개인정보 유출… AI 추정 해킹에 금융권 방어막 다시 뚫려",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003764643",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-24-ca2b7315930c-011",
+      "articleId": "article-90bc8f9a4e4450416ba230ab",
+      "rank": 11,
+      "title": "증안펀드 카드에도… 코스피, 연초 수준 뒷걸음질",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004177444",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
