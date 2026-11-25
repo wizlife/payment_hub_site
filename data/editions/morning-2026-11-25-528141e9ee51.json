@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-25-528141e9ee51",
+  "channel": "morning",
+  "date": "2026-11-25",
+  "title": "2026-11-25 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-25-528141e9ee51-001",
+      "articleId": "article-dfd4b3acdf585eac832c08b8",
+      "rank": 1,
+      "title": "금융위·경찰청 등 31개 기관 5460명 세종행 확정…1.6조 투입",
+      "publisher": "뉴스1",
+      "url": "https://n.news.naver.com/article/421/0009308055",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-002",
+      "articleId": "article-712b3f79909f475cd88ee96b",
+      "rank": 2,
+      "title": "원화 스테이블코인, 일단 시작은 ‘은행 주도’",
+      "publisher": "중앙일보",
+      "url": "https://n.news.naver.com/article/025/0003567688",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-003",
+      "articleId": "article-eede51afb4b289f069370692",
+      "rank": 3,
+      "title": "발행부터 정산까지 '드림팀' 구상… 은행권, 생태계 구축 속도",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005445920",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-004",
+      "articleId": "article-e8830d3f76e91be33dbb2c9a",
+      "rank": 4,
+      "title": "AI·스테이블코인에 카드업권 위기감…“‘결제중개’ 역할 확대해야”",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006414909",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-005",
+      "articleId": "article-fc317590562028c8d5a2f26f",
+      "rank": 5,
+      "title": "지방 거점 은행도 오프라인 접점 축소…ATM 5년 새 27% 증발",
+      "publisher": "아주경제",
+      "url": "https://www.ajunews.com/view/20261124140223164",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-006",
+      "articleId": "article-3eb719f560d7ee7b6196eec6",
+      "rank": 6,
+      "title": "카뱅·KB 앱 이용자 격차 600만명… 4년 연속 벌어졌다",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005609179",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-007",
+      "articleId": "article-4c4751e55e29c48fca1accf9",
+      "rank": 7,
+      "title": "매출 사상 최대, 주가는 7년 전으로…AI 시대 위기 맞은 네카오 ‘플랫폼 성공 공식’",
+      "publisher": "경향신문",
+      "url": "https://n.news.naver.com/article/032/0003484867",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-008",
+      "articleId": "article-4853a7e26499e18e9bd07cb9",
+      "rank": 8,
+      "title": "토스, 온투업 등록 보류",
+      "publisher": "전자신문",
+      "url": "https://n.news.naver.com/article/030/0003489090",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-009",
+      "articleId": "article-051ed277c03c97f37c392379",
+      "rank": 9,
+      "title": "\"과도한 자료 요청 개선을\"…금융당국 향한 '쓴소리'",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005357694",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-010",
+      "articleId": "article-faeddef4ac5a3ae66dc0ed0e",
+      "rank": 10,
+      "title": "인뱅은 고금리, 시중銀은 수수료 인하…달아오르는 퇴직연금 시장",
+      "publisher": "이데일리",
+      "url": "https://n.news.naver.com/article/018/0006414901",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-25-528141e9ee51-011",
+      "articleId": "article-d3541fe5c76a335a8d6218e0",
+      "rank": 11,
+      "title": "미국 AI투심 되살린 '황의 귀환' … 금리인상·순환금융 불씨는 지속",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005768378",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
