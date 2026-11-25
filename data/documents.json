@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T05:03:03.396144+09:00",
+  "updatedAt": "2026-11-26T05:01:39.401072+09:00",
   "window": {
     "from": "2026-07-22",
     "to": "2026-11-24"
@@ -150,6 +150,26 @@
       "summaryStatus": "ready",
       "focus": "related",
       "language": "ko"
+    },
+    {
+      "id": "doc-hana-5e8c386e56f3c7b5",
+      "title": "하나금융포커스 [제16권 22호]",
+      "publisher": "하나금융연구소",
+      "institution": "hana",
+      "date": "2026-11-23",
+      "type": "periodical",
+      "series": "하나금융포커스",
+      "issue": "",
+      "issueUrl": "",
+      "url": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37118",
+      "summary": "하나금융포커스 제16권 22호는 이슈분석에서 카드산업의 경영환경 변화와 중장기 대응방안을 다루고, 금융경영브리프에서 HSBC의 결제 앱 기반 스테이블코인 확장 추진 동향 등을 소개한다.",
+      "region": "domestic",
+      "language": "ko",
+      "titleKo": "",
+      "summaryStatus": "ready",
+      "summarySourceUrl": "https://www.hanaif.re.kr/boardDetail.do?hmpeSeqNo=37118",
+      "focus": "payment",
+      "summaryBasis": "official-description"
     },
     {
       "id": "doc-bok-5f620e97fea14e33",
