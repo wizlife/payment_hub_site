@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "morning-2026-11-27-4d83de15709b",
+  "channel": "morning",
+  "date": "2026-11-27",
+  "title": "2026-11-27 조간스크랩",
+  "items": [
+    {
+      "id": "morning-2026-11-27-4d83de15709b-001",
+      "articleId": "article-42545588046d0e88a54e0b2a",
+      "rank": 1,
+      "title": "카카오·네이버페이 선불 충전한도, 500만원으로 상향…1일 이용한도 1000만원",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005610403",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-002",
+      "articleId": "article-b7a2fccc1e79a850f91fec56",
+      "rank": 2,
+      "title": "“3000원 영수증에 찍힌 ‘예금토큰’”…블록체인 QR 결제 시연",
+      "publisher": "헤럴드경제",
+      "url": "https://n.news.naver.com/article/016/0002728861",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-003",
+      "articleId": "article-bb4bff60473d99c1577d8688",
+      "rank": 3,
+      "title": "전화·포털·카톡 ‘AI비서’ 3사 승부… 개인정보·안전성 관건",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://n.news.naver.com/article/014/0005610463",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-004",
+      "articleId": "article-da943f9eaab9eaa895513bd2",
+      "rank": 4,
+      "title": "민간 위원장에 김용범…자본시장 개혁 진두지휘",
+      "publisher": "서울경제",
+      "url": "https://n.news.naver.com/article/011/0004686634",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-005",
+      "articleId": "article-2e6f68dc8a49468f61610997",
+      "rank": 5,
+      "title": "“내년 성장률 2.9→4.1%” 한은, 전망치 대폭 올려",
+      "publisher": "동아일보",
+      "url": "https://n.news.naver.com/article/020/0003765635",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-006",
+      "articleId": "article-5495db8e09f522714a5c867e",
+      "rank": 6,
+      "title": "어젯밤 뭘 샀는지, AI는 안다… 구글·네카오, 소비분석 척척",
+      "publisher": "머니투데이",
+      "url": "https://n.news.naver.com/article/008/0005447171",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-007",
+      "articleId": "article-724a582250e5b70c9b33da26",
+      "rank": 7,
+      "title": "美, 메가프로젝트·국민성장펀드까지 '관세 명분' 삼았다",
+      "publisher": "한국경제",
+      "url": "https://n.news.naver.com/article/015/0005358748",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-008",
+      "articleId": "article-0408f6a266de54c4cfc6d2e0",
+      "rank": 8,
+      "title": "긴축 부담에 반등 동력 약해진 코스피… 증안펀드 확대에 기대 거나",
+      "publisher": "한국일보",
+      "url": "https://n.news.naver.com/article/469/0000968004",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-009",
+      "articleId": "article-c2b5f864b7ad69cac5052c9f",
+      "rank": 9,
+      "title": "사법리스크 털어낸 함영주… 하나금융 쇄신 탄력",
+      "publisher": "서울신문",
+      "url": "https://n.news.naver.com/article/081/0003703730",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-010",
+      "articleId": "article-0775c11aebf6806db53326ab",
+      "rank": 10,
+      "title": "가계빚 규제에 중금리대출 42% '뚝'",
+      "publisher": "매일경제",
+      "url": "https://n.news.naver.com/article/009/0005769605",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    },
+    {
+      "id": "morning-2026-11-27-4d83de15709b-011",
+      "articleId": "article-edec4f75712bd319176c145b",
+      "rank": 11,
+      "title": "은행·저축은행 협업 중·저신용자 저리 신용대출",
+      "publisher": "세계일보",
+      "url": "https://n.news.naver.com/article/022/0004178414",
+      "category": "금융일반 등",
+      "categoryBasis": "source"
+    }
+  ]
+}
